@@ -1,0 +1,12 @@
+2021.12.11 14:05:32 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertificateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2021.12.11 14:06:16 org.jivesoftware.openfire.container.AdminConsolePlugin - Admin console: CertificateStoreManager has not been initialized yet. HTTPS will be unavailable.
+2021.12.11 14:06:17 org.jivesoftware.util.LocaleUtils - Missing resource for key: system_property.xmpp.muc.vcard.enabled in locale en
+2021.12.11 14:06:35 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2021.12.11 14:06:35 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2021.12.11 14:07:50 org.jivesoftware.database.SequenceManager - Autocreating jiveID row for type '25'
+2021.12.12 04:33:35 org.jivesoftware.util.LocaleUtils - Missing resource for key: system_property.xmpp.muc.vcard.enabled in locale en
+2021.12.12 04:34:00 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2021.12.12 04:34:00 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2021.12.12 04:45:10 org.jivesoftware.util.LocaleUtils - Missing resource for key: system_property.xmpp.muc.vcard.enabled in locale en
+2021.12.12 04:45:20 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.
+2021.12.12 04:45:20 org.jivesoftware.openfire.spi.LegacyConnectionAcceptor - Configuration allows for up to 16 threads, although implementation is limited to exactly one.

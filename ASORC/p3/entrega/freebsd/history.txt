@@ -1,0 +1,527 @@
+     1	19:58	pkg install nano
+     2	20:04	exit
+     3	20:38	exit
+     4	21:57	service isc/dhcpd restart
+     5	21:58	service isc-dhcpd restart
+     6	21:58	service isc-dhcpd status
+     7	21:58	cd ..
+     8	21:58	cd ..
+     9	21:58	cd ..
+    10	21:58	cd ..
+    11	21:58	cd ..
+    12	21:59	cd /etc/rc.d
+    13	21:59	ls
+    14	21:59	cd ..
+    15	21:59	cd ..
+    16	21:59	cd ..
+    17	21:59	ping nik.com
+    18	21:59	ping nik2.com
+    19	21:59	pkg install isc-dhcpd44-server
+    20	22:00	nano /etc/rc.conf
+    21	22:00	pkg install isc-dhcpd44-server
+    22	22:00	pkg install isc-dhcp44-server
+    23	22:01	nano /usr/local/etc/dhcpd.conf
+    24	22:01	ifconfig -a
+    25	22:02	nano /usr/local/etc/dhcpd.conf
+    26	22:05	service isc-dhcpd resatrt
+    27	22:05	service isc-dhcpd restatr
+    28	22:05	service isc-dhcpd restart
+    29	22:05	nano /etc/rc.conf
+    30	22:06	nano /etc/ssh/sshd_config
+    31	22:06	service isc-dhcpd restart
+    32	22:06	nano /etc/ssh/sshd_config
+    33	22:06	nano /usr/local/etc/dhcpd.conf
+    34	22:06	service isc-dhcpd restart
+    35	22:07	nano /usr/local/etc/dhcpd.conf
+    36	22:07	service isc-dhcpd restart
+    37	22:07	nano /usr/local/etc/dhcpd.conf
+    38	22:07	service isc-dhcpd restart
+    39	22:08	ifconfig
+    40	22:08	ifconfig enp0s8
+    41	22:18	service isc-dhcpd status
+    42	22:18	service isc-dhcpd sttop
+    43	22:18	service isc-dhcpd stop
+    44	22:19	service isc-dhcpd start
+    45	22:20	Primerç
+    46	22:22	nano /usr/local/etc/dhcpd.conf
+    47	22:30	pkg install tightvnc
+    48	22:31	exit
+    49	22:40	ls -a
+    50	22:40	cd .vnc/
+    51	22:40	ls
+    52	22:40	nano xstartup
+    53	22:41	vncserver -kill:1
+    54	22:41	exit
+    55	22:45	nano .vnc/xstartup
+    56	22:46	nano .vnc/xstartup
+    57	22:47	vncserver -kill
+    58	22:47	vncserver -kill :1
+    59	22:47	exit
+    60	22:51	ls
+    61	22:51	cd /home/nik
+    62	22:51	ls
+    63	22:51	chown nik:nik .vnc
+    64	22:51	ls
+    65	22:51	ls -a
+    66	22:51	ls -l
+    67	22:52	chown nik:nik .Xauthority
+    68	22:52	chown nik:nik .xinitrc
+    69	22:52	ls -l
+    70	22:52	nano .vnc/xstartup
+    71	22:53	ls -l
+    72	22:53	cd .vnc/
+    73	22:53	ls -l
+    74	22:53	exit
+    75	23:09	pkg install xrdp
+    76	23:09	cd ..
+    77	23:09	cd ..
+    78	23:09	cd ..
+    79	23:09	cd ..
+    80	23:09	nano /etc/rc.conf
+    81	23:10	service xrdp start
+    82	23:16	service xrdp stop
+    83	23:16	exit
+    84	23:26	cd ..
+    85	23:26	cd ..
+    86	23:26	cd ..
+    87	23:26	cd ..
+    88	23:26	nano /etc/rc.conf
+    89	23:27	ls
+    90	23:27	service xrdp status
+    91	23:33	pkg install freerdp
+    92	23:42	nano /etc/rc.conf
+    93	23:43	service dhcpd stop
+    94	23:43	service isc-dhcpd stop
+    95	23:43	service xrdp restart
+    96	23:45	nano /usr/local/etc/xrdp/startwm.sh
+    97	23:45	nano /etc/rc.conf
+    98	23:45	service xrdp restart
+    99	23:46	ifconfig
+   100	23:56	nano /etc/rc.conf
+   101	23:56	services dhcpd restart
+   102	23:56	service dhcpd restart
+   103	23:56	service isc-dhcpd restart
+   104	23:57	exit
+   105	1:49	cd ..
+   106	1:49	cd ..
+   107	1:49	cd ..
+   108	1:49	cd ..
+   109	1:49	ls
+   110	1:49	cd usr/
+   111	1:49	cd local/
+   112	1:50	cd etc/
+   113	1:50	ls
+   114	1:50	nano smb4.conf
+   115	1:50	service samba_server restart
+   116	1:55	nano smb4.conf
+   117	2:12	cd ..
+   118	2:12	cd ..
+   119	2:12	cd ..
+   120	2:12	nano smb4.conf
+   121	2:12	exit
+   122	2:24	cd ..
+   123	2:24	cd ..
+   124	2:24	cd ..
+   125	2:24	exit
+   126	2:24	c d..
+   127	2:24	cd ..
+   128	2:24	cd ..
+   129	2:24	ls
+   130	2:24	cd ..
+   131	2:24	nano /etc/rc.
+   132	2:25	nano /etc/rc.conf
+   133	2:32	ls
+   134	2:32	cd Nf
+   135	2:32	cd NFS/
+   136	2:32	ls
+   137	2:34	cd ..
+   138	2:34	ls
+   139	2:34	cd var/
+   140	2:34	ls
+   141	2:35	cd ..
+   142	2:35	cd usr/local/etc/namedb/
+   143	2:35	ls
+   144	2:35	nano named.conf
+   145	2:37	cd master/
+   146	2:37	ls
+   147	2:37	cp nik.com.db nik.com.rev
+   148	2:37	ls
+   149	2:37	nano nik.com.rev
+   150	2:40	service named restart
+   151	2:40	nslookup nik.com
+   152	2:40	nslookup 192.168.137.221
+   153	2:41	cd ..
+   154	2:41	ls
+   155	2:41	cd named.conf
+   156	2:41	nano named.conf
+   157	2:42	cd master/
+   158	2:42	nano nik.com.rev
+   159	2:43	cd ..
+   160	2:43	cd ..
+   161	2:43	cd ..
+   162	2:43	cd ..
+   163	2:43	cd ..
+   164	2:49	cd /etc
+   165	2:49	ls
+   166	2:50	cd ..
+   167	2:50	cd home/nik/
+   168	2:50	ls
+   169	2:51	cd ..
+   170	2:51	cd ..
+   171	2:51	cd ..
+   172	2:51	nano /usr/local/etc/dhcpd.conf
+   173	2:54	service restart dhcpd
+   174	2:57	ls
+   175	3:17	cd ..
+   176	3:17	cd ..
+   177	3:17	cd ..
+   178	3:17	cd ..
+   179	3:17	cd var/log/
+   180	3:17	grep -R "ssh" * > /memoria/unix.log
+   181	3:17	grep -R "ssh" * > unix.log
+   182	3:18	history > historyunix.log
+   183	3:19	history > historyunix.txt
+   184	3:40	rm unix.log
+   185	3:41	grep -R "samba" * > unix.log
+   186	3:43	cd ..
+   187	3:43	cd ..
+   188	3:43	cp /var/log/xrdp.* /home/nik/Desktop/logs/vnc_rdp/
+   189	3:43	cp /var/log/xrdp-sesman.log /home/nik/Desktop/logs/vnc_rdp/
+   190	3:45	cd var/log/
+   191	3:45	rm unix.log
+   192	3:45	grep -R "rdp" * > unix.log
+   193	3:45	grep -R "vnc" * > unix_vnc.log
+   194	3:46	rm unix.log
+   195	3:46	rm unix_vnc.log
+   196	3:46	grep -R "dns" * > unix.log
+   197	3:47	cd ..
+   198	3:47	cd ..
+   199	3:47	cd e
+   200	3:47	cd etc
+   201	3:48	cd ..
+   202	3:49	cp /usr/local/etc/namedb/named.conf /home/nik/Desktop/logs/dns/
+   203	3:49	cp /usr/local/etc/namedb/master/nik.com.db /home/nik/Desktop/logs/dns/
+   204	3:49	cp /usr/local/etc/namedb/master/nik.com.rev /home/nik/Desktop/logs/dns/
+   205	3:50	ls /usr/local/etc/
+   206	3:50	ls /home/nik/.vnc/
+   207	3:50	cp /home/nik/.vnc/ /home/nik/Desktop/logs/vnc_rdp/
+   208	3:59	grep -R "nfs" * > unix_nfs.log
+   209	3:59	cd var/log/
+   210	3:59	grep -R "nfs" * > unix_nfs.log
+   211	4:01	pkg install firefox
+   212	4:05	cd ..
+   213	4:05	cd ..
+   214	4:05	cd ..
+   215	4:05	cd home/nik/Desktop/
+   216	4:05	ls
+   217	4:06	cd unix/
+   218	4:06	ls
+   219	4:06	ls -l
+   220	4:06	chown nik:nik *
+   221	4:06	cd NFS/
+   222	4:06	ls
+   223	4:06	ls -l
+   224	4:06	cd ..
+   225	4:06	ls -l RDP/
+   226	4:07	chmod 777 *
+   227	4:07	ls -l
+   228	4:07	ls -l NFS/
+   229	4:07	ls RDP/
+   230	4:07	ls -l RDP/
+   231	4:07	chown nik:nik /RDP/*
+   232	4:07	chown nik:nik RDP/*
+   233	4:07	ls -l RDP/
+   234	4:08	chown nik:nik RDP/* && chmod 777 RDP/
+   235	4:08	chown nik:nik RDP/* && chmod 777 RDP/*
+   236	4:08	ls
+   237	4:08	chown nik:nik NFS//* && chmod 777 NFS//*
+   238	4:08	chown nik:nik NFS/* && chmod 777 NFS/*
+   239	4:08	chown nik:nik SAMBA/* && chmod 777 SAMBA/*
+   240	4:08	chown nik:nik VNC/* && chmod 777 VNC/*
+   241	4:09	chown nik:nik VNC/* && chmod 777 dhcp/*
+   242	4:09	chown nik:nik dhcp/* && chmod 777 dhcp/*
+   243	4:09	chown nik:nik ssh/* && chmod 777 ssh/*
+   244	4:09	ls -l
+   245	4:12	exit
+   246	4:29	vncserver
+   247	4:30	exit
+   248	4:30	ls
+   249	4:30	ls -l
+   250	4:30	chmod 777 .Xauthority*
+   251	4:30	exit
+   252	4:31	ls
+   253	4:31	ls -l
+   254	4:31	chown nik:nik .Xauthority
+   255	4:31	chown nik:nik .Xauthority*
+   256	4:31	ls -l
+   257	4:31	exit
+   258	4:35	ls
+   259	4:35	cd .vnc/
+   260	4:35	ls
+   261	4:35	nano xstartup
+   262	4:36	ls -l
+   263	4:36	exit
+   264	4:37	exit
+   265	4:38	ls
+   266	4:38	cd .vnc/
+   267	4:38	nano xstartup
+   268	4:39	exit
+   269	4:50	vncserver
+   270	4:54	exi
+   271	4:54	exit
+   272	4:54	clear
+   273	4:55	nslookup nik.com
+   274	4:55	nslookup 192.168.137.221
+   275	4:55	clear
+   276	4:56	cd ..
+   277	4:56	cd ..
+   278	4:56	cd..~~
+   279	4:56	cd ..
+   280	4:56	ls
+   281	4:57	cd var/
+   282	4:57	ls
+   283	4:57	cd lib/
+   284	4:57	ls
+   285	4:57	cd ..
+   286	4:57	ls
+   287	4:58	cat db/dhcpd/dhcpd.leases
+   288	4:58	exit
+   289	5:05	~~~~cd --
+   290	5:05	cd ..
+   291	5:05	~~~~cd --
+   292	5:05	~~~~cd --
+   293	5:06	~~~~cd --
+   294	5:06	cd ..
+   295	5:06	cd ..
+   296	5:06	cd ..
+   297	5:06	clear
+   298	5:06	nano /etc/exports
+   299	5:11	ls
+   300	5:11	cd NFS/
+   301	5:12	ls
+   302	5:13	clear
+   303	5:14	vncserver
+   304	5:30	ls
+   305	5:59	clear
+   306	6:00	vncserver
+   307	6:01	nslookup 192.168.137.221
+   308	6:01	nslookup nik.com
+   309	6:01	nslookup google.com
+   310	6:01	nslookup google.com 192.168.137.221
+   311	6:03	ls
+   312	6:04	ls
+   313	6:07	clear
+   314	6:07	ifconfig
+   315	6:07	exit
+   316	6:07	pkg install xrdp
+   317	6:08	cd ..
+   318	6:08	cd ..
+   319	6:08	cd ..
+   320	6:08	nano /etc/rc.conf
+   321	6:08	service xrdp restart
+   322	6:08	exit
+   323	17:52	pkg install spark
+   324	17:53	pkg install java
+   325	17:53	wget https://www.igniterealtime.org/downloadServlet?filename=spark/spark-2.9.4.rpm
+   326	17:55	pkg install default-jre
+   327	17:55	pkg install wget
+   328	17:55	wget https://www.igniterealtime.org/downloadServlet?filename=spark/spark-2.9.4.rpm
+   329	17:57	Wget https://www.igniterealtime.org/downloadServlet?filename=spark/spark-2.9.4.rpm
+   330	17:58	wget -v
+   331	17:58	wget -V
+   332	18:00	wget https://www.igniterealtime.org/downloadServlet?filename=spark/spark-2.9.4.rpm
+   333	18:02	pkg install pidgin
+   334	18:04	pidgin
+   335	18:04	service status openfire
+   336	18:04	service openfire status
+   337	18:04	pidgin &
+   338	18:06	wget
+   339	18:06	wget https://www.igniterealtime.org/downloadServlet?filename=spark/spark-2.9.4.rpm
+   340	18:25	pkg update openfire
+   341	18:25	pkg openfire update
+   342	18:25	pkg help update
+   343	18:25	pkg update
+   344	18:25	pkg install openfire
+   345	18:25	pkg search openfire
+   346	18:28	cd ..
+   347	18:28	cd..
+   348	18:28	cd..
+   349	18:28	cd ..
+   350	18:28	cd ..
+   351	18:28	cd usr/local/share/java/openfire/resources/security/
+   352	18:28	ls
+   353	18:28	ls -la
+   354	18:29	cat truststore
+   355	18:29	ls
+   356	18:31	cp truststore client.truststore
+   357	18:31	ls
+   358	18:31	ls -la
+   359	18:31	chown openfire:openfire client.truststore
+   360	18:31	ls -la
+   361	18:32	service openfire restart
+   362	18:45	pkg install chrome
+   363	18:45	pkg search google
+   364	18:45	pkg search chrome
+   365	18:45	pkg search chromium
+   366	18:45	pkg install chromium
+   367	18:52	pkg search openfire
+   368	18:52	cd ..
+   369	18:52	cd ..
+   370	18:52	ls
+   371	18:53	cd share/java/openfire/
+   372	18:53	ls
+   373	18:53	cd ..
+   374	18:53	cd ..
+   375	18:53	cd ..
+   376	18:53	cd ..
+   377	18:53	cd ..
+   378	18:53	cd ..
+   379	18:53	ls
+   380	18:53	cd home/
+   381	18:53	ls
+   382	18:53	cd nik/
+   383	18:53	ls
+   384	18:53	cd Downloads/
+   385	18:53	ls
+   386	18:54	cd ..
+   387	18:54	cd ..
+   388	18:54	cd ..
+   389	18:54	cd ..
+   390	18:54	cp home/nik/Downloads/clientControl.jar usr/local/share/java/openfire/plugins/
+   391	18:54	service openfire restart
+   392	19:00	pkg search jabber
+   393	19:00	pkg install jabber
+   394	19:01	pkg search exodus
+   395	19:01	pkg search ichat
+   396	19:02	pkg search spark
+   397	19:02	pkg search ignite
+   398	19:05	clear
+   399	19:21	pkg install apache24 mod_php74 php74-gd
+   400	19:26	nano /usr/local/etc/apache24/httpd.conf
+   401	19:28	echo "<? phpinfo(); ?>" >> /usr/local/www/apache24/data/test.php
+   402	19:28	service apache24 onestart
+   403	19:28	nano /usr/local/etc/apache24/httpd.conf
+   404	19:28	service apache24 onestart
+   405	19:29	cd usr/ports/security
+   406	19:30	ls
+   407	19:30	cd usr/
+   408	19:30	cd ports/
+   409	19:30	ls
+   410	19:31	portsnap fetch
+   411	19:35	portsnap extract
+   412	19:40	pkg install gmake
+   413	19:41	cd security/p5-Apache-Htpasswd/
+   414	19:41	make install clean
+   415	19:41	rehash
+   416	19:41	pkg search nagios4
+   417	19:41	pkg install nagios4
+   418	19:42	cd ..
+   419	19:42	cd ..
+   420	19:42	cd ..
+   421	19:42	cd ..
+   422	19:42	nano /usr/local/etc/apache24/httpd.conf
+   423	19:44	cat >> /usr/local/etc/apache24/httpd.conf << 'EOL'
+   424	19:44	nano /usr/local/etc/apache24/httpd.conf
+   425	19:45	cat >> /usr/local/etc/apache24/httpd.conf << 'EOL'
+   426	19:45	nano /usr/local/etc/apache24/httpd.conf
+   427	19:49	cat >> /usr/local/etc/apache24/httpd.conf << 'EOL'
+   428	19:50	ls -1 usr/local/etc/nagios/
+   429	19:50	ls -1 usr/local/etc/nagios/objects/
+   430	19:50	cd usr/local/etc/nagios/
+   431	19:51	find . -type f -name "*.cfg-sample" -exec sh -c 'cp {} $(dirname {})/$(basename {} .cfg-sample).cfg' \;
+   432	19:51	ls -1
+   433	19:51	ls -1 objects/
+   434	19:52	chown -R nagios:nagios
+   435	19:52	chown -R nagios:nagios *
+   436	19:52	cd objects/
+   437	19:52	chown -R nagios:nagios *
+   438	19:52	cd ..
+   439	19:52	cd ..
+   440	19:52	cd ..
+   441	19:52	cd ..
+   442	19:52	cd ..
+   443	19:52	cd ..
+   444	19:52	htpasswd -c usr/local/www/nagios/htpasswd.users
+   445	19:53	htpasswd -c usr/local/www/nagios/htpasswd.users nagiosadmin
+   446	19:53	nagios -v usr/local/etc/nagios/nagios.cfg
+   447	19:54	sysrc nagios_enable="YES"
+   448	19:54	services nagios start
+   449	19:54	service nagios start
+   450	19:54	service nagios status
+   451	19:54	sysrc apache24_enable="YES"
+   452	19:54	apachectl configtest
+   453	19:54	service apache24 restart
+   454	19:56	sed -i.org 's/nagiosadmin/nagiosadmin/g'
+   455	19:56	sed -i.org 's/nagiosadmin/nagiosadmin/g' /usr/local/etc/nagios/cgi.cfg
+   456	19:56	service nagios restart
+   457	19:58	nagios -v usr/local/etc/nagios/nagios.cfg
+   458	19:58	htpasswd -c usr/local/www/nagios/htpasswd.users nagiosadmin
+   459	19:58	service nagios restart
+   460	19:58	service apache24 restart
+   461	20:02	nano /usr/local/etc/apache24/httpd.conf
+   462	20:05	nano /usr/local/etc/apache24/httpd.conf
+   463	20:09	nano /usr/local/etc/apache24/httpd.conf
+   464	20:10	apachectl restart && service nagios restart
+   465	20:10	nano /usr/local/etc/apache24/httpd.conf
+   466	20:10	apachectl restart && service nagios restart
+   467	20:14	nano /usr/local/etc/apache24/httpd.conf
+   468	20:15	apachectl restart && service nagios restart
+   469	20:20	clear
+   470	20:20	pkg install squid
+   471	20:21	squid -f /usr/local/etc/squid/squid.conf -k parse
+   472	20:21	nano /etc/rc.conf
+   473	20:22	service squid start
+   474	20:22	service squit status
+   475	20:22	service squid status
+   476	20:23	nano /etc/squid
+   477	20:23	cd etc/squid
+   478	20:23	nano usr/local/etc/squid/squid.conf
+   479	20:25	nano /usr/local/etc/squid/bad-sites.acl
+   480	20:26	service squid retart
+   481	20:26	service squid restart
+   482	20:26	service squid restart
+   483	20:27	service squid status
+   484	21:21	clear
+   485	21:21	cd ..
+   486	21:21	cd ..
+   487	21:21	cd ..
+   488	21:21	nano /etc/rc.conf
+   489	21:21	dmesg | more
+   490	21:22	zpool create datastore raidz ada1 ada2 ada3 ada4
+   491	21:22	zpool status
+   492	21:22	zpool set autoreplace=on datastore
+   493	21:22	zfs list
+   494	21:22	zpool scrub datastore
+   495	21:22	zfs list
+   496	21:22	ls
+   497	21:22	cd datastore/
+   498	21:22	ls
+   499	21:22	touch hola
+   500	21:22	ls
+   501	21:22	zpool
+   502	21:23	clear
+   503	21:23	ls
+   504	21:41	clear
+   505	21:41	cd ..
+   506	21:41	cd ..
+   507	21:41	cd ..
+   508	21:41	cd ..
+   509	21:41	clear
+   510	21:42	cd etc/ftp
+   511	21:42	cd usr/local/etc/
+   512	21:42	ls
+   513	21:43	cd ..
+   514	21:43	cd ..
+   515	21:43	cd ..
+   516	21:43	cd ..
+   517	21:43	cd var/log/
+   518	21:43	ld
+   519	21:43	ls
+   520	21:43	cd xferlog
+   521	21:43	ls
+   522	21:44	grep -R "ftp" * > /ftp.log
+   523	21:44	ls
+   524	21:45	grep -R "ftp" * > ftp.log
+   525	21:45	ls
+   526	21:45	cat ftp.log
+   527	21:46	history > history.txt

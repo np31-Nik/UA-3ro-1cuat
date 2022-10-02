@@ -1,0 +1,50 @@
+
+Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12010000, The X.Org Foundation
+
+
+Sat Nov 13 14:40:59 2021
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+
+Sat Nov 13 14:43:13 2021
+ Connections: accepted: 192.168.137.9::25706
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Sat Nov 13 14:43:15 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Sat Nov 13 14:45:52 2021
+ Connections: accepted: 192.168.137.9::13537
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Sat Nov 13 14:45:54 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sat Nov 13 14:46:31 2021
+ VNCSConnST:  closing 192.168.137.9::13537: Clean disconnection
+ EncodeManager: Framebuffer updates: 6
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 5 rects, 3.86631 Mpixels
+ EncodeManager:            80 B (1:193316 ratio)
+ EncodeManager:   Total: 5 rects, 3.86631 Mpixels
+ EncodeManager:          80 B (1:193316 ratio)
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+Sat Nov 13 14:46:34 2021
+ Connections: accepted: 192.168.137.9::29141
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Sat Nov 13 14:46:36 2021
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888

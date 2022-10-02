@@ -1,0 +1,191 @@
+     1	19:58	pkg install nano
+     2	20:04	exit
+     3	20:38	exit
+     4	21:57	service isc/dhcpd restart
+     5	21:58	service isc-dhcpd restart
+     6	21:58	service isc-dhcpd status
+     7	21:58	cd ..
+     8	21:58	cd ..
+     9	21:58	cd ..
+    10	21:58	cd ..
+    11	21:58	cd ..
+    12	21:59	cd /etc/rc.d
+    13	21:59	ls
+    14	21:59	cd ..
+    15	21:59	cd ..
+    16	21:59	cd ..
+    17	21:59	ping nik.com
+    18	21:59	ping nik2.com
+    19	21:59	pkg install isc-dhcpd44-server
+    20	22:00	nano /etc/rc.conf
+    21	22:00	pkg install isc-dhcpd44-server
+    22	22:00	pkg install isc-dhcp44-server
+    23	22:01	nano /usr/local/etc/dhcpd.conf
+    24	22:01	ifconfig -a
+    25	22:02	nano /usr/local/etc/dhcpd.conf
+    26	22:05	service isc-dhcpd resatrt
+    27	22:05	service isc-dhcpd restatr
+    28	22:05	service isc-dhcpd restart
+    29	22:05	nano /etc/rc.conf
+    30	22:06	nano /etc/ssh/sshd_config
+    31	22:06	service isc-dhcpd restart
+    32	22:06	nano /etc/ssh/sshd_config
+    33	22:06	nano /usr/local/etc/dhcpd.conf
+    34	22:06	service isc-dhcpd restart
+    35	22:07	nano /usr/local/etc/dhcpd.conf
+    36	22:07	service isc-dhcpd restart
+    37	22:07	nano /usr/local/etc/dhcpd.conf
+    38	22:07	service isc-dhcpd restart
+    39	22:08	ifconfig
+    40	22:08	ifconfig enp0s8
+    41	22:18	service isc-dhcpd status
+    42	22:18	service isc-dhcpd sttop
+    43	22:18	service isc-dhcpd stop
+    44	22:19	service isc-dhcpd start
+    45	22:20	Primerç
+    46	22:22	nano /usr/local/etc/dhcpd.conf
+    47	22:30	pkg install tightvnc
+    48	22:31	exit
+    49	22:40	ls -a
+    50	22:40	cd .vnc/
+    51	22:40	ls
+    52	22:40	nano xstartup
+    53	22:41	vncserver -kill:1
+    54	22:41	exit
+    55	22:45	nano .vnc/xstartup
+    56	22:46	nano .vnc/xstartup
+    57	22:47	vncserver -kill
+    58	22:47	vncserver -kill :1
+    59	22:47	exit
+    60	22:51	ls
+    61	22:51	cd /home/nik
+    62	22:51	ls
+    63	22:51	chown nik:nik .vnc
+    64	22:51	ls
+    65	22:51	ls -a
+    66	22:51	ls -l
+    67	22:52	chown nik:nik .Xauthority
+    68	22:52	chown nik:nik .xinitrc
+    69	22:52	ls -l
+    70	22:52	nano .vnc/xstartup
+    71	22:53	ls -l
+    72	22:53	cd .vnc/
+    73	22:53	ls -l
+    74	22:53	exit
+    75	23:09	pkg install xrdp
+    76	23:09	cd ..
+    77	23:09	cd ..
+    78	23:09	cd ..
+    79	23:09	cd ..
+    80	23:09	nano /etc/rc.conf
+    81	23:10	service xrdp start
+    82	23:16	service xrdp stop
+    83	23:16	exit
+    84	23:26	cd ..
+    85	23:26	cd ..
+    86	23:26	cd ..
+    87	23:26	cd ..
+    88	23:26	nano /etc/rc.conf
+    89	23:27	ls
+    90	23:27	service xrdp status
+    91	23:33	pkg install freerdp
+    92	23:42	nano /etc/rc.conf
+    93	23:43	service dhcpd stop
+    94	23:43	service isc-dhcpd stop
+    95	23:43	service xrdp restart
+    96	23:45	nano /usr/local/etc/xrdp/startwm.sh
+    97	23:45	nano /etc/rc.conf
+    98	23:45	service xrdp restart
+    99	23:46	ifconfig
+   100	23:56	nano /etc/rc.conf
+   101	23:56	services dhcpd restart
+   102	23:56	service dhcpd restart
+   103	23:56	service isc-dhcpd restart
+   104	23:57	exit
+   105	1:49	cd ..
+   106	1:49	cd ..
+   107	1:49	cd ..
+   108	1:49	cd ..
+   109	1:49	ls
+   110	1:49	cd usr/
+   111	1:49	cd local/
+   112	1:50	cd etc/
+   113	1:50	ls
+   114	1:50	nano smb4.conf
+   115	1:50	service samba_server restart
+   116	1:55	nano smb4.conf
+   117	2:12	cd ..
+   118	2:12	cd ..
+   119	2:12	cd ..
+   120	2:12	nano smb4.conf
+   121	2:12	exit
+   122	2:24	cd ..
+   123	2:24	cd ..
+   124	2:24	cd ..
+   125	2:24	exit
+   126	2:24	c d..
+   127	2:24	cd ..
+   128	2:24	cd ..
+   129	2:24	ls
+   130	2:24	cd ..
+   131	2:24	nano /etc/rc.
+   132	2:25	nano /etc/rc.conf
+   133	2:32	ls
+   134	2:32	cd Nf
+   135	2:32	cd NFS/
+   136	2:32	ls
+   137	2:34	cd ..
+   138	2:34	ls
+   139	2:34	cd var/
+   140	2:34	ls
+   141	2:35	cd ..
+   142	2:35	cd usr/local/etc/namedb/
+   143	2:35	ls
+   144	2:35	nano named.conf
+   145	2:37	cd master/
+   146	2:37	ls
+   147	2:37	cp nik.com.db nik.com.rev
+   148	2:37	ls
+   149	2:37	nano nik.com.rev
+   150	2:40	service named restart
+   151	2:40	nslookup nik.com
+   152	2:40	nslookup 192.168.137.221
+   153	2:41	cd ..
+   154	2:41	ls
+   155	2:41	cd named.conf
+   156	2:41	nano named.conf
+   157	2:42	cd master/
+   158	2:42	nano nik.com.rev
+   159	2:43	cd ..
+   160	2:43	cd ..
+   161	2:43	cd ..
+   162	2:43	cd ..
+   163	2:43	cd ..
+   164	2:49	cd /etc
+   165	2:49	ls
+   166	2:50	cd ..
+   167	2:50	cd home/nik/
+   168	2:50	ls
+   169	2:51	cd ..
+   170	2:51	cd ..
+   171	2:51	cd ..
+   172	2:51	nano /usr/local/etc/dhcpd.conf
+   173	2:54	service restart dhcpd
+   174	2:57	ls
+   175	3:26	ls
+   176	3:27	cd ..
+   177	3:27	ls
+   178	3:27	cd ..
+   179	3:27	cd ..
+   180	3:27	cd etc/
+   181	3:27	cat dhcpd.conf
+   182	3:28	cd ..
+   183	3:28	ls
+   184	3:28	cd usr/local/etc/dhcpd.conf
+   185	3:31	cd var/log/
+   186	3:31	ls
+   187	3:31	rm unix.log
+   188	3:31	rm historyunix.log
+   189	3:31	rm historyunix.txt
+   190	3:31	grep -R "dhcp" * > unix.log
+   191	3:33	history > historyunix.txt

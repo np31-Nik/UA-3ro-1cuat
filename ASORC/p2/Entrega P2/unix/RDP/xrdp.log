@@ -1,0 +1,300 @@
+[20211111-23:10:16] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:10:16] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:10:16] [INFO ] xrdp_listen_pp done
+[20211111-23:10:18] [INFO ] starting xrdp with pid 2051
+[20211111-23:10:18] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:10:18] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:10:18] [INFO ] xrdp_listen_pp done
+[20211111-23:13:47] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 12364
+[20211111-23:13:47] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:13:47] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:13:50] [INFO ] Connected client computer name: np31
+[20211111-23:13:50] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:13:50] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:13:50] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:13:50] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:13:50] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 12364: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:13:51] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:13:51] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:13:51] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:13:51] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:13:51] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:13:51] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:13:51] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:15:23] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 21387
+[20211111-23:15:23] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:15:23] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:15:23] [INFO ] Connected client computer name: np31
+[20211111-23:15:23] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:15:23] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:15:24] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:15:24] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:15:24] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 21387: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:15:24] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:15:24] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:15:24] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:15:24] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:15:24] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:15:24] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:15:24] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:16:04] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211111-23:16:22] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:16:22] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:16:22] [INFO ] xrdp_listen_pp done
+[20211111-23:16:24] [INFO ] starting xrdp with pid 2141
+[20211111-23:16:24] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:16:24] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:16:24] [INFO ] xrdp_listen_pp done
+[20211111-23:16:31] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 35833
+[20211111-23:16:31] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:16:31] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:16:31] [INFO ] Connected client computer name: np31
+[20211111-23:16:31] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:16:31] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:16:31] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:16:31] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:16:31] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 35833: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:16:32] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:16:32] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:16:32] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:16:32] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:16:32] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:16:32] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:16:32] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:22:59] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 26862
+[20211111-23:22:59] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:22:59] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:22:59] [INFO ] Connected client computer name: np31
+[20211111-23:22:59] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:22:59] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:23:00] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:23:00] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:23:00] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 26862: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:23:00] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:23:00] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:23:00] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:23:00] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:23:01] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:23:01] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:23:01] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:23:09] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211111-23:24:08] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:24:08] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:24:08] [INFO ] xrdp_listen_pp done
+[20211111-23:24:10] [INFO ] starting xrdp with pid 866
+[20211111-23:24:11] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:24:11] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:24:11] [INFO ] xrdp_listen_pp done
+[20211111-23:25:22] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 24715
+[20211111-23:25:22] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:25:22] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:25:22] [INFO ] Connected client computer name: np31
+[20211111-23:25:22] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:25:22] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:25:22] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:25:22] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:25:22] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 24715: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:25:23] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:25:23] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:25:23] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:25:23] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:25:23] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:25:23] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:25:23] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:27:24] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 50925
+[20211111-23:27:24] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:27:24] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:27:24] [INFO ] Connected client computer name: np31
+[20211111-23:27:24] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:27:24] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:27:25] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:27:25] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:27:25] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 50925: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:27:25] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:27:25] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:27:25] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:27:25] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:27:25] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:27:25] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:27:25] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:34:43] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 27816
+[20211111-23:34:43] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:34:43] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:34:43] [INFO ] Connected client computer name: np31
+[20211111-23:34:43] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:34:43] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:34:43] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:34:43] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:34:43] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 27816: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:34:44] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:34:44] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:34:44] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:34:44] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:34:44] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:34:44] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:34:44] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:43:15] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211111-23:43:15] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:43:15] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:43:15] [INFO ] xrdp_listen_pp done
+[20211111-23:43:17] [INFO ] starting xrdp with pid 1330
+[20211111-23:43:17] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:43:17] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:43:17] [INFO ] xrdp_listen_pp done
+[20211111-23:43:21] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 42037
+[20211111-23:43:21] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:43:21] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:43:21] [INFO ] Connected client computer name: np31
+[20211111-23:43:21] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:43:21] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:43:22] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:43:22] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:43:22] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 42037: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:43:22] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:43:22] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:43:22] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:43:22] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:43:22] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:43:23] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:43:23] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:43:49] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 25026
+[20211111-23:43:49] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:43:49] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:43:51] [INFO ] Connected client computer name: np31
+[20211111-23:43:51] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:43:51] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:43:51] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:43:51] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:43:51] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 25026: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:43:52] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:43:52] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:43:52] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:43:52] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:43:52] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:43:52] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:43:52] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:44:24] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 61928
+[20211111-23:44:24] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:44:24] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:44:24] [INFO ] Connected client computer name: np31
+[20211111-23:44:24] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+[20211111-23:44:24] [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+[20211111-23:44:25] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:44:25] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:44:25] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 61928: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:44:25] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:44:25] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+[20211111-23:44:25] [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+[20211111-23:44:25] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:44:25] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:44:25] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+[20211111-23:44:25] [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+[20211111-23:45:39] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211111-23:45:39] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:45:39] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:45:39] [INFO ] xrdp_listen_pp done
+[20211111-23:45:41] [INFO ] starting xrdp with pid 1414
+[20211111-23:45:41] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211111-23:45:41] [INFO ] listening to port 3389 on 0.0.0.0
+[20211111-23:45:41] [INFO ] xrdp_listen_pp done
+[20211111-23:46:18] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.1 port 53251
+[20211111-23:46:18] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:46:18] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:46:18] [INFO ] Connected client computer name: nikita-virtualb
+[20211111-23:46:19] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:46:19] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:46:19] [INFO ] TLS connection established from ::ffff:192.168.137.1 port 53251: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:46:19] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:46:19] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211111-23:46:19] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:46:19] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:46:19] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211111-23:46:19] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211111-23:46:26] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211111-23:46:26] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211111-23:46:26] [INFO ] sesman connect ok
+[20211111-23:46:26] [INFO ] sending login info to session manager, please wait...
+[20211111-23:46:26] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211111-23:46:26] [INFO ] login successful for display 10
+[20211111-23:46:26] [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+[20211111-23:46:26] [INFO ] started connecting
+[20211111-23:46:26] [INFO ] lib_mod_connect: connecting via UNIX socket
+[20211111-23:46:26] [INFO ] lib_mod_log_peer: xrdp_pid=1416 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53251
+[20211111-23:46:26] [INFO ] connected ok
+[20211111-23:49:36] [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+[20211111-23:49:36] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20211111-23:49:36] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20211111-23:49:36] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20211111-23:49:36] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20211111-23:49:36] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211111-23:49:36] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211111-23:50:36] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.1 port 53269
+[20211111-23:50:36] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211111-23:50:36] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211111-23:50:36] [INFO ] Connected client computer name: nikita-virtualb
+[20211111-23:50:36] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+[20211111-23:50:36] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+[20211111-23:50:36] [INFO ] TLS connection established from ::ffff:192.168.137.1 port 53269: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211111-23:50:36] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211111-23:50:36] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211111-23:50:36] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+[20211111-23:50:36] [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+[20211111-23:50:36] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211111-23:50:36] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211111-23:51:20] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211111-23:51:20] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211111-23:51:20] [INFO ] sesman connect ok
+[20211111-23:51:20] [INFO ] sending login info to session manager, please wait...
+[20211111-23:51:20] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211111-23:51:20] [INFO ] login successful for display 10
+[20211111-23:51:20] [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+[20211111-23:51:20] [INFO ] started connecting
+[20211111-23:51:20] [INFO ] lib_mod_connect: connecting via UNIX socket
+[20211111-23:51:20] [INFO ] lib_mod_log_peer: xrdp_pid=1487 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53269
+[20211111-23:51:20] [INFO ] connected ok
+[20211111-23:51:43] [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+[20211111-23:51:43] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20211111-23:51:43] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20211111-23:51:43] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20211111-23:51:43] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20211111-23:51:43] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211111-23:51:43] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211112-00:02:04] [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 13004
+[20211112-00:02:04] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+[20211112-00:02:04] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+[20211112-00:02:05] [INFO ] Connected client computer name: np31
+[20211112-00:02:05] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211112-00:02:05] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211112-00:02:05] [INFO ] TLS connection established from ::ffff:192.168.137.3 port 13004: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211112-00:02:05] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211112-00:02:05] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211112-00:02:05] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-00000409.ini
+[20211112-00:02:05] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211112-00:02:05] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211112-00:02:05] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211112-00:02:11] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211112-00:02:11] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211112-00:02:11] [INFO ] sesman connect ok
+[20211112-00:02:11] [INFO ] sending login info to session manager, please wait...
+[20211112-00:02:11] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211112-00:02:11] [INFO ] login successful for display 10
+[20211112-00:02:11] [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+[20211112-00:02:11] [INFO ] started connecting
+[20211112-00:02:11] [INFO ] lib_mod_connect: connecting via UNIX socket
+[20211112-00:02:11] [INFO ] lib_mod_log_peer: xrdp_pid=1672 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.3 client_port=13004
+[20211112-00:02:11] [INFO ] connected ok
+[20211112-00:02:16] [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+[20211112-00:02:16] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20211112-00:02:16] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20211112-00:02:16] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20211112-00:02:16] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20211112-00:02:16] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211112-00:02:16] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211112-00:37:20] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211112-00:38:11] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211112-00:38:11] [INFO ] listening to port 3389 on 0.0.0.0
+[20211112-00:38:11] [INFO ] xrdp_listen_pp done
+[20211112-00:38:13] [INFO ] starting xrdp with pid 888
+[20211112-00:38:13] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211112-00:38:14] [INFO ] listening to port 3389 on 0.0.0.0
+[20211112-00:38:14] [INFO ] xrdp_listen_pp done

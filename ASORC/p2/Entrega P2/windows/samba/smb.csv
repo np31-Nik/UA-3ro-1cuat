@@ -1,0 +1,1066 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 7:26:52 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 7:26:49 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 7:26:40 AM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/14/2021 7:26:40 AM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/14/2021 6:51:44 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 6:51:41 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 6:51:32 AM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/14/2021 6:51:32 AM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/14/2021 6:22:14 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 6:22:11 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 6:22:08 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 6:22:08 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 5:56:50 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:56:47 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:56:44 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 5:56:44 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 5:45:56 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:45:53 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:45:50 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 5:45:50 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 5:27:35 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:27:32 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:27:29 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 5:27:29 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 5:13:40 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:13:37 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 5:13:34 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 5:13:34 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 1:53:50 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 1:53:47 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 1:53:44 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 1:53:44 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 6:28:14 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 6:28:11 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 6:28:02 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 6:28:02 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 6:08:06 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 6:08:03 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 6:08:00 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 6:07:57 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 6:07:57 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 5:39:13 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 5:39:08 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:39:05 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:39:02 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 5:39:02 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 5:34:14 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 5:34:12 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:34:09 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:34:06 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 5:34:06 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 5:20:40 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 5:20:35 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:20:32 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:20:29 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 5:20:29 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 5:12:15 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 5:12:10 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:12:07 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 5:12:04 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 5:12:04 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/14/2021 1:52:31 AM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/14/2021 1:52:29 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 1:52:26 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/14/2021 1:52:23 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/14/2021 1:52:23 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 3:26:39 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 3:26:37 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 3:26:34 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 3:26:31 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 3:26:31 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,11/13/2021 1:40:11 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 1:40:05 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 1:40:03 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 1:40:00 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 1:39:51 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 1:39:51 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 1:38:07 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 1:38:04 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 1:37:58 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 1:37:58 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,11/13/2021 9:32:28 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,11/13/2021 9:32:28 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 9:32:25 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,11/13/2021 9:32:22 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,11/13/2021 9:32:22 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,10/13/2021 3:58:41 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:58:38 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:58:29 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,10/13/2021 3:58:29 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,10/13/2021 3:55:10 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:55:07 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:54:58 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,10/13/2021 3:54:58 PM,Microsoft-Windows-SMBServer,1011,(1011),"Endpoint removed.
+
+Name: 
+Domain Name: 
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+
+Guidance:
+
+You should expect this event when the server stops listening on an interface, such as during shutdown or when disabling a network adaptor. No user action is required."
+Information,10/13/2021 3:52:58 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,10/13/2021 3:52:58 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:52:55 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/13/2021 3:52:52 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,10/13/2021 3:52:52 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,10/2/2021 5:15:34 AM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,10/2/2021 5:15:33 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 5:15:30 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 5:15:27 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,10/2/2021 5:15:27 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Warning,10/2/2021 4:43:57 AM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."
+Information,10/2/2021 1:39:25 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{833CCC34-34BF-4F08-B3EC-C0B5ADCB1C48}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 1:39:22 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetBT_Tcpip_{22DA3CD5-6DB2-4A11-86B3-4E82E487077F}
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 1:39:16 PM,Microsoft-Windows-SMBServer,1010,(1010),"Endpoint added.
+
+Name: WIN-V43N4HLGRLN 
+Domain Name: WORKGROUP
+Transport Name: \Device\NetbiosSmb
+Transport Flags: 0x1
+
+Guidance:
+
+You should expect this event when the server starts listening on an interface, such as during system restart or when enabling a network adaptor. No user action is required."
+Information,10/2/2021 1:39:08 PM,Microsoft-Windows-SMBServer,1027,(1027),"The file and printer sharing firewall ports are currently closed.  This is the default configuration for a system that is not sharing content or is on a Public network.
+
+Guidance:
+
+You should expect this event when Windows Firewall is not configured to enable the File and Printer Sharing rule, which allows inbound SMB traffic. This event occurs on a computer that does not have custom shares configured. Clients cannot access SMB shares on this computer until SMB traffic is allowed through the firewall."
+Warning,10/2/2021 1:39:05 PM,Microsoft-Windows-SMBServer,1025,(1025),"One or more named pipes or shares have been marked for access by anonymous users.  This increases the security risk of the computer by allowing unauthenticated users to connect to this server.
+
+Registry Key: HKLM\System\CurrentControlSet\Services\LanmanServer\Parameters
+Registry Values: NullSessionPipes, NullSessionShares
+Default Value: Empty (or not present)
+Current Value: Non-empty
+
+Guidance:
+
+You should expect this event when modifying the default values of NullSessionShares and NullSessionPipes. On a typical file server, these settings do not exist or do not contain values, which is the most secure configuration. By default, domain controllers populate the NullSessionShares entry with netlogon, samr, and lsarpc to allow legacy access methods."

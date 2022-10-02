@@ -1,0 +1,16 @@
+history.txt:   335	18:04	service status openfire
+history.txt:   336	18:04	service openfire status
+history.txt:   340	18:25	pkg update openfire
+history.txt:   341	18:25	pkg openfire update
+history.txt:   344	18:25	pkg install openfire
+history.txt:   345	18:25	pkg search openfire
+history.txt:   351	18:28	cd usr/local/share/java/openfire/resources/security/
+history.txt:   359	18:31	chown openfire:openfire client.truststore
+history.txt:   361	18:32	service openfire restart
+history.txt:   367	18:52	pkg search openfire
+history.txt:   371	18:53	cd share/java/openfire/
+history.txt:   390	18:54	cp home/nik/Downloads/clientControl.jar usr/local/share/java/openfire/plugins/
+history.txt:   391	18:54	service openfire restart
+messages:Nov 12 06:21:09 freebsd pkg[2047]: openfire-4.6.4,1 installed
+userlog:2021-11-12 06:20:49 [nik:groupadd] openfire(342)
+userlog:2021-11-12 06:20:49 [nik:useradd] openfire(342):openfire(342):Openfire IM Daemon:/nonexistent:/usr/sbin/nologin

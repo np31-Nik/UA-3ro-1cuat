@@ -1,0 +1,521 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 6:22:55 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 6:22:50 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 6:22:46 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 6:22:46 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 6:22:04 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:57 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 6:21:55 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:55 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:55 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:55 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:55 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 6:21:50 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 6:21:49 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 6:21:47 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Error,11/14/2021 6:20:55 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,17,None,Remote Desktop Service start failed. The relevant status code was 0x8007045B.
+Information,11/14/2021 6:20:48 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/14/2021 6:20:47 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:58:17 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:58:11 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:58:09 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:58:09 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:56:49 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 5:56:34 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:34 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:34 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:34 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:33 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 5:56:29 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 5:56:27 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:56:25 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Error,11/14/2021 5:55:39 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,17,None,Remote Desktop Service start failed. The relevant status code was 0x8007045B.
+Information,11/14/2021 5:55:31 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/14/2021 5:55:31 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:46:43 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:46:38 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:46:36 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:46:36 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:45:41 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:38 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 5:45:37 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:37 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:37 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:37 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:37 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 5:45:32 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 5:45:31 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:45:29 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Error,11/14/2021 5:44:41 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,17,None,Remote Desktop Service start failed. The relevant status code was 0x8007045B.
+Information,11/14/2021 5:44:34 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/14/2021 5:44:34 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:28:41 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:28:37 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:28:34 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:28:34 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:27:18 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:16 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 5:27:15 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:15 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:15 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:15 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:15 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 5:27:10 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 5:27:09 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:27:07 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Error,11/14/2021 5:26:15 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,17,None,Remote Desktop Service start failed. The relevant status code was 0x8007045B.
+Information,11/14/2021 5:26:07 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/14/2021 5:26:07 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:14:24 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:14:19 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 5:14:17 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:14:16 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 5:13:25 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:23 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 5:13:22 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:22 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:22 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:22 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:22 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 5:13:17 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 5:13:16 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:30 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:30 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/14/2021 1:53:28 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:28 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:28 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:28 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 1:53:28 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/14/2021 1:53:23 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/14/2021 1:53:22 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 5:13:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Error,11/14/2021 5:12:21 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,17,None,Remote Desktop Service start failed. The relevant status code was 0x8007045B.
+Information,11/14/2021 5:12:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/14/2021 5:12:12 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 4:54:51 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 4:54:46 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 4:54:43 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 4:54:43 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 1:53:18 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/14/2021 4:24:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 2"
+Information,11/14/2021 4:24:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,25,None,"Remote Desktop Services: Session reconnection succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 4:24:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,40,None,"Session 1 has been disconnected, reason code 5"
+Information,11/14/2021 4:24:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,40,None,"Session 2 has been disconnected, reason code 0"
+Information,11/14/2021 4:24:13 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 2"
+Information,11/14/2021 4:24:01 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/14/2021 4:24:01 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,24,None,"Remote Desktop Services: Session has been disconnected:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: 192.168.137.1"
+Information,11/14/2021 4:24:00 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,40,None,"Session 1 has been disconnected, reason code 0"
+Information,11/14/2021 4:20:43 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,25,None,"Remote Desktop Services: Session reconnection succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: 192.168.137.1"
+Information,11/14/2021 4:20:39 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,24,None,"Remote Desktop Services: Session has been disconnected:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/14/2021 4:20:38 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,40,None,"Session 1 has been disconnected, reason code 5"
+Information,11/14/2021 4:20:38 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1149,None,"Remote Desktop Services: User authentication succeeded:
+
+User: administrator
+Domain: 
+Source Network Address: 192.168.137.1"
+Information,11/14/2021 4:20:38 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,261,None,Listener RDP-Tcp received a connection
+Information,11/14/2021 4:20:26 AM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,261,None,Listener RDP-Tcp received a connection
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1136,None,RD Session Host Server role is not installed.
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:43:17 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,258,None,Listener RDP-Tcp has started listening
+Information,11/13/2021 6:43:16 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,20523,None,Connection from listener RDP-Tcp will have terminal class of {5828227c-20cf-4408-b73f-73ab70b8849f}
+Information,11/13/2021 6:43:16 PM,Microsoft-Windows-TerminalServices-RemoteConnectionManager,263,None,WDDM graphics mode is enabled
+Information,11/13/2021 6:09:10 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 6:09:06 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 6:09:03 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 6:09:03 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 6:07:40 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 6:06:36 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 6:06:36 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:39:52 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:39:48 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:39:45 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:39:45 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 5:37:43 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 5:37:43 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:35:03 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:34:59 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:34:57 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:34:57 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:33:48 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 5:32:53 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 5:32:53 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:21:17 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:21:12 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:21:10 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:21:10 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:20:13 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 5:19:18 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 5:19:18 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:12:50 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:12:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 5:12:44 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:12:44 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 5:11:47 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 5:10:40 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 5:10:40 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 4:53:11 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 4:53:06 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 4:53:03 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 4:53:03 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/14/2021 1:52:03 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 3:27:24 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 3:27:19 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 3:27:15 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 3:27:15 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 3:26:14 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,11/13/2021 3:24:57 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,11/13/2021 3:24:57 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 1:33:33 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 1:33:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,11/13/2021 1:33:23 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 1:33:23 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,11/13/2021 9:31:57 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,10/13/2021 3:53:31 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/13/2021 3:53:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/13/2021 3:53:24 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/13/2021 3:53:23 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/13/2021 3:52:35 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,10/2/2021 5:16:15 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/2/2021 5:16:10 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/2/2021 5:16:03 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/2/2021 5:16:03 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/2/2021 5:15:12 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,10/2/2021 5:09:09 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,10/2/2021 5:09:08 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,23,None,"Remote Desktop Services: Session logoff succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/2/2021 4:46:39 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,22,None,"Remote Desktop Services: Shell start notification received:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/2/2021 4:46:33 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,21,None,"Remote Desktop Services: Session logon succeeded:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1
+Source Network Address: LOCAL"
+Information,10/2/2021 4:46:16 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,42,None,"End session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/2/2021 4:46:16 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,41,None,"Begin session arbitration:
+
+User: WIN-V43N4HLGRLN\Administrator
+Session ID: 1"
+Information,10/2/2021 4:45:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:45:16 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:28 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:27 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:27 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:27 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:43:18 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized
+Information,10/2/2021 4:41:56 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,54,None,Local multi-user session manager received system shutdown message
+Information,10/2/2021 4:41:56 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:41:56 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:41:56 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 4:41:25 AM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:53 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:52 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:46 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,34,None,Remote Desktop Services is not accepting logons because setup is running.
+Information,10/2/2021 1:38:27 PM,Microsoft-Windows-TerminalServices-LocalSessionManager,32,None,Plugin RDSAppXPlugin has been successfully initialized

@@ -1,0 +1,161 @@
+anaconda/syslog:17:31:41,646 WARNING rpc.statd:Running as root.  chown /var/lib/nfs/statd to choose different user
+anaconda/syslog:17:32:54,522 INFO systemd:var-lib-nfs-rpc_pipefs.mount: Succeeded.
+anaconda/syslog:17:33:13,605 WARNING org.fedoraproject.Anaconda.Modules.Storage:DEBUG:blivet:registered device format class NFS as nfs
+anaconda/syslog:17:33:13,605 WARNING org.fedoraproject.Anaconda.Modules.Storage:DEBUG:blivet:registered device format class NFSv4 as nfs4
+anaconda/syslog:17:33:17,338 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Payloads handles commands ['cdrom', 'harddrive', 'hmc', 'liveimg', 'nfs', 'url'] sections [] addons [].
+anaconda/syslog:17:50:23,333 NOTICE setsebool:The virt_use_nfs policy boolean was changed to 1 by root
+anaconda/packaging.log:19:49:26,108 INF packaging: Installed: libnfsidmap-1:2.3.3-41.el8.x86_64 1622589676 8b684f0d1d5d0a40b8911feeb71279b3a3e8aadfdbe7cdc9a86a372f254ddca4
+anaconda/packaging.log:19:49:27,596 INF packaging: Installed: sssd-nfs-idmap-2.4.0-9.el8.x86_64 1622418196 d27163616003af2ea34f0eef058ba52703bc2b914ffa0b28fa73fbfe7c45de19
+anaconda/packaging.log:19:52:54,891 INF packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:19:52:55,066 INF packaging: Installed: nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:19:52:55,282 INF packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:19:52:55,358 INF packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:19:52:55,395 INF packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:20:01:07,788 INF packaging: Verifying: libnfsidmap-1:2.3.3-41.el8.x86_64 1622589676 8b684f0d1d5d0a40b8911feeb71279b3a3e8aadfdbe7cdc9a86a372f254ddca4
+anaconda/packaging.log:20:01:07,806 INF packaging: Verifying: nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/packaging.log:20:01:09,794 INF packaging: Verifying: sssd-nfs-idmap-2.4.0-9.el8.x86_64 1622418196 d27163616003af2ea34f0eef058ba52703bc2b914ffa0b28fa73fbfe7c45de19
+anaconda/packaging.log:20:01:10,105 DBG dnf: Installed: libnfsidmap-1:2.3.3-41.el8.x86_64
+anaconda/packaging.log:20:01:10,142 DBG dnf: Installed: nfs-utils-1:2.3.3-41.el8.x86_64
+anaconda/packaging.log:20:01:10,190 DBG dnf: Installed: sssd-nfs-idmap-2.4.0-9.el8.x86_64
+anaconda/storage.log:DEBUG:blivet:registered device format class NFS as nfs
+anaconda/storage.log:DEBUG:blivet:registered device format class NFSv4 as nfs4
+anaconda/journal.log:Sep 22 17:31:41 localhost rpc.statd[783]: Running as root.  chown /var/lib/nfs/statd to choose different user
+anaconda/journal.log:Sep 22 17:32:54 localhost systemd[1]: var-lib-nfs-rpc_pipefs.mount: Succeeded.
+anaconda/journal.log:Sep 22 17:33:13 localhost org.fedoraproject.Anaconda.Modules.Storage[1741]: DEBUG:blivet:registered device format class NFS as nfs
+anaconda/journal.log:Sep 22 17:33:13 localhost org.fedoraproject.Anaconda.Modules.Storage[1741]: DEBUG:blivet:registered device format class NFSv4 as nfs4
+anaconda/journal.log:Sep 22 17:33:17 localhost org.fedoraproject.Anaconda.Boss[1741]: INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Payloads handles commands ['cdrom', 'harddrive', 'hmc', 'liveimg', 'nfs', 'url'] sections [] addons [].
+anaconda/journal.log:Sep 22 17:49:26 localhost anaconda[1716]: packaging: Installed: libnfsidmap-1:2.3.3-41.el8.x86_64 1622589676 8b684f0d1d5d0a40b8911feeb71279b3a3e8aadfdbe7cdc9a86a372f254ddca4
+anaconda/journal.log:Sep 22 17:49:27 localhost anaconda[1716]: packaging: Installed: sssd-nfs-idmap-2.4.0-9.el8.x86_64 1622418196 d27163616003af2ea34f0eef058ba52703bc2b914ffa0b28fa73fbfe7c45de19
+anaconda/journal.log:Sep 22 17:50:23 localhost setsebool[3340]: The virt_use_nfs policy boolean was changed to 1 by root
+anaconda/journal.log:Sep 22 17:52:54 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 17:52:55 localhost useradd[3961]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+anaconda/journal.log:Sep 22 17:52:55 localhost anaconda[1716]: packaging: Installed: nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 17:52:55 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 17:52:55 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 17:52:55 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 17:56:48 localhost dracut[16312]: *** Including module: nfs ***
+anaconda/journal.log:Sep 22 17:57:46 localhost dracut[16312]: nfs
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rw-r--r--   1 root     root           15 May 19 04:30 etc/modprobe.d/nfs.conf
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root          845 Oct  8  2018 usr/lib/dracut/hooks/cleanup/99-nfsroot-cleanup.sh
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root         3333 Oct  8  2018 usr/lib/dracut/hooks/cmdline/90-parse-nfsroot.sh
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root          870 Oct  8  2018 usr/lib/dracut/hooks/pre-udev/99-nfs-start-rpc.sh
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   5 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/blocklayout
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root        17516 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/blocklayout/blocklayoutdriver.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/filelayout
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root        11928 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/filelayout/nfs_layout_nfsv41_files.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/flexfilelayout
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root        22076 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root       123144 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/nfs.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root        19236 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/nfsv3.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root       211664 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs/nfsv4.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs_common
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root         2788 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs_common/grace.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root         3316 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/fs/nfs_common/nfs_acl.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rwxr-xr-x   1 root     root         4644 May 19 04:30 usr/lib/nfs-lib.sh
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib64/libnfsidmap
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: lrwxrwxrwx   1 root     root           20 May 19 04:30 usr/lib64/libnfsidmap.so.1 -> libnfsidmap.so.1.0.0
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rwxr-xr-x   1 root     root        49696 May 19 04:30 usr/lib64/libnfsidmap.so.1.0.0
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rwxr-xr-x   1 root     root        41456 May 19 04:30 usr/lib64/libnfsidmap/nsswitch.so
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rwxr-xr-x   1 root     root        37184 May 19 04:30 usr/lib64/libnfsidmap/sss.so
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rwxr-xr-x   1 root     root        37192 May 19 04:30 usr/lib64/libnfsidmap/static.so
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rwxr-xr-x   1 root     root        53720 May 19 04:30 usr/lib64/libnfsidmap/umich_ldap.so
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: -rwxr-xr-x   1 root     root       131368 May 19 04:30 usr/sbin/mount.nfs
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: lrwxrwxrwx   1 root     root            9 May 19 04:30 usr/sbin/mount.nfs4 -> mount.nfs
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: -rwxr-xr-x   1 root     root          715 Oct  8  2018 usr/sbin/nfsroot
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: drwxr-xr-x   4 root     root            0 May 19 04:30 var/lib/nfs
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 var/lib/nfs/rpc_pipefs
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: drwxr-xr-x   3 root     root            0 May 19 04:30 var/lib/nfs/statd
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 var/lib/nfs/statd/sm
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: libnfsidmap-1:2.3.3-41.el8.x86_64 1622589676 8b684f0d1d5d0a40b8911feeb71279b3a3e8aadfdbe7cdc9a86a372f254ddca4
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: nfs-utils-1:2.3.3-41.el8.x86_64 1622589676 c560928f77d32caa2c274d4cd935a1a4fbbe2d845f1e210fe75fdf4fcef4b487
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: sssd-nfs-idmap-2.4.0-9.el8.x86_64 1622418196 d27163616003af2ea34f0eef058ba52703bc2b914ffa0b28fa73fbfe7c45de19
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: libnfsidmap-1:2.3.3-41.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: nfs-utils-1:2.3.3-41.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: sssd-nfs-idmap-2.4.0-9.el8.x86_64
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.478:248): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="libnfsidmap-1:2.3.3-41.el8_4.3.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.480:291): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="nfs-utils-1:2.3.3-41.el8_4.3.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.480:313): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="sssd-nfs-idmap-2.4.0-9.el8_4.2.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636817582.194:194): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817582.252:195): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfsdcld comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817582.267:196): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817582.588:199): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817781.113:203): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817781.116:204): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817781.118:205): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817781.130:206): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817781.151:207): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817781.551:208): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817841.292:211): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817841.294:212): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817841.298:213): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817841.311:214): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817841.332:215): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817841.502:216): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817913.739:221): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817913.740:222): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636817913.743:223): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817913.758:224): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817913.783:225): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636817913.953:226): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636818020.328:229): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636818020.330:230): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636818020.333:231): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636818020.350:232): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-idmapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636818020.375:233): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-mountd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636818020.540:234): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=nfs-server comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+dnf.librepo.log:2021-11-13T14:59:28+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/libnfsidmap-2.3.3-41.el8_4.3.x86_64.rpm
+dnf.librepo.log:2021-11-13T14:59:30+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/nfs-utils-2.3.3-41.el8_4.3.x86_64.rpm
+dnf.librepo.log:2021-11-13T14:59:44+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/sssd-nfs-idmap-2.4.0-9.el8_4.2.x86_64.rpm
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete libnfsidmap.x86_64 1:2.3.3-41.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete libnfsidmap.x86_64 1:2.3.3-41.el8_4.3 seleccionado como actualización
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete nfs-utils.x86_64 1:2.3.3-41.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete nfs-utils.x86_64 1:2.3.3-41.el8_4.3 seleccionado como actualización
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete sssd-nfs-idmap.x86_64 2.4.0-9.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete sssd-nfs-idmap.x86_64 2.4.0-9.el8_4.2 seleccionado como actualización
+dnf.log: [1m[32mlibnfsidmap         (B[m x86_64 1:2.3.3-41.el8_4.3                        baseos    119 k
+dnf.log: [1m[32mnfs-utils           (B[m x86_64 1:2.3.3-41.el8_4.3                        baseos    497 k
+dnf.log: [1m[32msssd-nfs-idmap      (B[m x86_64 2.4.0-9.el8_4.2                           baseos    110 k
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: libnfsidmap-1:2.3.3-41.el8_4.3.x86_64
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: nfs-utils-1:2.3.3-41.el8_4.3.x86_64
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: sssd-nfs-idmap-2.4.0-9.el8_4.2.x86_64
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/libnfsidmap-2.3.3-41.el8_4.3.x86_64.rpm eliminado
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/sssd-nfs-idmap-2.4.0-9.el8_4.2.x86_64.rpm eliminado
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/nfs-utils-2.3.3-41.el8_4.3.x86_64.rpm eliminado
+dnf.log:2021-11-13T16:26:31+0100 DDEBUG Command: dnf -y install nfs-utils 
+dnf.log:2021-11-13T16:26:31+0100 DDEBUG Extra commands: ['-y', 'install', 'nfs-utils']
+dnf.log:2021-11-13T16:26:33+0100 INFO El paquete nfs-utils-1:2.3.3-41.el8_4.3.x86_64 ya está instalado.
+dnf.rpm.log:2021-11-13T15:01:15+0100 SUBDEBUG Upgrade: libnfsidmap-1:2.3.3-41.el8_4.3.x86_64
+dnf.rpm.log:2021-11-13T15:02:11+0100 SUBDEBUG Upgrade: nfs-utils-1:2.3.3-41.el8_4.3.x86_64
+dnf.rpm.log:2021-11-13T15:03:06+0100 SUBDEBUG Upgrade: sssd-nfs-idmap-2.4.0-9.el8_4.2.x86_64
+dnf.rpm.log:2021-11-13T15:08:59+0100 SUBDEBUG Upgraded: nfs-utils-1:2.3.3-41.el8.x86_64
+dnf.rpm.log:2021-11-13T15:10:33+0100 SUBDEBUG Upgraded: sssd-nfs-idmap-2.4.0-9.el8.x86_64
+dnf.rpm.log:2021-11-13T15:10:33+0100 SUBDEBUG Upgraded: libnfsidmap-1:2.3.3-41.el8.x86_64
+historylinux.txt:  209  dnf -y install nfs-utils
+historylinux.txt:  219  systemctl enable --now rpcbind nfs-server
+historylinux.txt:  221  systemctl restart nfs-server
+historylinux.txt:  224  systemctl restart nfs-server
+historylinux.txt:  230  systemctl restart nfs-server
+historylinux.txt:  236  systemctl restart nfs-server
+messages:Nov 13 16:33:02 localhost kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+messages:Nov 13 16:33:02 localhost kernel: NFSD: Using nfsdcld client tracking operations.
+messages:Nov 13 16:36:21 localhost systemd[1]: nfs-server.service: Succeeded.
+messages:Nov 13 16:36:21 localhost systemd[1]: nfs-idmapd.service: Succeeded.
+messages:Nov 13 16:36:21 localhost systemd[1]: nfs-mountd.service: Succeeded.
+messages:Nov 13 16:36:21 localhost kernel: nfsd: last server has exited, flushing export cache
+messages:Nov 13 16:36:21 localhost kernel: NFSD: Using nfsdcld client tracking operations.
+messages:Nov 13 16:37:21 localhost systemd[1]: nfs-server.service: Succeeded.
+messages:Nov 13 16:37:21 localhost systemd[1]: nfs-idmapd.service: Succeeded.
+messages:Nov 13 16:37:21 localhost systemd[1]: nfs-mountd.service: Succeeded.
+messages:Nov 13 16:37:21 localhost kernel: nfsd: last server has exited, flushing export cache
+messages:Nov 13 16:37:21 localhost kernel: NFSD: Using nfsdcld client tracking operations.
+messages:Nov 13 16:38:33 localhost systemd[1]: nfs-server.service: Succeeded.
+messages:Nov 13 16:38:33 localhost systemd[1]: nfs-idmapd.service: Succeeded.
+messages:Nov 13 16:38:33 localhost systemd[1]: nfs-mountd.service: Succeeded.
+messages:Nov 13 16:38:33 localhost kernel: nfsd: last server has exited, flushing export cache
+messages:Nov 13 16:38:33 localhost kernel: NFSD: Using nfsdcld client tracking operations.
+messages:Nov 13 16:40:20 localhost systemd[1]: nfs-server.service: Succeeded.
+messages:Nov 13 16:40:20 localhost systemd[1]: nfs-idmapd.service: Succeeded.
+messages:Nov 13 16:40:20 localhost systemd[1]: nfs-mountd.service: Succeeded.
+messages:Nov 13 16:40:20 localhost kernel: nfsd: last server has exited, flushing export cache
+messages:Nov 13 16:40:20 localhost kernel: NFSD: Using nfsdcld client tracking operations.

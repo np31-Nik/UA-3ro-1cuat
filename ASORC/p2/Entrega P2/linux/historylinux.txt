@@ -1,0 +1,282 @@
+    1  cat /etc/passwd
+    2  ls
+    3  cd ~
+    4  ls
+    5  ls -a
+    6  ls -a | grep .ssh
+    7  exit
+    8  passwd
+    9  exit
+   10  su - np31
+   11  exit
+   12  clear
+   13  pkg search
+   14  apt-get search
+   15  apt update
+   16  pkgman
+   17  choco
+   18  pkg-man
+   19  rpm
+   20  rpm update
+   21  rpm --update
+   22  yum
+   23  yum install nano
+   24  nano
+   25  passwd
+   26  su
+   27  exit
+   28  cd ..
+   29  ls
+   30  cd etc
+   31  ls
+   32  ls -l
+   33  ls -a
+   34  ls
+   35  nano netconfig
+   36  cd NetworkManager/
+   37  ls
+   38  nano NetworkManager.conf 
+   39  nano conf.d/
+   40  ifconfig
+   41  cd ..
+   42  cd sysconfig/
+   43  cd network-scripts/
+   44  ls
+   45  nano ifcfg-enp0s8 
+   46  rbeoot
+   47  reboot
+   48  cd ..
+   49  ls
+   50  nano /etc/sysconfig/network-scripts/
+   51  ls /etc/sysconfig/network-scripts/
+   52  ifconfig
+   53  nano /etc/sysconfig/network-scripts/ifcfg-enp0s3
+   54  reboot
+   55  ls ..
+   56  cd ..
+   57  ls /etc/sysconfig/network-scripts/
+   58  nano /etc/sysconfig/network-scripts/ifcfg-enp0s8
+   59  ifconfig
+   60  ls
+   61  exit
+   62  cd ..
+   63  cd /etc/sysconfig/network-scripts/
+   64  ls
+   65  nano ifcfg-enp0s3 
+   66  nano ifcfg-enp0s8 
+   67  reboot
+   68  cd ..
+   69  nano /etc/ssh/sshd_config 
+   70  systemctl restart sshd
+   71  systemctl start sshd
+   72  systemctl status sshd.service
+   73  firewall-cmd --add-service=ssh
+   74  firewall-cmd --runtime-to-permanent
+   75  nano /etc/ssh/sshd_config 
+   76  systemctl restart sshd
+   77  reboot
+   78  selinux
+   79  cd ..
+   80  nano /etc/sysconfig/selinux 
+   81  systemctl disable firewalld
+   82  systemctl disable selinux
+   83  systemctl stop selinux
+   84  systemctl stop firewalld
+   85  reboot
+   86  systemctl status sshd
+   87  yum uninstall sshd
+   88  nano /usr/sbin/sshd 
+   89  cd /usr/sbin
+   90  ls
+   91  nano sshd 
+   92  cd ..
+   93  nano /etc/ssh/sshd_config 
+   94  systemctl status sshd
+   95  systemctl start sshd
+   96  systemctl status sshd.service
+   97  /usr/sbin/sshd -t
+   98  nano /etc/ssh/sshd_config 
+   99  systemctl status sshd.service
+  100  /usr/sbin/sshd -t
+  101  systemctl start sshd
+  102  nano /etc/ssh/sshd_config 
+  103  systemctl restart sshd
+  104  nano /etc/ssh/sshd_config 
+  105  systemctl restart sshd
+  106  nano /etc/ssh/sshd_config 
+  107  systemctl restart sshd
+  108  exit
+  109  systemctl restart sshd
+  110  exit
+  111  cd ..
+  112  nano /etc/ssh/sshd_config 
+  113  systemctl sshd restart
+  114  systemctl ssh restart
+  115  systemctl restart sshd
+  116  exit
+  117  yum install tigervnc-server
+  118  systemctl status firewalld
+  119  exit
+  120  cd ..
+  121  nano /etc/gdm/custom.conf 
+  122  systemctl status vncserver
+  123  systemctl status vnc
+  124  vncserver -kill :1
+  125  reboot
+  126  yum install tightvnc
+  127  cd ..
+  128  clear
+  129  yum install xrdp
+  130  systemctl status xrdp
+  131  systemctl enable xrdp
+  132  dnf
+  133  dnf --enablerepo=epel -y install xrdp
+  134  dnf -y install xrdp
+  135  yum update
+  136  yum install xrdp
+  137  dnf --enablerepo=epel -y install xrdp
+  138  dnf install -y epel-release
+  139  dnf --enablerepo=epel -y install xrdp
+  140  systemctl enable xrdp --now
+  141  exit
+  142  adduser
+  143  useradd
+  144  adduser
+  145  adduser n2
+  146  adduser n3 -p 123
+  147  su - n2
+  148  su - n3
+  149  exit
+  150  useradd nik-rdp
+  151  passwd nik-rdp
+  152  dnf -y install bind bind-utils
+  153  cd ..
+  154  nano /etc/named.conf
+  155  nano /etc/sysconfig/named
+  156  nano /var/named/nikrocky.com.lan
+  157  nano /var/named/137.168.192.db
+  158  systemctl enable --now named
+  159  systemctl status firewall
+  160  systemctl status firewalld
+  161  nmcli connection modify enp0s3 ipv4.dns 192.168.137.222
+  162  nmcli connection down enp0s3
+  163  nmcli connection up enp0s3
+  164  dig dlp.nikrocky.com.
+  165  systemctl status named
+  166  systemctl restart named
+  167  systemctl status named
+  168  dig dlp.nikrocky.com.
+  169  systemctl status NetworkManager
+  170  dig dlp.nikrocky.com.
+  171  dig google.com.
+  172  ping google.com
+  173  ping -c 6 google.com
+  174  ping 192.168.137.1
+  175  reboot
+  176  systemctl status named
+  177  dig dlp.nikrocky.com.
+  178  ping -c 6 google.com
+  179  ping -c 6 nikrocky.com
+  180  ping -c 6 dlp.nikrocky.com
+  181  ping -c 6 dlp.nikrocky.com.
+  182  ifconfig
+  183  ip a
+  184  cd ..
+  185  nano /etc/named.conf 
+  186  nano /etc/resolv.conf 
+  187  nslookup dlp.nikrocky.com
+  188  dig -x 192.168.137.222
+  189  nano /etc/named.conf 
+  190  nano /var/named/nikrocky.com.lan 
+  191  nano /var/named/137.168.192.db 
+  192  clear
+  193  dig -x 192.168.137.222
+  194  nslookup dlp.nikrocky.com
+  195  clear
+  196  yum install dhcp
+  197  dnf -y install dhcp
+  198  yum update
+  199  yum install dhcp
+  200  dnf -y install dhcp-server
+  201  nano /etc/dhcp/dhcpd.conf 
+  202  systemctl enable --now dhcpd
+  203  systemctl status dhcpd
+  204  systemctl restart dhcpd
+  205  systemctl status dhcpd
+  206  cat /var/lib/dhcpd/dhcpd.leases
+  207  nano /etc/dhcp/dhcpd.conf 
+  208  clear
+  209  dnf -y install nfs-utils
+  210  nano /etc/idmapd.conf 
+  211  nano /etc/exports
+  212  ls
+  213  ls /home/np31/Escritorio/
+  214  ls
+  215  ls /home/np31/Escritorio/
+  216  mkdir /home/np31/Escritorio/NFS
+  217  ls /home/np31/Escritorio/
+  218  nano /etc/exports
+  219  systemctl enable --now rpcbind nfs-server
+  220  systemctl restart rpcbind
+  221  systemctl restart nfs-server
+  222  nano /etc/exports
+  223  systemctl restart rpcbind
+  224  systemctl restart nfs-server
+  225  nano /etc/exports
+  226  chmod 777 /home/np31/Escritorio/NFS
+  227  nano /etc/exports
+  228  systemctl status firewalld
+  229  systemctl restart rpcbind
+  230  systemctl restart nfs-server
+  231  ls -a /home/np31/Escritorio/
+  232  ls -l /home/np31/Escritorio/
+  233  chown np31:np31 /home/np31/Escritorio/NFS/
+  234  ls -l /home/np31/Escritorio/
+  235  systemctl restart rpcbind
+  236  systemctl restart nfs-server
+  237  exit
+  238  chown np31:np31
+  239  chown np31:np31 .ç
+  240  chown np31:np31 .
+  241  exit
+  242  cd np31/
+  243  ls
+  244  ls -l
+  245  cd Escritorio/
+  246  ls -l
+  247  cd NFS/
+  248  ls
+  249  cd ..
+  250  dnf -y install samba
+  251  ls
+  252  mkdir /home/np31/Escritorio/Samba
+  253  chmod 777 /home/np31/Escritorio/Samba/
+  254  chown np31:np31 /home/np31/Escritorio/Samba/
+  255  nano /etc/samba/smb.conf
+  256  systemctl enable --now smb
+  257  nano /etc/samba/smb.conf
+  258  systemctl enable --now smb
+  259  systemctl restart smb
+  260  smbpasswd -a np31
+  261  systemctl enable smb nmb && systemctl restart smb nmb
+  262  exit
+  263  cd ..
+  264  nano /etc/samba/smb.conf
+  265  systemctl enable smb nmb && systemctl restart smb nmb
+  266  exit
+  267  ls
+  268  cd /etc/
+  269  ls
+  270  cat ssh/sshd_config 
+  271  cd ..
+  272  cp /etc/ssh/sshd_config /home/np31/Escritorio/linux/ssh/
+  273  cp /etc/ssh/ssh_config /home/np31/Escritorio/linux/ssh/
+  274  ls /home/np31/.ssh/
+  275  cp /home/np31/.ssh/authorized_keys /home/np31/Escritorio/linux/ssh/
+  276  ls
+  277  ls /etc/dhcp/
+  278  cp /etc/dhcp/dhcpd.conf /home/np31/Escritorio/linux/dhcp/
+  279  cd var/log/
+  280  ls
+  281  grep -R "ssh" *>ssh.log
+  282  history > historylinux.txt

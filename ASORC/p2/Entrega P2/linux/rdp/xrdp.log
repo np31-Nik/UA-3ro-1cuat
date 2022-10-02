@@ -1,0 +1,215 @@
+[20211113-15:17:01] [INFO ] starting xrdp with pid 48014
+[20211113-15:17:01] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211113-15:17:01] [INFO ] listening to port 3389 on 0.0.0.0
+[20211113-15:17:01] [INFO ] xrdp_listen_pp done
+[20211113-15:17:09] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 33064
+[20211113-15:17:09] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:17:09] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:17:11] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:17:11] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:17:11] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:17:11] [INFO ] TLS connection established from 192.168.137.9 port 33064: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:17:11] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:17:11] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:17:11] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:17:11] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:17:11] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:17:11] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:17:32] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211113-15:17:32] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211113-15:17:32] [INFO ] sesman connect ok
+[20211113-15:17:32] [INFO ] sending login info to session manager, please wait...
+[20211113-15:17:32] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211113-15:17:32] [INFO ] login successful for display 10
+[20211113-15:17:32] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+[20211113-15:17:32] [INFO ] VNC started connecting
+[20211113-15:17:32] [INFO ] VNC connecting to 127.0.0.1 5910
+[20211113-15:17:33] [INFO ] VNC tcp connected
+[20211113-15:17:36] [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+[20211113-15:17:36] [INFO ] VNC password ok
+[20211113-15:17:36] [INFO ] VNC sending share flag
+[20211113-15:17:36] [INFO ] VNC receiving server init
+[20211113-15:17:36] [INFO ] VNC receiving pixel format
+[20211113-15:17:36] [INFO ] VNC receiving name length
+[20211113-15:17:36] [INFO ] VNC receiving name
+[20211113-15:17:36] [INFO ] VNC sending pixel format
+[20211113-15:17:36] [INFO ] VNC sending cursor
+[20211113-15:17:36] [INFO ] VNC connection complete, connected ok
+[20211113-15:17:36] [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+[20211113-15:17:36] [INFO ] connected ok
+[20211113-15:17:36] [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+[20211113-15:17:38] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211113-15:17:38] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 31648
+[20211113-15:17:38] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211113-15:17:38] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:17:38] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:17:38] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:17:38] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:17:38] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:17:38] [INFO ] TLS connection established from 192.168.137.9 port 31648: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:17:38] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:17:38] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:17:38] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:17:38] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:17:38] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:17:38] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:18:22] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211113-15:18:22] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211113-15:18:22] [INFO ] sesman connect ok
+[20211113-15:18:22] [INFO ] sending login info to session manager, please wait...
+[20211113-15:18:22] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211113-15:18:22] [INFO ] login successful for display 10
+[20211113-15:18:22] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+[20211113-15:18:22] [INFO ] VNC started connecting
+[20211113-15:18:22] [INFO ] VNC connecting to 127.0.0.1 5910
+[20211113-15:18:23] [INFO ] VNC tcp connected
+[20211113-15:18:23] [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+[20211113-15:18:23] [INFO ] VNC password ok
+[20211113-15:18:23] [INFO ] VNC sending share flag
+[20211113-15:18:23] [INFO ] VNC receiving server init
+[20211113-15:18:23] [INFO ] VNC receiving pixel format
+[20211113-15:18:23] [INFO ] VNC receiving name length
+[20211113-15:18:23] [INFO ] VNC receiving name
+[20211113-15:18:23] [INFO ] VNC sending pixel format
+[20211113-15:18:23] [INFO ] VNC sending cursor
+[20211113-15:18:23] [INFO ] VNC connection complete, connected ok
+[20211113-15:18:23] [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+[20211113-15:18:23] [INFO ] connected ok
+[20211113-15:18:23] [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+[20211113-15:18:23] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 54250
+[20211113-15:18:23] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:18:23] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:18:23] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:18:23] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:18:23] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:18:23] [INFO ] TLS connection established from 192.168.137.9 port 54250: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:18:23] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:18:23] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:18:23] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:18:23] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:18:23] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:18:23] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:21:05] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211113-15:21:05] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211113-15:21:05] [INFO ] sesman connect ok
+[20211113-15:21:05] [INFO ] sending login info to session manager, please wait...
+[20211113-15:21:07] [INFO ] xrdp_wm_log_msg: login failed for display 0
+[20211113-15:21:07] [INFO ] login failed for display 0
+[20211113-15:24:49] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211113-15:24:49] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211113-15:24:49] [INFO ] sesman connect ok
+[20211113-15:24:49] [INFO ] sending login info to session manager, please wait...
+[20211113-15:24:51] [INFO ] xrdp_wm_log_msg: login failed for display 0
+[20211113-15:24:51] [INFO ] login failed for display 0
+[20211113-15:25:04] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 51202
+[20211113-15:25:04] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:25:04] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:25:04] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:25:04] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:25:04] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:25:04] [INFO ] TLS connection established from 192.168.137.9 port 51202: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:25:04] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:25:04] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:25:04] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:25:04] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:25:04] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:25:04] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:25:05] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 27378
+[20211113-15:25:05] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:25:05] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:25:05] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:25:05] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:25:05] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:25:05] [INFO ] TLS connection established from 192.168.137.9 port 27378: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:25:05] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:25:05] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:25:05] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:25:05] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:25:05] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:25:05] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:25:06] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 44585
+[20211113-15:25:06] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:25:06] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:25:06] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:25:06] [INFO ] TLS connection established from 192.168.137.9 port 44585: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:25:06] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:25:06] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:25:06] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:25:06] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:25:06] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:25:06] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:25:06] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 29226
+[20211113-15:25:06] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:25:06] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:25:06] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:25:06] [INFO ] TLS connection established from 192.168.137.9 port 29226: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:25:06] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:25:06] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:25:06] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:25:06] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:25:06] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:25:06] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:25:09] [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+[20211113-15:25:09] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20211113-15:25:09] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20211113-15:25:09] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20211113-15:25:09] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20211113-15:25:09] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211113-15:25:09] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211113-15:25:17] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211113-15:27:39] [INFO ] starting xrdp with pid 960
+[20211113-15:27:39] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211113-15:27:39] [INFO ] listening to port 3389 on 0.0.0.0
+[20211113-15:27:39] [INFO ] xrdp_listen_pp done
+[20211113-15:30:04] [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 39111
+[20211113-15:30:04] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+[20211113-15:30:04] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+[20211113-15:30:04] [INFO ] Connected client computer name: FBSDaRocky
+[20211113-15:30:04] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+[20211113-15:30:04] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+[20211113-15:30:04] [INFO ] TLS connection established from 192.168.137.9 port 39111: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+[20211113-15:30:04] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+[20211113-15:30:04] [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+[20211113-15:30:04] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+[20211113-15:30:04] [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+[20211113-15:30:04] [ERROR] Dynamic Virtual Channel version 1 is not supported
+[20211113-15:30:04] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+[20211113-15:30:15] [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+[20211113-15:30:15] [INFO ] xrdp_wm_log_msg: sesman connect ok
+[20211113-15:30:15] [INFO ] sesman connect ok
+[20211113-15:30:15] [INFO ] sending login info to session manager, please wait...
+[20211113-15:30:15] [INFO ] xrdp_wm_log_msg: login successful for display 10
+[20211113-15:30:15] [INFO ] login successful for display 10
+[20211113-15:30:15] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+[20211113-15:30:15] [INFO ] VNC started connecting
+[20211113-15:30:15] [INFO ] VNC connecting to 127.0.0.1 5910
+[20211113-15:30:16] [INFO ] VNC tcp connected
+[20211113-15:30:16] [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+[20211113-15:30:16] [INFO ] VNC password ok
+[20211113-15:30:16] [INFO ] VNC sending share flag
+[20211113-15:30:16] [INFO ] VNC receiving server init
+[20211113-15:30:16] [INFO ] VNC receiving pixel format
+[20211113-15:30:16] [INFO ] VNC receiving name length
+[20211113-15:30:16] [INFO ] VNC receiving name
+[20211113-15:30:16] [INFO ] VNC sending pixel format
+[20211113-15:30:16] [INFO ] VNC sending cursor
+[20211113-15:30:16] [INFO ] VNC connection complete, connected ok
+[20211113-15:30:16] [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+[20211113-15:30:16] [INFO ] connected ok
+[20211113-15:30:16] [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+[20211113-15:32:05] [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+[20211113-15:32:05] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+[20211113-15:32:05] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+[20211113-15:32:05] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+[20211113-15:32:05] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+[20211113-15:32:05] [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+[20211113-15:32:05] [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+[20211113-15:47:03] [INFO ] Received termination signal, stopping the server accept new connections thread
+[20211113-15:47:54] [INFO ] starting xrdp with pid 993
+[20211113-15:47:54] [INFO ] address [0.0.0.0] port [3389] mode 1
+[20211113-15:47:54] [INFO ] listening to port 3389 on 0.0.0.0
+[20211113-15:47:54] [INFO ] xrdp_listen_pp done

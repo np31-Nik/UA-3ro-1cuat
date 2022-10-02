@@ -1,0 +1,9 @@
+[2021/11/12 00:57:12.469385,  0] ../../source4/smbd/server.c:646(binary_smbd_main)
+  samba version 4.13.8 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/12 00:57:12.548537,  0] ../../source4/smbd/server.c:875(binary_smbd_main)
+  At this time the 'samba' binary should only be used for either:
+  'server role = active directory domain controller' or to access the ntvfs file server with 'server services = +smb' or the rpc proxy with 'dcerpc endpoint servers = remote'
+  You should start smbd/nmbd/winbindd instead for domain member and standalone file server tasks
+[2021/11/12 00:57:12.548666,  0] ../../lib/util/become_daemon.c:122(exit_daemon)
+  exit_daemon: daemon failed to start: Samba detected misconfigured 'server role' and exited. Check logs for details, error code 22

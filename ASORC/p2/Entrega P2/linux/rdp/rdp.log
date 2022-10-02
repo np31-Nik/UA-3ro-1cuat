@@ -1,0 +1,615 @@
+anaconda/packaging.log:19:49:27,681 INF packaging: Installed: freerdp-libs-2:2.2.0-1.el8.x86_64 1621391603 ebbbc28fd2c8187d6aa36629b1335e51bf5a01bd147be3926fe8408493c84dbc
+anaconda/packaging.log:20:01:09,833 INF packaging: Verifying: freerdp-libs-2:2.2.0-1.el8.x86_64 1621391603 ebbbc28fd2c8187d6aa36629b1335e51bf5a01bd147be3926fe8408493c84dbc
+anaconda/packaging.log:20:01:10,033 DBG dnf: Installed: freerdp-libs-2:2.2.0-1.el8.x86_64
+anaconda/journal.log:Sep 22 17:49:27 localhost anaconda[1716]: packaging: Installed: freerdp-libs-2:2.2.0-1.el8.x86_64 1621391603 ebbbc28fd2c8187d6aa36629b1335e51bf5a01bd147be3926fe8408493c84dbc
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: freerdp-libs-2:2.2.0-1.el8.x86_64 1621391603 ebbbc28fd2c8187d6aa36629b1335e51bf5a01bd147be3926fe8408493c84dbc
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: freerdp-libs-2:2.2.0-1.el8.x86_64
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812998.195:450): pid=47346 uid=0 auid=1000 ses=3 msg='op=install sw="xrdp-selinux-1:0.9.17-2.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812998.195:451): pid=47346 uid=0 auid=1000 ses=3 msg='op=install sw="xrdp-1:0.9.17-2.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636813021.420:456): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636813021.421:457): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636813052.491:458): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636813052.491:459): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636813052.514:460): pid=48022 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_START msg=audit(1636813052.520:461): pid=48022 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_END msg=audit(1636813058.772:462): pid=48022 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_DISP msg=audit(1636813058.772:463): pid=48022 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636813102.756:466): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636813102.756:467): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636813102.771:468): pid=48227 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_START msg=audit(1636813102.776:469): pid=48227 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_END msg=audit(1636813103.428:470): pid=48227 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_DISP msg=audit(1636813103.428:471): pid=48227 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="np31" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636813265.492:486): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="n3" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=failed'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636813489.663:506): pid=48013 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="n2" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636813518.008:560): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636813518.336:567): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636813657.456:35): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636813657.456:36): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=ADD_GROUP msg=audit(1636813773.645:159): pid=2472 uid=0 auid=1000 ses=3 msg='op=add-group acct="nik-rdp" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=ADD_USER msg=audit(1636813774.065:160): pid=2472 uid=0 auid=1000 ses=3 msg='op=add-user acct="nik-rdp" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_MGMT msg=audit(1636813774.494:161): pid=2472 uid=0 auid=1000 ses=3 msg='op=add-home-dir id=1006 exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31" ID="nik-rdp"
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1636813783.877:162): pid=2485 uid=0 auid=1000 ses=3 msg='op=PAM:chauthtok grantors=pam_pwquality,pam_unix acct="nik-rdp" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636813815.544:165): pid=959 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_usertype,pam_localuser,pam_unix acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636813815.544:166): pid=959 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=xrdp-sesman res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636813815.560:167): pid=2498 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636813815.600:169): pid=2500 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="nik-rdp" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=LOGIN msg=audit(1636813815.600:170): pid=2500 uid=0 old-auid=4294967295 auid=1006 tty=(none) old-ses=4294967295 ses=4 res=1UID="root" OLD-AUID="unset" AUID="nik-rdp"
+audit/audit.log:type=SYSCALL msg=audit(1636813815.600:170): arch=c000003e syscall=1 success=yes exit=4 a0=a a1=7ffe07101870 a2=4 a3=0 items=0 ppid=1 pid=2500 auid=1006 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="(systemd)" exe="/usr/lib/systemd/systemd" key=(null)ARCH=x86_64 SYSCALL=write AUID="nik-rdp" UID="root" GID="root" EUID="root" SUID="root" FSUID="root" EGID="root" SGID="root" FSGID="root"
+audit/audit.log:type=USER_START msg=audit(1636813815.600:171): pid=2500 uid=0 auid=1006 ses=4 msg='op=PAM:session_open grantors=pam_selinux,pam_selinux,pam_loginuid,pam_keyinit,pam_limits,pam_systemd,pam_unix acct="nik-rdp" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="nik-rdp"
+audit/audit.log:type=USER_START msg=audit(1636813815.666:173): pid=2498 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636814823.236:258): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636814823.236:259): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636814823.262:264): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636814823.263:265): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_END msg=audit(1636814823.270:266): pid=2498 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_DISP msg=audit(1636814823.270:267): pid=2498 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_localuser,pam_unix acct="nik-rdp" exe="/usr/sbin/xrdp-sesman" hostname=? addr=? terminal=:10 res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636814873.309:41): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp-sesman comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636814873.312:42): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=xrdp comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+boot.log:[[0;32m  OK  [0m] Started xrdp session manager.
+boot.log:[[0;32m  OK  [0m] Started xrdp daemon.
+boot.log:[[0;32m  OK  [0m] Started xrdp session manager.
+boot.log:[[0;32m  OK  [0m] Started xrdp daemon.
+dnf.librepo.log:2021-11-13T15:15:58+0100 INFO Downloading: http://mirror.uv.es/mirror/fedora-epel//8/Everything/x86_64/Packages/x/xrdp-0.9.17-2.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T15:15:58+0100 INFO Downloading: http://mirror.uv.es/mirror/fedora-epel//8/Everything/x86_64/Packages/x/xrdp-selinux-0.9.17-2.el8.x86_64.rpm
+dnf.log:2021-11-13T14:55:48+0100 DDEBUG Command: yum install xrdp 
+dnf.log:2021-11-13T14:55:48+0100 DDEBUG Extra commands: ['install', 'xrdp']
+dnf.log:2021-11-13T14:55:50+0100 INFO No hay coincidencias para el argumento: [1mxrdp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T14:55:50+0100 CRITICAL Error: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T14:57:30+0100 DDEBUG Command: dnf --enablerepo=epel -y install xrdp 
+dnf.log:2021-11-13T14:57:30+0100 DDEBUG Extra commands: ['--enablerepo=epel', '-y', 'install', 'xrdp']
+dnf.log:2021-11-13T14:57:45+0100 DDEBUG Command: dnf -y install xrdp 
+dnf.log:2021-11-13T14:57:45+0100 DDEBUG Extra commands: ['-y', 'install', 'xrdp']
+dnf.log:2021-11-13T14:57:46+0100 INFO No hay coincidencias para el argumento: [1mxrdp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T14:57:46+0100 CRITICAL Error: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T15:14:47+0100 DDEBUG Command: yum install xrdp 
+dnf.log:2021-11-13T15:14:47+0100 DDEBUG Extra commands: ['install', 'xrdp']
+dnf.log:2021-11-13T15:14:49+0100 INFO No hay coincidencias para el argumento: [1mxrdp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T15:14:49+0100 CRITICAL Error: No se pudo encontrar ningún resultado: xrdp
+dnf.log:2021-11-13T15:14:55+0100 DDEBUG Command: dnf --enablerepo=epel -y install xrdp 
+dnf.log:2021-11-13T15:14:55+0100 DDEBUG Extra commands: ['--enablerepo=epel', '-y', 'install', 'xrdp']
+dnf.log:2021-11-13T15:15:44+0100 DDEBUG Command: dnf --enablerepo=epel -y install xrdp 
+dnf.log:2021-11-13T15:15:44+0100 DDEBUG Extra commands: ['--enablerepo=epel', '-y', 'install', 'xrdp']
+dnf.log:2021-11-13T15:15:58+0100 DEBUG ---> Paquete xrdp.x86_64 1:0.9.17-2.el8 seleccionado para instalar
+dnf.log:2021-11-13T15:15:58+0100 DEBUG ---> Paquete xrdp-selinux.x86_64 1:0.9.17-2.el8 seleccionado para instalar
+dnf.log: [1m[32mxrdp                  (B[m x86_64           1:0.9.17-2.el8           epel           463 k
+dnf.log: [1m[32mxrdp-selinux          (B[m x86_64           1:0.9.17-2.el8           epel            23 k
+dnf.log:2021-11-13T15:16:39+0100 DEBUG Instalado: xrdp-1:0.9.17-2.el8.x86_64
+dnf.log:2021-11-13T15:16:39+0100 DEBUG Instalado: xrdp-selinux-1:0.9.17-2.el8.x86_64
+dnf.log:2021-11-13T15:16:39+0100 DDEBUG /var/cache/dnf/epel-2f52d25564da0fd7/packages/xrdp-0.9.17-2.el8.x86_64.rpm eliminado
+dnf.log:2021-11-13T15:16:39+0100 DDEBUG /var/cache/dnf/epel-2f52d25564da0fd7/packages/xrdp-selinux-0.9.17-2.el8.x86_64.rpm eliminado
+dnf.rpm.log:2021-11-13T15:16:01+0100 SUBDEBUG Installed: xrdp-selinux-1:0.9.17-2.el8.x86_64
+dnf.rpm.log:2021-11-13T15:16:36+0100 SUBDEBUG Installed: xrdp-1:0.9.17-2.el8.x86_64
+historylinux.txt:  129  yum install xrdp
+historylinux.txt:  130  systemctl status xrdp
+historylinux.txt:  131  systemctl enable xrdp
+historylinux.txt:  133  dnf --enablerepo=epel -y install xrdp
+historylinux.txt:  134  dnf -y install xrdp
+historylinux.txt:  136  yum install xrdp
+historylinux.txt:  137  dnf --enablerepo=epel -y install xrdp
+historylinux.txt:  139  dnf --enablerepo=epel -y install xrdp
+historylinux.txt:  140  systemctl enable xrdp --now
+historylinux.txt:  150  useradd nik-rdp
+historylinux.txt:  151  passwd nik-rdp
+messages:Nov 13 15:17:01 localhost systemd[1]: Started xrdp session manager.
+messages:Nov 13 15:17:01 localhost systemd[1]: Started xrdp daemon.
+messages:Nov 13 15:17:01 localhost xrdp[48014]: [INFO ] starting xrdp with pid 48014
+messages:Nov 13 15:17:01 localhost xrdp-sesman[48013]: [INFO ] starting xrdp-sesman with pid 48013
+messages:Nov 13 15:17:01 localhost xrdp[48014]: [INFO ] address [0.0.0.0] port [3389] mode 1
+messages:Nov 13 15:17:01 localhost xrdp[48014]: [INFO ] listening to port 3389 on 0.0.0.0
+messages:Nov 13 15:17:01 localhost xrdp[48014]: [INFO ] xrdp_listen_pp done
+messages:Nov 13 15:17:09 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 33064
+messages:Nov 13 15:17:09 localhost xrdp[48021]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:17:09 localhost xrdp[48021]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] TLS connection established from 192.168.137.9 port 33064: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:17:11 localhost xrdp[48021]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58544
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] sesman connect ok
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] sending login info to session manager, please wait...
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] Terminal Server Users group is disabled, allowing authentication
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] ++ created session (access granted): username np31, ip 192.168.137.9:33064 - socket: 12
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] Starting session: session_pid 48022, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:33064 - socket: 12, user name np31
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48022]: [INFO ] [session start] (display 10): calling auth_start_session from pid 48022
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] login successful for display 10
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] VNC started connecting
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] VNC connecting to 127.0.0.1 5910
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48024]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Underlying X server release 12010000, The X.Org Foundation
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Sat Nov 13 15:17:32 2021
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48023]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48022]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48023]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:17:33 localhost xrdp[48021]: [INFO ] VNC tcp connected
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48022]: [INFO ] Session started successfully for user np31 on display 10
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48039]: [INFO ] Starting the xrdp channel server for display 10
+messages:Nov 13 15:17:33 localhost xrdp-sesman[48023]: [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+messages:Nov 13 15:17:34 localhost xrdp-sesman[48022]: [INFO ] Session in progress on display 10, waiting until the window manager (pid 48023) exits to end the session
+messages:Nov 13 15:17:36 localhost xrdp-sesman[48013]: Sat Nov 13 15:17:36 2021
+messages:Nov 13 15:17:36 localhost xrdp-sesman[48013]: Connections: accepted: 127.0.0.1::59880
+messages:Nov 13 15:17:36 localhost xrdp-sesman[48013]: SConnection: Client needs protocol version 3.3
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+messages:Nov 13 15:17:36 localhost xrdp-sesman[48013]: VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC password ok
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC sending share flag
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC receiving server init
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC receiving pixel format
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC receiving name length
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC receiving name
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC sending pixel format
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC sending cursor
+messages:Nov 13 15:17:36 localhost xrdp-sesman[48013]: VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC connection complete, connected ok
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] connected ok
+messages:Nov 13 15:17:36 localhost xrdp[48021]: [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+messages:Nov 13 15:17:36 localhost xrdp-chansrv[48039]: [INFO ] Socket 12: AF_UNIX connection received
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [WARN ] Window manager (pid 48023, display 10) exited quickly (4 secs). This could indicate a window manager config problem
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] Calling auth_stop_session and auth_end from pid 48022
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] Terminating X server (pid 48024) on display 10
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] Terminating the xrdp channel server (pid 48039) on display 10
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: Sat Nov 13 15:17:38 2021
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: VNCSConnST:  closing 127.0.0.1::59880: Server shutdown
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager: Framebuffer updates: 2
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager:   Raw:
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager:     Solid: 12 rects, 786.432 kpixels
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager:            3.00014 MiB (1:1 ratio)
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager:   Total: 12 rects, 786.432 kpixels
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: EncodeManager:          3.00014 MiB (1:1 ratio)
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: ComparingUpdateTracker: 0 pixels in / 0 pixels out
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: ComparingUpdateTracker: (1:-nan ratio)
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: Global configuration:
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]:    UseUnixSocket (derived):   true
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: Security configuration:
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]:    RestrictOutboundClipboard: false
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: Chansrv configuration:
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]:    EnableFuseMount            true
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]:    FuseMountName:             thinclient_drives
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]:    FileMask:                  077
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: chansrv::main: using log file [/home/np31/.local/share/xrdp/xrdp-chansrv.10.log]
+messages:Nov 13 15:17:38 localhost xrdp[48021]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 13 15:17:38 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 31648
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] X server on display 10 (pid 48024) returned exit code 0 and signal number 0
+messages:Nov 13 15:17:38 localhost xrdp[48021]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] xrdp channel server for display 10 (pid 48039) exit code 0 and signal number 0
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48022]: [INFO ] cleanup_sockets:
+messages:Nov 13 15:17:38 localhost xrdp-sesman[48013]: [INFO ] ++ terminated session:  username np31, display :10.0, session_pid 48022, ip 192.168.137.9:33064 - socket: 12
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] TLS connection established from 192.168.137.9 port 31648: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:17:38 localhost xrdp[48177]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58552
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] sesman connect ok
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] sending login info to session manager, please wait...
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] Terminal Server Users group is disabled, allowing authentication
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] ++ created session (access granted): username np31, ip 192.168.137.9:31648 - socket: 12
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] Starting session: session_pid 48227, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:31648 - socket: 12, user name np31
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48227]: [INFO ] [session start] (display 10): calling auth_start_session from pid 48227
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] login successful for display 10
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48229]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] VNC started connecting
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] VNC connecting to 127.0.0.1 5910
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Underlying X server release 12010000, The X.Org Foundation
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Sat Nov 13 15:18:22 2021
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48228]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: Sat Nov 13 15:18:23 2021
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: Connections: accepted: 127.0.0.1::59886
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Session started successfully for user np31 on display 10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48252]: [INFO ] Starting the xrdp channel server for display 10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48228]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Session in progress on display 10, waiting until the window manager (pid 48228) exits to end the session
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48228]: [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC tcp connected
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: SConnection: Client needs protocol version 3.3
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC password ok
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC sending share flag
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC receiving server init
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC receiving pixel format
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC receiving name length
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC receiving name
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC sending pixel format
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC sending cursor
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC connection complete, connected ok
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] connected ok
+messages:Nov 13 15:18:23 localhost xrdp-chansrv[48252]: [INFO ] Socket 12: AF_UNIX connection received
+messages:Nov 13 15:18:23 localhost xrdp[48177]: [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [WARN ] Window manager (pid 48228, display 10) exited quickly (0 secs). This could indicate a window manager config problem
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Calling auth_stop_session and auth_end from pid 48227
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Terminating X server (pid 48229) on display 10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] Terminating the xrdp channel server (pid 48252) on display 10
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: VNCSConnST:  closing 127.0.0.1::59886: Server shutdown
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager: Framebuffer updates: 1
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager:   Raw:
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager:     Solid: 12 rects, 786.432 kpixels
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager:            3.00014 MiB (1:1 ratio)
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager:   Total: 12 rects, 786.432 kpixels
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: EncodeManager:          3.00014 MiB (1:1 ratio)
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: ComparingUpdateTracker: 0 pixels in / 0 pixels out
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: ComparingUpdateTracker: (1:-nan ratio)
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: Global configuration:
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]:    UseUnixSocket (derived):   true
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: Security configuration:
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]:    RestrictOutboundClipboard: false
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: Chansrv configuration:
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]:    EnableFuseMount            true
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]:    FuseMountName:             thinclient_drives
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]:    FileMask:                  077
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: chansrv::main: using log file [/home/np31/.local/share/xrdp/xrdp-chansrv.10.log]
+messages:Nov 13 15:18:23 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 54250
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] X server on display 10 (pid 48229) returned exit code 0 and signal number 0
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] xrdp channel server for display 10 (pid 48252) exit code 0 and signal number 0
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48227]: [INFO ] cleanup_sockets:
+messages:Nov 13 15:18:23 localhost xrdp-sesman[48013]: [INFO ] ++ terminated session:  username np31, display :10.0, session_pid 48227, ip 192.168.137.9:31648 - socket: 12
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] TLS connection established from 192.168.137.9 port 54250: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:18:23 localhost xrdp[48370]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:21:05 localhost xrdp[48370]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+messages:Nov 13 15:21:05 localhost xrdp-sesman[48013]: [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58558
+messages:Nov 13 15:21:05 localhost xrdp[48370]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+messages:Nov 13 15:21:05 localhost xrdp[48370]: [INFO ] sesman connect ok
+messages:Nov 13 15:21:05 localhost xrdp[48370]: [INFO ] sending login info to session manager, please wait...
+messages:Nov 13 15:21:07 localhost xrdp-sesman[48013]: [ERROR] pam_authenticate failed: Authentication failure
+messages:Nov 13 15:21:07 localhost xrdp-sesman[48013]: [INFO ] Username or password error for user: n3
+messages:Nov 13 15:21:07 localhost xrdp-sesman[48013]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 13 15:21:07 localhost xrdp[48370]: [INFO ] xrdp_wm_log_msg: login failed for display 0
+messages:Nov 13 15:21:07 localhost xrdp[48370]: [INFO ] login failed for display 0
+messages:Nov 13 15:21:07 localhost xrdp-sesman[48013]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 13 15:24:49 localhost xrdp[48370]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+messages:Nov 13 15:24:49 localhost xrdp-sesman[48013]: [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58564
+messages:Nov 13 15:24:49 localhost xrdp[48370]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+messages:Nov 13 15:24:49 localhost xrdp[48370]: [INFO ] sesman connect ok
+messages:Nov 13 15:24:49 localhost xrdp[48370]: [INFO ] sending login info to session manager, please wait...
+messages:Nov 13 15:24:51 localhost xrdp-sesman[48013]: [ERROR] pam_authenticate failed: Authentication failure
+messages:Nov 13 15:24:51 localhost xrdp-sesman[48013]: [INFO ] Username or password error for user: n2
+messages:Nov 13 15:24:51 localhost xrdp-sesman[48013]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 13 15:24:51 localhost xrdp[48370]: [INFO ] xrdp_wm_log_msg: login failed for display 0
+messages:Nov 13 15:24:51 localhost xrdp[48370]: [INFO ] login failed for display 0
+messages:Nov 13 15:24:51 localhost xrdp-sesman[48013]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 13 15:25:04 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 51202
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] TLS connection established from 192.168.137.9 port 51202: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:25:04 localhost xrdp[48706]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:25:05 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 27378
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] TLS connection established from 192.168.137.9 port 27378: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:25:05 localhost xrdp[48707]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:25:06 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 44585
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] TLS connection established from 192.168.137.9 port 44585: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:25:06 localhost xrdp[48708]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:25:06 localhost xrdp[48014]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 29226
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] TLS connection established from 192.168.137.9 port 29226: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:25:06 localhost xrdp[48709]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 13 15:25:09 localhost xrdp[48709]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 13 15:27:37 localhost systemd[1]: Started xrdp session manager.
+messages:Nov 13 15:27:37 localhost systemd[1]: Started xrdp daemon.
+messages:Nov 13 15:27:38 localhost xrdp-sesman[959]: [INFO ] starting xrdp-sesman with pid 959
+messages:Nov 13 15:27:39 localhost xrdp[960]: [INFO ] starting xrdp with pid 960
+messages:Nov 13 15:27:39 localhost xrdp[960]: [INFO ] address [0.0.0.0] port [3389] mode 1
+messages:Nov 13 15:27:39 localhost xrdp[960]: [INFO ] listening to port 3389 on 0.0.0.0
+messages:Nov 13 15:27:39 localhost xrdp[960]: [INFO ] xrdp_listen_pp done
+messages:Nov 13 15:30:04 localhost xrdp[960]: [INFO ] Socket 12: AF_INET connection received from 192.168.137.9 port 39111
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] Connected client computer name: FBSDaRocky
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] TLS connection established from 192.168.137.9 port 39111: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 13 15:30:04 localhost xrdp[2497]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 48888
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] sesman connect ok
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] sending login info to session manager, please wait...
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] Terminal Server Users group is disabled, allowing authentication
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] ++ created session (access granted): username nik-rdp, ip 192.168.137.9:39111 - socket: 12
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] Starting session: session_pid 2498, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:39111 - socket: 12, user name nik-rdp
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2498]: [INFO ] [session start] (display 10): calling auth_start_session from pid 2498
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] login successful for display 10
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 13 15:30:15 localhost systemd-logind[915]: New session c2 of user nik-rdp.
+messages:Nov 13 15:30:15 localhost systemd[1]: Started Session c2 of user nik-rdp.
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] VNC started connecting
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] VNC connecting to 127.0.0.1 5910
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: xauth:  file .Xauthority does not exist
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2520]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Copyright (C) 1999-2020 TigerVNC Team and many others (see README.rst)
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Underlying X server release 12010000, The X.Org Foundation
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Sat Nov 13 15:30:15 2021
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      VNC extension running!
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      created VNC server for screen 0
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2498]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2498]: [INFO ] Session started successfully for user nik-rdp on display 10
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2562]: [INFO ] Starting the xrdp channel server for display 10
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2498]: [INFO ] Session in progress on display 10, waiting until the window manager (pid 2519) exits to end the session
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2519]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:30:15 localhost pulseaudio[2517]: Failed to open cookie file '/home/nik-rdp/.config/pulse/cookie': No existe el fichero o el directorio
+messages:Nov 13 15:30:15 localhost pulseaudio[2517]: Failed to load authentication key '/home/nik-rdp/.config/pulse/cookie': No existe el fichero o el directorio
+messages:Nov 13 15:30:15 localhost pulseaudio[2517]: Failed to open cookie file '/home/nik-rdp/.pulse-cookie': No existe el fichero o el directorio
+messages:Nov 13 15:30:15 localhost pulseaudio[2517]: Failed to load authentication key '/home/nik-rdp/.pulse-cookie': No existe el fichero o el directorio
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2519]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: Sat Nov 13 15:30:16 2021
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: Connections: accepted: 127.0.0.1::34468
+messages:Nov 13 15:30:16 localhost xrdp-sesman[2519]: [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC tcp connected
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: SConnection: Client needs protocol version 3.3
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC security level is 2 (1 = none, 2 = standard)
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC password ok
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC sending share flag
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC receiving server init
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC receiving pixel format
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC receiving name length
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC receiving name
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC sending pixel format
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC sending cursor
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC connection complete, connected ok
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] VNC: Clipboard (if available) is provided by chansrv facility
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] connected ok
+messages:Nov 13 15:30:16 localhost xrdp[2497]: [INFO ] Layout from OldLayout (geom=1024x768 #screens=1) : 1804289383:(1024x768+0+0)
+messages:Nov 13 15:30:16 localhost xrdp-chansrv[2562]: [INFO ] Socket 12: AF_UNIX connection received
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: ComparingUpdateTracker: 0 pixels in / 0 pixels out
+messages:Nov 13 15:30:16 localhost xrdp-sesman[959]: ComparingUpdateTracker: (1:-nan ratio)
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 13 15:32:05 localhost xrdp[2497]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: Sat Nov 13 15:32:05 2021
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: VNCSConnST:  closing 127.0.0.1::34468: Clean disconnection
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager: Framebuffer updates: 34
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:   Raw:
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:     Solid: 38 rects, 2.30286 Mpixels
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:            8.78516 MiB (1:1 ratio)
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:     Bitmap RLE: 12 rects, 6.616 kpixels
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:                 25.9844 KiB (1:1 ratio)
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:     Indexed RLE: 81 rects, 1.65433 Mpixels
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:                  6.31168 MiB (1:1 ratio)
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:     Full Colour: 21 rects, 187.212 kpixels
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:                  731.543 KiB (1:1 ratio)
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:   Total: 152 rects, 4.15102 Mpixels
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: EncodeManager:          15.8366 MiB (1:1 ratio)
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: TcpSocket:   unable to get peer name for socket
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: Connections: closed: ::0
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: ComparingUpdateTracker: 10.0101 Mpixels in / 2.57815 Mpixels out
+messages:Nov 13 15:32:05 localhost xrdp-sesman[959]: ComparingUpdateTracker: (1:3.88266 ratio)
+messages:Nov 13 15:32:05 localhost systemd[1]: home-nik\x2drdp-thinclient_drives.mount: Succeeded.
+messages:Nov 13 15:32:05 localhost systemd[1704]: home-nik\x2drdp-thinclient_drives.mount: Succeeded.
+messages:Nov 13 15:32:05 localhost systemd[2500]: home-nik\x2drdp-thinclient_drives.mount: Succeeded.
+messages:Nov 13 15:47:53 localhost systemd[1]: Started xrdp session manager.
+messages:Nov 13 15:47:53 localhost systemd[1]: Started xrdp daemon.
+messages:Nov 13 15:47:54 localhost xrdp-sesman[992]: [INFO ] starting xrdp-sesman with pid 992
+messages:Nov 13 15:47:54 localhost xrdp[993]: [INFO ] starting xrdp with pid 993
+messages:Nov 13 15:47:54 localhost xrdp[993]: [INFO ] address [0.0.0.0] port [3389] mode 1
+messages:Nov 13 15:47:54 localhost xrdp[993]: [INFO ] listening to port 3389 on 0.0.0.0
+messages:Nov 13 15:47:54 localhost xrdp[993]: [INFO ] xrdp_listen_pp done
+messages:Nov 13 17:32:25 localhost named[948]: validating drive-thirdparty.googleusercontent.com/CNAME: bad cache hit (googleusercontent.com/DS)
+messages:Nov 13 17:32:25 localhost named[948]: broken trust chain resolving 'drive-thirdparty.googleusercontent.com/AAAA/IN': 216.239.36.10#53
+messages:Nov 13 17:32:25 localhost named[948]: validating drive-thirdparty.googleusercontent.com/CNAME: bad cache hit (googleusercontent.com/DS)
+messages:Nov 13 17:32:25 localhost named[948]: broken trust chain resolving 'drive-thirdparty.googleusercontent.com/A/IN': 216.239.36.10#53
+secure:Nov 13 15:17:32 localhost xrdp-sesman[48022]: pam_unix(xrdp-sesman:session): session opened for user np31 by (uid=0)
+secure:Nov 13 15:17:38 localhost xrdp-sesman[48022]: pam_unix(xrdp-sesman:session): session closed for user np31
+secure:Nov 13 15:18:22 localhost xrdp-sesman[48227]: pam_unix(xrdp-sesman:session): session opened for user np31 by (uid=0)
+secure:Nov 13 15:18:23 localhost xrdp-sesman[48227]: pam_unix(xrdp-sesman:session): session closed for user np31
+secure:Nov 13 15:21:05 localhost xrdp-sesman[48013]: pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=0 euid=0 tty=xrdp-sesman ruser= rhost=  user=n3
+secure:Nov 13 15:24:49 localhost xrdp-sesman[48013]: pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=0 euid=0 tty=xrdp-sesman ruser= rhost=  user=n2
+secure:Nov 13 15:29:33 localhost useradd[2472]: new group: name=nik-rdp, GID=1006
+secure:Nov 13 15:29:33 localhost useradd[2472]: new user: name=nik-rdp, UID=1006, GID=1006, home=/home/nik-rdp, shell=/bin/bash
+secure:Nov 13 15:29:43 localhost passwd[2485]: pam_unix(passwd:chauthtok): password changed for nik-rdp
+secure:Nov 13 15:30:15 localhost systemd[2500]: pam_unix(systemd-user:session): session opened for user nik-rdp by (uid=0)
+secure:Nov 13 15:30:15 localhost xrdp-sesman[2498]: pam_unix(xrdp-sesman:session): session opened for user nik-rdp by (uid=0)
+xrdp.log:[20211113-15:17:01] [INFO ] starting xrdp with pid 48014
+xrdp.log:[20211113-15:17:01] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211113-15:17:09] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:17:09] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:17:11] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:17:11] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:17:11] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:17:11] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:17:11] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:17:32] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211113-15:17:32] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211113-15:17:38] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:17:38] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:17:38] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:17:38] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:17:38] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:17:38] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:17:38] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:18:22] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211113-15:18:22] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211113-15:18:23] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:18:23] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:18:23] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:18:23] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:18:23] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:18:23] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:18:23] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:21:05] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211113-15:21:07] [INFO ] xrdp_wm_log_msg: login failed for display 0
+xrdp.log:[20211113-15:24:49] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211113-15:24:51] [INFO ] xrdp_wm_log_msg: login failed for display 0
+xrdp.log:[20211113-15:25:04] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:25:04] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:25:04] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:25:04] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:25:04] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:25:04] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:25:04] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:25:05] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:25:05] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:25:05] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:25:05] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:25:05] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:25:05] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:25:05] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:25:06] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:25:06] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:25:06] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:25:06] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:25:06] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:25:06] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:25:06] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:25:06] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:25:06] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:25:09] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+xrdp.log:[20211113-15:25:09] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+xrdp.log:[20211113-15:25:09] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+xrdp.log:[20211113-15:25:09] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+xrdp.log:[20211113-15:27:39] [INFO ] starting xrdp with pid 960
+xrdp.log:[20211113-15:27:39] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211113-15:30:04] [INFO ] Using default X.509 certificate: /etc/xrdp/cert.pem
+xrdp.log:[20211113-15:30:04] [INFO ] Using default X.509 key file: /etc/xrdp/key.pem
+xrdp.log:[20211113-15:30:04] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211113-15:30:04] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211113-15:30:04] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211113-15:30:04] [INFO ] Loading keymap file /etc/xrdp/km-00000409.ini
+xrdp.log:[20211113-15:30:04] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211113-15:30:15] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211113-15:30:15] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211113-15:32:05] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+xrdp.log:[20211113-15:32:05] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+xrdp.log:[20211113-15:32:05] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+xrdp.log:[20211113-15:32:05] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+xrdp.log:[20211113-15:47:54] [INFO ] starting xrdp with pid 993
+xrdp.log:[20211113-15:47:54] [INFO ] xrdp_listen_pp done
+xrdp-sesman.log:[20211113-15:17:01] [INFO ] starting xrdp-sesman with pid 48013
+xrdp-sesman.log:[20211113-15:17:33] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+xrdp-sesman.log:[20211113-15:17:33] [INFO ] Starting the xrdp channel server for display 10
+xrdp-sesman.log:[20211113-15:17:38] [INFO ] Terminating the xrdp channel server (pid 48039) on display 10
+xrdp-sesman.log:[20211113-15:17:38] [INFO ] xrdp channel server for display 10 (pid 48039) exit code 0 and signal number 0
+xrdp-sesman.log:[20211113-15:18:23] [INFO ] Starting the xrdp channel server for display 10
+xrdp-sesman.log:[20211113-15:18:23] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+xrdp-sesman.log:[20211113-15:18:23] [INFO ] Terminating the xrdp channel server (pid 48252) on display 10
+xrdp-sesman.log:[20211113-15:18:23] [INFO ] xrdp channel server for display 10 (pid 48252) exit code 0 and signal number 0
+xrdp-sesman.log:[20211113-15:27:38] [INFO ] starting xrdp-sesman with pid 959
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] ++ created session (access granted): username nik-rdp, ip 192.168.137.9:39111 - socket: 12
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] Starting session: session_pid 2498, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:39111 - socket: 12, user name nik-rdp
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] Session started successfully for user nik-rdp on display 10
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] Starting the xrdp channel server for display 10
+xrdp-sesman.log:[20211113-15:30:16] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+xrdp-sesman.log:[20211113-15:47:03] [INFO ] Terminating the xrdp channel server (pid 2562) on display 10
+xrdp-sesman.log:[20211113-15:47:03] [INFO ] xrdp channel server for display 10 (pid 2562) exit code 255 and signal number 1
+xrdp-sesman.log:[20211113-15:47:54] [INFO ] starting xrdp-sesman with pid 992

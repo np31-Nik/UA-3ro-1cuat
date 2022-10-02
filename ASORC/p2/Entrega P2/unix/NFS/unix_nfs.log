@@ -1,0 +1,62 @@
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_HOST -> nfsHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_PATH -> nfsPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_SECURE -> nfs_reserved_port_only
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_TCP -> nfs_use_tcp
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_NFS_V3 -> nfs_use_v3
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_reserved_port_only] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_tcp] value=[NO] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[nfs_use_v3] value=[YES] r=0
+daemon.log:Nov 12 00:26:47 freebsd nfsd[1888]: Can't read stable storage file: Operation not permitted
+messages:Nov 11 21:54:09 freebsd pkg[2196]: libnfs-4.0.0_1 installed
+messages:Nov 12 00:26:47 freebsd nfsd[1888]: Can't read stable storage file: Operation not permitted
+mount.today:zroot			/zroot			zfs	rw,noatime,nfsv4acls 	0 0
+mount.today:zroot/ROOT/default	/			zfs	rw,noatime,nfsv4acls 	0 0
+mount.today:zroot/tmp		/tmp			zfs	rw,nosuid,noatime,nfsv4acls 	0 0
+mount.today:zroot/usr/home		/usr/home		zfs	rw,noatime,nfsv4acls 	0 0
+mount.today:zroot/usr/ports		/usr/ports		zfs	rw,nosuid,noatime,nfsv4acls 	0 0
+mount.today:zroot/usr/src		/usr/src		zfs	rw,noatime,nfsv4acls 	0 0
+mount.today:zroot/var/audit		/var/audit		zfs	rw,noexec,nosuid,noatime,nfsv4acls 	0 0
+mount.today:zroot/var/crash		/var/crash		zfs	rw,noexec,nosuid,noatime,nfsv4acls 	0 0
+mount.today:zroot/var/log		/var/log		zfs	rw,noexec,nosuid,noatime,nfsv4acls 	0 0
+mount.today:zroot/var/mail		/var/mail		zfs	rw,nfsv4acls 	0 0
+mount.today:zroot/var/tmp		/var/tmp		zfs	rw,nosuid,noatime,nfsv4acls 	0 0

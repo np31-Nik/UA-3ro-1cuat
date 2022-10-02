@@ -1,0 +1,603 @@
+anaconda/syslog:17:33:02,796 DEBUG NetworkManager:<debug> [1632331982.7963] dhcp-init: enabled DHCP client 'dhclient' (not available)
+anaconda/syslog:17:33:02,796 DEBUG NetworkManager:<debug> [1632331982.7963] dhcp-init: enabled DHCP client 'internal'
+anaconda/syslog:17:33:02,796 DEBUG NetworkManager:<debug> [1632331982.7963] dhcp-init: enabled DHCP client 'systemd' (undocumented internal plugin)
+anaconda/syslog:17:33:02,796 DEBUG NetworkManager:<debug> [1632331982.7963] dhcp-init: enabled DHCP client 'nettools' (undocumented internal plugin)
+anaconda/syslog:17:33:02,796 INFO NetworkManager:<info>  [1632331982.7963] dhcp-init: Using DHCP client 'internal'
+anaconda/syslog:17:33:18,607 WARNING org.fedoraproject.Anaconda.Modules.Network:DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/syslog:18:01:58,067 WARNING org.fedoraproject.Anaconda.Modules.Network:DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/syslog:18:01:58,069 WARNING org.fedoraproject.Anaconda.Modules.Network:DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/syslog:18:01:59,146 WARNING org.fedoraproject.Anaconda.Modules.Network:DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/syslog:18:01:59,147 WARNING org.fedoraproject.Anaconda.Modules.Network:DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/packaging.log:19:47:58,130 INF packaging: Installed: dhcp-common-12:4.3.6-44.el8_4.1.noarch 1623370474 07528bf3c775ff4e4b77a91611efaf6bb28c01f31e9ffb9949fff8d587e54a31
+anaconda/packaging.log:19:52:23,688 INF packaging: Installed: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64 1623370467 4f83e10ac30a16b28c2f468fcf87bcaa237054a40bff0995a5dbaa1cbff614ef
+anaconda/packaging.log:19:52:23,707 INF packaging: Installed: dhcp-client-12:4.3.6-44.el8_4.1.x86_64 1623370467 90cd2206d2b5f4903eddcef2b3976d9055c31d0dc0d735bcfb52e777093b1316
+anaconda/packaging.log:20:01:07,632 INF packaging: Verifying: dhcp-client-12:4.3.6-44.el8_4.1.x86_64 1623370467 90cd2206d2b5f4903eddcef2b3976d9055c31d0dc0d735bcfb52e777093b1316
+anaconda/packaging.log:20:01:07,632 INF packaging: Verifying: dhcp-common-12:4.3.6-44.el8_4.1.noarch 1623370474 07528bf3c775ff4e4b77a91611efaf6bb28c01f31e9ffb9949fff8d587e54a31
+anaconda/packaging.log:20:01:07,671 INF packaging: Verifying: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64 1623370467 4f83e10ac30a16b28c2f468fcf87bcaa237054a40bff0995a5dbaa1cbff614ef
+anaconda/packaging.log:20:01:10,023 DBG dnf: Installed: dhcp-client-12:4.3.6-44.el8_4.1.x86_64
+anaconda/packaging.log:20:01:10,023 DBG dnf: Installed: dhcp-common-12:4.3.6-44.el8_4.1.noarch
+anaconda/packaging.log:20:01:10,023 DBG dnf: Installed: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64
+anaconda/journal.log:Sep 22 17:33:02 localhost NetworkManager[1640]: <debug> [1632331982.7963] dhcp-init: enabled DHCP client 'dhclient' (not available)
+anaconda/journal.log:Sep 22 17:33:02 localhost NetworkManager[1640]: <debug> [1632331982.7963] dhcp-init: enabled DHCP client 'internal'
+anaconda/journal.log:Sep 22 17:33:02 localhost NetworkManager[1640]: <debug> [1632331982.7963] dhcp-init: enabled DHCP client 'systemd' (undocumented internal plugin)
+anaconda/journal.log:Sep 22 17:33:02 localhost NetworkManager[1640]: <debug> [1632331982.7963] dhcp-init: enabled DHCP client 'nettools' (undocumented internal plugin)
+anaconda/journal.log:Sep 22 17:33:02 localhost NetworkManager[1640]: <info>  [1632331982.7963] dhcp-init: Using DHCP client 'internal'
+anaconda/journal.log:Sep 22 17:33:18 localhost org.fedoraproject.Anaconda.Modules.Network[1741]: DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/journal.log:Sep 22 17:47:58 localhost anaconda[1716]: packaging: Installed: dhcp-common-12:4.3.6-44.el8_4.1.noarch 1623370474 07528bf3c775ff4e4b77a91611efaf6bb28c01f31e9ffb9949fff8d587e54a31
+anaconda/journal.log:Sep 22 17:52:23 localhost anaconda[1716]: packaging: Installed: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64 1623370467 4f83e10ac30a16b28c2f468fcf87bcaa237054a40bff0995a5dbaa1cbff614ef
+anaconda/journal.log:Sep 22 17:52:23 localhost anaconda[1716]: packaging: Installed: dhcp-client-12:4.3.6-44.el8_4.1.x86_64 1623370467 90cd2206d2b5f4903eddcef2b3976d9055c31d0dc0d735bcfb52e777093b1316
+anaconda/journal.log:Sep 22 17:56:25 localhost dracut[6381]: -rwxr-xr-x   1 root     root          816 May 19 04:30 usr/lib/dracut/hooks/cmdline/91-dhcp-root.sh
+anaconda/journal.log:Sep 22 17:56:30 localhost dracut[6381]: -rwxr-xr-x   1 root     root        16528 May 19 04:25 usr/libexec/nm-dhcp-helper
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root          816 May 19 04:30 usr/lib/dracut/hooks/cmdline/91-dhcp-root.sh
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: -rwxr-xr-x   1 root     root        16528 May 19 04:25 usr/libexec/nm-dhcp-helper
+anaconda/journal.log:Sep 22 17:58:58 localhost dracut[30794]: -rwxr-xr-x   1 root     root          816 May 19 04:30 usr/lib/dracut/hooks/cmdline/91-dhcp-root.sh
+anaconda/journal.log:Sep 22 17:59:03 localhost dracut[30794]: -rwxr-xr-x   1 root     root        16528 May 19 04:25 usr/libexec/nm-dhcp-helper
+anaconda/journal.log:Sep 22 18:00:50 localhost dracut[41453]: -rwxr-xr-x   1 root     root          816 May 19 04:30 usr/lib/dracut/hooks/cmdline/91-dhcp-root.sh
+anaconda/journal.log:Sep 22 18:00:55 localhost dracut[41453]: -rwxr-xr-x   1 root     root        16528 May 19 04:25 usr/libexec/nm-dhcp-helper
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: dhcp-client-12:4.3.6-44.el8_4.1.x86_64 1623370467 90cd2206d2b5f4903eddcef2b3976d9055c31d0dc0d735bcfb52e777093b1316
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: dhcp-common-12:4.3.6-44.el8_4.1.noarch 1623370474 07528bf3c775ff4e4b77a91611efaf6bb28c01f31e9ffb9949fff8d587e54a31
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64 1623370467 4f83e10ac30a16b28c2f468fcf87bcaa237054a40bff0995a5dbaa1cbff614ef
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: dhcp-client-12:4.3.6-44.el8_4.1.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: dhcp-common-12:4.3.6-44.el8_4.1.noarch
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: dhcp-libs-12:4.3.6-44.el8_4.1.x86_64
+anaconda/journal.log:Sep 22 18:01:58 localhost org.fedoraproject.Anaconda.Modules.Network[1741]: DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/journal.log:Sep 22 18:01:58 localhost org.fedoraproject.Anaconda.Modules.Network[1741]: DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/journal.log:Sep 22 18:01:59 localhost org.fedoraproject.Anaconda.Modules.Network[1741]: DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/journal.log:Sep 22 18:01:59 localhost org.fedoraproject.Anaconda.Modules.Network[1741]: DEBUG:anaconda.modules.network.network:BOOTPROTO=dhcp
+anaconda/journal.log:Sep 22 18:02:42 localhost dracut[52074]: -rwxr-xr-x   1 root     root          816 May 19 04:30 usr/lib/dracut/hooks/cmdline/91-dhcp-root.sh
+anaconda/journal.log:Sep 22 18:02:47 localhost dracut[52074]: -rwxr-xr-x   1 root     root        16528 May 19 04:25 usr/libexec/nm-dhcp-helper
+audit/audit.log:type=ADD_GROUP msg=audit(1636816036.159:170): pid=2915 uid=0 auid=1000 ses=3 msg='op=add-group id=177 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31" ID="dhcpd"
+audit/audit.log:type=GRP_MGMT msg=audit(1636816036.482:171): pid=2915 uid=0 auid=1000 ses=3 msg='op=add-shadow-group id=177 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31" ID="dhcpd"
+audit/audit.log:type=ADD_USER msg=audit(1636816037.737:172): pid=2923 uid=0 auid=1000 ses=3 msg='op=add-user acct="dhcpd" exe="/usr/sbin/useradd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636816044.432:174): pid=2909 uid=0 auid=1000 ses=3 msg='op=install sw="dhcp-server-12:4.3.6-44.el8_4.1.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636816610.189:183): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636816663.789:184): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636816663.825:185): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=dhcpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+dnf.librepo.log:2021-11-13T16:07:12+0100 INFO Downloading: http://mirror.lshiy.com/rocky/8.4/BaseOS/x86_64/os/Packages/dhcp-server-4.3.6-44.el8_4.1.x86_64.rpm
+dnf.log:2021-11-13T16:06:25+0100 DDEBUG Command: yum install dhcp 
+dnf.log:2021-11-13T16:06:25+0100 DDEBUG Extra commands: ['install', 'dhcp']
+dnf.log:2021-11-13T16:06:29+0100 INFO No hay coincidencias para el argumento: [1mdhcp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:06:29+0100 CRITICAL Error: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:06:35+0100 DDEBUG Command: dnf -y install dhcp 
+dnf.log:2021-11-13T16:06:35+0100 DDEBUG Extra commands: ['-y', 'install', 'dhcp']
+dnf.log:2021-11-13T16:06:36+0100 INFO No hay coincidencias para el argumento: [1mdhcp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:06:36+0100 CRITICAL Error: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:06:50+0100 DDEBUG Command: yum install dhcp 
+dnf.log:2021-11-13T16:06:50+0100 DDEBUG Extra commands: ['install', 'dhcp']
+dnf.log:2021-11-13T16:06:51+0100 INFO No hay coincidencias para el argumento: [1mdhcp(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:06:51+0100 CRITICAL Error: No se pudo encontrar ningún resultado: dhcp
+dnf.log:2021-11-13T16:07:06+0100 DDEBUG Command: dnf -y install dhcp-server 
+dnf.log:2021-11-13T16:07:06+0100 DDEBUG Extra commands: ['-y', 'install', 'dhcp-server']
+dnf.log:2021-11-13T16:07:08+0100 DEBUG ---> Paquete dhcp-server.x86_64 12:4.3.6-44.el8_4.1 seleccionado para instalar
+dnf.log: [1m[32mdhcp-server        (B[m x86_64         12:4.3.6-44.el8_4.1           baseos         529 k
+dnf.log:2021-11-13T16:07:25+0100 DEBUG Instalado: dhcp-server-12:4.3.6-44.el8_4.1.x86_64
+dnf.log:2021-11-13T16:07:25+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/dhcp-server-4.3.6-44.el8_4.1.x86_64.rpm eliminado
+dnf.rpm.log:2021-11-13T16:07:15+0100 SUBDEBUG Installed: dhcp-server-12:4.3.6-44.el8_4.1.x86_64
+historylinux.txt:  196  yum install dhcp
+historylinux.txt:  197  dnf -y install dhcp
+historylinux.txt:  199  yum install dhcp
+historylinux.txt:  200  dnf -y install dhcp-server
+historylinux.txt:  201  nano /etc/dhcp/dhcpd.conf 
+historylinux.txt:  202  systemctl enable --now dhcpd
+historylinux.txt:  203  systemctl status dhcpd
+historylinux.txt:  204  systemctl restart dhcpd
+historylinux.txt:  205  systemctl status dhcpd
+historylinux.txt:  206  cat /var/lib/dhcpd/dhcpd.leases
+historylinux.txt:  207  nano /etc/dhcp/dhcpd.conf 
+historylinux.txt:  277  ls /etc/dhcp/
+historylinux.txt:  278  cp /etc/dhcp/dhcpd.conf /home/np31/Escritorio/linux/dhcp/
+messages:Nov 13 15:14:16 localhost NetworkManager[868]: <info>  [1636812856.8632] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 15:19:16 localhost NetworkManager[868]: <info>  [1636813156.8791] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 15:24:16 localhost NetworkManager[868]: <info>  [1636813456.8851] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 15:27:36 localhost NetworkManager[862]: <info>  [1636813656.0512] dhcp-init: Using DHCP client 'internal'
+messages:Nov 13 15:27:36 localhost NetworkManager[862]: <info>  [1636813656.6046] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages:Nov 13 15:27:36 localhost NetworkManager[862]: <info>  [1636813656.8966] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages:Nov 13 15:27:49 localhost dnsmasq-dhcp[1351]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages:Nov 13 15:27:49 localhost dnsmasq-dhcp[1351]: DHCP, sockets bound exclusively to interface virbr0
+messages:Nov 13 15:27:49 localhost dnsmasq-dhcp[1351]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages:Nov 13 15:32:36 localhost NetworkManager[862]: <info>  [1636813956.7557] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages:Nov 13 15:33:49 localhost NetworkManager[862]: <info>  [1636814029.4706] dhcp4 (enp0s3): canceled DHCP transaction
+messages:Nov 13 15:33:49 localhost NetworkManager[862]: <info>  [1636814029.4706] dhcp4 (enp0s3): state changed extended -> done
+messages:Nov 13 15:33:49 localhost NetworkManager[862]: <info>  [1636814029.4708] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages:Nov 13 15:33:50 localhost NetworkManager[862]: <info>  [1636814030.1073] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages:Nov 13 15:38:49 localhost NetworkManager[862]: <info>  [1636814329.9683] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages:Nov 13 15:43:49 localhost NetworkManager[862]: <info>  [1636814629.4956] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 15:44:24 localhost NetworkManager[862]: <info>  [1636814664.4338] dhcp4 (enp0s3): canceled DHCP transaction
+messages:Nov 13 15:44:24 localhost NetworkManager[862]: <info>  [1636814664.4339] dhcp4 (enp0s3): state changed extended -> done
+messages:Nov 13 15:44:31 localhost NetworkManager[862]: <info>  [1636814671.6189] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages:Nov 13 15:44:31 localhost NetworkManager[862]: <info>  [1636814671.6479] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages:Nov 13 15:47:51 localhost NetworkManager[865]: <info>  [1636814871.3077] dhcp-init: Using DHCP client 'internal'
+messages:Nov 13 15:47:52 localhost NetworkManager[865]: <info>  [1636814872.0016] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages:Nov 13 15:47:52 localhost NetworkManager[865]: <info>  [1636814872.2573] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages:Nov 13 15:48:06 localhost dnsmasq-dhcp[1368]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages:Nov 13 15:48:06 localhost dnsmasq-dhcp[1368]: DHCP, sockets bound exclusively to interface virbr0
+messages:Nov 13 15:48:06 localhost dnsmasq-dhcp[1368]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages:Nov 13 15:52:52 localhost NetworkManager[865]: <info>  [1636815172.1877] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages:Nov 13 15:57:52 localhost NetworkManager[865]: <info>  [1636815472.1749] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:02:52 localhost NetworkManager[865]: <info>  [1636815772.1990] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:07:53 localhost NetworkManager[865]: <info>  [1636816073.1841] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:12:52 localhost NetworkManager[865]: <info>  [1636816372.1868] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Internet Systems Consortium DHCP Server 4.3.6
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Copyright 2004-2017 Internet Systems Consortium.
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: All rights reserved.
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: For info, please visit https://www.isc.org/software/dhcp/
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: ldap_gssapi_principal is not set,GSSAPI Authentication for LDAP will not be used
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Config file: /etc/dhcp/dhcpd.conf
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Database file: /var/lib/dhcpd/dhcpd.leases
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: PID file: /var/run/dhcpd.pid
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Source compiled to use binary-leases
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Wrote 0 leases to leases file.
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: 
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: No subnet declaration for virbr0 (192.168.122.1).
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: ** Ignoring requests on virbr0.  If this is not what
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   you want, please write a subnet declaration
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   in your dhcpd.conf file for the network segment
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   to which interface virbr0 is attached. **
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: 
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Listening on LPF/enp0s8/08:00:27:9c:69:21/192.168.137.0/24
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Sending on   LPF/enp0s8/08:00:27:9c:69:21/192.168.137.0/24
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: 
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: No subnet declaration for enp0s3 (10.0.2.4).
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: ** Ignoring requests on enp0s3.  If this is not what
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   you want, please write a subnet declaration
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   in your dhcpd.conf file for the network segment
+messages:Nov 13 16:16:50 localhost dhcpd[3521]:   to which interface enp0s3 is attached. **
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: 
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Sending on   Socket/fallback/fallback-net
+messages:Nov 13 16:16:50 localhost dhcpd[3521]: Server starting service.
+messages:Nov 13 16:17:43 localhost systemd[1]: dhcpd.service: Succeeded.
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Internet Systems Consortium DHCP Server 4.3.6
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Copyright 2004-2017 Internet Systems Consortium.
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: All rights reserved.
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: For info, please visit https://www.isc.org/software/dhcp/
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: ldap_gssapi_principal is not set,GSSAPI Authentication for LDAP will not be used
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Not searching LDAP since ldap-server, ldap-port and ldap-base-dn were not specified in the config file
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Config file: /etc/dhcp/dhcpd.conf
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Database file: /var/lib/dhcpd/dhcpd.leases
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: PID file: /var/run/dhcpd.pid
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Source compiled to use binary-leases
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Wrote 0 leases to leases file.
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: 
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: No subnet declaration for virbr0 (192.168.122.1).
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: ** Ignoring requests on virbr0.  If this is not what
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   you want, please write a subnet declaration
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   in your dhcpd.conf file for the network segment
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   to which interface virbr0 is attached. **
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: 
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Listening on LPF/enp0s8/08:00:27:9c:69:21/192.168.137.0/24
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Sending on   LPF/enp0s8/08:00:27:9c:69:21/192.168.137.0/24
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: 
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: No subnet declaration for enp0s3 (10.0.2.4).
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: ** Ignoring requests on enp0s3.  If this is not what
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   you want, please write a subnet declaration
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   in your dhcpd.conf file for the network segment
+messages:Nov 13 16:17:43 localhost dhcpd[3546]:   to which interface enp0s3 is attached. **
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: 
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Sending on   Socket/fallback/fallback-net
+messages:Nov 13 16:17:43 localhost dhcpd[3546]: Server starting service.
+messages:Nov 13 16:17:52 localhost NetworkManager[865]: <info>  [1636816672.2039] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:18:19 localhost dhcpd[3546]: DHCPDISCOVER from 08:00:27:65:76:ee via enp0s8
+messages:Nov 13 16:18:20 localhost dhcpd[3546]: DHCPOFFER on 192.168.137.3 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:18:22 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.3 (192.168.137.222) from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:18:22 localhost dhcpd[3546]: DHCPACK on 192.168.137.3 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:20:09 localhost dhcpd[3546]: DHCPDISCOVER from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:20:09 localhost dhcpd[3546]: Abandoning IP address 192.168.137.3: pinged before offer
+messages:Nov 13 16:20:12 localhost dhcpd[3546]: DHCPDISCOVER from 08:00:27:65:76:ee via enp0s8
+messages:Nov 13 16:20:13 localhost dhcpd[3546]: DHCPOFFER on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:20:16 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 (192.168.137.222) from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:20:16 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:22:52 localhost NetworkManager[865]: <info>  [1636816972.2049] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:24:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:24:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:27:52 localhost NetworkManager[865]: <info>  [1636817272.2066] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:29:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:29:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:32:52 localhost NetworkManager[865]: <info>  [1636817572.2065] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:34:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:34:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:37:52 localhost NetworkManager[865]: <info>  [1636817872.2073] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:39:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:39:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:42:52 localhost NetworkManager[865]: <info>  [1636818172.2222] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:44:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:44:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:47:52 localhost NetworkManager[865]: <info>  [1636818472.2906] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:49:57 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:49:57 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:52:52 localhost NetworkManager[865]: <info>  [1636818772.3563] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:54:44 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:54:44 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:57:52 localhost NetworkManager[865]: <info>  [1636819072.3595] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 16:59:44 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 16:59:44 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:02:52 localhost NetworkManager[865]: <info>  [1636819372.3600] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:04:44 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:04:44 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:07:52 localhost NetworkManager[865]: <info>  [1636819672.3620] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:09:44 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:09:44 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:12:52 localhost NetworkManager[865]: <info>  [1636819972.3522] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:14:44 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:14:44 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:17:52 localhost NetworkManager[865]: <info>  [1636820272.3636] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:19:43 localhost dhcpd[3546]: Wrote 2 leases to leases file.
+messages:Nov 13 17:19:43 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:19:43 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:22:52 localhost NetworkManager[865]: <info>  [1636820572.3647] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:24:32 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:24:32 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:27:52 localhost NetworkManager[865]: <info>  [1636820872.3659] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:29:32 localhost dhcpd[3546]: DHCPREQUEST for 192.168.137.4 from 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:29:32 localhost dhcpd[3546]: DHCPACK on 192.168.137.4 to 08:00:27:65:76:ee (FBSDaRocky) via enp0s8
+messages:Nov 13 17:30:00 localhost NetworkManager[865]: <info>  [1636821000.3596] dhcp4 (enp0s3): canceled DHCP transaction
+messages:Nov 13 17:30:00 localhost NetworkManager[865]: <info>  [1636821000.3596] dhcp4 (enp0s3): state changed extended -> done
+messages:Nov 13 17:30:00 localhost NetworkManager[865]: <info>  [1636821000.3598] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages:Nov 13 17:30:00 localhost NetworkManager[865]: <info>  [1636821000.4219] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages:Nov 13 17:35:00 localhost NetworkManager[865]: <info>  [1636821300.3880] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages:Nov 13 17:40:00 localhost NetworkManager[865]: <info>  [1636821600.3798] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages:Nov 13 17:45:00 localhost NetworkManager[865]: <info>  [1636821900.5877] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Sep 22 20:04:24 localhost NetworkManager[1035]: <info>  [1632333864.1361] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Sep 22 20:04:31 localhost dnsmasq-dhcp[1432]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Sep 22 20:04:31 localhost dnsmasq-dhcp[1432]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Sep 22 20:04:31 localhost dnsmasq-dhcp[1432]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Sep 22 20:06:33 localhost NetworkManager[1035]: <info>  [1632333993.9786] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 22 20:06:33 localhost NetworkManager[1035]: <info>  [1632333993.9887] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Sep 22 20:09:05 localhost NetworkManager[1035]: <info>  [1632334145.2312] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 22 20:09:05 localhost NetworkManager[1035]: <info>  [1632334145.2443] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.56.101
+messages-20211113:Sep 22 20:11:34 localhost NetworkManager[1035]: <info>  [1632334294.0102] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Sep 22 20:14:05 localhost NetworkManager[1035]: <info>  [1632334445.3319] dhcp4 (enp0s8): state changed bound -> extended, address=192.168.56.101
+messages-20211113:Sep 22 20:16:34 localhost NetworkManager[1035]: <info>  [1632334594.0035] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Sep 22 20:19:41 localhost NetworkManager[981]: <info>  [1632334781.7342] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Sep 22 20:19:43 localhost NetworkManager[981]: <info>  [1632334783.5928] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 22 20:19:43 localhost NetworkManager[981]: <info>  [1632334783.6297] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 22 20:19:43 localhost NetworkManager[981]: <info>  [1632334783.6727] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Sep 22 20:19:43 localhost NetworkManager[981]: <info>  [1632334783.6944] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.56.101
+messages-20211113:Sep 22 20:19:47 localhost dnsmasq-dhcp[1388]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Sep 22 20:19:47 localhost dnsmasq-dhcp[1388]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Sep 22 20:19:47 localhost dnsmasq-dhcp[1388]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Sep 22 20:24:43 localhost NetworkManager[981]: <info>  [1632335083.6548] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Sep 22 20:24:43 localhost NetworkManager[981]: <info>  [1632335083.6901] dhcp4 (enp0s8): state changed bound -> extended, address=192.168.56.101
+messages-20211113:Sep 22 20:29:43 localhost NetworkManager[981]: <info>  [1632335383.6726] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Sep 22 20:29:43 localhost NetworkManager[981]: <info>  [1632335383.6863] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.56.101
+messages-20211113:Sep 27 10:27:52 localhost NetworkManager[983]: <info>  [1632731272.1473] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Sep 27 10:27:53 localhost NetworkManager[983]: <info>  [1632731273.9556] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 27 10:27:53 localhost NetworkManager[983]: <info>  [1632731273.9952] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Sep 27 10:27:54 localhost NetworkManager[983]: <info>  [1632731274.0150] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Sep 27 10:27:54 localhost NetworkManager[983]: <info>  [1632731274.0457] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.56.101
+messages-20211113:Sep 27 10:27:57 localhost dnsmasq-dhcp[1393]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Sep 27 10:27:57 localhost dnsmasq-dhcp[1393]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Sep 27 10:27:57 localhost dnsmasq-dhcp[1393]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Oct 20 17:24:50 localhost NetworkManager[992]: <info>  [1634743490.7079] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Oct 20 17:24:52 localhost NetworkManager[992]: <info>  [1634743492.1852] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 17:24:52 localhost NetworkManager[992]: <info>  [1634743492.2114] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 17:24:52 localhost NetworkManager[992]: <info>  [1634743492.2253] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 17:24:52 localhost NetworkManager[992]: <info>  [1634743492.2256] dhcp4 (enp0s8): state changed unknown -> expire
+messages-20211113:Oct 20 17:24:52 localhost NetworkManager[992]: <info>  [1634743492.2823] dhcp4 (enp0s8): state changed expire -> bound, address=192.168.137.4
+messages-20211113:Oct 20 17:24:55 localhost dnsmasq-dhcp[1409]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Oct 20 17:24:55 localhost dnsmasq-dhcp[1409]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Oct 20 17:24:55 localhost dnsmasq-dhcp[1409]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Oct 20 17:29:52 localhost NetworkManager[992]: <info>  [1634743792.2247] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:29:52 localhost NetworkManager[992]: <info>  [1634743792.2524] dhcp4 (enp0s8): state changed bound -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:34:52 localhost NetworkManager[992]: <info>  [1634744092.2194] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:34:52 localhost NetworkManager[992]: <info>  [1634744092.2447] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:39:52 localhost NetworkManager[992]: <info>  [1634744392.2194] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:39:52 localhost NetworkManager[992]: <info>  [1634744392.2493] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:44:52 localhost NetworkManager[992]: <info>  [1634744692.2369] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:44:52 localhost NetworkManager[992]: <info>  [1634744692.2483] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:49:52 localhost NetworkManager[992]: <info>  [1634744992.2394] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:49:52 localhost NetworkManager[992]: <info>  [1634744992.2617] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:54:52 localhost NetworkManager[992]: <info>  [1634745292.2400] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:54:52 localhost NetworkManager[992]: <info>  [1634745292.2568] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 17:59:52 localhost NetworkManager[992]: <info>  [1634745592.2522] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 17:59:52 localhost NetworkManager[992]: <info>  [1634745592.2582] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:04:52 localhost NetworkManager[992]: <info>  [1634745892.2512] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:04:52 localhost NetworkManager[992]: <info>  [1634745892.2577] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:09:52 localhost NetworkManager[992]: <info>  [1634746192.2707] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:09:52 localhost NetworkManager[992]: <info>  [1634746192.2804] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:14:52 localhost NetworkManager[992]: <info>  [1634746492.2796] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:14:52 localhost NetworkManager[992]: <info>  [1634746492.2883] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:19:52 localhost NetworkManager[992]: <info>  [1634746792.2714] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:19:52 localhost NetworkManager[992]: <info>  [1634746792.2796] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.0999] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.0999] dhcp4 (enp0s8): state changed extended -> done
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1001] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1004] dhcp4 (enp0s3): canceled DHCP transaction
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1004] dhcp4 (enp0s3): state changed extended -> done
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1005] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1160] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.137.4
+messages-20211113:Oct 20 18:21:34 localhost NetworkManager[992]: <info>  [1634746894.1373] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 18:26:34 localhost NetworkManager[992]: <info>  [1634747194.1473] dhcp4 (enp0s8): state changed bound -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:26:34 localhost NetworkManager[992]: <info>  [1634747194.5391] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:31:34 localhost NetworkManager[992]: <info>  [1634747494.5949] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:31:34 localhost NetworkManager[992]: <info>  [1634747494.6114] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:36:34 localhost NetworkManager[992]: <info>  [1634747794.1999] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:36:34 localhost NetworkManager[992]: <info>  [1634747794.2090] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:41:34 localhost NetworkManager[992]: <info>  [1634748094.1868] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:41:34 localhost NetworkManager[992]: <info>  [1634748094.1937] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:46:34 localhost NetworkManager[992]: <info>  [1634748394.2004] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:46:34 localhost NetworkManager[992]: <info>  [1634748394.2085] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:51:34 localhost NetworkManager[992]: <info>  [1634748694.4001] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:51:34 localhost NetworkManager[992]: <info>  [1634748694.4068] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 18:56:34 localhost NetworkManager[992]: <info>  [1634748994.4163] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 18:56:34 localhost NetworkManager[992]: <info>  [1634748994.4217] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:01:34 localhost NetworkManager[992]: <info>  [1634749294.4154] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:01:34 localhost NetworkManager[992]: <info>  [1634749294.4261] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:06:34 localhost NetworkManager[992]: <info>  [1634749594.5137] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:06:34 localhost NetworkManager[992]: <info>  [1634749594.5202] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:11:34 localhost NetworkManager[992]: <info>  [1634749894.5091] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:11:34 localhost NetworkManager[992]: <info>  [1634749894.5137] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:16:34 localhost NetworkManager[992]: <info>  [1634750194.5080] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:16:34 localhost NetworkManager[992]: <info>  [1634750194.5126] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:21:34 localhost NetworkManager[992]: <info>  [1634750494.5985] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:21:34 localhost NetworkManager[992]: <info>  [1634750494.6044] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:26:34 localhost NetworkManager[992]: <info>  [1634750794.5980] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:26:34 localhost NetworkManager[992]: <info>  [1634750794.6044] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:31:34 localhost NetworkManager[992]: <info>  [1634751094.6003] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:31:34 localhost NetworkManager[992]: <info>  [1634751094.6048] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:36:34 localhost NetworkManager[992]: <info>  [1634751394.6090] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:36:34 localhost NetworkManager[992]: <info>  [1634751394.6155] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:41:34 localhost NetworkManager[992]: <info>  [1634751694.5934] dhcp4 (enp0s8): state changed extended -> extended, address=192.168.137.4
+messages-20211113:Oct 20 19:41:34 localhost NetworkManager[992]: <info>  [1634751694.6005] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6558] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6558] dhcp4 (enp0s8): state changed extended -> done
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6563] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6570] dhcp4 (enp0s3): canceled DHCP transaction
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6570] dhcp4 (enp0s3): state changed extended -> done
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6574] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6611] dhcp4 (enp0s8): state changed unknown -> expire
+messages-20211113:Oct 20 19:42:37 localhost NetworkManager[992]: <info>  [1634751757.6873] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 19:42:38 localhost NetworkManager[992]: <info>  [1634751758.7494] dhcp4 (enp0s8): state changed expire -> bound, address=192.168.137.5
+messages-20211113:Oct 20 19:47:37 localhost NetworkManager[992]: <info>  [1634752057.7211] dhcp4 (enp0s8): state changed bound -> extended, address=192.168.137.5
+messages-20211113:Oct 20 19:47:37 localhost NetworkManager[992]: <info>  [1634752057.7343] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1109] dhcp4 (enp0s3): canceled DHCP transaction
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1110] dhcp4 (enp0s3): state changed extended -> done
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1126] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1145] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1145] dhcp4 (enp0s8): state changed extended -> done
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1157] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:49:05 localhost NetworkManager[992]: <info>  [1634752145.1949] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 19:49:50 localhost NetworkManager[992]: <warn>  [1634752190.5757] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 19:49:50 localhost NetworkManager[992]: <info>  [1634752190.5759] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 19:51:20 localhost NetworkManager[992]: <info>  [1634752280.5900] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:51:20 localhost NetworkManager[992]: <info>  [1634752280.5901] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 19:51:20 localhost NetworkManager[992]: <info>  [1634752280.7071] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:52:05 localhost NetworkManager[992]: <warn>  [1634752325.5758] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 19:52:05 localhost NetworkManager[992]: <info>  [1634752325.5759] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 19:52:05 localhost NetworkManager[992]: <info>  [1634752325.5843] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:52:05 localhost NetworkManager[992]: <info>  [1634752325.5843] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 19:52:05 localhost NetworkManager[992]: <info>  [1634752325.6153] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:52:50 localhost NetworkManager[992]: <warn>  [1634752370.5799] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 19:52:50 localhost NetworkManager[992]: <info>  [1634752370.5799] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 19:52:50 localhost NetworkManager[992]: <info>  [1634752370.5903] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:52:50 localhost NetworkManager[992]: <info>  [1634752370.5903] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 19:52:50 localhost NetworkManager[992]: <info>  [1634752370.6121] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:53:35 localhost NetworkManager[992]: <warn>  [1634752415.5788] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 19:53:35 localhost NetworkManager[992]: <info>  [1634752415.5788] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 19:53:35 localhost NetworkManager[992]: <info>  [1634752415.5896] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:53:35 localhost NetworkManager[992]: <info>  [1634752415.5896] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 19:54:05 localhost NetworkManager[992]: <info>  [1634752445.2720] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:58:35 localhost NetworkManager[992]: <info>  [1634752715.5923] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 19:59:05 localhost NetworkManager[992]: <info>  [1634752745.1371] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 19:59:20 localhost NetworkManager[992]: <warn>  [1634752760.5783] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 19:59:20 localhost NetworkManager[992]: <info>  [1634752760.5783] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 19:59:20 localhost NetworkManager[992]: <info>  [1634752760.5876] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 19:59:20 localhost NetworkManager[992]: <info>  [1634752760.5876] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 19:59:20 localhost NetworkManager[992]: <info>  [1634752760.6121] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:00:05 localhost NetworkManager[992]: <warn>  [1634752805.5753] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:00:05 localhost NetworkManager[992]: <info>  [1634752805.5754] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:00:05 localhost NetworkManager[992]: <info>  [1634752805.5842] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:00:05 localhost NetworkManager[992]: <info>  [1634752805.5843] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:00:05 localhost NetworkManager[992]: <info>  [1634752805.6159] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:00:50 localhost NetworkManager[992]: <warn>  [1634752850.5782] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:00:50 localhost NetworkManager[992]: <info>  [1634752850.5783] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:00:50 localhost NetworkManager[992]: <info>  [1634752850.5923] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:00:50 localhost NetworkManager[992]: <info>  [1634752850.5923] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:00:50 localhost NetworkManager[992]: <info>  [1634752850.6150] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:01:35 localhost NetworkManager[992]: <warn>  [1634752895.5808] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:01:35 localhost NetworkManager[992]: <info>  [1634752895.5810] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:01:35 localhost NetworkManager[992]: <info>  [1634752895.5885] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:01:35 localhost NetworkManager[992]: <info>  [1634752895.5885] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:04:05 localhost NetworkManager[992]: <info>  [1634753045.1393] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:06:35 localhost NetworkManager[992]: <info>  [1634753195.5990] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:07:20 localhost NetworkManager[992]: <warn>  [1634753240.5871] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:07:20 localhost NetworkManager[992]: <info>  [1634753240.5872] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:07:20 localhost NetworkManager[992]: <info>  [1634753240.6006] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:07:20 localhost NetworkManager[992]: <info>  [1634753240.6008] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:07:20 localhost NetworkManager[992]: <info>  [1634753240.6224] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:08:05 localhost NetworkManager[992]: <warn>  [1634753285.5778] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:08:05 localhost NetworkManager[992]: <info>  [1634753285.5778] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:08:05 localhost NetworkManager[992]: <info>  [1634753285.5887] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:08:05 localhost NetworkManager[992]: <info>  [1634753285.5887] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:08:05 localhost NetworkManager[992]: <info>  [1634753285.6102] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:08:50 localhost NetworkManager[992]: <warn>  [1634753330.5774] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:08:50 localhost NetworkManager[992]: <info>  [1634753330.5775] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:08:50 localhost NetworkManager[992]: <info>  [1634753330.5985] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:08:50 localhost NetworkManager[992]: <info>  [1634753330.5986] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:08:50 localhost NetworkManager[992]: <info>  [1634753330.6464] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:09:06 localhost NetworkManager[992]: <info>  [1634753346.0051] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:09:35 localhost NetworkManager[992]: <warn>  [1634753375.5775] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:09:35 localhost NetworkManager[992]: <info>  [1634753375.5777] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:09:35 localhost NetworkManager[992]: <info>  [1634753375.5895] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:09:35 localhost NetworkManager[992]: <info>  [1634753375.5895] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:14:05 localhost NetworkManager[992]: <info>  [1634753645.3565] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:14:35 localhost NetworkManager[992]: <info>  [1634753675.6053] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:15:20 localhost NetworkManager[992]: <warn>  [1634753720.5774] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:15:20 localhost NetworkManager[992]: <info>  [1634753720.5774] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:15:20 localhost NetworkManager[992]: <info>  [1634753720.5895] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:15:20 localhost NetworkManager[992]: <info>  [1634753720.5895] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:15:20 localhost NetworkManager[992]: <info>  [1634753720.6101] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:16:05 localhost NetworkManager[992]: <warn>  [1634753765.5812] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:16:05 localhost NetworkManager[992]: <info>  [1634753765.5813] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:16:05 localhost NetworkManager[992]: <info>  [1634753765.6391] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:16:05 localhost NetworkManager[992]: <info>  [1634753765.6392] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:16:05 localhost NetworkManager[992]: <info>  [1634753765.7275] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:16:50 localhost NetworkManager[992]: <warn>  [1634753810.5780] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:16:50 localhost NetworkManager[992]: <info>  [1634753810.5780] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:16:50 localhost NetworkManager[992]: <info>  [1634753810.5905] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:16:50 localhost NetworkManager[992]: <info>  [1634753810.5905] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:16:50 localhost NetworkManager[992]: <info>  [1634753810.6574] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:17:35 localhost NetworkManager[992]: <warn>  [1634753855.5786] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:17:35 localhost NetworkManager[992]: <info>  [1634753855.5786] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:17:35 localhost NetworkManager[992]: <info>  [1634753855.5875] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:17:35 localhost NetworkManager[992]: <info>  [1634753855.5875] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:19:05 localhost NetworkManager[992]: <info>  [1634753945.3327] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:22:35 localhost NetworkManager[992]: <info>  [1634754155.5936] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:23:20 localhost NetworkManager[992]: <warn>  [1634754200.5790] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:23:20 localhost NetworkManager[992]: <info>  [1634754200.5790] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:23:20 localhost NetworkManager[992]: <info>  [1634754200.5911] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:23:20 localhost NetworkManager[992]: <info>  [1634754200.5912] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:23:20 localhost NetworkManager[992]: <info>  [1634754200.6118] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <info>  [1634754245.3850] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <warn>  [1634754245.5713] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <info>  [1634754245.5714] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <info>  [1634754245.5808] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <info>  [1634754245.5809] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:24:05 localhost NetworkManager[992]: <info>  [1634754245.6056] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:24:50 localhost NetworkManager[992]: <warn>  [1634754290.5813] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:24:50 localhost NetworkManager[992]: <info>  [1634754290.5814] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:24:50 localhost NetworkManager[992]: <info>  [1634754290.5890] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:24:50 localhost NetworkManager[992]: <info>  [1634754290.5890] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:24:50 localhost NetworkManager[992]: <info>  [1634754290.6518] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:25:35 localhost NetworkManager[992]: <warn>  [1634754335.5776] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:25:35 localhost NetworkManager[992]: <info>  [1634754335.5776] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:25:35 localhost NetworkManager[992]: <info>  [1634754335.5864] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:25:35 localhost NetworkManager[992]: <info>  [1634754335.5864] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:26:28 localhost NetworkManager[992]: <info>  [1634754388.9500] dhcp4 (enp0s3): canceled DHCP transaction
+messages-20211113:Oct 20 20:26:28 localhost NetworkManager[992]: <info>  [1634754388.9500] dhcp4 (enp0s3): state changed extended -> done
+messages-20211113:Oct 20 20:26:28 localhost NetworkManager[992]: <info>  [1634754388.9505] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:26:29 localhost NetworkManager[992]: <info>  [1634754389.0102] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 20:31:05 localhost NetworkManager[979]: <info>  [1634754665.2806] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Oct 20 20:31:07 localhost NetworkManager[979]: <info>  [1634754667.3928] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:31:07 localhost NetworkManager[979]: <info>  [1634754667.4489] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:31:07 localhost NetworkManager[979]: <info>  [1634754667.5225] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 20:31:52 localhost NetworkManager[979]: <warn>  [1634754712.2766] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:31:52 localhost NetworkManager[979]: <info>  [1634754712.2767] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:31:52 localhost NetworkManager[979]: <info>  [1634754712.2843] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:31:52 localhost NetworkManager[979]: <info>  [1634754712.2843] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:31:52 localhost NetworkManager[979]: <info>  [1634754712.2998] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:32:09 localhost dnsmasq-dhcp[1399]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Oct 20 20:32:09 localhost dnsmasq-dhcp[1399]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Oct 20 20:32:09 localhost dnsmasq-dhcp[1399]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Oct 20 20:32:37 localhost NetworkManager[979]: <warn>  [1634754757.2720] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:32:37 localhost NetworkManager[979]: <info>  [1634754757.2722] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:32:37 localhost NetworkManager[979]: <info>  [1634754757.2842] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:32:37 localhost NetworkManager[979]: <info>  [1634754757.2842] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:32:37 localhost NetworkManager[979]: <info>  [1634754757.3052] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:33:22 localhost NetworkManager[979]: <warn>  [1634754802.2820] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:33:22 localhost NetworkManager[979]: <info>  [1634754802.2824] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:33:22 localhost NetworkManager[979]: <info>  [1634754802.3192] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:33:22 localhost NetworkManager[979]: <info>  [1634754802.3192] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:33:22 localhost NetworkManager[979]: <info>  [1634754802.3855] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:34:07 localhost NetworkManager[979]: <warn>  [1634754847.2776] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:34:07 localhost NetworkManager[979]: <info>  [1634754847.2779] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:34:07 localhost NetworkManager[979]: <info>  [1634754847.2906] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:34:07 localhost NetworkManager[979]: <info>  [1634754847.2906] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:36:07 localhost NetworkManager[979]: <info>  [1634754967.5107] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:38:06 localhost NetworkManager[981]: <info>  [1634755086.8427] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Oct 20 20:38:17 localhost NetworkManager[981]: <info>  [1634755097.3225] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:38:17 localhost NetworkManager[981]: <info>  [1634755097.4294] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:38:17 localhost NetworkManager[981]: <info>  [1634755097.6587] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Oct 20 20:39:02 localhost NetworkManager[981]: <warn>  [1634755142.2678] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:39:02 localhost NetworkManager[981]: <info>  [1634755142.2678] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:39:02 localhost NetworkManager[981]: <info>  [1634755142.2784] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:39:02 localhost NetworkManager[981]: <info>  [1634755142.2784] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:39:02 localhost NetworkManager[981]: <info>  [1634755142.2936] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:39:13 localhost dnsmasq-dhcp[1402]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Oct 20 20:39:13 localhost dnsmasq-dhcp[1402]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Oct 20 20:39:13 localhost dnsmasq-dhcp[1402]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Oct 20 20:39:47 localhost NetworkManager[981]: <warn>  [1634755187.2623] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:39:47 localhost NetworkManager[981]: <info>  [1634755187.2626] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:39:47 localhost NetworkManager[981]: <info>  [1634755187.2761] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:39:47 localhost NetworkManager[981]: <info>  [1634755187.2762] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:39:47 localhost NetworkManager[981]: <info>  [1634755187.2976] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:40:32 localhost NetworkManager[981]: <warn>  [1634755232.2715] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:40:32 localhost NetworkManager[981]: <info>  [1634755232.2717] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:40:32 localhost NetworkManager[981]: <info>  [1634755232.2984] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:40:32 localhost NetworkManager[981]: <info>  [1634755232.2985] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:40:32 localhost NetworkManager[981]: <info>  [1634755232.3925] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:41:17 localhost NetworkManager[981]: <warn>  [1634755277.2665] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:41:17 localhost NetworkManager[981]: <info>  [1634755277.2665] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:41:17 localhost NetworkManager[981]: <info>  [1634755277.2807] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:41:17 localhost NetworkManager[981]: <info>  [1634755277.2807] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:43:17 localhost NetworkManager[981]: <info>  [1634755397.5564] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Oct 20 20:46:17 localhost NetworkManager[981]: <info>  [1634755577.2821] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:47:02 localhost NetworkManager[981]: <warn>  [1634755622.2680] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:47:02 localhost NetworkManager[981]: <info>  [1634755622.2681] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:47:02 localhost NetworkManager[981]: <info>  [1634755622.2815] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:47:02 localhost NetworkManager[981]: <info>  [1634755622.2816] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:47:02 localhost NetworkManager[981]: <info>  [1634755622.3036] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:47:47 localhost NetworkManager[981]: <warn>  [1634755667.2713] dhcp4 (enp0s8): request timed out
+messages-20211113:Oct 20 20:47:47 localhost NetworkManager[981]: <info>  [1634755667.2714] dhcp4 (enp0s8): state changed unknown -> timeout
+messages-20211113:Oct 20 20:47:47 localhost NetworkManager[981]: <info>  [1634755667.2797] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Oct 20 20:47:47 localhost NetworkManager[981]: <info>  [1634755667.2797] dhcp4 (enp0s8): state changed timeout -> done
+messages-20211113:Oct 20 20:47:47 localhost NetworkManager[981]: <info>  [1634755667.3058] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Oct 20 20:48:17 localhost NetworkManager[981]: <info>  [1634755697.7392] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 13:34:13 localhost NetworkManager[981]: <info>  [1636806853.8530] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 13:34:17 localhost NetworkManager[981]: <info>  [1636806857.0015] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:34:17 localhost NetworkManager[981]: <info>  [1636806857.0472] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:34:17 localhost NetworkManager[981]: <info>  [1636806857.2317] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 13:34:17 localhost NetworkManager[981]: <info>  [1636806857.3183] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.137.4
+messages-20211113:Nov 13 13:34:22 localhost dnsmasq-dhcp[1391]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 13:34:22 localhost dnsmasq-dhcp[1391]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 13:34:22 localhost dnsmasq-dhcp[1391]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4510] dhcp4 (enp0s3): canceled DHCP transaction
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4511] dhcp4 (enp0s3): state changed bound -> done
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4513] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4573] dhcp4 (enp0s8): canceled DHCP transaction
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4573] dhcp4 (enp0s8): state changed bound -> done
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.4576] dhcp4 (enp0s8): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.5384] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 13:37:12 localhost NetworkManager[981]: <info>  [1636807032.5482] dhcp4 (enp0s8): state changed unknown -> bound, address=192.168.137.4
+messages-20211113:Nov 13 13:42:12 localhost NetworkManager[981]: <info>  [1636807332.5357] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Nov 13 13:43:42 localhost NetworkManager[979]: <info>  [1636807422.3908] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 13:43:44 localhost NetworkManager[979]: <info>  [1636807424.4007] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:43:44 localhost NetworkManager[979]: <info>  [1636807424.5819] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 13:43:50 localhost dnsmasq-dhcp[1406]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 13:43:50 localhost dnsmasq-dhcp[1406]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 13:43:50 localhost dnsmasq-dhcp[1406]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 13:48:44 localhost NetworkManager[979]: <info>  [1636807724.7312] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Nov 13 13:53:44 localhost NetworkManager[979]: <info>  [1636808024.4567] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 13:58:48 localhost NetworkManager[981]: <info>  [1636808328.1020] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 13:58:50 localhost NetworkManager[981]: <info>  [1636808330.5451] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 13:58:50 localhost NetworkManager[981]: <info>  [1636808330.7137] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 13:58:56 localhost dnsmasq-dhcp[1405]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 13:58:56 localhost dnsmasq-dhcp[1405]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 13:58:56 localhost dnsmasq-dhcp[1405]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 14:02:38 localhost NetworkManager[857]: <info>  [1636808558.2918] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 14:02:38 localhost NetworkManager[857]: <info>  [1636808558.8933] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 14:02:39 localhost NetworkManager[857]: <info>  [1636808559.1430] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 14:02:47 localhost dnsmasq-dhcp[1347]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 14:02:47 localhost dnsmasq-dhcp[1347]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 14:02:47 localhost dnsmasq-dhcp[1347]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 14:07:39 localhost NetworkManager[857]: <info>  [1636808859.0300] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:12:39 localhost NetworkManager[857]: <info>  [1636809159.0179] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:17:39 localhost NetworkManager[857]: <info>  [1636809459.0125] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:22:39 localhost NetworkManager[857]: <info>  [1636809759.0209] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:23:47 localhost NetworkManager[863]: <info>  [1636809827.2483] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 14:23:47 localhost NetworkManager[863]: <info>  [1636809827.8268] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 14:23:48 localhost NetworkManager[863]: <info>  [1636809828.1080] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 14:23:57 localhost dnsmasq-dhcp[1344]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 14:23:57 localhost dnsmasq-dhcp[1344]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 14:23:57 localhost dnsmasq-dhcp[1344]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 14:28:47 localhost NetworkManager[863]: <info>  [1636810127.9083] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:33:47 localhost NetworkManager[863]: <info>  [1636810427.8995] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:38:47 localhost NetworkManager[863]: <info>  [1636810727.8917] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:43:47 localhost NetworkManager[863]: <info>  [1636811027.9748] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:49:16 localhost NetworkManager[868]: <info>  [1636811356.3266] dhcp-init: Using DHCP client 'internal'
+messages-20211113:Nov 13 14:49:16 localhost NetworkManager[868]: <info>  [1636811356.7276] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+messages-20211113:Nov 13 14:49:16 localhost NetworkManager[868]: <info>  [1636811356.9213] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.4
+messages-20211113:Nov 13 14:49:29 localhost dnsmasq-dhcp[1348]: DHCP, IP range 192.168.122.2 -- 192.168.122.254, lease time 1h
+messages-20211113:Nov 13 14:49:29 localhost dnsmasq-dhcp[1348]: DHCP, sockets bound exclusively to interface virbr0
+messages-20211113:Nov 13 14:49:29 localhost dnsmasq-dhcp[1348]: read /var/lib/libvirt/dnsmasq/default.hostsfile
+messages-20211113:Nov 13 14:54:16 localhost NetworkManager[868]: <info>  [1636811656.8565] dhcp4 (enp0s3): state changed bound -> extended, address=10.0.2.4
+messages-20211113:Nov 13 14:59:16 localhost NetworkManager[868]: <info>  [1636811956.9601] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 15:04:16 localhost NetworkManager[868]: <info>  [1636812256.9938] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+messages-20211113:Nov 13 15:09:18 localhost NetworkManager[868]: <info>  [1636812558.7278] dhcp4 (enp0s3): state changed extended -> extended, address=10.0.2.4
+secure:Nov 13 16:07:16 localhost groupadd[2915]: group added to /etc/group: name=dhcpd, GID=177
+secure:Nov 13 16:07:16 localhost groupadd[2915]: group added to /etc/gshadow: name=dhcpd
+secure:Nov 13 16:07:17 localhost groupadd[2915]: new group: name=dhcpd, GID=177
+secure:Nov 13 16:07:17 localhost useradd[2923]: new user: name=dhcpd, UID=177, GID=177, home=/, shell=/sbin/nologin

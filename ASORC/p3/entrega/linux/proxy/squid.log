@@ -1,0 +1,144 @@
+audit/audit.log:type=ADD_GROUP msg=audit(1639071755.545:196): pid=3483 uid=0 auid=1000 ses=4 msg='op=add-group id=23 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31" ID="squid"
+audit/audit.log:type=GRP_MGMT msg=audit(1639071755.552:197): pid=3483 uid=0 auid=1000 ses=4 msg='op=add-shadow-group id=23 exe="/usr/sbin/groupadd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31" ID="squid"
+audit/audit.log:type=ADD_USER msg=audit(1639071756.274:198): pid=3490 uid=0 auid=1000 ses=4 msg='op=add-user acct="squid" exe="/usr/sbin/useradd" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_MGMT msg=audit(1639071765.845:201): pid=3507 uid=0 auid=1000 ses=4 msg='op=add-user-to-group grp="wbpriv" acct="squid" exe="/usr/sbin/usermod" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_MGMT msg=audit(1639071765.845:202): pid=3507 uid=0 auid=1000 ses=4 msg='op=add-user-to-shadow-group grp="wbpriv" acct="squid" exe="/usr/sbin/usermod" hostname=? addr=? terminal=? res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1639071766.859:205): pid=3430 uid=0 auid=1000 ses=4 msg='op=install sw="squid-7:4.15-1.module+el8.5.0+705+218dec94.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=mail.nik addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1639227723.485:223): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639227802.155:226): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639227802.209:227): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639228289.722:232): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639228289.748:233): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639228334.541:234): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_CMD msg=audit(1639228765.996:240): pid=40394 uid=0 auid=1000 ses=4 msg='cwd="/etc/squid" cmd=646E6620757064617265 exe="/usr/bin/sudo" terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_CMD msg=audit(1639228770.395:246): pid=40403 uid=0 auid=1000 ses=4 msg='cwd="/etc/squid" cmd=646E6620757064617465 exe="/usr/bin/sudo" terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_CMD msg=audit(1639231244.627:916): pid=155631 uid=0 auid=1000 ses=4 msg='cwd="/etc/squid" cmd=646E6620696E7374616C6C202D7920706870207065726C20406874747064207767657420756E7A697020676C696263206175746F6D616B6520676C6962632D636F6D6D6F6E2067657474657874206175746F636F6E6620706870207068702D636C69206763632067642067642D646576656C206E65742D736E6D70206F70656E73736C2D646576656C20756E7A6970206E65742D736E6D7020706F7374666978206E65742D736E6D702D7574696C73 exe="/usr/bin/sudo" terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1639232748.710:1215): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639232748.710:1216): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639233189.464:200): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=squid comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+dnf.librepo.log:2021-12-09T18:42:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/s/squid-4.15-1.module%2bel8.5.0%2b705%2b218dec94.x86_64.rpm
+dnf.log:2021-12-09T18:41:24+0100 DDEBUG Command: dnf search squid 
+dnf.log:2021-12-09T18:41:24+0100 DDEBUG Extra commands: ['search', 'squid']
+dnf.log:2021-12-09T18:41:35+0100 DDEBUG Command: dnf -y install squid 
+dnf.log:2021-12-09T18:41:35+0100 DDEBUG Extra commands: ['-y', 'install', 'squid']
+dnf.log:2021-12-09T18:42:20+0100 DEBUG ---> Paquete squid.x86_64 7:4.15-1.module+el8.5.0+705+218dec94 seleccionado para instalar
+dnf.log: [1m[32msquid      (B[m x86_64     7:4.15-1.module+el8.5.0+705+218dec94       appstream     3.6 M
+dnf.log: squid                  4                                                             
+dnf.log:2021-12-11T13:56:30+0100 DEBUG Instalado: squid-7:4.15-1.module+el8.5.0+705+218dec94.x86_64
+dnf.log:2021-12-11T13:56:34+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/squid-4.15-1.module+el8.5.0+705+218dec94.x86_64.rpm eliminado
+dnf.rpm.log:2021-12-09T18:42:35+0100 SUBDEBUG Installed: squid-7:4.15-1.module+el8.5.0+705+218dec94.x86_64
+ftp.log:dnf.librepo.log:2021-12-09T18:42:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/s/squid-4.15-1.module%2bel8.5.0%2b705%2b218dec94.x86_64.rpm
+history.txt:  819  dnf search squid
+history.txt:  820  dnf -y install squid
+history.txt:  822  nano /etc/squid/squid.conf
+history.txt:  823  cd /etc/squid/
+history.txt:  826  systemctl restart squid
+history.txt:  827  nano squid.conf
+history.txt:  830  systemctl restart squid
+history.txt:  833  nano squid.conf
+history.txt:  834  systemctl status squid
+history.txt:  840  cd squid/
+history.txt:  842  nano squid.conf
+history.txt:  843  systemctl restart squid
+history.txt:  844  systemctl status squid
+history.txt:  845  nano squid.conf
+history.txt:  846  systemctl restart squid
+history.txt:  847  systemctl status squid
+messages:Dec  9 20:13:14 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec  9 20:13:14 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 15:28:23 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 15:28:23 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 15:28:23 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 15:33:09 mail squid[4138]: Squid Parent: will start 1 kids
+messages:Dec 11 15:33:09 mail squid[4138]: Squid Parent: (squid-1) process 4140 started
+messages:Dec 11 18:40:39 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 18:40:39 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 18:41:16 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 18:41:16 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages:Dec 11 18:41:16 mail systemd[1]: squid.service: Unit cannot be reloaded because it is inactive.
+messages-20211211:Dec 11 14:02:03 mail squid[38166]: 2021/12/11 14:02:03| ERROR: Can not open file /ec/squid/bad-sites.acl for reading
+messages-20211211:Dec 11 14:02:03 mail squid[38166]: 2021/12/11 14:02:03| Warning: empty ACL: acl denegar dstdomain "/ec/squid/bad-sites.acl"
+messages-20211211:Dec 11 14:02:03 mail squid[38166]: Squid Parent: will start 1 kids
+messages-20211211:Dec 11 14:02:03 mail squid[38166]: Squid Parent: (squid-1) process 38168 started
+messages-20211211:Dec 11 14:03:22 mail squid[38166]: Squid Parent: squid-1 process 38168 exited with status 0
+messages-20211211:Dec 11 14:03:22 mail systemd[1]: squid.service: Succeeded.
+messages-20211211:Dec 11 14:03:22 mail squid[38615]: 2021/12/11 14:03:22| ERROR: Can not open file /ec/squid/bad-sites.acl for reading
+messages-20211211:Dec 11 14:03:22 mail squid[38615]: 2021/12/11 14:03:22| Warning: empty ACL: acl denegar dstdomain "/ec/squid/bad-sites.acl"
+messages-20211211:Dec 11 14:03:22 mail squid[38615]: Squid Parent: will start 1 kids
+messages-20211211:Dec 11 14:03:22 mail squid[38615]: Squid Parent: (squid-1) process 38618 started
+messages-20211211:Dec 11 14:11:29 mail squid[38615]: Squid Parent: squid-1 process 38618 exited with status 0
+messages-20211211:Dec 11 14:11:29 mail systemd[1]: squid.service: Succeeded.
+messages-20211211:Dec 11 14:11:29 mail squid[39438]: 2021/12/11 14:11:29| /etc/squid/squid.conf:1 unrecognized: 'ç#'
+messages-20211211:Dec 11 14:11:29 mail systemd[1]: squid.service: Main process exited, code=exited, status=1/FAILURE
+messages-20211211:Dec 11 14:11:29 mail systemd[1]: squid.service: Failed with result 'exit-code'.
+messages-20211211:Dec 11 14:12:14 mail squid[39481]: Squid Parent: will start 1 kids
+messages-20211211:Dec 11 14:12:14 mail squid[39481]: Squid Parent: (squid-1) process 39483 started
+secure:Dec 11 15:00:44 mail sudo[155631]:    root : TTY=pts/0 ; PWD=/etc/squid ; USER=root ; COMMAND=/bin/dnf install -y php perl @httpd wget unzip glibc automake glibc-common gettext autoconf php php-cli gcc gd gd-devel net-snmp openssl-devel unzip net-snmp postfix net-snmp-utils
+secure-20211211:Dec  9 18:42:35 mail groupadd[3483]: group added to /etc/group: name=squid, GID=23
+secure-20211211:Dec  9 18:42:35 mail groupadd[3483]: group added to /etc/gshadow: name=squid
+secure-20211211:Dec  9 18:42:36 mail groupadd[3483]: new group: name=squid, GID=23
+secure-20211211:Dec  9 18:42:36 mail useradd[3490]: new user: name=squid, UID=23, GID=23, home=/var/spool/squid, shell=/sbin/nologin
+secure-20211211:Dec  9 18:42:45 mail usermod[3507]: add 'squid' to group 'wbpriv'
+secure-20211211:Dec  9 18:42:45 mail usermod[3507]: add 'squid' to shadow group 'wbpriv'
+secure-20211211:Dec 11 14:19:25 mail sudo[40394]:    root : TTY=pts/0 ; PWD=/etc/squid ; USER=root ; COMMAND=/bin/dnf updare
+secure-20211211:Dec 11 14:19:30 mail sudo[40403]:    root : TTY=pts/0 ; PWD=/etc/squid ; USER=root ; COMMAND=/bin/dnf update
+squid/cache.log:2021/12/11 14:02:03| Created PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 14:02:03 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 14:02:03 kid1| Service Name: squid
+squid/cache.log:2021/12/11 14:02:03 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:02:03 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 14:02:03 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 14:03:22 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:03:22 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:03:22| Removing PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 14:03:22| Created PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 14:03:22 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 14:03:22 kid1| Service Name: squid
+squid/cache.log:2021/12/11 14:03:22 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:03:22 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 14:03:22 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 14:11:29 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:11:29 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:11:29| Removing PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 14:12:14| Created PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 14:12:14 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 14:12:14 kid1| Service Name: squid
+squid/cache.log:2021/12/11 14:12:14 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 14:12:14 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 14:12:14 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 15:25:46 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 15:25:46 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 15:25:48| Removing PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 15:33:09| Created PID file (/var/run/squid.pid)
+squid/cache.log:2021/12/11 15:33:09 kid1| Set Current Directory to /var/spool/squid
+squid/cache.log:2021/12/11 15:33:09 kid1| Service Name: squid
+squid/cache.log:2021/12/11 15:33:09 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 15:33:09 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 15:33:09 kid1| Set Current Directory to /var/spool/squid
+squid/access.log:1639233198.194      0 192.168.137.222 TCP_HIT/200 13059 GET http://mail.nik:3128/squid-internal-static/icons/SN.png - HIER_NONE/- image/png
+squid/access.log:1639233267.615      0 192.168.137.222 TCP_HIT/200 13059 GET http://mail.nik:3128/squid-internal-static/icons/SN.png - HIER_NONE/- image/png
+squid/access.log:1639233268.487      0 192.168.137.222 TCP_IMS_HIT/304 300 GET http://mail.nik:3128/squid-internal-static/icons/SN.png - HIER_NONE/- image/png
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [nss_getby_name] (0x0400): Input name: squid
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_process_input] (0x0400): CR #730: Parsing input name [squid]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [sss_parse_name_for_domains] (0x0200): name 'squid' matched without domain, user is squid
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_set_name] (0x0400): CR #730: Setting name [squid]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_send] (0x0400): CR #730: Looking up squid@implicit_files
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_ncache] (0x0400): CR #730: Checking negative cache for [squid@implicit_files]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [sss_ncache_check_str] (0x2000): Checking negative cache for [NCE/USER/implicit_files/squid@implicit_files]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_ncache] (0x0400): CR #730: [squid@implicit_files] is not present in negative cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_cache] (0x0400): CR #730: Looking up [squid@implicit_files] in cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_dp] (0x0400): CR #730: Looking up [squid@implicit_files] in data provider
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_cache] (0x0400): CR #730: Looking up [squid@implicit_files] in cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_done] (0x0400): CR #730: Returning updated object [squid@implicit_files]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [nss_getby_name] (0x0400): Input name: squid
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_process_input] (0x0400): CR #731: Parsing input name [squid]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [sss_parse_name_for_domains] (0x0200): name 'squid' matched without domain, user is squid
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_set_name] (0x0400): CR #731: Setting name [squid]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_send] (0x0400): CR #731: Looking up squid@implicit_files
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_ncache] (0x0400): CR #731: Checking negative cache for [squid@implicit_files]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [sss_ncache_check_str] (0x2000): Checking negative cache for [NCE/GROUP/implicit_files/squid@implicit_files]
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_ncache] (0x0400): CR #731: [squid@implicit_files] is not present in negative cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_cache] (0x0400): CR #731: Looking up [squid@implicit_files] in cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_dp] (0x0400): CR #731: Looking up [squid@implicit_files] in data provider
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_cache] (0x0400): CR #731: Looking up [squid@implicit_files] in cache
+sssd/sssd_nss.log:   *  (2021-12-11 15:05:38): [nss] [cache_req_search_done] (0x0400): CR #731: Returning updated object [squid@implicit_files]

@@ -1,0 +1,99 @@
+daemon.log:Dec 11 19:47:31 freebsd named[799]: host unreachable resolving 'www.nagios.org/A/IN': 2600:9000:5307:cb00::1#53
+daemon.log:Dec 11 19:54:15 freebsd named[799]: host unreachable resolving 'api.nagios.org/A/IN': 2600:9000:5303:5d00::1#53
+daemon.log:Dec 11 19:54:15 freebsd named[799]: host unreachable resolving 'api.nagios.org/A/IN': 2600:9000:5300:6800::1#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:231d::2:30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:502:1ca1::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:d414::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:501:b1f9::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:a83e::2:30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:502:8cc::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:eea3::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:502:7094::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:d2d::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:39c1::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:500:d937::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:503:83eb::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'go.nagios.com/A/IN': 2001:500:856e::30#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'vs1.nagios.com/A/IN': 2600:9000:5306:f200::1#53
+daemon.log:Dec 11 20:15:26 freebsd named[799]: host unreachable resolving 'www.nagios.com/A/IN': 2600:9000:5303:7c00::1#53
+history.txt:   416	19:41	pkg search nagios4
+history.txt:   417	19:41	pkg install nagios4
+history.txt:   428	19:50	ls -1 usr/local/etc/nagios/
+history.txt:   429	19:50	ls -1 usr/local/etc/nagios/objects/
+history.txt:   430	19:50	cd usr/local/etc/nagios/
+history.txt:   434	19:52	chown -R nagios:nagios
+history.txt:   435	19:52	chown -R nagios:nagios *
+history.txt:   437	19:52	chown -R nagios:nagios *
+history.txt:   444	19:52	htpasswd -c usr/local/www/nagios/htpasswd.users
+history.txt:   445	19:53	htpasswd -c usr/local/www/nagios/htpasswd.users nagiosadmin
+history.txt:   446	19:53	nagios -v usr/local/etc/nagios/nagios.cfg
+history.txt:   447	19:54	sysrc nagios_enable="YES"
+history.txt:   448	19:54	services nagios start
+history.txt:   449	19:54	service nagios start
+history.txt:   450	19:54	service nagios status
+history.txt:   454	19:56	sed -i.org 's/nagiosadmin/nagiosadmin/g'
+history.txt:   455	19:56	sed -i.org 's/nagiosadmin/nagiosadmin/g' /usr/local/etc/nagios/cgi.cfg
+history.txt:   456	19:56	service nagios restart
+history.txt:   457	19:58	nagios -v usr/local/etc/nagios/nagios.cfg
+history.txt:   458	19:58	htpasswd -c usr/local/www/nagios/htpasswd.users nagiosadmin
+history.txt:   459	19:58	service nagios restart
+history.txt:   464	20:10	apachectl restart && service nagios restart
+history.txt:   466	20:10	apachectl restart && service nagios restart
+history.txt:   468	20:15	apachectl restart && service nagios restart
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:19:55:12 +0100] "GET /nagios HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:55:18 +0100] "GET /nagios HTTP/1.1" 301 238
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:55:18 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:55:18 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:19:56:57 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:57:00 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:57:00 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+httpd-access.log:127.0.0.1 - - [11/Dec/2021:19:57:42 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:127.0.0.1 - nagiosadmin [11/Dec/2021:19:57:46 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:127.0.0.1 - nagiosadmin [11/Dec/2021:19:57:46 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:59:02 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:19:59:23 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:59:26 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:19:59:26 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:00:50 +0100] "GET / HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:01:08 +0100] "GET / HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:01:08 +0100] "GET /favicon.ico HTTP/1.1" 404 196
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:10:55 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:20:11:15 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:20:11:15 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:11:17 +0100] "GET /nagios/ HTTP/1.1" 403 199
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:20:15:22 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - - [11/Dec/2021:20:15:23 +0100] "GET /nagios/ HTTP/1.1" 401 381
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:25 +0100] "GET /nagios/ HTTP/1.1" 200 1074
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/side.php HTTP/1.1" 200 4735
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/stylesheets/common.css?4.4.6 HTTP/1.1" 200 10166
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/images/sblogo.png HTTP/1.1" 200 3231
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/cgi-bin/tac.cgi HTTP/1.1" 200 13086
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/stylesheets/common.css HTTP/1.1" 200 10166
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/stylesheets/tac.css HTTP/1.1" 200 5472
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/stylesheets/nag_funcs.css HTTP/1.1" 200 1848
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/js/nag_funcs.js HTTP/1.1" 200 8734
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/images/thermok.png HTTP/1.1" 200 776
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:26 +0100] "GET /nagios/images/tacenabled.png HTTP/1.1" 200 267
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:27 +0100] "GET /nagios/images/favicon.ico HTTP/1.1" 200 822
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:32 +0100] "GET /nagios/cgi-bin/status.cgi?host=all HTTP/1.1" 200 14782
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:32 +0100] "GET /nagios/stylesheets/status.css HTTP/1.1" 200 7394
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:32 +0100] "GET /nagios/images/up.gif HTTP/1.1" 200 855
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:32 +0100] "GET /nagios/images/down.gif HTTP/1.1" 200 856
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:15:32 +0100] "GET /nagios/images/ndisabled.gif HTTP/1.1" 200 266
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:17:03 +0100] "GET /nagios/cgi-bin/status.cgi?host=all HTTP/1.1" 200 14782
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:18:33 +0100] "GET /nagios/cgi-bin/status.cgi?host=all HTTP/1.1" 200 14782
+httpd-access.log:192.168.137.221 - nagiosadmin [11/Dec/2021:20:20:03 +0100] "GET /nagios/cgi-bin/status.cgi?host=all HTTP/1.1" 200 14782
+httpd-error.log:[Sat Dec 11 19:55:18.389684 2021] [autoindex:error] [pid 87370] [client 192.168.137.221:17876] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 19:57:00.590655 2021] [autoindex:error] [pid 87373] [client 192.168.137.221:22994] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 19:57:46.812688 2021] [autoindex:error] [pid 87391] [client 127.0.0.1:64779] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 19:59:02.814805 2021] [autoindex:error] [pid 87586] [client 192.168.137.221:20321] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 19:59:26.559498 2021] [autoindex:error] [pid 87589] [client 192.168.137.221:47894] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 20:00:50.054334 2021] [autoindex:error] [pid 87593] [client 192.168.137.221:22142] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 20:01:08.674722 2021] [autoindex:error] [pid 87586] [client 192.168.137.221:15186] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 20:10:55.772904 2021] [autoindex:error] [pid 87852] [client 192.168.137.221:46982] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+httpd-error.log:[Sat Dec 11 20:11:17.986033 2021] [autoindex:error] [pid 87853] [client 192.168.137.221:21375] AH01276: Cannot serve directory /usr/local/www/nagios/: No matching DirectoryIndex (index.html) found, and server-generated directory index forbidden by Options directive
+messages:Dec 11 19:41:59 freebsd pkg[87019]: nagios-plugins-2.3.3_2,1 installed
+messages:Dec 11 19:42:00 freebsd pkg[87019]: nagios4-4.4.6_1,1 installed
+userlog:2021-12-11 19:41:59 [nik:groupadd] nagios(181)
+userlog:2021-12-11 19:41:59 [nik:useradd] nagios(181):nagios(181):Nagios pseudo-user:/var/spool/nagios:/usr/sbin/nologin

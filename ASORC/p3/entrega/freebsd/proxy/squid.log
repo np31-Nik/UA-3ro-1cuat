@@ -1,0 +1,65 @@
+history.txt:   470	20:20	pkg install squid
+history.txt:   471	20:21	squid -f /usr/local/etc/squid/squid.conf -k parse
+history.txt:   473	20:22	service squid start
+history.txt:   475	20:22	service squid status
+history.txt:   476	20:23	nano /etc/squid
+history.txt:   477	20:23	cd etc/squid
+history.txt:   478	20:23	nano usr/local/etc/squid/squid.conf
+history.txt:   479	20:25	nano /usr/local/etc/squid/bad-sites.acl
+history.txt:   480	20:26	service squid retart
+history.txt:   481	20:26	service squid restart
+history.txt:   482	20:26	service squid restart
+history.txt:   483	20:27	service squid status
+messages:Dec 11 20:20:58 freebsd pkg[88179]: squid-4.15 installed
+messages:Dec 11 20:22:17 freebsd squid[88246]: Squid Parent: will start 1 kids
+messages:Dec 11 20:22:17 freebsd squid[88246]: Squid Parent: (squid-1) process 88248 started
+messages:Dec 11 20:26:57 freebsd squid[88246]: Squid Parent: squid-1 process 88248 exited with status 0
+messages:Dec 11 20:26:57 freebsd squid[88352]: Squid Parent: will start 1 kids
+messages:Dec 11 20:26:57 freebsd squid[88352]: Squid Parent: (squid-1) process 88354 started
+messages:Dec 11 20:36:50 freebsd squid[88352]: Squid Parent: squid-1 process 88354 exited with status 0
+messages:Dec 11 21:20:31 freebsd squid[1080]: Squid Parent: will start 1 kids
+messages:Dec 11 21:20:31 freebsd squid[1080]: Squid Parent: (squid-1) process 1084 started
+messages:Dec 11 21:24:19 freebsd squid[1080]: Squid Parent: squid-1 process 1084 exited with status 0
+messages:Dec 11 21:29:13 freebsd squid[1062]: Squid Parent: will start 1 kids
+messages:Dec 11 21:29:13 freebsd squid[1062]: Squid Parent: (squid-1) process 1065 started
+squid/cache.log:2021/12/11 20:22:17| Created PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 20:22:17 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:22:17 kid1| Service Name: squid
+squid/cache.log:2021/12/11 20:22:17 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:22:17 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 20:22:17 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:41| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:41| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:56| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:56| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:57 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:26:57 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:26:57| Removing PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 20:26:57| Created PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 20:26:57 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:26:57 kid1| Service Name: squid
+squid/cache.log:2021/12/11 20:26:57 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:26:57 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 20:26:57 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:36:19| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 20:36:50 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:36:50 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 20:36:50| Removing PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 21:20:31| Created PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 21:20:31 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 21:20:31 kid1| Service Name: squid
+squid/cache.log:2021/12/11 21:20:33 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 21:20:33 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 21:20:33 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 21:23:48| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 21:24:19 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 21:24:19 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 21:24:19| Removing PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 21:29:13| Created PID file (/var/run/squid/squid.pid)
+squid/cache.log:2021/12/11 21:29:13 kid1| Set Current Directory to /var/squid/cache
+squid/cache.log:2021/12/11 21:29:13 kid1| Service Name: squid
+squid/cache.log:2021/12/11 21:29:13 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+squid/cache.log:2021/12/11 21:29:13 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+squid/cache.log:2021/12/11 21:29:13 kid1| Set Current Directory to /var/squid/cache
+userlog:2021-12-11 20:20:55 [nik:groupadd] squid(100)
+userlog:2021-12-11 20:20:55 [nik:useradd] squid(100):squid(100):squid caching-proxy pseudo user:/var/squid:/usr/sbin/nologin

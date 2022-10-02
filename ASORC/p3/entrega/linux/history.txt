@@ -1,0 +1,894 @@
+    1  cat /etc/passwd
+    2  ls
+    3  cd ~
+    4  ls
+    5  ls -a
+    6  ls -a | grep .ssh
+    7  exit
+    8  passwd
+    9  exit
+   10  su - np31
+   11  exit
+   12  clear
+   13  pkg search
+   14  apt-get search
+   15  apt update
+   16  pkgman
+   17  choco
+   18  pkg-man
+   19  rpm
+   20  rpm update
+   21  rpm --update
+   22  yum
+   23  yum install nano
+   24  nano
+   25  passwd
+   26  su
+   27  exit
+   28  cd ..
+   29  ls
+   30  cd etc
+   31  ls
+   32  ls -l
+   33  ls -a
+   34  ls
+   35  nano netconfig
+   36  cd NetworkManager/
+   37  ls
+   38  nano NetworkManager.conf 
+   39  nano conf.d/
+   40  ifconfig
+   41  cd ..
+   42  cd sysconfig/
+   43  cd network-scripts/
+   44  ls
+   45  nano ifcfg-enp0s8 
+   46  rbeoot
+   47  reboot
+   48  cd ..
+   49  ls
+   50  nano /etc/sysconfig/network-scripts/
+   51  ls /etc/sysconfig/network-scripts/
+   52  ifconfig
+   53  nano /etc/sysconfig/network-scripts/ifcfg-enp0s3
+   54  reboot
+   55  ls ..
+   56  cd ..
+   57  ls /etc/sysconfig/network-scripts/
+   58  nano /etc/sysconfig/network-scripts/ifcfg-enp0s8
+   59  ifconfig
+   60  ls
+   61  exit
+   62  cd ..
+   63  cd /etc/sysconfig/network-scripts/
+   64  ls
+   65  nano ifcfg-enp0s3 
+   66  nano ifcfg-enp0s8 
+   67  reboot
+   68  cd ..
+   69  nano /etc/ssh/sshd_config 
+   70  systemctl restart sshd
+   71  systemctl start sshd
+   72  systemctl status sshd.service
+   73  firewall-cmd --add-service=ssh
+   74  firewall-cmd --runtime-to-permanent
+   75  nano /etc/ssh/sshd_config 
+   76  systemctl restart sshd
+   77  reboot
+   78  selinux
+   79  cd ..
+   80  nano /etc/sysconfig/selinux 
+   81  systemctl disable firewalld
+   82  systemctl disable selinux
+   83  systemctl stop selinux
+   84  systemctl stop firewalld
+   85  reboot
+   86  systemctl status sshd
+   87  yum uninstall sshd
+   88  nano /usr/sbin/sshd 
+   89  cd /usr/sbin
+   90  ls
+   91  nano sshd 
+   92  cd ..
+   93  nano /etc/ssh/sshd_config 
+   94  systemctl status sshd
+   95  systemctl start sshd
+   96  systemctl status sshd.service
+   97  /usr/sbin/sshd -t
+   98  nano /etc/ssh/sshd_config 
+   99  systemctl status sshd.service
+  100  /usr/sbin/sshd -t
+  101  systemctl start sshd
+  102  nano /etc/ssh/sshd_config 
+  103  systemctl restart sshd
+  104  nano /etc/ssh/sshd_config 
+  105  systemctl restart sshd
+  106  nano /etc/ssh/sshd_config 
+  107  systemctl restart sshd
+  108  exit
+  109  systemctl restart sshd
+  110  exit
+  111  cd ..
+  112  nano /etc/ssh/sshd_config 
+  113  systemctl sshd restart
+  114  systemctl ssh restart
+  115  systemctl restart sshd
+  116  exit
+  117  yum install tigervnc-server
+  118  systemctl status firewalld
+  119  exit
+  120  cd ..
+  121  nano /etc/gdm/custom.conf 
+  122  systemctl status vncserver
+  123  systemctl status vnc
+  124  vncserver -kill :1
+  125  reboot
+  126  yum install tightvnc
+  127  cd ..
+  128  clear
+  129  yum install xrdp
+  130  systemctl status xrdp
+  131  systemctl enable xrdp
+  132  dnf
+  133  dnf --enablerepo=epel -y install xrdp
+  134  dnf -y install xrdp
+  135  yum update
+  136  yum install xrdp
+  137  dnf --enablerepo=epel -y install xrdp
+  138  dnf install -y epel-release
+  139  dnf --enablerepo=epel -y install xrdp
+  140  systemctl enable xrdp --now
+  141  exit
+  142  adduser
+  143  useradd
+  144  adduser
+  145  adduser n2
+  146  adduser n3 -p 123
+  147  su - n2
+  148  su - n3
+  149  exit
+  150  useradd nik-rdp
+  151  passwd nik-rdp
+  152  dnf -y install bind bind-utils
+  153  cd ..
+  154  nano /etc/named.conf
+  155  nano /etc/sysconfig/named
+  156  nano /var/named/nikrocky.com.lan
+  157  nano /var/named/137.168.192.db
+  158  systemctl enable --now named
+  159  systemctl status firewall
+  160  systemctl status firewalld
+  161  nmcli connection modify enp0s3 ipv4.dns 192.168.137.222
+  162  nmcli connection down enp0s3
+  163  nmcli connection up enp0s3
+  164  dig dlp.nikrocky.com.
+  165  systemctl status named
+  166  systemctl restart named
+  167  systemctl status named
+  168  dig dlp.nikrocky.com.
+  169  systemctl status NetworkManager
+  170  dig dlp.nikrocky.com.
+  171  dig google.com.
+  172  ping google.com
+  173  ping -c 6 google.com
+  174  ping 192.168.137.1
+  175  reboot
+  176  systemctl status named
+  177  dig dlp.nikrocky.com.
+  178  ping -c 6 google.com
+  179  ping -c 6 nikrocky.com
+  180  ping -c 6 dlp.nikrocky.com
+  181  ping -c 6 dlp.nikrocky.com.
+  182  ifconfig
+  183  ip a
+  184  cd ..
+  185  nano /etc/named.conf 
+  186  nano /etc/resolv.conf 
+  187  nslookup dlp.nikrocky.com
+  188  dig -x 192.168.137.222
+  189  nano /etc/named.conf 
+  190  nano /var/named/nikrocky.com.lan 
+  191  nano /var/named/137.168.192.db 
+  192  clear
+  193  dig -x 192.168.137.222
+  194  nslookup dlp.nikrocky.com
+  195  clear
+  196  yum install dhcp
+  197  dnf -y install dhcp
+  198  yum update
+  199  yum install dhcp
+  200  dnf -y install dhcp-server
+  201  nano /etc/dhcp/dhcpd.conf 
+  202  systemctl enable --now dhcpd
+  203  systemctl status dhcpd
+  204  systemctl restart dhcpd
+  205  systemctl status dhcpd
+  206  cat /var/lib/dhcpd/dhcpd.leases
+  207  nano /etc/dhcp/dhcpd.conf 
+  208  clear
+  209  dnf -y install nfs-utils
+  210  nano /etc/idmapd.conf 
+  211  nano /etc/exports
+  212  ls
+  213  ls /home/np31/Escritorio/
+  214  ls
+  215  ls /home/np31/Escritorio/
+  216  mkdir /home/np31/Escritorio/NFS
+  217  ls /home/np31/Escritorio/
+  218  nano /etc/exports
+  219  systemctl enable --now rpcbind nfs-server
+  220  systemctl restart rpcbind
+  221  systemctl restart nfs-server
+  222  nano /etc/exports
+  223  systemctl restart rpcbind
+  224  systemctl restart nfs-server
+  225  nano /etc/exports
+  226  chmod 777 /home/np31/Escritorio/NFS
+  227  nano /etc/exports
+  228  systemctl status firewalld
+  229  systemctl restart rpcbind
+  230  systemctl restart nfs-server
+  231  ls -a /home/np31/Escritorio/
+  232  ls -l /home/np31/Escritorio/
+  233  chown np31:np31 /home/np31/Escritorio/NFS/
+  234  ls -l /home/np31/Escritorio/
+  235  systemctl restart rpcbind
+  236  systemctl restart nfs-server
+  237  exit
+  238  chown np31:np31
+  239  chown np31:np31 .ç
+  240  chown np31:np31 .
+  241  exit
+  242  cd np31/
+  243  ls
+  244  ls -l
+  245  cd Escritorio/
+  246  ls -l
+  247  cd NFS/
+  248  ls
+  249  cd ..
+  250  dnf -y install samba
+  251  ls
+  252  mkdir /home/np31/Escritorio/Samba
+  253  chmod 777 /home/np31/Escritorio/Samba/
+  254  chown np31:np31 /home/np31/Escritorio/Samba/
+  255  nano /etc/samba/smb.conf
+  256  systemctl enable --now smb
+  257  nano /etc/samba/smb.conf
+  258  systemctl enable --now smb
+  259  systemctl restart smb
+  260  smbpasswd -a np31
+  261  systemctl enable smb nmb && systemctl restart smb nmb
+  262  exit
+  263  cd ..
+  264  nano /etc/samba/smb.conf
+  265  systemctl enable smb nmb && systemctl restart smb nmb
+  266  exit
+  267  ls
+  268  cd /etc/
+  269  ls
+  270  cat ssh/sshd_config 
+  271  cd ..
+  272  cp /etc/ssh/sshd_config /home/np31/Escritorio/linux/ssh/
+  273  cp /etc/ssh/ssh_config /home/np31/Escritorio/linux/ssh/
+  274  ls /home/np31/.ssh/
+  275  cp /home/np31/.ssh/authorized_keys /home/np31/Escritorio/linux/ssh/
+  276  ls
+  277  ls /etc/dhcp/
+  278  cp /etc/dhcp/dhcpd.conf /home/np31/Escritorio/linux/dhcp/
+  279  cd var/log/
+  280  ls
+  281  grep -R "ssh" *>ssh.log
+  282  history > historylinux.txt
+  283  cd ..
+  284  cp var/log/ssh.log /home/np31/Escritorio/linux/ssh/
+  285  cp var/log/historylinux.txt /home/np31/Escritorio/linux/
+  286  cd var/log/
+  287  grep -R "dhcp" *>dhcp.log
+  288  cd ..
+  289  cp var/log/dhcp.log /home/np31/Escritorio/linux/dhcp/
+  290  cp var/log/xrdp* /home/np31/Escritorio/linux/rdp/
+  291  ls /home/np31/Escritorio/linux/rdp/
+  292  cd var/lo
+  293  cd var/log/
+  294  grep -R "rdp" *>rdp.log
+  295  cd ..
+  296  cp var/log/rdp.log /home/np31/Escritorio/linux/rdp/
+  297  ls var/log/samba/
+  298  cp var/log/samba/log* /home/np31/Escritorio/linux/samba/
+  299  ls /home/np31/Escritorio/linux/samba/
+  300  cd var/log/
+  301  grep -R "samba" *>samba.log
+  302  cd ..
+  303  cp var/log/samba.log /home/np31/Escritorio/linux/samba/
+  304  cd /etc/named/
+  305  ls
+  306  cd ..
+  307  cd var/named/
+  308  ls
+  309  cd ..
+  310  cp /var/named/nikrocky.com.lan /home/np31/Escritorio/linux/dns/
+  311  cp /var/named/137.168.192.db /home/np31/Escritorio/linux/dns/
+  312  cd var/log/
+  313  grep -R "dns" *>dns.log
+  314  cd ..
+  315  cp var/log/dns.log /home/np31/Escritorio/linux/dns/
+  316  cd /usr/local/etc/
+  317  ls
+  318  cd ..
+  319  cd etc/
+  320  ls
+  321  cat rc.conf
+  322  cd ,,
+  323  cd ..
+  324  cp etc/idmapd.conf /home/np31/Escritorio/linux/nfs/
+  325  cp /etc/exports /home/np31/Escritorio/linux/nfs/
+  326  cd var/log/
+  327  grep -R "nfs" *>nfs.log
+  328  cp var/log/nfs.log /home/np31/Escritorio/linux/nfs/
+  329  cd ..
+  330  cp var/log/nfs.log /home/np31/Escritorio/linux/nfs/
+  331  cd /home/np31/
+  332  ls
+  333  ls -a
+  334  cp .ssh/ Escritorio/linux/ssh/
+  335  cp .ssh/* Escritorio/linux/ssh/
+  336  cp .vnc/* Escritorio/linux/vnc/
+  337  cd ..
+  338  cd var/log/
+  339  grep -R "vnc" *>vnc.log
+  340  cd ..
+  341  cp var/log/vnc.log /home/np31/Escritorio/linux/vnc/
+  342  cd home/np31/Escritorio/linux/
+  343  ls -l
+  344  ls -l dhcp/
+  345  chown np31:np31 *
+  346  ls -l
+  347  ls -l dhcp/
+  348  chown np31:np31 dhcp/* && chmod 777 dhcp/*
+  349  chown np31:np31 nfs/* && chmod 777 nfs/*
+  350  chown np31:np31 samba/* && chmod 777 samba/*
+  351  chown np31:np31 ssh/* && chmod 777 ssh/*
+  352  chown np31:np31 vnc/* && chmod 777 vnc/*
+  353  chown np31:np31 rdp/* && chmod 777 rdp/*
+  354  chown np31:np31 dns/* && chmod 777 dns/*
+  355  chown np31:np31 * && chmod 777 *
+  356  ls -l
+  357  ls -l nfs/
+  358  cd.
+  359  cd ..
+  360  ls
+  361  cd usr
+  362  ls
+  363  cd local/
+  364  ls
+  365  cd sbin
+  366  ls
+  367  cd etc
+  368  cd ..
+  369  cd etc
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd etc/
+  374  ls
+  375  cd ..
+  376  cd var/
+  377  ls
+  378  cd local/
+  379  ls
+  380  cd ..
+  381  cd named
+  382  ls
+  383  cd ..
+  384  cd etc
+  385  cat named.conf 
+  386  cd ..
+  387  cp /etc/named.conf /home/np31/Escritorio/linux/dns/
+  388  cd /home/np31/Escritorio/linux/dns/
+  389  ls
+  390  ls -l
+  391  chown np31:np31 named.conf && chmod 777 named.conf 
+  392  exit
+  393  cd ..
+  394  ls
+  395  ls etc
+  396  cat /etc/passwd
+  397  passwd nik-rdp
+  398  clear
+  399  nslookup dlp.nikrocky.com
+  400  ifconfig
+  401  nslookup dlp.nikrocky.com
+  402  reboot
+  403  cd ..
+  404  nano /etc/named.conf 
+  405  cd /var/named/
+  406  ls
+  407  nano nikrocky.com.lan 
+  408  nano 137.168.192.db 
+  409  reboot
+  410  nslookup dlp.nikrocky.com
+  411  dig -x 192.168.137.222
+  412  nmcli connection modify enp0s8 ipv4.dns 192.168.137.222
+  413  nmcli connection enp0s8 down
+  414  nmcli connection down enp0s8
+  415  nmcli connection up enp0s8
+  416  reboot
+  417  nslookup dlp.nikrocky.com
+  418  dig -x 192.168.137.222
+  419  nslookup 192.168.137.222
+  420  cd ..
+  421  cat /var/lib/dhcpd/dhcpd.leases
+  422  ls
+  423  exit
+  424  cd ..
+  425  nano /etc/exports
+  426  systemctl enable rpcbind
+  427  systemctl restart rpcbind
+  428  systemctl restart nfs-server
+  429  exit
+  430  cd ..
+  431  nano /etc/exports
+  432  systemctl restart nfs-server
+  433  systemctl restart rpcbind
+  434  systemctl restart nfs-server
+  435  exit
+  436  cd ..
+  437  ls
+  438  cd etc
+  439  ls
+  440  nano named.conf
+  441  exit
+  442  reboot
+  443  cd ~
+  444  ls
+  445   cd..
+  446  cd ..
+  447  nano /etc/named.conf 
+  448  cd /etc/bind
+  449  cd etc/
+  450  ls
+  451  cd ..
+  452  cd usr/local/
+  453  cd etc/
+  454  ls
+  455  cd ..
+  456  ls
+  457  nano /etc/named.conf 
+  458  systemctl restart named
+  459  nano /etc/named.conf 
+  460  systemctl restart named
+  461  exit
+  462  cd ..
+  463  nano /etc/named.conf 
+  464  systemctl restart named
+  465  exit
+  466  nano /etc/named.conf 
+  467  systemctl restart named
+  468  nslookup google.com 192.168.137.222
+  469  reboot
+  470  nslookup google.com 192.168.137.222
+  471  nslookup 192.168.137.222
+  472  nslookup dlp.nikrocky.com
+  473  nslookup google.com 192.168.137.222
+  474  nslookup google.com dlp.nikrocky.com
+  475  cd ..
+  476  nano /etc/named.conf 
+  477  systemctl restart named
+  478  nslookup google.com 192.168.137.222
+  479  nano /etc/named.conf 
+  480  systemctl restart named
+  481  cd etc/
+  482  ls
+  483  cd bind
+  484  systemctl restart named
+  485  nslookup google.com
+  486  nslookup -debug -type=A google.com
+  487  nslookup -debug -type=A google.com 192.168.137.222
+  488  nano /etc/named.conf 
+  489  nslookup -debug -type=A google.com 192.168.137.222
+  490  systemctl restart named
+  491  nslookup -debug -type=A google.com 192.168.137.222
+  492  nslookup 192.168.137.222
+  493  nslookup google.com 192.168.137.222
+  494  nano /etc/named.conf 
+  495  systemctl restart named
+  496  nslookup google.com 192.168.137.222
+  497  nano /etc/named.conf 
+  498  reboot
+  499  ls
+  500  mkdir files
+  501  chown ftp1:ftp1
+  502  chown ftp1:ftp1 files/
+  503  sudo ls -la
+  504  exit
+  505  ftp -p 192.168.137.222
+  506  cd ..
+  507  cd /etc/vsftpd/
+  508  ls
+  509  mv chroot_list nonchroot_list
+  510  ls
+  511  ftp -p 192.168.137.222
+  512  cd ..
+  513  cd home/ftp
+  514  cd home/ftp1/
+  515  ls
+  516  ls -la
+  517  chmod a-w ftp_folder/
+  518  ls -la
+  519  ls -la ftp_folder/
+  520  ftp -p 192.168.137.222
+  521  su - ftp1
+  522  exit
+  523  chown ftp1:ftp1 *
+  524  chmod a+w .
+  525  ls -la
+  526  su - ftp1
+  527  exit
+  528  rmdir ftp_folder/
+  529  su - ftp1
+  530  exit
+  531  ls
+  532  ls -la
+  533  chmod 777 *
+  534  ls -la
+  535  chmod 777 *
+  536  chmod 777 ..
+  537  ls -la
+  538  chmod a-w *
+  539  chmod a-w ..
+  540  ls -la
+  541  c d..
+  542  cd ..
+  543  ls
+  544  ls -la
+  545  cd ftp_folder/
+  546  ls -la
+  547  cd ..
+  548  rmdir ftp_folder/
+  549  rm ftp_folder
+  550  rmdir ftp_folder
+  551  cd ftp_folder/
+  552  rmdir files/
+  553  cd files/
+  554  ls
+  555  rm 1
+  556  rmdir 1
+  557  cd ..
+  558  rmdir files
+  559  cd ..
+  560  rdmir ftp_folder/
+  561  rmdir ftp_folder/
+  562  mkdir ftp_folder
+  563  chown nobody:nogroup ftp_folder/
+  564  chown ftp1 ftp_folder/
+  565  ls -la
+  566  chown ftp1:ftp1 ftp_folder/
+  567  ls -la
+  568  chmod a-w ftp_folder/
+  569  ls -la
+  570  ls -la ftp_folder/
+  571  su - ftp1
+  572  exit
+  573  cd ..
+  574  cd etc/named/
+  575  ls
+  576  cd ..
+  577  cd var/named/
+  578  ls
+  579  nano nikrocky.com.lan 
+  580  nslookup google.com 192.168.137.222
+  581  nslookup 192.168.137.222
+  582  nslookup nikrocky.com.lan
+  583  nslookup nikrocky.com
+  584  clean
+  585  clear
+  586  nslookup google.com 192.168.137.222
+  587  clear
+  588  nslookup google.com 192.168.137.222
+  589  dig www.google.es
+  590  cat /etc/resolv.conf 
+  591  vim /etc/resolv.conf 
+  592  dig www.google.es
+  593  nslookup google.com 192.168.137.222
+  594  systemctl restart named
+  595  nslookup google.com 192.168.137.222
+  596  nslookup nikrocky.com
+  597  nslookup 192.168.137.222
+  598  vncserver
+  599  cd ..
+  600  cat /etc/passwd
+  601  nslookup nik
+  602  nslookup nikrocky.com
+  603  cd var/lib/dhcpd
+  604  ls
+  605  cat dhcpd.leases
+  606  systemctl restart dhcpd
+  607  cat dhcpd.leases
+  608  clear
+  609  cat dhcpd.leases
+  610  cd ..
+  611  cat dhcpd.leases
+  612  nano /etc/exports
+  613  systemctl restart rpcbind
+  614  systemctl restart nfs-server
+  615  clear
+  616  nslookup google.com 192.168.137.222
+  617  nslookup nikrocky.com
+  618  nslookup dlp.nikrocky.com
+  619  nslookup dlp.nikrocky.com.
+  620  nslookup nikrocky.com
+  621  ls
+  622  cd /etc
+  623  nano resolv.conf 
+  624  nslookup nikrocky.com
+  625  systemctl restart named
+  626  nslookup nikrocky.com
+  627  nano resolv.conf 
+  628  systemctl restart named
+  629  nslookup nikrocky.com
+  630  clear
+  631  nslookup google 192.168.137.222
+  632  nslookup google.com 192.168.137.222
+  633  nslookup nikrocky.com
+  634  systemctl status dhcpd
+  635  clear
+  636  dnf -y install vsftpd
+  637  cd ..
+  638  nano /etc/vsftpd/vsftpd.conf 
+  639  systemctl start vsftpd
+  640  systemtctl status vsftpd
+  641  systemctl status vsftpd
+  642  nano /etc/vsftpd/vsftpd.conf 
+  643  nano /etc/vsftpd/chroot_list
+  644  cd /etc/vsftpd/
+  645  ls
+  646  nano chroot_list
+  647  systemctl enable --now vsftpd
+  648  systemctl start vsftpd
+  649  systemctl status vsftpd
+  650  cd ..
+  651  nano /etc/vsftpd/vsftpd.conf 
+  652  nano /etc/vsftpd/user_list 
+  653  systemctl restart vsftpd
+  654  systemctl status vsftp
+  655  systemctl status vsftpd
+  656  nano /etc/vsftpd/vsftpd.conf 
+  657  systemctl restart vsftpd
+  658  systemctl status vsftpd
+  659  ftp 192.168.137.222
+  660  dnf -y ftp
+  661  dnf install -y ftp
+  662  ftp 192.168.137.222
+  663  adduser ftp1
+  664  passwd ftp1
+  665  ls
+  666  cd home/
+  667  ls
+  668  cd ftp1/
+  669  ls
+  670  mkdir ftp_folder
+  671  rm ftp_folder/
+  672  rmdir ftp_folder/
+  673  mkdir -p ftp_folder
+  674  ls
+  675  chmod -R 750 ftp_folder/
+  676  chown ftp1: ftp_folder/
+  677  ls
+  678  ls -l
+  679  cd .
+  680  cd ..
+  681  nano /etc/vsftpd/user_list 
+  682  nano /etc/vsftpd/vsftpd.conf 
+  683  nano /etc/vsftpd/user_list 
+  684  nano /etc/vsftpd/vsftpd.conf 
+  685  systemctl restart vsftpd
+  686  systemctl status vsftpd
+  687  ftp 192.168.137.222
+  688  nano /etc/vsftpd/vsftpd.conf 
+  689  systemctl restart vsftpd
+  690  systemctl status vsftpd
+  691  ftp 192.168.137.222
+  692  nano /etc/vsftpd/vsftpd.conf 
+  693  systemctl restart vsftpd
+  694  systemctl status vsftpd
+  695  ftp -p 192.168.137.222
+  696  nano /etc/vsftpd/vsftpd.conf 
+  697  systemctl restart vsftpd
+  698  ftp -p 192.168.137.222
+  699  cd home/ftp1/
+  700  ls
+  701  ls -la
+  702  chmod a-w ftp_folder/
+  703  ls -la
+  704  chmod 777 ftp_folder/
+  705  chmod a-w ftp_folder/
+  706  ls -la
+  707  ls -la ftp_folder/
+  708  ls
+  709  cd ftp_folder/
+  710  ls
+  711  mkdir files
+  712  ls
+  713  chown ftp1:ftp1 files/
+  714  ls -la
+  715  touch files/1.txt
+  716  ls -la files/
+  717  rm files/1.txt 
+  718  cd ..
+  719  nano /etc/vsftpd/
+  720  nano /etc/vsftpd/vsftpd.conf 
+  721  nano /etc/vsftpd/user_list 
+  722  systemctl restart vsftpd
+  723  ftp -p 192.168.137.222
+  724  nano /etc/vsftpd/vsftpd.conf 
+  725  systemctl restart vsftpd
+  726  nano /etc/vsftpd/chroot_list 
+  727  adduser
+  728  useradd
+  729  adduser ftp2
+  730  passwd ftp2
+  731  nano /etc/vsftpd/vsftpd.conf 
+  732  systemctl restart vsftpd
+  733  systemctl status vsftpd.
+  734  systemctl status vsftpd
+  735  ftp -p 192.168.137.222
+  736  clear
+  737  ls
+  738  cd home/
+  739  cd ftp2/
+  740  ls
+  741  mkdir ftp_folder
+  742  chmod 777 ftp_folder/
+  743  chown ftp2:ftp2 ftp_folder/
+  744  ls
+  745  ls -la
+  746  chmod a-w ftp_folder/
+  747  ls -la
+  748  cd ftp_folder/
+  749  ls
+  750  mkdir files
+  751  ls -la
+  752  ftp -p 192.168.137.222
+  753  cd ..
+  754  ftp -p 192.168.137.222
+  755  nano /etc/vsftpd/user_list 
+  756  systemctl restart vsftpd
+  757  ftp -p 192.168.137.222
+  758  nano /etc/vsftpd/vsftpd.conf 
+  759  systemctl restart vsftpd.
+  760  systemctl restart vsftpd
+  761  systemctl status vsftpd.
+  762  systemctl status vsftpd
+  763  cd home/ftp1/
+  764  ls
+  765  su - ftp1
+  766  exit
+  767  netstat -tanp
+  768  systemctl status openfire
+  769  clear
+  770  netstat -tanp
+  771  clear
+  772  exit
+  773  fdisk -l
+  774  df -h
+  775  clear
+  776  df -h
+  777  fdisk -l
+  778  parted --script /dev/sdb "mklabel gpt"
+  779  parted --script /dev/sdc "mklabel gpt"
+  780  parted --script /dev/sdd "mklabel gpt"
+  781  parted --script /dev/sde "mklabel gpt"
+  782  parted --script /dev/sdb "mkpart primary 0% 100%"
+  783  parted --script /dev/sdc "mkpart primary 0% 100%"
+  784  parted --script /dev/sdd "mkpart primary 0% 100%"
+  785  parted --script /dev/sde "mkpart primary 0% 100%"
+  786  parted --script /dev/sde "set 1 raid on"
+  787  parted --script /dev/sdd "set 1 raid on"
+  788  parted --script /dev/sdb "set 1 raid on"
+  789  parted --script /dev/sdc "set 1 raid on"
+  790  ls
+  791  ls -la
+  792  cd ..
+  793  mdadm --create /dev/md0 --level=5 --raid-devices=4 /dev/sdb1 /dev/sdc1 /dev/sde1 /dev/sdd1
+  794  cat /proc/mdstat
+  795  nano /etc/sysconfig/raid-check
+  796  mkfs.xfs -i size=1024 -s size=4096 /dev/md0
+  797  mount /dev/md0 /mnt
+  798  df -hT
+  799  cat /proc/mdstat
+  800  ls
+  801  cd mnt/
+  802  ls
+  803  touch hola
+  804  ls
+  805  cd ..
+  806  cat /proc/mdstat
+  807  cd ..
+  808  cat /proc/mdstat
+  809  fdisk -l
+  810  cat /proc/mdstat
+  811  mdadm --manage /dev/md0 --add /dev/sde1
+  812  parted --script /dev/sde "mklabel gpt"
+  813  parted --script /dev/sde "mkpart primary 0% 100%"
+  814  parted --script /dev/sde "set 1 raid on"
+  815  mdadm --manage /dev/md0 --add /dev/sde1
+  816  cat /proc/mdstat
+  817  ymf
+  818  dnf
+  819  dnf search squid
+  820  dnf -y install squid
+  821  ls
+  822  nano /etc/squid/squid.conf
+  823  cd /etc/squid/
+  824  ls
+  825  nano bad-sites.com
+  826  systemctl restart squid
+  827  nano squid.conf
+  828  cp bad-sites.com bad-sites.acl
+  829  ls
+  830  systemctl restart squid
+  831  ls
+  832  nano bad-sites.acl 
+  833  nano squid.conf
+  834  systemctl status squid
+  835  ifconfig
+  836  cd ..
+  837  cd profile.d/
+  838  ls
+  839  cd ..
+  840  cd squid/
+  841  ls
+  842  nano squid.conf
+  843  systemctl restart squid
+  844  systemctl status squid
+  845  nano squid.conf
+  846  systemctl restart squid
+  847  systemctl status squid
+  848  clear
+  849  sudo dnf updare
+  850  sudo dnf update
+  851  sudo dnf install -y php perl @httpd wget unzip glibc automake glibc-common gettext autoconf php php-cli gcc gd gd-devel net-snmp openssl-devel unzip net-snmp postfix net-snmp-utils
+  852  dnf -y groupinstall "Development Tools"
+  853  systemctl start httpd
+  854  systemctl start php-fpm
+  855  systemctl status httpd
+  856  systemctl status php-fpm
+  857  wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.6.tar.tgz
+  858  wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.6.tar.gz
+  859  cd ..
+  860  wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.6.tar.gz
+  861  tar -xzf nagios-4.4.6.tar.gz
+  862  cd nagios-4.4.6/
+  863  ./configure
+  864  make all
+  865  make install-groups-users
+  866  usermod -aG nagios apache
+  867  make install
+  868  make install-init
+  869  make install-daemoninit
+  870  make install-commandmode
+  871  make install-config
+  872  make install-webconf
+  873  ls
+  874  cd ..
+  875  cd usr/local/
+  876  ls
+  877  cd nagios/
+  878  cd etc/
+  879  ls
+  880  cd ..
+  881  ls
+  882  cd ..
+  883  htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+  884  chown apache:apache /usr/local/nagios/etc/htpasswd.users 
+  885  chmod 640 /usr/local/nagios/etc/htpasswd.users 
+  886  systemctl restart httpd
+  887  systemctl enable nagios --now
+  888  clear
+  889  systemctl status nagios
+  890  cd ..
+  891  clear
+  892  cd var/log/
+  893  ls
+  894  history > history.txt

@@ -1,0 +1,110 @@
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636843409.227:560): pid=11495 uid=0 auid=1000 ses=3 msg='op=install sw="openfire-4.6.4-1.i686" sw_type=rpm key_enforce=0 gpg_res=0 root_dir="/" comm="yum" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636843443.273:573): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1638376096.345:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1638380123.548:549): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639067200.087:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639068513.373:271): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639070447.823:76): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639070738.653:77): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639232726.592:1182): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639232891.666:86): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639244456.048:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+dnf.log:2021-11-13T23:26:27+0100 DDEBUG Command: dnf search openfire 
+dnf.log:2021-11-13T23:26:27+0100 DDEBUG Extra commands: ['search', 'openfire']
+dnf.log:2021-11-13T23:27:12+0100 DDEBUG Command: yum search openfire 
+dnf.log:2021-11-13T23:27:12+0100 DDEBUG Extra commands: ['search', 'openfire']
+dnf.log:2021-11-13T23:39:50+0100 DDEBUG Command: yum search openfire 
+dnf.log:2021-11-13T23:39:50+0100 DDEBUG Extra commands: ['search', 'openfire']
+dnf.log:2021-11-13T23:40:28+0100 DDEBUG Command: yum install -y openfire-4.6.4-1.x86_64 
+dnf.log:2021-11-13T23:40:28+0100 DDEBUG Extra commands: ['install', '-y', 'openfire-4.6.4-1.x86_64']
+dnf.log:2021-11-13T23:40:28+0100 INFO No hay coincidencias para el argumento: [1mopenfire-4.6.4-1.x86_64(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire-4.6.4-1.x86_64
+dnf.log:2021-11-13T23:40:28+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire-4.6.4-1.x86_64
+dnf.log:2021-11-13T23:40:32+0100 DDEBUG Command: yum install -y openfire-4.6.4-1 
+dnf.log:2021-11-13T23:40:32+0100 DDEBUG Extra commands: ['install', '-y', 'openfire-4.6.4-1']
+dnf.log:2021-11-13T23:40:33+0100 INFO No hay coincidencias para el argumento: [1mopenfire-4.6.4-1(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire-4.6.4-1
+dnf.log:2021-11-13T23:40:33+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire-4.6.4-1
+dnf.log:2021-11-13T23:40:44+0100 DDEBUG Command: yum install -y openfire 
+dnf.log:2021-11-13T23:40:44+0100 DDEBUG Extra commands: ['install', '-y', 'openfire']
+dnf.log:2021-11-13T23:40:45+0100 INFO No hay coincidencias para el argumento: [1mopenfire(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire
+dnf.log:2021-11-13T23:40:45+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire
+dnf.log:2021-11-13T23:42:27+0100 DDEBUG Command: yum -y install openfire-4.6.4-1.i686 
+dnf.log:2021-11-13T23:42:27+0100 DDEBUG Extra commands: ['-y', 'install', 'openfire-4.6.4-1.i686']
+dnf.log:2021-11-13T23:42:35+0100 DDEBUG Command: yum -y install openfire-4.6.4-1.i686.rpm 
+dnf.log:2021-11-13T23:42:35+0100 DDEBUG Extra commands: ['-y', 'install', 'openfire-4.6.4-1.i686.rpm']
+dnf.log:2021-11-13T23:42:36+0100 DEBUG ---> Paquete openfire.i686 4.6.4-1 seleccionado para instalar
+dnf.log: [32mopenfire           (B[m i686            4.6.4-1             @commandline            111 M
+dnf.log:2021-11-13T23:43:35+0100 DEBUG Instalado: openfire-4.6.4-1.i686
+dnf.rpm.log:2021-11-13T23:42:39+0100 SUBDEBUG Installed: openfire-4.6.4-1.i686
+dnf.rpm.log:2021-11-13T23:43:29+0100 INFO Reiniciando openfire (via systemctl):  [  OK  ]
+history.txt:  768  systemctl status openfire
+messages:Dec  9 20:13:03 mail dbus-daemon[974]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.15' (uid=0 pid=1003 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages:Dec 11 15:28:10 mail openfire[965]: Starting openfire:
+messages:Dec 11 18:40:30 mail dbus-daemon[977]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.12' (uid=0 pid=1010 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages:Dec 11 18:40:55 mail openfire[975]: Starting openfire:
+messages-20211128:Nov 13 23:44:02 localhost openfire[11599]: Starting openfire:
+messages-20211211:Dec  1 17:28:04 mail dbus-daemon[886]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.14' (uid=0 pid=910 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages-20211211:Dec  1 17:28:15 mail openfire[878]: Starting openfire:
+messages-20211211:Dec  9 17:26:27 mail dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.14' (uid=0 pid=958 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages-20211211:Dec  9 17:26:39 mail openfire[922]: Starting openfire:
+messages-20211211:Dec  9 18:20:33 mail dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.12' (uid=0 pid=961 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages-20211211:Dec  9 18:20:46 mail openfire[918]: Starting openfire:
+messages-20211211:Dec  9 18:25:25 mail dbus-daemon[931]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.13' (uid=0 pid=975 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+messages-20211211:Dec  9 18:25:37 mail openfire[947]: Starting openfire:
+openfire.log:audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636843409.227:560): pid=11495 uid=0 auid=1000 ses=3 msg='op=install sw="openfire-4.6.4-1.i686" sw_type=rpm key_enforce=0 gpg_res=0 root_dir="/" comm="yum" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1636843443.273:573): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1638376096.345:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1638380123.548:549): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639067200.087:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_STOP msg=audit(1639068513.373:271): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639070447.823:76): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639070738.653:77): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639232726.592:1182): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639232891.666:86): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:audit/audit.log:type=SERVICE_START msg=audit(1639244456.048:79): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=openfire comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+openfire.log:dnf.log:2021-11-13T23:26:27+0100 DDEBUG Command: dnf search openfire 
+openfire.log:dnf.log:2021-11-13T23:26:27+0100 DDEBUG Extra commands: ['search', 'openfire']
+openfire.log:dnf.log:2021-11-13T23:27:12+0100 DDEBUG Command: yum search openfire 
+openfire.log:dnf.log:2021-11-13T23:27:12+0100 DDEBUG Extra commands: ['search', 'openfire']
+openfire.log:dnf.log:2021-11-13T23:39:50+0100 DDEBUG Command: yum search openfire 
+openfire.log:dnf.log:2021-11-13T23:39:50+0100 DDEBUG Extra commands: ['search', 'openfire']
+openfire.log:dnf.log:2021-11-13T23:40:28+0100 DDEBUG Command: yum install -y openfire-4.6.4-1.x86_64 
+openfire.log:dnf.log:2021-11-13T23:40:28+0100 DDEBUG Extra commands: ['install', '-y', 'openfire-4.6.4-1.x86_64']
+openfire.log:dnf.log:2021-11-13T23:40:28+0100 INFO No hay coincidencias para el argumento: [1mopenfire-4.6.4-1.x86_64(B[m
+openfire.log:dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire-4.6.4-1.x86_64
+openfire.log:dnf.log:2021-11-13T23:40:28+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire-4.6.4-1.x86_64
+openfire.log:dnf.log:2021-11-13T23:40:32+0100 DDEBUG Command: yum install -y openfire-4.6.4-1 
+openfire.log:dnf.log:2021-11-13T23:40:32+0100 DDEBUG Extra commands: ['install', '-y', 'openfire-4.6.4-1']
+openfire.log:dnf.log:2021-11-13T23:40:33+0100 INFO No hay coincidencias para el argumento: [1mopenfire-4.6.4-1(B[m
+openfire.log:dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire-4.6.4-1
+openfire.log:dnf.log:2021-11-13T23:40:33+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire-4.6.4-1
+openfire.log:dnf.log:2021-11-13T23:40:44+0100 DDEBUG Command: yum install -y openfire 
+openfire.log:dnf.log:2021-11-13T23:40:44+0100 DDEBUG Extra commands: ['install', '-y', 'openfire']
+openfire.log:dnf.log:2021-11-13T23:40:45+0100 INFO No hay coincidencias para el argumento: [1mopenfire(B[m
+openfire.log:dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: openfire
+openfire.log:dnf.log:2021-11-13T23:40:45+0100 CRITICAL Error: No se pudo encontrar ningún resultado: openfire
+openfire.log:dnf.log:2021-11-13T23:42:27+0100 DDEBUG Command: yum -y install openfire-4.6.4-1.i686 
+openfire.log:dnf.log:2021-11-13T23:42:27+0100 DDEBUG Extra commands: ['-y', 'install', 'openfire-4.6.4-1.i686']
+openfire.log:dnf.log:2021-11-13T23:42:35+0100 DDEBUG Command: yum -y install openfire-4.6.4-1.i686.rpm 
+openfire.log:dnf.log:2021-11-13T23:42:35+0100 DDEBUG Extra commands: ['-y', 'install', 'openfire-4.6.4-1.i686.rpm']
+openfire.log:dnf.log:2021-11-13T23:42:36+0100 DEBUG ---> Paquete openfire.i686 4.6.4-1 seleccionado para instalar
+openfire.log:dnf.log: [32mopenfire           (B[m i686            4.6.4-1             @commandline            111 M
+openfire.log:dnf.log:2021-11-13T23:43:35+0100 DEBUG Instalado: openfire-4.6.4-1.i686
+openfire.log:dnf.rpm.log:2021-11-13T23:42:39+0100 SUBDEBUG Installed: openfire-4.6.4-1.i686
+openfire.log:dnf.rpm.log:2021-11-13T23:43:29+0100 INFO Reiniciando openfire (via systemctl):  [  OK  ]
+openfire.log:history.txt:  768  systemctl status openfire
+openfire.log:messages:Dec  9 20:13:03 mail dbus-daemon[974]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.15' (uid=0 pid=1003 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages:Dec 11 15:28:10 mail openfire[965]: Starting openfire:
+openfire.log:messages:Dec 11 18:40:30 mail dbus-daemon[977]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.12' (uid=0 pid=1010 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages:Dec 11 18:40:55 mail openfire[975]: Starting openfire:
+openfire.log:messages-20211128:Nov 13 23:44:02 localhost openfire[11599]: Starting openfire:
+openfire.log:messages-20211211:Dec  1 17:28:04 mail dbus-daemon[886]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.14' (uid=0 pid=910 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages-20211211:Dec  1 17:28:15 mail openfire[878]: Starting openfire:
+openfire.log:messages-20211211:Dec  9 17:26:27 mail dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.14' (uid=0 pid=958 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages-20211211:Dec  9 17:26:39 mail openfire[922]: Starting openfire:
+openfire.log:messages-20211211:Dec  9 18:20:33 mail dbus-daemon[919]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.12' (uid=0 pid=961 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages-20211211:Dec  9 18:20:46 mail openfire[918]: Starting openfire:
+openfire.log:messages-20211211:Dec  9 18:25:25 mail dbus-daemon[931]: [system] Activating via systemd: service name='org.freedesktop.login1' unit='dbus-org.freedesktop.login1.service' requested by ':1.13' (uid=0 pid=975 comm="su -s /bin/sh -c nohup /opt/openfire/jre/bin/java ")
+openfire.log:messages-20211211:Dec  9 18:25:37 mail openfire[947]: Starting openfire:

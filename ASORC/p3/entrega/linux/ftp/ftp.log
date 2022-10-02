@@ -1,0 +1,744 @@
+anaconda/packaging.log:19:53:13,958 INF packaging: Installed: python3-requests-ftp-0.3.1-11.el8.noarch 1618212097 eab9445f237d733748c8c4f4286f4209016354c02186c2a6d41c695338fecdea
+anaconda/packaging.log:20:01:09,940 INF packaging: Verifying: python3-requests-ftp-0.3.1-11.el8.noarch 1618212097 eab9445f237d733748c8c4f4286f4209016354c02186c2a6d41c695338fecdea
+anaconda/packaging.log:20:01:10,178 DBG dnf: Installed: python3-requests-ftp-0.3.1-11.el8.noarch
+anaconda/journal.log:Sep 22 17:53:13 localhost anaconda[1716]: packaging: Installed: python3-requests-ftp-0.3.1-11.el8.noarch 1618212097 eab9445f237d733748c8c4f4286f4209016354c02186c2a6d41c695338fecdea
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: python3-requests-ftp-0.3.1-11.el8.noarch 1618212097 eab9445f237d733748c8c4f4286f4209016354c02186c2a6d41c695338fecdea
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: python3-requests-ftp-0.3.1-11.el8.noarch
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636832378.741:260): pid=5425 uid=0 auid=1000 ses=3 msg='op=install sw="vsftpd-3.0.3-34.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636832649.572:265): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636832744.620:268): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636833001.464:271): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636833001.511:272): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636833033.110:273): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636833113.094:275): pid=6079 uid=0 auid=1000 ses=3 msg='op=install sw="ftp-0.17-78.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636833155.438:279): pid=6456 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="np31" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=failed'UID="root" AUID="unset"
+audit/audit.log:type=ADD_GROUP msg=audit(1636833253.503:280): pid=6480 uid=0 auid=1000 ses=3 msg='op=add-group acct="ftp1" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=ADD_USER msg=audit(1636833253.556:281): pid=6480 uid=0 auid=1000 ses=3 msg='op=add-user acct="ftp1" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_MGMT msg=audit(1636833256.345:282): pid=6480 uid=0 auid=1000 ses=3 msg='op=add-home-dir id=1007 exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31" ID="ftp1"
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1636833267.702:284): pid=6493 uid=0 auid=1000 ses=3 msg='op=PAM:chauthtok grantors=? acct="ftp1" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/0 res=failed'UID="root" AUID="np31"
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1636833275.439:286): pid=6509 uid=0 auid=1000 ses=3 msg='op=PAM:chauthtok grantors=? acct="ftp1" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/0 res=failed'UID="root" AUID="np31"
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1636833287.206:287): pid=6517 uid=0 auid=1000 ses=3 msg='op=PAM:chauthtok grantors=pam_pwquality,pam_unix acct="ftp1" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636833826.747:290): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636833826.753:291): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636833921.504:294): pid=6858 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636833921.504:295): pid=6858 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636833921.514:296): pid=6858 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636834363.518:299): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636834363.522:300): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636834379.073:301): pid=6979 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636834379.074:302): pid=6979 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636834379.074:303): pid=6979 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636834686.688:306): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636834686.693:307): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636834742.765:308): pid=7130 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636834742.765:309): pid=7130 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636834742.774:310): pid=7130 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636834765.362:312): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636834765.367:313): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636834771.800:314): pid=7167 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636834771.800:315): pid=7167 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636834771.800:316): pid=7167 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636835169.041:322): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636835169.046:323): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636835188.178:324): pid=7487 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636835188.178:325): pid=7487 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636835188.194:326): pid=7487 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636835652.747:331): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636835652.754:332): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=ADD_GROUP msg=audit(1636835695.176:333): pid=7657 uid=0 auid=1000 ses=3 msg='op=add-group acct="ftp2" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=ADD_USER msg=audit(1636835695.236:334): pid=7657 uid=0 auid=1000 ses=3 msg='op=add-user acct="ftp2" exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_MGMT msg=audit(1636835695.815:335): pid=7657 uid=0 auid=1000 ses=3 msg='op=add-home-dir id=1008 exe="/usr/sbin/useradd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31" ID="ftp2"
+audit/audit.log:type=USER_CHAUTHTOK msg=audit(1636835702.181:336): pid=7670 uid=0 auid=1000 ses=3 msg='op=PAM:chauthtok grantors=pam_pwquality,pam_unix acct="ftp2" exe="/usr/bin/passwd" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636835729.866:337): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636835729.870:338): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636835840.295:339): pid=7866 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636835840.296:340): pid=7866 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636835840.296:341): pid=7866 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636835912.670:342): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636835912.675:343): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636835924.337:344): pid=7937 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636835924.337:345): pid=7937 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636835924.356:346): pid=7937 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636836036.160:349): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636836036.166:350): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836087.668:351): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836087.669:352): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836087.671:353): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836087.682:354): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836125.895:356): pid=8104 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=? acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=failed'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836130.729:357): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836130.730:358): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836130.731:359): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836130.791:360): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836355.187:364): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836355.187:365): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836355.519:366): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836355.540:367): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836371.468:369): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836371.469:370): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836371.470:371): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836371.472:372): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836377.107:373): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836377.107:374): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836377.108:375): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836377.110:376): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836391.945:377): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836391.945:378): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836391.946:379): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836391.948:380): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836438.770:382): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836438.771:383): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836438.773:384): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836438.774:385): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836475.869:387): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836475.869:388): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836475.871:389): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836475.876:390): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836494.841:391): pid=8460 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836494.841:392): pid=8460 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836494.841:393): pid=8460 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836526.942:395): pid=8476 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836526.942:396): pid=8476 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836526.943:397): pid=8476 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836600.754:400): pid=8519 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836600.754:401): pid=8519 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836600.754:402): pid=8519 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836628.004:403): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836628.005:404): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836628.006:405): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836628.008:406): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836648.948:408): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836648.948:409): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836648.950:410): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836648.952:411): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_CMD msg=audit(1636836669.035:413): pid=8603 uid=0 auid=1000 ses=3 msg='cwd="/home/ftp1/ftp_folder" cmd=6C73202D6C61 exe="/usr/bin/sudo" terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836676.556:418): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836676.556:419): pid=8558 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836677.457:420): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836677.457:421): pid=8523 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836678.305:422): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836678.305:423): pid=8430 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836679.283:425): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836679.283:426): pid=8386 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836680.092:427): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836680.093:428): pid=8348 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836682.287:429): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836682.287:430): pid=8313 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836683.313:431): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836683.313:432): pid=8283 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836684.296:433): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836684.296:434): pid=8248 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836685.190:435): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836685.191:436): pid=8110 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_END msg=audit(1636836686.069:437): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:session_close grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_DISP msg=audit(1636836686.069:438): pid=8060 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836696.399:446): pid=8667 uid=0 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836696.399:447): pid=8667 uid=0 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_succeed_if acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836696.400:448): pid=8667 uid=0 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_rootok acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836696.402:449): pid=8667 uid=0 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask acct="ftp1" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836726.347:452): pid=8719 uid=1007 auid=1000 ses=3 msg='op=PAM:authentication grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_ACCT msg=audit(1636836726.347:453): pid=8719 uid=1007 auid=1000 ses=3 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836726.350:454): pid=8719 uid=1007 auid=1000 ses=3 msg='op=PAM:setcred grantors=pam_unix acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_START msg=audit(1636836726.355:455): pid=8719 uid=1007 auid=1000 ses=3 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_systemd,pam_unix,pam_umask,pam_xauth acct="root" exe="/usr/bin/su" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="ftp1" AUID="np31"
+audit/audit.log:type=USER_AUTH msg=audit(1636836736.216:456): pid=8748 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836736.216:457): pid=8748 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836736.216:458): pid=8748 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836782.982:460): pid=8771 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=failed'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836797.203:461): pid=8775 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836797.203:462): pid=8775 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836797.203:463): pid=8775 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836832.046:464): pid=8784 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836832.046:465): pid=8784 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836832.046:466): pid=8784 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836860.543:469): pid=8807 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=failed'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636836868.777:470): pid=8810 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636836868.777:471): pid=8810 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636836868.778:472): pid=8810 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636837559.395:477): pid=8967 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636837559.396:478): pid=8967 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636837559.396:479): pid=8967 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636837635.204:480): pid=8988 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636837635.204:481): pid=8988 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636837635.204:482): pid=8988 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=localhost.localdomain addr=::1 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636839673.469:501): pid=9356 uid=0 auid=1000 ses=3 msg='op=install sw="proftpd-1.3.6e-4.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636839711.531:512): pid=9592 uid=0 auid=1000 ses=3 msg='op=install sw="proftpd-utils-1.3.6e-4.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SERVICE_START msg=audit(1636840108.145:518): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=proftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1636840108.159:519): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=proftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1636840219.377:522): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=proftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636840247.986:523): pid=10336 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="root" exe="/usr/sbin/vsftpd" hostname=localhost addr=::1 terminal=ftp res=failed'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636840526.606:526): pid=10392 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636840526.606:527): pid=10392 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp1" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636840526.662:528): pid=10392 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp1" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_AUTH msg=audit(1636841208.107:533): pid=10528 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=pam_listfile,pam_shells,pam_usertype,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=USER_ACCT msg=audit(1636841208.107:534): pid=10528 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting grantors=pam_unix,pam_localuser acct="ftp2" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=CRED_ACQ msg=audit(1636841208.107:535): pid=10528 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred grantors=pam_listfile,pam_shells,pam_localuser,pam_unix acct="ftp2" exe="/usr/sbin/vsftpd" hostname=192.168.137.9 addr=192.168.137.9 terminal=ftp res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1638376090.980:51): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1638380116.768:485): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1638380116.768:486): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639067194.756:53): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639068511.816:220): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639070441.275:43): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639070732.918:50): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639232698.914:1101): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_STOP msg=audit(1639232698.914:1102): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639077194.479:54): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+audit/audit.log:type=SERVICE_START msg=audit(1639244438.069:47): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=vsftpd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'UID="root" AUID="unset"
+boot.log:         Starting Vsftpd ftp daemon...
+boot.log:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+boot.log:         Starting Vsftpd ftp daemon...
+boot.log:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+boot.log-20211211:         Starting Vsftpd ftp daemon...
+boot.log-20211211:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+boot.log-20211211:         Starting Vsftpd ftp daemon...
+boot.log-20211211:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+boot.log-20211211:         Starting Vsftpd ftp daemon...
+boot.log-20211211:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+boot.log-20211211:         Starting Vsftpd ftp daemon...
+boot.log-20211211:[[0;32m  OK  [0m] Started Vsftpd ftp daemon.
+dnf.librepo.log:2021-09-22T20:16:35+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-09-22T20:16:35+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/5aa2941d68fb471f7cde4c50bb479f65536800e066d15899edea8e80a57cba65-primary.xml.gz
+dnf.librepo.log:2021-09-22T20:16:35+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/d8720e0fe89d6c99d2b18e2fcb86a11b5900758dafe93d6d4aaa521641f45e23-filelists.xml.gz
+dnf.librepo.log:2021-09-22T20:16:35+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/18e57fa69a4daadd345ab03e41c0347ce77405b128d02d086aa958f4b805d732-comps-AppStream.x86_64.xml
+dnf.librepo.log:2021-09-22T20:16:37+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/c39a27b0d4948be95ca10ca3bd1dc701d7f25847d8e507f98e665fdf68b7292a-modules.yaml.xz
+dnf.librepo.log:2021-09-22T20:16:38+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/AppStream/x86_64/os/repodata/aa86b962bca567c0c36ae37404f67399f57a3964d6c00a255cd89829840aad3e-updateinfo.xml.gz
+dnf.librepo.log:2021-09-22T20:16:50+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-09-22T20:16:50+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/BaseOS/x86_64/os/repodata/9bd2fa9ca82e233bba99c8d4d40ae61ccfdee42af71363e7883282f327f59e49-primary.xml.gz
+dnf.librepo.log:2021-09-22T20:16:50+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/BaseOS/x86_64/os/repodata/67ce731ed6172fa3d26924096969caa802753090b5449d0656651d334cd39722-filelists.xml.gz
+dnf.librepo.log:2021-09-22T20:16:50+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/BaseOS/x86_64/os/repodata/5eedac6f334681aa51e154d77025db287c33ce1491b14368be9b477ff8208152-comps-BaseOS.x86_64.xml
+dnf.librepo.log:2021-09-22T20:16:52+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/BaseOS/x86_64/os/repodata/8ba6554915f244aeac9e206890cbcc2ad2fdc1f03248f3a59db689f7fb82514f-updateinfo.xml.gz
+dnf.librepo.log:2021-09-22T20:17:03+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-09-22T20:17:03+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/extras/x86_64/os/repodata/310d5884738ffe8c98c22c882facff6e0c416bf3fb0879b03fb6a8ace7cdf734-primary.xml.gz
+dnf.librepo.log:2021-09-22T20:17:03+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/extras/x86_64/os/repodata/fb61c9b5de488b722e8783caa40f473879c68419860cd2b66f37dece9555b774-filelists.xml.gz
+dnf.librepo.log:2021-09-22T20:17:03+0200 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.4/extras/x86_64/os/repodata/ad677747a8d80f3f3f5f6ccfaf15dd3a992c6f2341207c2f58c0dcab1e25e044-updateinfo.xml.gz
+dnf.librepo.log:2021-11-13T14:36:29+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T14:36:30+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T14:36:31+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/repodata/91da863382579b0f80953835ed030edd055dc4d05c822de01c5d41e12195bfb7-primary.xml.gz
+dnf.librepo.log:2021-11-13T14:36:31+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/repodata/518765ab3e5ad0068fa74ae23f7ef63365456fa8358a31f864e86e6613b05732-filelists.xml.gz
+dnf.librepo.log:2021-11-13T14:36:31+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/repodata/ad677747a8d80f3f3f5f6ccfaf15dd3a992c6f2341207c2f58c0dcab1e25e044-updateinfo.xml.gz
+dnf.librepo.log:2021-11-13T15:15:38+0100 INFO Downloading: http://ftp.riken.jp/Linux/rocky/8.4/extras/x86_64/os/Packages/e/epel-release-8-13.el8.noarch.rpm
+dnf.librepo.log:2021-11-13T20:38:46+0100 INFO Downloading: http://mirror.es.stackscale.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:46+0100 INFO Error during transfer: Status code: 404 for http://mirror.es.stackscale.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 185.47.12.70)
+dnf.librepo.log:2021-11-13T20:38:46+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Error during transfer: Status code: 404 for https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 130.206.13.2)
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Downloading: http://mirror.tedra.es/RockyLinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Error during transfer: Status code: 404 for http://mirror.tedra.es/RockyLinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 185.23.36.124)
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Downloading: http://ftp.acc.umu.se/mirror/rockylinux.org/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Error during transfer: Status code: 404 for http://ftp.acc.umu.se/mirror/rockylinux.org/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 194.71.11.165)
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Downloading: http://mirror.alwyzon.net/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Error during transfer: Status code: 404 for http://mirror.alwyzon.net/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 46.102.157.44)
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Downloading: https://mirror.slu.cz/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Error during transfer: Status code: 404 for https://mirror.slu.cz/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 193.84.206.135)
+dnf.librepo.log:2021-11-13T20:38:47+0100 INFO Downloading: http://mirrors.xtom.ee/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Error during transfer: Status code: 404 for http://mirrors.xtom.ee/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 185.37.252.138)
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Downloading: http://rockylinux.ip-connect.vn.ua/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Error during transfer: Status code: 404 for http://rockylinux.ip-connect.vn.ua/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 91.236.251.12)
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Downloading: https://rockylinux.anexia.at/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Error during transfer: Status code: 404 for https://rockylinux.anexia.at/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 144.208.213.156)
+dnf.librepo.log:2021-11-13T20:38:48+0100 INFO Downloading: https://mirror.cov.ukservers.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Error during transfer: Status code: 404 for https://mirror.cov.ukservers.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 94.229.65.150)
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Downloading: http://mirror.in2p3.fr/pub/linux/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Error during transfer: Status code: 404 for http://mirror.in2p3.fr/pub/linux/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 134.158.69.171)
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Downloading: https://www.nic.funet.fi/pub/mirrors/rockylinux.org/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Error during transfer: Status code: 404 for https://www.nic.funet.fi/pub/mirrors/rockylinux.org/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 193.166.3.3)
+dnf.librepo.log:2021-11-13T20:38:49+0100 INFO Downloading: http://mirror.i3d.net/pub/rockylinux//8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Error during transfer: Status code: 404 for http://esmad1-edge1.cdn.i3d.net/o1/k9999/pub/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm?nonce=MTYzODAyMzQxMg%3D%3D (IP: 213.179.217.213)
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Downloading: https://mirror.karneval.cz/pub/linux/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Error during transfer: Status code: 404 for https://mirror.karneval.cz/pub/linux/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 89.102.0.150)
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Downloading: http://ftp.fau.de/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Error during transfer: Status code: 404 for http://ftp.fau.de/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 131.188.12.211)
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Downloading: http://rockylinux.ip-connect.info/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Error during transfer: Status code: 404 for http://rockylinux.ip-connect.info/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 194.5.96.13)
+dnf.librepo.log:2021-11-13T20:38:50+0100 INFO Downloading: https://mirror.niif.hu/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Error during transfer: Status code: 404 for https://mirror.niif.hu/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 193.224.218.31)
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Downloading: https://mirror.dogado.de/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Error during transfer: Status code: 404 for https://mirror.dogado.de/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 185.3.234.216)
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Downloading: http://ftp.cc.uoc.gr/mirrors/linux/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Error during transfer: Status code: 404 for http://ftp.cc.uoc.gr/mirrors/linux/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 147.52.159.12)
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Error during transfer: Status code: 404 for http://mirrors.ptisp.pt/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 130.185.80.122)
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Downloading: http://mirror.netzwerge.de/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Error during transfer: Status code: 404 for http://mirror.netzwerge.de/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 185.41.106.155)
+dnf.librepo.log:2021-11-13T20:38:51+0100 INFO Downloading: https://mirror.yandex.ru/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Error during transfer: Status code: 404 for https://mirror.yandex.ru/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 213.180.204.183)
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Downloading: http://mirror.tvk.rwth-aachen.de/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Error during transfer: Status code: 404 for http://mirror.tvk.rwth-aachen.de/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 137.226.143.8)
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Downloading: http://rocky.quelquesmots.fr/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Error during transfer: Status code: 404 for http://rocky.quelquesmots.fr/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 163.172.88.212)
+dnf.librepo.log:2021-11-13T20:38:52+0100 INFO Downloading: http://uk.mirrors.clouvider.net/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Error during transfer: Status code: 404 for http://uk.mirrors.clouvider.net/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 5.180.211.190)
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Downloading: https://ftp.gwdg.de/pub/linux/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Error during transfer: Status code: 404 for https://ftp.gwdg.de/pub/linux/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 134.76.12.6)
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Downloading: http://mirrors.xtom.de/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Error during transfer: Status code: 404 for http://mirrors.xtom.de/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 62.133.35.14)
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Downloading: http://mirror.eixamcoop.cat/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Error during transfer: Status code: 404 for http://mirror.eixamcoop.cat/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 109.69.15.135)
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Downloading: http://mirror.pulsant.com/sites/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Error during transfer: Status code: 404 for http://mirror.pulsant.com/sites/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 89.151.64.194)
+dnf.librepo.log:2021-11-13T20:38:53+0100 INFO Downloading: https://mirror.puzzle.ch/rockylinux/mirror/pub/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Error during transfer: Curl error (60): Peer certificate cannot be authenticated with given CA certificates for https://mirror.puzzle.ch/rockylinux/mirror/pub/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm [SSL certificate problem: certificate is not yet valid]
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Downloading: https://mirror.23m.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Error during transfer: Curl error (60): Peer certificate cannot be authenticated with given CA certificates for https://mirror.23m.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm [SSL certificate problem: certificate is not yet valid]
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Downloading: https://ftp.lysator.liu.se/pub/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Error during transfer: Curl error (60): Peer certificate cannot be authenticated with given CA certificates for https://ftp.lysator.liu.se/pub/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm [SSL certificate problem: certificate is not yet valid]
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Downloading: https://ftp.plusline.net/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Error during transfer: Status code: 404 for https://ftp.plusline.net/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 82.98.66.54)
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Downloading: http://mirrors.aminvakil.com/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Error during transfer: Status code: 404 for http://mirrors.aminvakil.com/rocky-linux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 178.63.189.198)
+dnf.librepo.log:2021-11-13T20:38:54+0100 INFO Downloading: http://mirror.cyberbits.eu/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Error during transfer: Status code: 404 for http://mirror.cyberbits.eu/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 62.210.124.230)
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Downloading: https://mirror.rockylinux.ikoula.com/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Error during transfer: Status code: 404 for https://mirror.rockylinux.ikoula.com/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 109.238.1.250)
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Downloading: http://mirror.etf.bg.ac.rs/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Error during transfer: Status code: 404 for http://mirror.etf.bg.ac.rs/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 147.91.8.38)
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Downloading: https://rockymirror.ts.si/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Error during transfer: Status code: 404 for https://rockymirror.ts.si/rockylinux/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 89.143.232.146)
+dnf.librepo.log:2021-11-13T20:38:55+0100 INFO Downloading: http://mirror.digitalnova.at/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Error during transfer: Status code: 404 for http://mirror.digitalnova.at/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 85.126.154.4)
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Downloading: http://mirror.netweaver.uk/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Error during transfer: Status code: 404 for http://mirror.netweaver.uk/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 109.169.41.51)
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Downloading: http://mirror.nl.stackscale.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Error during transfer: Status code: 404 for http://mirror.nl.stackscale.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 5.57.230.252)
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Downloading: https://mirrors.melbourne.co.uk/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Error during transfer: Status code: 404 for https://mirrors.melbourne.co.uk/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 92.63.142.155)
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Downloading: http://mirrors.primetelecom.ro/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Error during transfer: Status code: 404 for http://mirrors.primetelecom.ro/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 188.247.240.78)
+dnf.librepo.log:2021-11-13T20:38:56+0100 INFO Downloading: http://rockylinux.is/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Error during transfer: Status code: 404 for http://rockylinux.is/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 217.28.176.103)
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Downloading: http://lon.mirror.rackspace.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Error during transfer: Status code: 404 for http://lon.mirror.rackspace.com/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 94.236.26.35)
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Downloading: http://rocky.reloumirrors.net/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Error during transfer: Status code: 404 for http://rocky.reloumirrors.net/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 193.28.235.36)
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Downloading: https://mirror.informatik.hs-fulda.de/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Error during transfer: Status code: 404 for https://mirror.informatik.hs-fulda.de/rocky/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm (IP: 193.174.29.5)
+dnf.librepo.log:2021-11-13T20:38:57+0100 INFO Downloading: https://rocky.lemenez.fr/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:38:58+0100 INFO Error during transfer: Curl error (60): Peer certificate cannot be authenticated with given CA certificates for https://rocky.lemenez.fr/8.5/AppStream/x86_64/os/Packages/vsftpd-3.0.3-33.el8.x86_64.rpm [SSL certificate problem: certificate is not yet valid]
+dnf.librepo.log:2021-11-13T20:38:58+0100 INFO Error while downloading: Cannot download Packages/vsftpd-3.0.3-33.el8.x86_64.rpm: All mirrors were tried
+dnf.librepo.log:2021-11-13T20:39:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T20:39:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T20:39:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/a77b18b9383d79d51aaacec2899ba05e5a06f5fcad3433480cc5b62655bccb8b-primary.xml.gz
+dnf.librepo.log:2021-11-13T20:39:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/12fa5bdce92968cbc0095aeecd7720aa8dc8d7bf4eb51fde3d5ae1e344094118-filelists.xml.gz
+dnf.librepo.log:2021-11-13T20:39:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/49f741ea6865f699005768b72158e3bd42d4725633a2694714b5b0c1cf1e7a4c-comps-AppStream.x86_64.xml
+dnf.librepo.log:2021-11-13T20:39:09+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/25f9873b6ab6540f4b76269acc7f9d5d73aa5050af5743940cdb2f7082c9aa00-modules.yaml.xz
+dnf.librepo.log:2021-11-13T20:39:09+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/04874e72d8addc263929525349e268047e5bf107038e15913cf3e5283203208e-updateinfo.xml.gz
+dnf.librepo.log:2021-11-13T20:39:16+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/v/vsftpd-3.0.3-34.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T20:51:51+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/f/ftp-0.17-78.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T22:40:39+0100 INFO Downloading: http://mirror.uv.es/mirror/fedora-epel/8/Everything/x86_64/Packages/p/proftpd-1.3.6e-4.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T22:41:04+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T22:41:04+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T22:41:05+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T22:41:05+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/ff691ea3ec31b85aef31bd9642155fe7d44d358ce02c85d5cd582443054f8e41-primary.xml.gz
+dnf.librepo.log:2021-11-13T22:41:05+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/743059f57f36f5fa6266ca83a4d899ecfe311691755ad8ac149c294a665c8e7e-filelists.xml.gz
+dnf.librepo.log:2021-11-13T22:41:05+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/c89491f2ac7221e319a89083d2c531dbcd63ca809562d00d61b05d255333cc80-comps-BaseOS.x86_64.xml
+dnf.librepo.log:2021-11-13T22:41:05+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/18d76797ecaa2534853c000f88a65eadf772ee54a5c37a4c6eb585cfa6c3ed19-updateinfo.xml.gz
+dnf.librepo.log:2021-11-13T22:41:07+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T22:41:07+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-13T22:41:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/c42bb209b7fa556e88069f1a5c5c3f1c22783af60fc63127cb67f9b1ea634e90-primary.xml.gz
+dnf.librepo.log:2021-11-13T22:41:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/414fae29ee4252796f3aca771afd6d644ddd01865b7ccee186f5ecfd12c0fd61-filelists.xml.gz
+dnf.librepo.log:2021-11-13T22:41:08+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/ad677747a8d80f3f3f5f6ccfaf15dd3a992c6f2341207c2f58c0dcab1e25e044-updateinfo.xml.gz
+dnf.librepo.log:2021-11-13T22:41:47+0100 INFO Downloading: http://mirror.uv.es/mirror/fedora-epel/8/Everything/x86_64/Packages/p/proftpd-utils-1.3.6e-4.el8.x86_64.rpm
+dnf.librepo.log:2021-11-13T23:45:29+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libpq-13.3-1.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T23:45:29+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libpq-devel-13.3-1.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T23:45:29+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/postgresql-10.17-2.module%2bel8.5.0%2b685%2bb03fcc47.x86_64.rpm
+dnf.librepo.log:2021-11-13T23:45:30+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/postgresql-server-10.17-2.module%2bel8.5.0%2b685%2bb03fcc47.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:07:30+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-28T16:07:31+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-28T16:09:39+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-11-28T16:10:02+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/l/lksctp-tools-1.0.18-3.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:54+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/l/lm_sensors-libs-3.4.0-23.20180522git70f7e08.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:54+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/m/make-4.2.1-10.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Algorithm-Diff-1.1903-9.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Archive-Tar-2.30-1.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Compress-Raw-Bzip2-2.081-1.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Compress-Raw-Zlib-2.081-1.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-IO-Compress-2.081-1.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-IO-Zlib-1.10-420.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Text-Diff-1.45-2.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/python3-pyparsing-2.1.10-7.el8.noarch.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/o/openssh-8.0p1-10.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/o/openssh-clients-8.0p1-10.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/o/openssh-server-8.0p1-10.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-Errno-1.28-420.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-interpreter-5.26.3-420.el8.x86_64.rpm
+dnf.librepo.log:2021-11-28T16:42:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/perl-libs-5.26.3-420.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:30:36+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-01T17:30:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-01T17:30:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/extras/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-01T17:31:12+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/d/docbook-dtds-1.0-69.el8.noarch.rpm
+dnf.librepo.log:2021-12-01T17:31:12+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/d/docbook-style-xsl-1.79.2-9.el8.noarch.rpm
+dnf.librepo.log:2021-12-01T17:31:12+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libglvnd-opengl-1.3.2-1.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:12+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:14+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-backup-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:19+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-common-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:19+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-connector-c-3.1.11-2.el8_3.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-connector-c-config-3.1.11-2.el8_3.noarch.rpm
+dnf.librepo.log:2021-12-01T17:31:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-errmsg-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:21+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-gssapi-server-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:22+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-server-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:38+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mariadb-server-utils-10.3.28-1.module%2bel8.4.0%2b427%2badf35707.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:40+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/media-player-info-23-2.el8.noarch.rpm
+dnf.librepo.log:2021-12-01T17:31:40+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/perl-DBD-MySQL-4.046-3.module%2bel8.4.0%2b577%2bb8fe2d92.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:41+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qgpgme-1.13.1-9.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:42+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qrencode-libs-3.4.4-5.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:42+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtbase-5.15.2-3.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:43+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtbase-common-5.15.2-3.el8.0.1.noarch.rpm
+dnf.librepo.log:2021-12-01T17:31:43+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtbase-gui-5.15.2-3.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:58+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtbase-mysql-5.15.2-3.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:31:59+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtdeclarative-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:10+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtgraphicaleffects-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:11+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtlocation-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:17+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtquickcontrols-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:22+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtquickcontrols2-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:25+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtscript-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:29+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtsensors-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:30+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtsvg-5.15.2-3.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:30+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qttools-common-5.15.2-3.el8.0.1.noarch.rpm
+dnf.librepo.log:2021-12-01T17:32:30+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qttools-libs-designer-5.15.2-3.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:31+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtwayland-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:31+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtwebchannel-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:31+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtx11extras-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:32+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/q/qt5-qtxmlpatterns-5.15.2-2.el8.0.1.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:35+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xapian-core-libs-1.4.18-3.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:36+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xcb-util-image-0.4.0-9.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xcb-util-keysyms-0.4.0-7.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xcb-util-renderutil-0.3.9-10.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xcb-util-wm-0.4.1-12.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/c/cyrus-sasl-md5-2.1.27-5.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:38+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/g/gpgmepp-1.13.1-9.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:39+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/pcre2-utf16-10.32-2.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:32:39+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/s/sgml-common-0.6.3-50.el8.noarch.rpm
+dnf.librepo.log:2021-12-01T17:34:44+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/g/gpgme-1.13.1-9.el8.x86_64.rpm
+dnf.librepo.log:2021-12-01T17:34:47+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/Packages/p/python3-gpg-1.13.1-9.el8.x86_64.rpm
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/f85d77f948eac55d8df3e265b38ac31e7d67ee832185e433216625cdd3aab9c0-primary.xml.gz
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/6dce785f2d1a9323b3f523ec9ee632d6642428faf8ac2e9766095202bb966dd6-filelists.xml.gz
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/e567c9fd2510683ec4868a7c7080a477fd10baa0b64c191c1325acf7023973c8-comps-AppStream.x86_64.xml
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/568bf1a015dbd5d88236ecfa59d24c1f63bc32902e3f0e93a5012ad02c2d28a0-modules.yaml.xz
+dnf.librepo.log:2021-12-09T18:41:37+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/fc0c8517bc507ee6fa38eb1c144ef3dabc1b6f2d4bc3b2a73447db7bb289e411-updateinfo.xml.gz
+dnf.librepo.log:2021-12-09T18:41:45+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-09T18:41:46+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/14d5e2e6285d63c5e9126b3881f538f1e5bd2b4b04d92c7a81bdcbbd72300259-primary.xml.gz
+dnf.librepo.log:2021-12-09T18:41:46+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/fbedf1829ec719e7a40b9d988c3e8ed327bae8b0d9bded15e3d02233794b9c10-filelists.xml.gz
+dnf.librepo.log:2021-12-09T18:41:46+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/c89491f2ac7221e319a89083d2c531dbcd63ca809562d00d61b05d255333cc80-comps-BaseOS.x86_64.xml
+dnf.librepo.log:2021-12-09T18:41:46+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/BaseOS/x86_64/os/repodata/79a1fae7a266703fcca621bf3c97f246619b9e4cf98bafdd45efda91b9a621b9-updateinfo.xml.gz
+dnf.librepo.log:2021-12-09T18:41:53+0100 INFO Downloading: http://ftp.uma.es/mirror/epel/8/Modular/x86_64/repodata/repomd.xml
+dnf.librepo.log:2021-12-09T18:41:53+0100 INFO Downloading: http://ftp.uma.es/mirror/epel/8/Modular/x86_64/repodata/5b479a1f85b491c78b3872d06b5fc2e7105f39587f81907be929d7f978da3c4c-primary.xml.gz
+dnf.librepo.log:2021-12-09T18:41:53+0100 INFO Downloading: http://ftp.uma.es/mirror/epel/8/Modular/x86_64/repodata/98d1bf52f47758b7a0c62a8b86f6fb053574f0a402c57a5877fe9bb311ec3095-filelists.xml.gz
+dnf.librepo.log:2021-12-09T18:41:53+0100 INFO Downloading: http://ftp.uma.es/mirror/epel/8/Modular/x86_64/repodata/ca757b0bc0a0bba8edbd770b7a52013ab4194a653459edec6d74acb585482f5e-modules.yaml.gz
+dnf.librepo.log:2021-12-09T18:41:53+0100 INFO Downloading: http://ftp.uma.es/mirror/epel/8/Modular/x86_64/repodata/dfe4cf13e907d242dcb06395603492ef96fd86cd3af266ef3c2e6a71245477d7-updateinfo.xml.xz
+dnf.librepo.log:2021-12-09T18:42:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libecap-1.0.1-2.module%2bel8.4.0%2b404%2b316a0dc5.x86_64.rpm
+dnf.librepo.log:2021-12-09T18:42:20+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/s/squid-4.15-1.module%2bel8.5.0%2b705%2b218dec94.x86_64.rpm
+dnf.librepo.log:2021-12-11T14:52:02+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/repodata/repomd.xml
+dnf.librepo.log:2021-12-11T15:00:51+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/annobin-9.72-1.el8_5.2.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:51+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/apr-1.6.3-12.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:51+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/apr-util-1.6.1-6.el8.1.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/apr-util-bdb-1.6.1-6.el8.1.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/apr-util-openssl-1.6.1-6.el8.1.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/autoconf-2.69-29.el8.noarch.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/a/automake-1.16.1-7.el8.noarch.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/c/cpp-8.5.0-4.el8_5.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/g/gcc-8.5.0-4.el8_5.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/g/gd-devel-2.2.5-7.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:52+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/h/httpd-2.4.37-43.module%2bel8.5.0%2b714%2b5ec56ee8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:53+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/h/httpd-filesystem-2.4.37-43.module%2bel8.5.0%2b714%2b5ec56ee8.noarch.rpm
+dnf.librepo.log:2021-12-11T15:00:54+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/h/httpd-tools-2.4.37-43.module%2bel8.5.0%2b714%2b5ec56ee8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:54+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/i/isl-0.16.1-6.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:54+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libX11-devel-1.6.8-5.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libXau-devel-1.0.9-3.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libXpm-devel-3.5.12-8.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libjpeg-turbo-devel-1.5.3-12.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libtiff-devel-4.0.9-20.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libwebp-devel-1.0.0-5.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:55+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/l/libxcb-devel-1.13.1-1.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:57+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mod_http2-1.15.7-3.module%2bel8.5.0%2b695%2b1fa8055e.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:57+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/m/mod_ssl-2.4.37-43.module%2bel8.5.0%2b714%2b5ec56ee8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:57+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/n/net-snmp-5.8-22.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:57+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/n/net-snmp-agent-libs-5.8-22.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:57+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/n/net-snmp-utils-5.8-22.el8.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:58+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/n/nginx-filesystem-1.14.1-9.module%2bel8.4.0%2b542%2b81547229.noarch.rpm
+dnf.librepo.log:2021-12-11T15:00:58+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/php-7.2.24-1.module%2bel8.4.0%2b413%2bc9202dda.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:58+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/php-cli-7.2.24-1.module%2bel8.4.0%2b413%2bc9202dda.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:59+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/php-common-7.2.24-1.module%2bel8.4.0%2b413%2bc9202dda.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:59+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/p/php-fpm-7.2.24-1.module%2bel8.4.0%2b413%2bc9202dda.x86_64.rpm
+dnf.librepo.log:2021-12-11T15:00:59+0100 INFO Downloading: https://ftp.rediris.es/mirror/rocky/8.5/AppStream/x86_64/os/Packages/x/xorg-x11-proto-devel-2020.1-3.el8.noarch.rpm
+dnf.log:2021-11-13T20:38:35+0100 DDEBUG Command: dnf -y install vsftpd 
+dnf.log:2021-11-13T20:38:35+0100 DDEBUG Extra commands: ['-y', 'install', 'vsftpd']
+dnf.log:2021-11-13T20:38:46+0100 DEBUG ---> Paquete vsftpd.x86_64 3.0.3-33.el8 seleccionado para instalar
+dnf.log: [1m[32mvsftpd          (B[m x86_64           3.0.3-33.el8              appstream           179 k
+dnf.log:dnf.exceptions.DownloadError: Cannot download Packages/vsftpd-3.0.3-33.el8.x86_64.rpm: All mirrors were tried
+dnf.log:  Cannot download Packages/vsftpd-3.0.3-33.el8.x86_64.rpm: All mirrors were tried
+dnf.log:  Cannot download Packages/vsftpd-3.0.3-33.el8.x86_64.rpm: All mirrors were tried
+dnf.log:2021-11-13T20:39:07+0100 DDEBUG Command: dnf -y install vsftpd 
+dnf.log:2021-11-13T20:39:07+0100 DDEBUG Extra commands: ['-y', 'install', 'vsftpd']
+dnf.log:2021-11-13T20:39:16+0100 DEBUG ---> Paquete vsftpd.x86_64 3.0.3-34.el8 seleccionado para instalar
+dnf.log: [1m[32mvsftpd          (B[m x86_64           3.0.3-34.el8              appstream           180 k
+dnf.log:2021-11-13T20:39:47+0100 DEBUG Instalado: vsftpd-3.0.3-34.el8.x86_64
+dnf.log:2021-11-13T20:39:47+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/vsftpd-3.0.3-34.el8.x86_64.rpm eliminado
+dnf.log:2021-11-13T20:51:44+0100 DDEBUG Command: dnf -y ftp 
+dnf.log:2021-11-13T20:51:44+0100 CRITICAL No existe el comando: ftp. Por favor, utilice /usr/bin/dnf --help
+dnf.log:2021-11-13T20:51:44+0100 CRITICAL Podría ser un comando del complemento DNF, intente: "dnf install 'dnf-command(ftp)'"
+dnf.log:2021-11-13T20:51:49+0100 DDEBUG Command: dnf install -y ftp 
+dnf.log:2021-11-13T20:51:49+0100 DDEBUG Extra commands: ['install', '-y', 'ftp']
+dnf.log:2021-11-13T20:51:51+0100 DEBUG ---> Paquete ftp.x86_64 0.17-78.el8 seleccionado para instalar
+dnf.log: [1m[32mftp           (B[m x86_64            0.17-78.el8               appstream             69 k
+dnf.log:2021-11-13T20:52:00+0100 DEBUG Instalado: ftp-0.17-78.el8.x86_64
+dnf.log:2021-11-13T20:52:00+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/ftp-0.17-78.el8.x86_64.rpm eliminado
+dnf.log:2021-11-13T22:40:32+0100 DDEBUG Command: dnf -y install proftpd 
+dnf.log:2021-11-13T22:40:32+0100 DDEBUG Extra commands: ['-y', 'install', 'proftpd']
+dnf.log:2021-11-13T22:40:38+0100 DEBUG ---> Paquete proftpd.x86_64 1.3.6e-4.el8 seleccionado para instalar
+dnf.log: [1m[32mproftpd                 (B[m x86_64        1.3.6e-4.el8            epel             3.9 M
+dnf.log:2021-11-13T22:41:25+0100 DEBUG Instalado: proftpd-1.3.6e-4.el8.x86_64
+dnf.log:2021-11-13T22:41:26+0100 DDEBUG /var/cache/dnf/epel-2f52d25564da0fd7/packages/proftpd-1.3.6e-4.el8.x86_64.rpm eliminado
+dnf.log:2021-11-13T22:41:45+0100 DDEBUG Command: dnf -y install proftpd-utils 
+dnf.log:2021-11-13T22:41:45+0100 DDEBUG Extra commands: ['-y', 'install', 'proftpd-utils']
+dnf.log:2021-11-13T22:41:46+0100 DEBUG ---> Paquete proftpd-utils.x86_64 1.3.6e-4.el8 seleccionado para instalar
+dnf.log: [1m[32mproftpd-utils             (B[m x86_64        1.3.6e-4.el8          epel             116 k
+dnf.log:2021-11-13T22:41:52+0100 DEBUG Instalado: proftpd-utils-1.3.6e-4.el8.x86_64
+dnf.log:2021-11-13T22:41:52+0100 DDEBUG /var/cache/dnf/epel-2f52d25564da0fd7/packages/proftpd-utils-1.3.6e-4.el8.x86_64.rpm eliminado
+dnf.rpm.log:2021-11-13T20:39:23+0100 SUBDEBUG Installed: vsftpd-3.0.3-34.el8.x86_64
+dnf.rpm.log:2021-11-13T20:51:52+0100 SUBDEBUG Installed: ftp-0.17-78.el8.x86_64
+dnf.rpm.log:2021-11-13T22:40:48+0100 SUBDEBUG Installed: proftpd-1.3.6e-4.el8.x86_64
+dnf.rpm.log:2021-11-13T22:41:51+0100 SUBDEBUG Installed: proftpd-utils-1.3.6e-4.el8.x86_64
+history.txt:  501  chown ftp1:ftp1
+history.txt:  502  chown ftp1:ftp1 files/
+history.txt:  505  ftp -p 192.168.137.222
+history.txt:  507  cd /etc/vsftpd/
+history.txt:  511  ftp -p 192.168.137.222
+history.txt:  513  cd home/ftp
+history.txt:  514  cd home/ftp1/
+history.txt:  517  chmod a-w ftp_folder/
+history.txt:  519  ls -la ftp_folder/
+history.txt:  520  ftp -p 192.168.137.222
+history.txt:  521  su - ftp1
+history.txt:  523  chown ftp1:ftp1 *
+history.txt:  526  su - ftp1
+history.txt:  528  rmdir ftp_folder/
+history.txt:  529  su - ftp1
+history.txt:  545  cd ftp_folder/
+history.txt:  548  rmdir ftp_folder/
+history.txt:  549  rm ftp_folder
+history.txt:  550  rmdir ftp_folder
+history.txt:  551  cd ftp_folder/
+history.txt:  560  rdmir ftp_folder/
+history.txt:  561  rmdir ftp_folder/
+history.txt:  562  mkdir ftp_folder
+history.txt:  563  chown nobody:nogroup ftp_folder/
+history.txt:  564  chown ftp1 ftp_folder/
+history.txt:  566  chown ftp1:ftp1 ftp_folder/
+history.txt:  568  chmod a-w ftp_folder/
+history.txt:  570  ls -la ftp_folder/
+history.txt:  571  su - ftp1
+history.txt:  636  dnf -y install vsftpd
+history.txt:  638  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  639  systemctl start vsftpd
+history.txt:  640  systemtctl status vsftpd
+history.txt:  641  systemctl status vsftpd
+history.txt:  642  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  643  nano /etc/vsftpd/chroot_list
+history.txt:  644  cd /etc/vsftpd/
+history.txt:  647  systemctl enable --now vsftpd
+history.txt:  648  systemctl start vsftpd
+history.txt:  649  systemctl status vsftpd
+history.txt:  651  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  652  nano /etc/vsftpd/user_list 
+history.txt:  653  systemctl restart vsftpd
+history.txt:  654  systemctl status vsftp
+history.txt:  655  systemctl status vsftpd
+history.txt:  656  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  657  systemctl restart vsftpd
+history.txt:  658  systemctl status vsftpd
+history.txt:  659  ftp 192.168.137.222
+history.txt:  660  dnf -y ftp
+history.txt:  661  dnf install -y ftp
+history.txt:  662  ftp 192.168.137.222
+history.txt:  663  adduser ftp1
+history.txt:  664  passwd ftp1
+history.txt:  668  cd ftp1/
+history.txt:  670  mkdir ftp_folder
+history.txt:  671  rm ftp_folder/
+history.txt:  672  rmdir ftp_folder/
+history.txt:  673  mkdir -p ftp_folder
+history.txt:  675  chmod -R 750 ftp_folder/
+history.txt:  676  chown ftp1: ftp_folder/
+history.txt:  681  nano /etc/vsftpd/user_list 
+history.txt:  682  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  683  nano /etc/vsftpd/user_list 
+history.txt:  684  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  685  systemctl restart vsftpd
+history.txt:  686  systemctl status vsftpd
+history.txt:  687  ftp 192.168.137.222
+history.txt:  688  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  689  systemctl restart vsftpd
+history.txt:  690  systemctl status vsftpd
+history.txt:  691  ftp 192.168.137.222
+history.txt:  692  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  693  systemctl restart vsftpd
+history.txt:  694  systemctl status vsftpd
+history.txt:  695  ftp -p 192.168.137.222
+history.txt:  696  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  697  systemctl restart vsftpd
+history.txt:  698  ftp -p 192.168.137.222
+history.txt:  699  cd home/ftp1/
+history.txt:  702  chmod a-w ftp_folder/
+history.txt:  704  chmod 777 ftp_folder/
+history.txt:  705  chmod a-w ftp_folder/
+history.txt:  707  ls -la ftp_folder/
+history.txt:  709  cd ftp_folder/
+history.txt:  713  chown ftp1:ftp1 files/
+history.txt:  719  nano /etc/vsftpd/
+history.txt:  720  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  721  nano /etc/vsftpd/user_list 
+history.txt:  722  systemctl restart vsftpd
+history.txt:  723  ftp -p 192.168.137.222
+history.txt:  724  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  725  systemctl restart vsftpd
+history.txt:  726  nano /etc/vsftpd/chroot_list 
+history.txt:  729  adduser ftp2
+history.txt:  730  passwd ftp2
+history.txt:  731  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  732  systemctl restart vsftpd
+history.txt:  733  systemctl status vsftpd.
+history.txt:  734  systemctl status vsftpd
+history.txt:  735  ftp -p 192.168.137.222
+history.txt:  739  cd ftp2/
+history.txt:  741  mkdir ftp_folder
+history.txt:  742  chmod 777 ftp_folder/
+history.txt:  743  chown ftp2:ftp2 ftp_folder/
+history.txt:  746  chmod a-w ftp_folder/
+history.txt:  748  cd ftp_folder/
+history.txt:  752  ftp -p 192.168.137.222
+history.txt:  754  ftp -p 192.168.137.222
+history.txt:  755  nano /etc/vsftpd/user_list 
+history.txt:  756  systemctl restart vsftpd
+history.txt:  757  ftp -p 192.168.137.222
+history.txt:  758  nano /etc/vsftpd/vsftpd.conf 
+history.txt:  759  systemctl restart vsftpd.
+history.txt:  760  systemctl restart vsftpd
+history.txt:  761  systemctl status vsftpd.
+history.txt:  762  systemctl status vsftpd
+history.txt:  763  cd home/ftp1/
+history.txt:  765  su - ftp1
+messages:Dec  9 20:13:13 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages:Dec  9 20:13:14 mail systemd[1]: Started Vsftpd ftp daemon.
+messages:Dec 11 15:30:22 mail named[1095]: REFUSED unexpected RCODE resolving 'ftp.rediris.es/A/IN': 193.145.233.6#53
+messages:Dec 11 15:30:22 mail named[1095]: REFUSED unexpected RCODE resolving 'ftp.rediris.es/AAAA/IN': 193.145.233.6#53
+messages:Dec 11 15:30:22 mail named[1095]: REFUSED unexpected RCODE resolving 'ftp.rediris.es/AAAA/IN': 193.145.233.5#53
+messages:Dec 11 15:30:22 mail named[1095]: REFUSED unexpected RCODE resolving 'ftp.rediris.es/A/IN': 193.145.233.5#53
+messages:Dec 11 18:40:37 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages:Dec 11 18:40:38 mail systemd[1]: Started Vsftpd ftp daemon.
+messages-20211113:Nov 13 14:32:28 localhost sshd[2777]: Starting session: subsystem 'sftp' for np31 from 192.168.137.9 port 22020 id 0
+messages-20211128:Nov 13 17:32:04 localhost named[948]: validating ftp.mozilla.org/CNAME: bad cache hit (mozilla.org/DS)
+messages-20211128:Nov 13 17:32:04 localhost named[948]: broken trust chain resolving 'ftp.mozilla.org/A/IN': 84.53.139.64#53
+messages-20211128:Nov 13 17:32:04 localhost named[948]: validating ftp.mozilla.org/CNAME: bad cache hit (mozilla.org/DS)
+messages-20211128:Nov 13 17:32:04 localhost named[948]: broken trust chain resolving 'ftp.mozilla.org/AAAA/IN': 84.53.139.64#53
+messages-20211128:Nov 13 18:14:03 localhost sshd[11444]: Starting session: subsystem 'sftp' for np31 from 192.168.137.5 port 52177 id 0
+messages-20211128:Nov 13 20:44:09 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 20:44:09 localhost vsftpd[5651]: 500 OOPS: unrecognised variable in config file: seccom_sandbox
+messages-20211128:Nov 13 20:44:09 localhost systemd[1]: vsftpd.service: Control process exited, code=exited status=2
+messages-20211128:Nov 13 20:44:09 localhost systemd[1]: vsftpd.service: Failed with result 'exit-code'.
+messages-20211128:Nov 13 20:44:09 localhost systemd[1]: Failed to start Vsftpd ftp daemon.
+messages-20211128:Nov 13 20:45:44 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 20:45:44 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 20:50:01 localhost vsftpd[5916]: 500 OOPS: unrecognised variable in config file: allow_writable_chroot
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: vsftpd.service: Control process exited, code=exited status=2
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: vsftpd.service: Failed with result 'exit-code'.
+messages-20211128:Nov 13 20:50:01 localhost systemd[1]: Failed to start Vsftpd ftp daemon.
+messages-20211128:Nov 13 20:50:33 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 20:50:33 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:03:46 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:03:46 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:03:46 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:03:46 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:03:46 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:12:43 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:12:43 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:12:43 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:12:43 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:12:43 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:18:06 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:18:06 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:18:06 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:18:06 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:18:06 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:19:25 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:19:25 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:19:25 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:19:25 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:19:25 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:26:09 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:26:09 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:26:09 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:26:09 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:26:09 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:34:12 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:34:12 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:34:12 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:34:12 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:34:12 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:35:29 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:35:29 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:35:29 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:35:29 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:35:29 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:38:32 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:38:32 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:38:32 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:38:32 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:38:32 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:40:36 localhost systemd[1]: Stopping Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:40:36 localhost systemd[1]: vsftpd.service: Succeeded.
+messages-20211128:Nov 13 21:40:36 localhost systemd[1]: Stopped Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:40:36 localhost systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211128:Nov 13 21:40:36 localhost systemd[1]: Started Vsftpd ftp daemon.
+messages-20211128:Nov 13 21:41:27 localhost su[8060]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 21:45:55 localhost su[8248]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 21:46:17 localhost su[8313]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 21:47:18 localhost su[8386]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 21:50:28 localhost su[8523]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 21:51:36 localhost su[8667]: (to ftp1) np31 on pts/0
+messages-20211128:Nov 13 22:48:27 localhost proftpd[10286]: Checking syntax of configuration file
+messages-20211128:Nov 13 22:48:27 localhost proftpd[10286]: daemon[10286]: processing configuration directory '/etc/proftpd/conf.d'
+messages-20211128:Nov 13 22:48:28 localhost proftpd[10287]: daemon[10287]: processing configuration directory '/etc/proftpd/conf.d'
+messages-20211128:Nov 13 22:48:28 localhost proftpd[10287]: daemon[10287] 127.0.0.1: Failed binding to ::, port 21: La dirección ya se está usando
+messages-20211128:Nov 13 22:48:28 localhost proftpd[10287]: daemon[10287] 127.0.0.1: Check the ServerType directive to ensure you are configured correctly
+messages-20211128:Nov 13 22:48:28 localhost proftpd[10287]: daemon[10287] 127.0.0.1: Check to see if inetd/xinetd, or another proftpd instance, is already using ::, port 21
+messages-20211128:Nov 13 22:48:28 localhost proftpd[10287]: daemon[10287] 127.0.0.1: Unable to start proftpd; check logs for more details
+messages-20211128:Nov 13 22:48:28 localhost systemd[1]: proftpd.service: Main process exited, code=exited, status=1/FAILURE
+messages-20211128:Nov 13 22:48:28 localhost systemd[1]: proftpd.service: Failed with result 'exit-code'.
+messages-20211128:Nov 13 22:50:19 localhost proftpd[10330]: Checking syntax of configuration file
+messages-20211128:Nov 13 22:50:19 localhost proftpd[10330]: daemon[10330]: processing configuration directory '/etc/proftpd/conf.d'
+messages-20211128:Nov 13 22:50:19 localhost proftpd[10332]: daemon[10332]: processing configuration directory '/etc/proftpd/conf.d'
+messages-20211128:Nov 13 22:50:19 localhost proftpd[10332]: daemon[10332] 127.0.0.1: ProFTPD 1.3.6e (maint) (built Tue Sep 7 2021 10:22:00 UTC) standalone mode STARTUP
+messages-20211211:Dec  1 17:28:10 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211211:Dec  1 17:28:10 mail systemd[1]: Started Vsftpd ftp daemon.
+messages-20211211:Dec  9 17:26:34 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211211:Dec  9 17:26:34 mail systemd[1]: Started Vsftpd ftp daemon.
+messages-20211211:Dec  9 18:20:40 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211211:Dec  9 18:20:41 mail systemd[1]: Started Vsftpd ftp daemon.
+messages-20211211:Dec  9 18:25:32 mail systemd[1]: Starting Vsftpd ftp daemon...
+messages-20211211:Dec  9 18:25:32 mail systemd[1]: Started Vsftpd ftp daemon.
+secure-20211128:Nov 13 20:52:35 localhost vsftpd[6456]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=np31 rhost=localhost.localdomain  user=np31
+secure-20211128:Nov 13 20:54:13 localhost useradd[6480]: new group: name=ftp1, GID=1007
+secure-20211128:Nov 13 20:54:13 localhost useradd[6480]: new user: name=ftp1, UID=1007, GID=1007, home=/home/ftp1, shell=/bin/bash
+secure-20211128:Nov 13 20:54:47 localhost passwd[6517]: pam_unix(passwd:chauthtok): password changed for ftp1
+secure-20211128:Nov 13 21:34:55 localhost useradd[7657]: new group: name=ftp2, GID=1008
+secure-20211128:Nov 13 21:34:55 localhost useradd[7657]: new user: name=ftp2, UID=1008, GID=1008, home=/home/ftp2, shell=/bin/bash
+secure-20211128:Nov 13 21:35:02 localhost passwd[7670]: pam_unix(passwd:chauthtok): password changed for ftp2
+secure-20211128:Nov 13 21:41:27 localhost su[8060]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:45:55 localhost su[8248]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:46:17 localhost su[8313]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:47:18 localhost su[8386]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:50:28 localhost su[8523]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:51:09 localhost sudo[8603]:    root : TTY=pts/0 ; PWD=/home/ftp1/ftp_folder ; USER=root ; COMMAND=/bin/ls -la
+secure-20211128:Nov 13 21:51:17 localhost su[8523]: pam_unix(su-l:session): session closed for user ftp1
+secure-20211128:Nov 13 21:51:19 localhost su[8386]: pam_unix(su-l:session): session closed for user ftp1
+secure-20211128:Nov 13 21:51:22 localhost su[8313]: pam_unix(su-l:session): session closed for user ftp1
+secure-20211128:Nov 13 21:51:24 localhost su[8248]: pam_unix(su-l:session): session closed for user ftp1
+secure-20211128:Nov 13 21:51:26 localhost su[8060]: pam_unix(su-l:session): session closed for user ftp1
+secure-20211128:Nov 13 21:51:36 localhost su[8667]: pam_unix(su-l:session): session opened for user ftp1 by (uid=0)
+secure-20211128:Nov 13 21:53:02 localhost vsftpd[8771]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp2 rhost=localhost.localdomain  user=ftp2
+secure-20211128:Nov 13 21:54:20 localhost vsftpd[8807]: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp1 rhost=localhost.localdomain  user=ftp1
+secure-20211128:Nov 13 22:50:47 localhost vsftpd[10336]: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+ssh.log:messages-20211113:Nov 13 14:32:28 localhost sshd[2777]: Starting session: subsystem 'sftp' for np31 from 192.168.137.9 port 22020 id 0

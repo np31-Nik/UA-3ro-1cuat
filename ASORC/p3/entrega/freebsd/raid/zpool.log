@@ -1,0 +1,14 @@
+bsdinstall_log:DEBUG: zfs_create_boot: zpool destroy "zroot"
+bsdinstall_log:DEBUG: zfs_create_diskpart: zpool labelclear -f "/dev/ada0"
+bsdinstall_log:DEBUG: zfs_create_diskpart: zpool labelclear -f "/dev/ada0p2"
+bsdinstall_log:DEBUG: zfs_create_diskpart: zpool labelclear -f "/dev/ada0p3"
+bsdinstall_log:DEBUG: zfs_create_boot: zpool create -o altroot=/mnt -O compress=lz4 -O atime=off -m none -f "zroot"   ada0p3
+bsdinstall_log:DEBUG: zfs_create_boot: zpool set bootfs="zroot/ROOT/default" "zroot"
+bsdinstall_log:DEBUG: zfs_create_boot: Configuring zpool.cache for zroot...
+bsdinstall_log:DEBUG: zfs_create_boot: zpool set cachefile="/mnt/boot/zfs/zpool.cache" "zroot"
+history.txt:   490	21:22	zpool create datastore raidz ada1 ada2 ada3 ada4
+history.txt:   491	21:22	zpool status
+history.txt:   492	21:22	zpool set autoreplace=on datastore
+history.txt:   494	21:22	zpool scrub datastore
+history.txt:   501	21:22	zpool
+raidz.log:history.txt:   490	21:22	zpool create datastore raidz ada1 ada2 ada3 ada4

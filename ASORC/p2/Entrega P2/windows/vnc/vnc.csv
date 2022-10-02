@@ -1,0 +1,1863 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 10:36:30 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T18:36:30Z. Reason: RulesEngine.
+Information,11/14/2021 10:36:00 AM,Microsoft-Windows-Security-SPP,1033,None,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,11/14/2021 10:36:00 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,11/14/2021 10:36:00 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,11/14/2021 10:35:57 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 7:10:42 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Error,11/14/2021 7:07:37 AM,Microsoft-Windows-WMI,24,None,"Event provider nfscimprov attempted to register query ""select * from MSFT_NfsShareEvent"" whose target class ""MSFT_NfsShareEvent"" in //./ROOT/Microsoft/Windows/NFS namespace does not exist. The query will be ignored."
+Error,11/14/2021 7:07:37 AM,Microsoft-Windows-WMI,24,None,"Event provider  attempted to register query ""select * from MSFT_NfsShareEvent"" whose target class ""MSFT_NfsShareEvent"" in //./ROOT/Microsoft/Windows/NFS namespace does not exist. The query will be ignored."
+Information,11/14/2021 6:40:09 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,11/14/2021 6:33:21 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T14:33:21Z. Reason: RulesEngine.
+Information,11/14/2021 6:32:47 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 6:26:49 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 6:26:49 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 6:25:01 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 6:25:01 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T14:25:00Z. Reason: RulesEngine.
+Information,11/14/2021 6:24:30 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 6:24:29 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 6:24:28 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 6:24:22 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 6:24:14 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 6:24:11 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 6:24:08 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 6:23:12 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 6:22:05 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 6:22:13 AM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 6:21:53 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 6:20:54 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/14/2021 6:20:54 AM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/14/2021 6:20:47 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/14/2021 6:07:58 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T14:07:58Z. Reason: RulesEngine.
+Information,11/14/2021 6:07:19 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 6:01:41 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 6:01:41 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 5:59:31 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 5:59:31 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:59:30Z. Reason: RulesEngine.
+Information,11/14/2021 5:59:00 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 5:59:00 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 5:58:59 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 5:58:57 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:58:56 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 5:58:54 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 5:58:53 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 5:57:48 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 5:56:45 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 5:56:31 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 5:56:50 AM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 5:55:38 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/14/2021 5:55:31 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/14/2021 5:50:27 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 5:50:27 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 5:49:05 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 5:49:05 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:49:04Z. Reason: RulesEngine.
+Information,11/14/2021 5:48:34 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 5:48:34 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 5:48:34 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 5:48:33 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:48:28 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 5:48:07 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 5:48:06 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 5:47:00 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 5:45:53 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 5:45:56 AM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 5:45:34 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 5:44:40 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/14/2021 5:44:40 AM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/14/2021 5:44:34 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/14/2021 5:38:39 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:38:39Z. Reason: RulesEngine.
+Information,11/14/2021 5:38:01 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:32:22 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 5:32:22 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 5:30:08 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 5:30:08 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:30:07Z. Reason: RulesEngine.
+Information,11/14/2021 5:29:37 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 5:29:37 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 5:29:37 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 5:29:35 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:29:33 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 5:29:30 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 5:29:27 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 5:28:33 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 5:27:31 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 5:27:13 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 5:27:34 AM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 5:26:13 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/14/2021 5:26:07 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/14/2021 5:24:41 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:24:41Z. Reason: RulesEngine.
+Information,11/14/2021 5:24:07 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:17:44 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 5:17:44 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 5:17:04 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 5:17:04 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:17:03Z. Reason: RulesEngine.
+Information,11/14/2021 5:16:33 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 5:16:33 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 5:16:33 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 5:16:31 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 5:16:30 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 5:16:10 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 5:16:02 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 5:14:39 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 5:13:32 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 5:13:19 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 5:13:41 AM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 5:12:19 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/14/2021 5:12:19 AM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/14/2021 5:12:12 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/14/2021 5:05:01 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T13:04:56Z. Reason: RulesEngine.
+Information,11/14/2021 5:04:32 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,11/14/2021 5:04:21 AM,Microsoft-Windows-Security-SPP,1033,None,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,11/14/2021 5:04:21 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,11/14/2021 5:04:21 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,11/14/2021 5:04:19 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 4:58:39 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/14/2021 4:58:39 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/14/2021 4:57:33 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/14/2021 4:57:33 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T12:57:32Z. Reason: RulesEngine.
+Information,11/14/2021 4:57:02 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/14/2021 4:57:00 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/14/2021 4:56:58 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/14/2021 4:56:19 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 4:56:05 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/14/2021 4:55:57 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/14/2021 4:55:50 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 4:55:35 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/14/2021 4:54:47 AM,Microsoft-Windows-WMI,5611,None,The Windows Management Instrumentation service has detected an inconsistent system shutdown.
+Information,11/14/2021 1:53:45 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 1:53:50 PM,tvnserver,257,None,Service has been started successfully
+Information,11/14/2021 1:53:25 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/14/2021 4:27:16 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T12:27:15Z. Reason: RulesEngine.
+Information,11/14/2021 4:26:45 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/14/2021 4:20:40 AM,Desktop Window Manager,9027,None,The Desktop Window Manager has registered the session port.
+Information,11/14/2021 4:19:21 AM,edgeupdate,0,None,Service stopped.
+Information,11/14/2021 4:16:31 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T12:16:31Z. Reason: RulesEngine.
+Information,11/14/2021 4:15:19 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 6:40:50 PM,tvnserver,257,None,The client 192.168.137.1 has disconnected
+Information,11/13/2021 6:40:30 PM,tvnserver,257,None,Authentication passed by 192.168.137.1
+Information,11/13/2021 6:32:14 PM,MsiInstaller,1033,None,Windows Installer installed the product. Product Name: TightVNC. Product Version: 2.8.63.0. Product Language: 1033. Manufacturer: GlavSoft LLC.. Installation success or error status: 0.
+Information,11/13/2021 6:32:14 PM,MsiInstaller,11707,None,Product: TightVNC -- Installation completed successfully.
+Information,11/13/2021 6:32:13 PM,Microsoft-Windows-RestartManager,10001,None,Ending session 0 started ‎2021‎-‎11‎-‎14T02:31:42.520240700Z.
+Information,11/13/2021 6:32:13 PM,MsiInstaller,1042,None,Ending a Windows Installer transaction: C:\Users\Administrator\Downloads\tightvnc-2.8.63-gpl-setup-64bit.msi. Client Process Id: 1256.
+Information,11/13/2021 6:31:54 PM,tvnserver,257,None,Service has been started successfully
+Information,11/13/2021 6:31:42 PM,Microsoft-Windows-RestartManager,10000,None,Starting session 0 - ‎2021‎-‎11‎-‎14T02:31:42.520240700Z.
+Information,11/13/2021 6:31:41 PM,MsiInstaller,1040,None,Beginning a Windows Installer transaction: C:\Users\Administrator\Downloads\tightvnc-2.8.63-gpl-setup-64bit.msi. Client Process Id: 1256.
+Information,11/13/2021 6:31:00 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <0563B8630D62D75ABBC8AB1E4BDFB5A899B24D43>."
+Information,11/13/2021 6:19:03 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T02:19:03Z. Reason: RulesEngine.
+Information,11/13/2021 6:18:29 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 6:12:04 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 6:12:04 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 6:10:53 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 6:10:53 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T02:10:52Z. Reason: RulesEngine.
+Information,11/13/2021 6:10:22 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 6:10:22 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 6:10:22 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 6:10:21 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 6:10:12 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 6:10:08 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 6:10:00 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 6:09:10 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 6:09:03 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 6:08:58 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 6:07:54 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 6:07:45 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 6:07:46 PM,Desktop Window Manager,9027,None,The Desktop Window Manager has registered the session port.
+Information,11/13/2021 6:06:42 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 6:06:36 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 6:06:36 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 6:01:21 PM,Windows Error Reporting,1001,None,"Fault bucket 2027059338751658370, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: msedge.exe
+P2: 95.0.1020.44
+P3: 10.0.20348.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Users\ADMINI~1\AppData\Local\Temp\RDR3AC0.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.27e24cef-6016-4064-9524-405aca56fa92.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.14ba3d08-7c8a-48d4-a2f8-be249ede2827.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1fb09a69-ec52-425a-8d45-4e121feac1c1.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2d331ad6-bfcd-497f-b9f4-48bedd391e51.tmp.txt
+
+These files may be available here:
+
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: a58d8251-0646-4b29-8b51-a390e931ee9b
+Report Status: 268435456
+Hashed bucket: fb71ffaee39d58a86c218fba90ee4982
+Cab Guid: 0"
+Information,11/13/2021 5:50:24 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:50:23Z. Reason: RulesEngine.
+Information,11/13/2021 5:49:42 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:43:07 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 5:43:07 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 5:41:52 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 5:41:52 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:41:51Z. Reason: RulesEngine.
+Information,11/13/2021 5:41:21 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 5:41:21 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 5:41:21 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 5:41:20 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:41:19 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 5:41:18 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 5:41:18 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 5:40:13 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:40:05 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 5:39:52 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:39:45 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 5:39:18 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:38:59 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 5:38:50 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 5:38:53 PM,Desktop Window Manager,9027,None,The Desktop Window Manager has registered the session port.
+Information,11/13/2021 5:37:49 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 5:37:49 PM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/13/2021 5:37:43 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:37:43 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 5:37:00 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 5:37:00 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:37:00Z. Reason: RulesEngine.
+Information,11/13/2021 5:36:30 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 5:36:30 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 5:36:29 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 5:36:28 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:36:27 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 5:36:26 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 5:36:24 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 5:35:26 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:35:10 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 5:35:03 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:34:57 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 5:34:24 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:34:03 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 5:33:53 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 5:32:59 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 5:32:53 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:32:53 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 5:32:18 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:32:14 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:31:47 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:31:46Z. Reason: RulesEngine.
+Information,11/13/2021 5:31:09 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:30:21 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:30:21Z. Reason: RulesEngine.
+Information,11/13/2021 5:29:51 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:24:43 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 5:24:43 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 5:23:20 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 5:23:20 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:23:20Z. Reason: RulesEngine.
+Information,11/13/2021 5:22:51 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:22:50 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 5:22:50 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 5:22:49 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 5:22:49 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:22:47 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 5:22:46 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 5:22:46 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 5:21:38 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 5:21:17 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:21:10 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 5:20:47 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:20:32 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 5:20:18 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 5:20:19 PM,Desktop Window Manager,9027,None,The Desktop Window Manager has registered the session port.
+Information,11/13/2021 5:19:24 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 5:19:24 PM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/13/2021 5:19:18 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:19:18 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 5:18:49 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:16:09 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 5:16:09 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 5:14:54 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 5:14:54 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:14:53Z. Reason: RulesEngine.
+Information,11/13/2021 5:14:23 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 5:14:23 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 5:14:23 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 5:14:22 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 5:14:21 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 5:14:20 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 5:14:19 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 5:13:10 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:13:06 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 5:12:50 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:12:44 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 5:12:20 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:12:00 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 5:11:52 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 5:10:46 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 5:10:46 PM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/13/2021 5:10:40 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 5:10:40 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 5:09:53 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 5:03:31 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T01:03:31Z. Reason: RulesEngine.
+Information,11/13/2021 5:02:58 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 4:58:54 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T00:58:54Z. Reason: RulesEngine.
+Information,11/13/2021 4:58:24 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 4:56:36 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 4:56:36 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 4:55:17 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 4:55:17 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-21T00:55:17Z. Reason: RulesEngine.
+Information,11/13/2021 4:54:46 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 4:54:46 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 4:54:46 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 4:54:45 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 4:54:44 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 4:54:43 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 4:54:41 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 4:53:46 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 4:53:33 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 4:53:29 PM,Microsoft-Windows-WMI,5611,None,The Windows Management Instrumentation service has detected an inconsistent system shutdown.
+Information,11/13/2021 4:53:11 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 4:53:03 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 4:52:41 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/14/2021 1:52:27 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/14/2021 1:52:08 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 4:33:56 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB> Sha1 thumbprint: <AFE5D244A8D1194230FF479FE2F897BBCD7A8CB4>."
+Information,11/13/2021 3:49:39 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T23:49:39Z. Reason: RulesEngine.
+Information,11/13/2021 3:49:02 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 3:38:38 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T23:38:38Z. Reason: RulesEngine.
+Information,11/13/2021 3:37:09 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 3:36:43 PM,ESENT,325,General,"svchost (1016,D,35) DS_Token_DB: The database engine created a new database (3, C:\Windows\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSTokenDB2.dat). (Time=5 seconds) 
+ 
+Additional Data: lgposCreate = 00000001:0001:0268,
+dbv = 1568.180.400 (9360) 
+ 
+Internal Timing Sequence: 
+[1] 0.000065 +J(0) +M(C:0K, Fs:4, WS:12K # 0K, PF:8K # 0K, P:8K)
+[2] 0.188438 -0.000220 (1) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2)
+[3] 0.378606 -0.000002 (2) WT +J(0) +M(C:0K, Fs:9, WS:32K # 0K, PF:20K # 0K, P:20K)
+[4] 3.176615 -0.083303 (1) WT +J(0) +M(C:0K, Fs:112, WS:448K # 0K, PF:0K # 0K, P:0K)
+[5] 0.116498 -0.035966 (3) WT +J(CM:0, PgRf:3, Rd:0/0, Dy:3/6, Lg:122/4) +M(C:0K, Fs:15, WS:56K # 0K, PF:20K # 0K, P:20K)
+[6] 0.662464 -0.000272 (2) WT +J(CM:0, PgRf:249, Rd:0/0, Dy:16/428, Lg:28550/465) +M(C:0K, Fs:58, WS:232K # 0K, PF:224K # 0K, P:224K)
+[7] 0.298049 -0.000624 (3) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:4096/3) +M(C:0K, Fs:3, WS:8K # 0K, PF:0K # 0K, P:0K)
+[8] 0.000008 +J(0)
+[9] 0.123460 -0.000434 (3) WT +J(0) +M(C:0K, Fs:4, WS:12K # 0K, PF:0K # 0K, P:0K)
+[10] 0.864012 -0.000471 (5) WT +J(CM:0, PgRf:384, Rd:0/0, Dy:7/93, Lg:12509/130) +M(C:44K, Fs:22, WS:84K # 0K, PF:64K # 0K, P:64K)
+[11] 0.000006 +J(0)."
+Information,11/13/2021 3:36:37 PM,ESENT,105,General,"svchost (1016,D,0) DS_Token_DB: The database engine started a new instance (1). (Time=0 seconds) 
+ 
+Additional Data:
+  
+ 
+Internal Timing Sequence: 
+[1] -
+[2] -
+[3] 0.121608 +J(0) +M(C:0K, Fs:3, WS:12K # 0K, PF:0K # 0K, P:0K)
+[4] 0.000232 +J(0) +M(C:0K, Fs:3, WS:12K # 0K, PF:72K # 0K, P:72K)
+[5] 0.000878 +J(0) +M(C:0K, Fs:4, WS:16K # 0K, PF:16K # 0K, P:16K)
+[6] 0.234410 +J(0) +M(C:0K, Fs:10, WS:40K # 0K, PF:12K # 0K, P:12K)
+[7] -
+[8] -
+[9] -
+[10] -
+[11] -
+[12] -
+[13] 0.346710 -0.000716 (3) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:616/1) +M(C:0K, Fs:43, WS:112K # 0K, PF:4K # 0K, P:4K)
+[14] 0.000013 +J(0)
+[15] 0.000029 +J(0) +M(C:0K, Fs:16, WS:64K # 0K, PF:0K # 0K, P:0K)
+[16] 0.223845 -0.002967 (2) WT +J(0) +M(C:0K, Fs:8, WS:16K # 0K, PF:0K # 0K, P:0K)."
+Information,11/13/2021 3:36:36 PM,ESENT,102,General,"svchost (1016,P,98) DS_Token_DB: The database engine (10.00.20348.0000) is starting a new instance (1)."
+Information,11/13/2021 3:33:28 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 3:30:44 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 3:30:44 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 3:30:00 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 3:30:00 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T23:30:00Z. Reason: RulesEngine.
+Information,11/13/2021 3:29:30 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 3:29:29 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 0 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 3:29:29 PM,Microsoft-Windows-Security-SPP,1033,None,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,11/13/2021 3:29:29 PM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,11/13/2021 3:29:29 PM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,11/13/2021 3:29:09 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 3:29:02 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 3:28:55 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 3:28:51 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 3:28:48 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 3:27:39 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 3:27:24 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 3:27:15 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 3:26:48 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 3:26:35 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 3:26:19 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,11/13/2021 3:26:20 PM,Desktop Window Manager,9027,None,The Desktop Window Manager has registered the session port.
+Information,11/13/2021 3:25:05 PM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,11/13/2021 3:25:04 PM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,11/13/2021 3:24:57 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 3:24:57 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,11/13/2021 2:59:05 PM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,11/13/2021 2:55:51 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T22:55:51Z. Reason: RulesEngine.
+Information,11/13/2021 2:55:08 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 2:50:24 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 1:54:00 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 1:53:53 PM,Windows Error Reporting,1001,None,"Fault bucket 1381394808496579641, type 5
+Event Name: MpTelemetry
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 0x8050a003
+P2: ValidateUpdate
+P3: AM FE
+P4: 1.1.18500.10,1.1.18700.4,1.353.953.0
+P5: mpsigstub.exe
+P6: 4.18.2104.5
+P7: Microsoft Windows Defender (RS1+)
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SERVIC~1\NETWOR~1\AppData\Local\Temp\MpSigStub.log
+\\?\C:\Windows\SERVIC~1\NETWOR~1\AppData\Local\Temp\FD49AAAC-31D4-4CA3-A10E-E72088E29B06MPTelemetrySubmit\client_manifest.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.47260be4-6764-4a72-901c-36983f1b56bd.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7f34a0e4-6683-4471-b407-6eec43dd650a.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bc9514b5-63f6-4804-8e05-765f669be7ea.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.94ae09d9-e792-4282-9665-111947c6387d.tmp.txt
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_0x8050a003_5a6efa51e7a9d96b37229cb3eea7eba9e50d2d1_00000000_ee1acc93-a005-4b05-a5a6-b8580386272c
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: ee1acc93-a005-4b05-a5a6-b8580386272c
+Report Status: 268435456
+Hashed bucket: 126c7b5139dd583bf32bb3426701e439
+Cab Guid: 0"
+Information,11/13/2021 1:52:46 PM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,11/13/2021 1:52:32 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 1:49:49 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 1:47:11 PM,FreeSSHDService,0,None,The operation completed successfully. 
+Information,11/13/2021 1:44:46 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:44:45Z. Reason: RulesEngine.
+Information,11/13/2021 1:44:14 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:44:04 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE> Sha1 thumbprint: <02FAF3E291435468607857694DF5E45B68851868>."
+Information,11/13/2021 1:43:54 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL> Sha1 thumbprint: <07E032E020B72C3F192F0628A2593A19A70F069E>."
+Information,11/13/2021 1:43:54 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=Certum CA, O=Unizeto Sp. z o.o., C=PL> Sha1 thumbprint: <6252DC40F71143A22FDE9EF7348E064251B18118>."
+Information,11/13/2021 1:42:58 PM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <5FB7EE0633E259DBAD0C4C9AE6D38F1A61C7DC25>."
+Information,11/13/2021 1:42:58 PM,Microsoft-Windows-CAPI2,4111,None,"Successful auto update of third-party root list with effective date: ‎Monday, ‎October ‎18, ‎2021 12:14:37 PM."
+Information,11/13/2021 1:40:37 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:40:37Z. Reason: RulesEngine.
+Information,11/13/2021 1:40:06 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:39:54 PM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,11/13/2021 1:39:53 PM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,11/13/2021 1:39:39 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:39:38Z. Reason: RulesEngine.
+Information,11/13/2021 1:38:43 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:38:36 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:38:36Z. Reason: RulesEngine.
+Information,11/13/2021 1:37:36 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:36:54 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:36:53Z. Reason: RulesEngine.
+Information,11/13/2021 1:36:23 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:36:23 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,11/13/2021 1:35:41 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,11/13/2021 1:35:11 PM,edgeupdate,0,None,Service stopped.
+Information,11/13/2021 1:35:03 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:35:02Z. Reason: RulesEngine.
+Information,11/13/2021 1:34:32 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:34:25 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,11/13/2021 1:34:25 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-10-20T21:34:24Z. Reason: RulesEngine.
+Information,11/13/2021 1:33:41 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,11/13/2021 1:33:41 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,11/13/2021 1:33:41 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,11/13/2021 1:33:40 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,11/13/2021 1:33:39 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:TriggerStarted:6"
+Information,11/13/2021 1:33:33 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,11/13/2021 1:33:23 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,11/13/2021 1:33:21 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,11/13/2021 1:32:40 PM,Microsoft-Windows-WMI,5611,None,The Windows Management Instrumentation service has detected an inconsistent system shutdown.
+Information,11/13/2021 9:32:19 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,11/13/2021 9:32:04 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,10/13/2021 3:59:18 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-09-19T22:59:18Z. Reason: RulesEngine.
+Information,10/13/2021 3:57:36 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,10/13/2021 3:56:35 PM,edgeupdate,0,None,Service stopped.
+Information,10/13/2021 3:55:38 PM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,10/13/2021 3:55:38 PM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-09-19T22:55:37Z. Reason: RulesEngine.
+Information,10/13/2021 3:55:07 PM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,10/13/2021 3:55:06 PM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/13/2021 3:55:05 PM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,10/13/2021 3:55:01 PM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,10/13/2021 3:54:55 PM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,10/13/2021 3:54:51 PM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,10/13/2021 3:54:50 PM,edgeupdate,0,None,Service stopped.
+Information,10/13/2021 3:53:31 PM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,10/13/2021 3:53:23 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,10/13/2021 3:53:24 PM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,10/13/2021 3:53:10 PM,Microsoft-Windows-WMI,5611,None,The Windows Management Instrumentation service has detected an inconsistent system shutdown.
+Information,10/13/2021 3:52:48 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,10/13/2021 3:52:40 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,10/2/2021 5:33:29 AM,.NET Runtime Optimization Service,1130,None,.NET Runtime Optimization Service (4.0.30319.0) - Installed from repository: mscorlib
+Information,10/2/2021 5:25:29 AM,.NET Runtime Optimization Service,1130,None,.NET Runtime Optimization Service (4.0.30319.0) - Installed from repository: mscorlib
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=ISRG Root X1, O=Internet Security Research Group, C=US> Sha1 thumbprint: <CABD2A79A1076A31F21D253635CB039D4329A5E8>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4100,None,Successful auto update retrieval of third-party root certificate from: <http://ctldl.windowsupdate.com/msdownload/update/v3/static/trustedr/en/CABD2A79A1076A31F21D253635CB039D4329A5E8.crt>.
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4111,None,"Successful auto update of third-party root list with effective date: ‎Friday, ‎September ‎10, ‎2021 9:09:29 AM."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <OU=Go Daddy Class 2 Certification Authority, O=""The Go Daddy Group, Inc."", C=US> Sha1 thumbprint: <2796BAE63F1801E277261BA0D77770028F20EEE4>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4108,None,"Successful auto delete of third-party root certificate:: Subject: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US> Sha1 thumbprint: <4F65566336DB6598581D584A596C87934D5F2AB4>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <OU=Class 3 Public Primary Certification Authority, O=""VeriSign, Inc."", C=US> Sha1 thumbprint: <742C3192E607E424EB4549542BE1BBC53E6174E2>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <OU=Starfield Class 2 Certification Authority, O=""Starfield Technologies, Inc."", C=US> Sha1 thumbprint: <AD7E1C28B064EF8F6003402014C3D0E3370EB58A>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE> Sha1 thumbprint: <B1BC968BD4F49D622AA89A81F2150152A41D829C>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, S=Greater Manchester, C=GB> Sha1 thumbprint: <D1EB23A46D17D68FD92564C2F1F1601764D8E349>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE> Sha1 thumbprint: <D4DE20D05E66FC53FE1A50882C78DB2852CAE474>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=DST Root CA X3, O=Digital Signature Trust Co.> Sha1 thumbprint: <DAC9024F54D8F6DF94935FB1732638CA6AD77C13>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4109,None,"Successful auto property update of third-party root certificate:: Subject: <CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <DF3C24F9BFD666761B268073FE06D1CC8D4F82A4>."
+Information,10/2/2021 5:20:26 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DST Root CA X3, O=Digital Signature Trust Co.> Sha1 thumbprint: <DAC9024F54D8F6DF94935FB1732638CA6AD77C13>."
+Information,10/2/2021 5:19:35 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,10/2/2021 5:19:35 AM,Microsoft-Windows-LoadPerf,1001,None,Performance counters for the WmiApRpl (WmiApRpl) service were removed successfully. The Record Data contains the new values of the system Last Counter and Last Help registry entries.
+Information,10/2/2021 5:18:18 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,10/2/2021 5:18:18 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-09-08T12:18:18Z. Reason: RulesEngine.
+Information,10/2/2021 5:17:48 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,10/2/2021 5:17:48 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 0 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 5:17:48 AM,Microsoft-Windows-Security-SPP,1033,None,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,10/2/2021 5:17:48 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,10/2/2021 5:17:48 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,10/2/2021 5:17:46 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,10/2/2021 5:17:40 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,10/2/2021 5:17:32 AM,Microsoft-Windows-Security-SPP,900,None,"The Software Protection service is starting.
+Parameters:<explicit>"
+Information,10/2/2021 5:17:26 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,10/2/2021 5:17:25 AM,edgeupdate,0,None,Service stopped.
+Information,10/2/2021 5:16:35 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,10/2/2021 5:16:15 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,10/2/2021 5:16:03 AM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,10/2/2021 5:15:24 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,10/2/2021 5:15:17 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,10/2/2021 5:14:21 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,10/2/2021 5:14:21 AM,Microsoft-Windows-MSDTC,4111,SVC,The MS DTC service is stopping.
+Information,10/2/2021 5:14:20 AM,VSS,8225,None,The VSS service is shutting down due to shutdown event from the Service Control Manager. 
+Information,10/2/2021 5:09:09 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,10/2/2021 5:09:08 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,10/2/2021 5:04:24 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <OU=Go Daddy Class 2 Certification Authority, O=""The Go Daddy Group, Inc."", C=US> Sha1 thumbprint: <2796BAE63F1801E277261BA0D77770028F20EEE4>."
+Information,10/2/2021 5:03:38 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <OU=Starfield Class 2 Certification Authority, O=""Starfield Technologies, Inc."", C=US> Sha1 thumbprint: <AD7E1C28B064EF8F6003402014C3D0E3370EB58A>."
+Information,10/2/2021 5:03:38 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, S=Greater Manchester, C=GB> Sha1 thumbprint: <D1EB23A46D17D68FD92564C2F1F1601764D8E349>."
+Information,10/2/2021 5:03:38 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE> Sha1 thumbprint: <B1BC968BD4F49D622AA89A81F2150152A41D829C>."
+Information,10/2/2021 5:03:38 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE> Sha1 thumbprint: <B1BC968BD4F49D622AA89A81F2150152A41D829C>."
+Information,10/2/2021 5:03:38 AM,edgeupdate,0,None,Service stopped.
+Information,10/2/2021 5:03:01 AM,VSS,8224,None,The VSS service is shutting down due to idle timeout. 
+Information,10/2/2021 4:50:46 AM,Microsoft-Windows-LoadPerf,1000,None,Performance counters for the WmiApRpl (WmiApRpl) service were loaded successfully. The Record Data in the data section contains the new index values assigned to this service.
+Information,10/2/2021 4:49:44 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-09-08T11:49:44Z. Reason: RulesEngine.
+Information,10/2/2021 4:49:14 AM,Microsoft-Windows-Security-SPP,16394,None,Offline downlevel migration succeeded.
+Information,10/2/2021 4:49:12 AM,Microsoft-Windows-Security-SPP,903,None,"The Software Protection service has stopped.
+"
+Information,10/2/2021 4:49:12 AM,Microsoft-Windows-Security-SPP,16384,None,Successfully scheduled Software Protection service for re-start at 2121-09-08T11:49:12Z. Reason: RulesEngine.
+Information,10/2/2021 4:48:58 AM,Microsoft-Windows-MSDTC 2,4202,TM,"MSDTC started with the following settings: Security Configuration (OFF = 0 and ON = 1): Allow Remote Administrator = 0, Network Clients = 0, Transaction Manager Communication:  Allow Inbound Transactions = 0, Allow Outbound Transactions = 0, Transaction Internet Protocol (TIP) = 0,  Enable XA Transactions = 0,  Enable SNA LU 6.2 Transactions = 1,  MSDTC Communications Security = Mutual Authentication Required, Account = NT AUTHORITY\NetworkService,  Firewall Exclusion Detected = 0 Transaction Bridge Installed = 0 Filtering Duplicate Events = 1"
+Information,10/2/2021 4:48:40 AM,Microsoft-Windows-Security-SPP,8197,None,"SLUI.exe was launched with the following command-line parameters:
+RuleId=379cccfb-d4e0-48fe-b0f2-0136097be147;Action=CleanupState;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=1ea11e95-b7b5-49f8-b3b8-164805630e84;Trigger=TimerEvent"
+Information,10/2/2021 4:48:40 AM,Microsoft-Windows-Security-SPP,8230,None,"The rules engine successfully re-evaluated the schedule.
+Kernel policies:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0x00000000;LastNotificationId=Cleanup;LicenseState=SL_LICENSING_STATUS_LICENSED;PartialProductKey=D7CXY;ProductKeyType=Retail;SkuId=1ea11e95-b7b5-49f8-b3b8-164805630e84;ruleId=379cccfb-d4e0-48fe-b0f2-0136097be147;uxDifferentiator=RETAIL"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,8197,None,"SLUI.exe was launched with the following command-line parameters:
+RuleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;Action=AutoActivate;AppId=55c92734-d682-4d71-983e-d6ec3f16059f;SkuId=1ea11e95-b7b5-49f8-b3b8-164805630e84;NotificationInterval=1440;Trigger=UserLogon;SessionId=1"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,16388,None,The current time is 2021-10-02T11:48:31Z : 2021-10-02T20:47:17Z.
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 1 [(0 [0x00000000, 1, 0], [(?)( 1 0x00000000)(?)( 2 0x00000000 0 0 msft:rm/algorithm/hwid/4.0 0x00000000 0)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)(?)])(1 )(2 )(3 )]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,1033,None,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,10/2/2021 4:48:31 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,10/2/2021 4:48:30 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,10/2/2021 4:48:30 AM,Microsoft-Windows-Security-SPP,12311,None,The MSA client has been successfully triggered to update the Device License
+Information,10/2/2021 4:48:29 AM,Microsoft-Windows-Security-SPP,12304,None,Successfully acquired genuine ticket for template Id {99d92734-d682-4d71-983e-d6ec3f16059f}
+Information,10/2/2021 4:48:29 AM,Microsoft-Windows-Security-SPP,12305,None,Genuine state set to genuine for application Id 55c92734-d682-4d71-983e-d6ec3f16059f
+Information,10/2/2021 4:48:26 AM,Microsoft-Windows-Security-SPP,20489,None,"Genuine validation data collection ended. 
+"
+Information,10/2/2021 4:48:25 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,10/2/2021 4:48:25 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,10/2/2021 4:48:25 AM,Microsoft-Windows-Security-SPP,20482,None,"Health check passed. 
+"
+Information,10/2/2021 4:48:23 AM,Microsoft-Windows-Security-SPP,20481,None,"Health check initiated. 
+"
+Information,10/2/2021 4:48:20 AM,Microsoft-Windows-Security-SPP,20488,None,"Genuine validation data collection started. 
+"
+Information,10/2/2021 4:48:19 AM,Microsoft-Windows-Security-SPP,1067,None,"Genuine information set for application. 0x00000000, 1ea11e95-b7b5-49f8-b3b8-164805630e84, SL_ACTIVATION_VALIDATION_IN_PROGRESS.
+"
+Information,10/2/2021 4:48:19 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - {msft:sl/EUL/ACTIVATED/PRIVATE}
+License Id=d5ccdd1f-0673-44c7-a475-68202a70b733"
+Information,10/2/2021 4:48:19 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - {msft:sl/EUL/ACTIVATED/PUBLIC}
+License Id=3fabe9fd-3513-40d0-bd4f-96712c8cbdba"
+Information,10/2/2021 4:48:19 AM,Microsoft-Windows-Security-SPP,1013,None,"Acquisition of End User License was successful.
+Sku Id=1ea11e95-b7b5-49f8-b3b8-164805630e84"
+Information,10/2/2021 4:48:04 AM,Microsoft-Windows-Security-SPP,8230,None,"The rules engine successfully re-evaluated the schedule.
+Kernel policies:
+Security-SPP-Action-StateData (REG_SZ) =AppId=55c92734-d682-4d71-983e-d6ec3f16059f;LastConsumptionReason=0xc004f034;LastNotificationId=NeverActivated;LicenseState=SL_LICENSING_STATUS_NOTIFICATION;PartialProductKey=D7CXY;ProductKeyType=Retail;SkuId=1ea11e95-b7b5-49f8-b3b8-164805630e84;ruleId=31e71c49-8da7-4a2f-ad92-45d98a1c79ba;uxDifferentiator=RETAIL"
+Information,10/2/2021 4:47:33 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <DF3C24F9BFD666761B268073FE06D1CC8D4F82A4>."
+Information,10/2/2021 4:47:26 AM,Microsoft-Windows-Security-SPP,16388,None,The current time is 2021-10-02T11:47:26Z : 2021-10-02T20:46:12Z.
+Information,10/2/2021 4:46:39 AM,Microsoft-Windows-Winlogon,6000,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,10/2/2021 4:46:29 AM,Microsoft-Windows-Search-ProfileNotify,5,None,"Windows Search Service has created default configuration for new user 'WIN-V43N4HLGRLN\Administrator' .
+"
+Information,10/2/2021 4:46:16 AM,Microsoft-Windows-Winlogon,6003,None,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,10/2/2021 4:45:34 AM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,10/2/2021 4:45:28 AM,Microsoft-Windows-CAPI2,4113,None,"Successful auto update of pin rules with effective date: ‎Wednesday, ‎May ‎31, ‎2017 4:28:59 PM."
+Information,10/2/2021 4:44:57 AM,edgeupdate,0,None,Service stopped.
+Information,10/2/2021 4:44:32 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE> Sha1 thumbprint: <D4DE20D05E66FC53FE1A50882C78DB2852CAE474>."
+Information,10/2/2021 4:44:27 AM,Microsoft-Windows-CAPI2,4112,None,"Successful auto update of disallowed certificate list with effective date: ‎Tuesday, ‎March ‎16, ‎2021 12:29:24 AM."
+Information,10/2/2021 4:44:26 AM,Microsoft-Windows-CAPI2,4097,None,"Successful auto update of third-party root certificate:: Subject: <CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US> Sha1 thumbprint: <A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436>."
+Information,10/2/2021 4:44:11 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 0 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 4:44:11 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,10/2/2021 4:44:11 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,10/2/2021 4:44:11 AM,Microsoft-Windows-Security-SPP,1016,None,"Proof of Purchase installed successfully. 
+ACID=1ea11e95-b7b5-49f8-b3b8-164805630e84
+PKeyId=245781e4-da5b-ddd3-585e-9250f47660d4"
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-Security-SPP,902,None,"The Software Protection service has started.
+10.0.20348.169"
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-Security-SPP,1003,None,"The Software Protection service has completed licensing status check.
+Application Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Licensing Status=
+1: 1ea11e95-b7b5-49f8-b3b8-164805630e84, 1, 0 [(0 )(1 )(2 [0xC004E003, 0, 0], [( 1 0xC004F034)( 1 0xC004F034)(?)(?)(?)(?)(?)(?)])(3 [0x00000000, 0, 0], [( 6 0xC004F009 0 0)( 1 0x00000000)( 6 0xC004F009 0 0)(?)(?)(?)( 10 0x00000000 msft:rm/algorithm/flags/1.0)( 11 0x00000000 0xC004F034)])]
+2: 22105925-48c3-4ff4-a294-f654bb27e390, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+3: 27c4e172-0f4c-4a2d-86f0-ebfd77a583ce, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+4: 3f1a0b3b-cefc-48e4-8502-53299ec06146, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+5: 661f7658-7035-4b4c-9f35-010682943ec2, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+6: 716317e3-9177-41f8-a772-361050bb1b7f, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+7: 8f97e374-1be6-46d5-bb24-61f9d6400caf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+8: 929d118a-4950-4d06-9ff1-ecd794f7d740, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+9: 9bd77860-9b31-4b7b-96ad-2564017315bf, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+10: b1c68fb2-b632-47a2-8719-488cc128b728, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+11: ce624156-a391-4585-93f9-7fb37405fbda, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+12: e73aabfa-12bc-4705-b551-2dd076bebc7d, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+13: ffa0a98f-b13f-4433-91f4-8aff126ed407, 1, 0 [(0 [0xC004F014, 0, 0], [(?)(?)(?)(?)(?)(?)(?)(?)])(1 )(2 )(3 )]
+
+"
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,10/2/2021 4:44:03 AM,Microsoft-Windows-Security-SPP,1034,None,Duplicate definition of policy found. Policy name=AAD-BlockAADWorkplaceJoin-Default  Priority=100
+Information,10/2/2021 4:44:02 AM,Microsoft-Windows-Security-SPP,1016,None,"Proof of Purchase installed successfully. 
+ACID=1ea11e95-b7b5-49f8-b3b8-164805630e84
+PKeyId=245781e4-da5b-ddd3-585e-9250f47660d4"
+Information,10/2/2021 4:44:02 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL inherited License (Private)
+License Id=f2cf5930-35ab-455a-a8b0-c72a7954d258"
+Information,10/2/2021 4:44:02 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL inherited License (Public)
+License Id=7a6f02ff-6fe9-4c90-a91d-ee761a14dd29"
+Information,10/2/2021 4:44:02 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=710cb6ef-cfff-4ea6-ac15-0baa1012ed8a"
+Information,10/2/2021 4:44:02 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=0b84329a-c153-4223-a12b-0722c8b4aafe"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=913580ae-6cd2-473a-a8de-92cb9e742615"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=feac068c-9f47-4a50-9a1b-d5336e0f370d"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=5d0e9b58-3020-4aa9-bd3e-4d1e9fa9ef3c"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=af33d93b-c128-4945-a567-737881e3762d"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=bd9b6514-a166-4faf-88f0-9142930f3d28"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=da9414ef-db13-4f41-bbbc-5dc32b6aad33"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=c40755db-7c11-4b41-8792-30a615f35db4"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=bdaee49a-98dc-441f-b0cd-4e5104ceb861"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL volume License (Private)
+License Id=6699ca9f-7f53-4546-b054-fa507b0a6ff6"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL volume License (Public)
+License Id=6aadf5ce-b049-477c-bcc9-065c7d84accb"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=b21baed3-e1ca-4853-82dd-108dc12ef3f0"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=cba5abea-a764-48b7-ac4f-4e2751c4e64d"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=01f60e89-76d3-4e1f-b3c0-a20963206f61"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=9e1df3c6-235f-4d3e-9231-edb122d24d60"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=7cad6103-e7da-47c3-9816-739d6f8ca8c4"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=b61032f5-1305-48af-acf7-52a663a5269f"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=1b9421d9-efff-4dd1-adac-d6af98cad1c1"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=13e0c5b1-e6be-452c-a02c-7b26f8ca7aec"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=5f14270f-d5e6-4126-8d41-351401287ed8"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=88873346-e19f-4585-828b-2b8ec2795a8d"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=dc557289-63a8-4a53-b999-59d34ae47415"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=624bb98d-bc5b-45a2-aba4-3e8ea862a7a8"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=5c87f436-41e9-4110-a676-541cee258f5b"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=6aaaeebf-be81-4abe-b623-79d5e2fcd860"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=49051314-77b2-4db4-a5c3-bfb4be9f2b20"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=ce72a6f5-900b-4888-8700-8170b614fa77"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=4b9826de-f912-45a4-8d08-198d8e21d399"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=e905d20d-e759-49b1-8110-8ba92ff357ea"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=7c3c08e5-a4bc-4ece-a682-9c1e82a671b2"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=2fa85c59-eb25-453c-9740-26b6c5010f86"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=be553147-7686-43bd-bc17-1529eb1507bc"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=82df7edd-84af-4c67-a3e9-fe6f7e2f66e5"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=ba6a8d5f-049e-452b-bc36-288b5462ddfd"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=2b46cdef-cc6e-476e-b57a-342395a4c1df"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=18d0114f-6c2c-4355-b426-5b587beb52a0"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=6fd55f77-3bdb-40dd-955f-b624ce5b92b2"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=0a77dd71-fdf5-4004-a4d4-a770c1b7de54"
+Information,10/2/2021 4:44:01 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=79e58845-36e9-4f19-bf41-a24fde7442aa"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=75097f72-9d2f-458f-895e-f3ce985972ac"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=40da7823-941a-4f45-afbd-38431550836d"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=f9b02f81-6dcc-44a3-a617-8790e32d661a"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=aaff70d8-5e58-424b-bb12-aa294d28a781"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=9c9cdef1-a4a1-4106-9958-bdbeee9bc661"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=3ef1335a-50ef-417e-9dd1-41ced3c7fbef"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) ServerStandard Product PPD License
+License Id=2a249026-8aab-92f0-99e5-adaa3672a4ce"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oem License (Private)
+License Id=5d3695c1-445a-4df8-8b55-df9960e8b3bb"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oem License (Public)
+License Id=ea0c4458-9b08-475b-ac61-66d413c852a2"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=240e5821-82cb-4385-9075-5636f71ad12a"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=66bb1b3c-3d43-4737-83d5-c96f3880fb77"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oem License (Private)
+License Id=755b6584-dbbe-4c7f-9612-346d3c99f5cd"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oem License (Public)
+License Id=519c5c0e-d23c-40d3-80fe-b3330c0e27d1"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=a08f4492-12be-4d2f-8c12-72cc91aca714"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=1c49ff6e-54a8-4b4d-b80b-23305451fa71"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=f3e6bea9-ef47-4bab-8500-40577d15768d"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=b18efb86-ab5a-4289-a078-4932350e6a69"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=ab1fe5e9-5023-4c61-a08f-ad5b47414792"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=9154a2aa-fde2-4392-9470-4d0278817660"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=b3f6b4cf-013b-40fd-bd9d-381e0a4267c4"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=7ca7b4bf-48bf-49e6-9e36-b4118243837a"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=ca8bf28b-9523-4214-9b06-325b89bde134"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=c7962477-16b7-4eb1-8d4a-cb67f89b541f"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=c534ca9f-15dd-44e7-ae62-ed55d41f4dd2"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=32931f09-6151-48d0-8978-8d6bd5c24b44"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=1d8c14b6-4f02-4c02-b440-2c3b2ffd2188"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=98b63eb8-99dd-479d-bf97-9fece8dc7a4f"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=433917ad-3ea0-44aa-a833-a3b5becc5ead"
+Information,10/2/2021 4:44:00 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=3a996dea-d5de-4561-8cd9-9328a5b7d1c3"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=e804ea77-07ec-4828-a969-9f08949213fc"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=dfa4e16b-de7d-48cf-a5cf-491de3e9376e"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=587b1f33-4f29-421d-a8b2-7be8ef6d4c90"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=bcdefeef-7be9-4f4e-aa5b-4d2cdae8ea50"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=ffc9f18e-06aa-4e71-bb0a-1ff08abf664f"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=3ad52dee-7d9b-4711-879e-18d8aa501e3d"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=6c631e08-a765-42c3-8cf8-e4bc95d3d9d7"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=77d025e0-230a-4310-9945-ff26c005243d"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=7852dbb4-70dc-4a80-becb-b2ef0020272d"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=82ce8307-0a7c-450d-98dc-8b7181c20520"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=6b7f45cb-43c4-4014-bb2e-d918b5b06c7d"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=1e1df3b3-6f59-4fbd-a6ff-e00cd314f131"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=9568c300-26dc-4bce-a310-8340871fafda"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=2beb2104-6206-4359-a081-76ce1985d0dc"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=03293276-00c9-4f88-82df-f98967bb5353"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=805c024b-b478-4fc8-9f3a-9fab24dc463c"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=7d48c785-3af2-4651-bc8d-486d2c09670e"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=ccac3981-d950-4c92-91bd-d1a0c70f113a"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=DefaultPpd-ServerStandard Component PPD License
+License Id=d6639c0c-34e5-af2b-e1d3-b866188a3849"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=DefaultPpd-csvlk-pack Component PPD License
+License Id=cf87d272-7158-05ce-7df4-689302c3bfd9"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=a566d3f5-4436-4242-8f45-0c889f53274c"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=6453fd60-af34-4298-b734-6036fc8e1cc1"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=e1897ad2-5ff6-47a9-b9c1-60f4ae52f7b6"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=ab282852-1dbd-421d-8d39-0fa9cf0db22f"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=86d64954-9e15-416f-bda3-5d7d8450f509"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=c9b86cd2-07d4-490a-91cd-e68a521b127c"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=415ee139-4e84-42cc-b05d-b174385fc322"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=92d27726-cc5a-46f4-b8ec-2ccd7c91fd0a"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=c9e7ceb6-daa6-4330-bc0e-d06e20469167"
+Information,10/2/2021 4:43:59 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=a55f7717-f793-4f7f-82ef-c3564fe79dd8"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=a165c9a1-b6b7-4a14-9e5b-990be8ceb028"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=26c658d0-a38d-4b6c-ad62-12fc0607f289"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=e2d33a83-72ab-4a43-b516-f2ef484e4b3f"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=d5ed7deb-fc50-4f03-8031-fc15076f84f5"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=62223a34-4dff-46a6-8535-15534ab0c99a"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=242041b0-7fa9-4ca8-9ecb-d7f7ae841d91"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=bedbceb7-4f3e-4d04-97a5-eb79178a3371"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=f35fc419-8cba-4a70-a20e-cb0aaa548e38"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=6fcae1a7-1930-4296-b8ef-2d0994751e4e"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=dfed9b71-ca6a-4eff-beea-07e26089c17b"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=c41872f8-8bfd-4786-839e-7ef18bf1878b"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=1f2cb790-6bab-4890-9ce2-767eaea74388"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=ba123247-b564-4942-be95-4929c26b40d7"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=73138997-9087-48ba-999e-bfeb6c51c6fc"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=45b637cd-1e1c-4ceb-897e-cbf8dc26a0b2"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=458c6d52-9c92-40c0-b82b-de6594da4c09"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=2587bba9-4ff2-4ce1-83dd-c2852824fc5b"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=63fef1f8-6e05-48db-9c85-7cb2dbce64c9"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=1565e945-5a8c-478e-a060-c8e5b7c46a3b"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=b44675a3-f37c-4323-887f-714d95b3ae58"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=577c6860-392f-445d-a2b9-e2d856c73c53"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=8cb21bea-93aa-429a-8b41-42cabf1efde9"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=fc21ddc2-d142-4731-835c-5df088bb48cd"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=f39bb3e2-81dc-47eb-830d-d1d32e94416f"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=393dc983-c2ab-412c-ae14-0f5e6f6735a0"
+Information,10/2/2021 4:43:58 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=841e6862-b007-45d8-8b68-5296af51ef9e"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=07cc2efb-badd-4e01-bd35-e31fad487e9e"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=224014c7-435d-45a3-89b6-aa906590b392"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=952aec1a-df39-49e1-82de-572c7684e70d"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=c9508ac1-076f-45b4-a675-9512187f1baa"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=7c770f20-bcbb-444b-b589-ba774e164deb"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=c0c8d4ff-b4c6-48a6-b39c-a04a5aa89308"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=8261135e-b9e5-4cd7-b18c-41cb555cdbe0"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=6dae0fbf-47a2-4c27-8f28-7794c4646b97"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=60b86de2-5880-4270-8d05-8830c988bd25"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=1ad14a92-beec-4a76-89db-8780398bb1e4"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=32e2ae23-5ee0-4eb7-8113-51c558c99efd"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=8d857803-bd27-43d4-9554-8505cf79602b"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=5002d3b6-7004-4c2b-a457-21c8985fc533"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=d0e97a8e-c4f8-4258-854f-00ef5d47fd15"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=1efbf210-d950-4b46-adb2-b50f692876a6"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=02c2c80a-4266-410d-93d3-a643ea2cd919"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=dfd466f2-7331-4ddb-acf6-bedf72b6c9c3"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=3a08dbae-934c-4eda-a1ad-8a7409f652cf"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=d812b82f-a82c-4d37-ba27-e2e9bcd2995e"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=ae7c6bad-8b32-445d-8dd3-5065bae77748"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=e0c5a18e-99de-48e2-adf8-be89fd2c105b"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=a9eff327-60cd-4168-88c6-4c6047a5176c"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=1e6fb102-6d6a-4fb1-a770-afdfc5fc42c3"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=2f5a60df-7465-478e-8e23-0e53cc34683a"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=3e9989e8-62d6-4882-962b-980c43a5c7d4"
+Information,10/2/2021 4:43:57 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=4217495d-2269-4970-919c-9f7498802edb"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=e7847acb-782c-4a33-b27b-913128bf7527"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=8afae3fa-4e2c-4488-a11b-04d8ad54a872"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=580f182c-82a7-44b4-a750-9aced8d40589"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=d848deee-77da-483e-8140-653306c89e34"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=2d34fd9e-a2f1-48f8-85d6-9b0b686832b2"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=fff397d9-0a70-462c-96b9-0e4460efc25f"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=ae4923ae-c9c5-46cb-b980-5ab98d92914e"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=25036c8c-99ee-4899-8253-34de1813ee96"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=4d07ea0e-e427-408e-9a08-7c86f786a6ea"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=f6858cb0-1b99-48bc-9735-b27f55d5bd9f"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Private)
+License Id=accc650f-6ade-4175-b3d2-8da8d4867b58"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL store License (Public)
+License Id=37fd227f-bb10-4c8b-ba66-93cb46da0dd5"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Private)
+License Id=33f24d8b-a203-45ba-a5aa-7ffd3a250776"
+Information,10/2/2021 4:43:56 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL phone License (Public)
+License Id=1e5f9e7c-61d3-4316-80d8-ca674e2a03ca"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Private)
+License Id=3ad0ee87-ad6e-4e4e-b4fe-b758c85298c4"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) UL oob License (Public)
+License Id=ac5410be-440a-4f12-902f-77e64733bb72"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=fa843be4-28d2-4c0e-a0ed-e8b66cc2c49f"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=c98e36fa-08e9-4cad-b4fc-0369f6c23d48"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) csvlk-pack Product PPD License
+License Id=c354cf95-648c-b1b3-6e2d-5a239a905988"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=windowsapp Ruleset Data
+License Id=1a032e1d-5164-4a23-a256-7d01267aba81"
+Information,10/2/2021 4:43:55 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=platformglobal Ruleset Data
+License Id=3726cac4-b752-4eb5-9c07-50c143a14c3e"
+Information,10/2/2021 4:43:54 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=filteractions Ruleset Data
+License Id=26645e13-ef75-455d-8074-35cf37d5180d"
+Information,10/2/2021 4:43:54 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=06a4dd30-84b7-4fd2-b859-f1eddb0858f5"
+Information,10/2/2021 4:43:54 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=3b67dd0c-521d-4dbb-8c1a-c75d120fc2fb"
+Information,10/2/2021 4:43:54 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=71ce6518-3581-46da-948d-083c57061836"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Generic Security Processor Certificate (Public)
+License Id=80bedb87-dba9-455b-98c8-a61f025d6a5b"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Generic Security Processor Certificate (Private)
+License Id=77ba058e-7d3b-4cbf-be4a-ffe6bb75db60"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Generic Rights Account Certificate (Public)
+License Id=0a256b47-0b27-4145-a5b8-79422fb539cc"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Generic Rights Account Certificate (Private)
+License Id=bc6f46d3-18d9-46f5-9818-aa00ec832013"
+Information,10/2/2021 4:43:53 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=CLIENT-SPC Issuance License
+License Id=57d6dc1b-f556-4f5b-935b-3b379fd9dda8"
+Information,10/2/2021 4:43:52 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=CLIENT-RAC Issuance License
+License Id=95c2c6b8-ea2f-431d-8902-eeafc6376965"
+Information,10/2/2021 4:43:52 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-wgalic Issuance License
+License Id=770c4fab-e917-4899-a2cc-a76b894d5d3d"
+Information,10/2/2021 4:43:52 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-ul Issuance License
+License Id=4961cc30-d690-43be-910c-8e2db01fc5ad"
+Information,10/2/2021 4:43:52 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-ul-oob Issuance License
+License Id=7e3094cf-ce3e-4ed4-8c8c-20c2be1add03"
+Information,10/2/2021 4:43:52 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-stil Issuance License
+License Id=285583cd-fc43-4806-ace6-d247b7edd434"
+Information,10/2/2021 4:43:50 AM,Microsoft-Windows-Security-SPP,1066,None,"Initialization status for service objects.
+C:\Windows\system32\sppwinob.dll, msft:spp/windowsfunctionality/agent/7.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/inherited/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/phone/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:rm/algorithm/pkey/detect, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/ActionScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/TaskScheduler/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/statecollector/pkey, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/1.0, 0x00000000, 0x00000000
+C:\Windows\system32\sppobjs.dll, msft:spp/volume/services/kms/activationinfo/1.0, 0x00000000, 0x00000000
+"
+Information,10/2/2021 4:43:46 AM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,10/2/2021 4:43:44 AM,Microsoft-Windows-EventSystem,4625,None,The EventSystem sub system is suppressing duplicate event log entries for a duration of 86400 seconds.  The suppression timeout can be controlled by a REG_DWORD value named SuppressDuplicateDuration under the following registry key: HKLM\Software\Microsoft\EventSystem\EventLog.
+Information,10/2/2021 4:42:03 AM,Microsoft-Windows-User Profiles Service,1532,None,"The User Profile Service has stopped.  
+
+"
+Information,10/2/2021 4:41:12 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Private)
+License Id=fa843be4-28d2-4c0e-a0ed-e8b66cc2c49f"
+Information,10/2/2021 4:41:12 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) Publishing License (Public)
+License Id=c98e36fa-08e9-4cad-b4fc-0369f6c23d48"
+Information,10/2/2021 4:40:41 AM,Microsoft-Windows-Defrag,258,None,The storage optimizer successfully completed shrink on (C:)
+Information,10/2/2021 4:40:30 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Windows(R) csvlk-pack Product PPD License
+License Id=c354cf95-648c-b1b3-6e2d-5a239a905988"
+Information,10/2/2021 4:40:15 AM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=windowsapp Ruleset Data
+License Id=1a032e1d-5164-4a23-a256-7d01267aba81"
+Information,10/2/2021 1:39:58 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=platformglobal Ruleset Data
+License Id=3726cac4-b752-4eb5-9c07-50c143a14c3e"
+Information,10/2/2021 1:39:47 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=filteractions Ruleset Data
+License Id=26645e13-ef75-455d-8074-35cf37d5180d"
+Information,10/2/2021 1:39:38 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=06a4dd30-84b7-4fd2-b859-f1eddb0858f5"
+Information,10/2/2021 1:39:28 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=3b67dd0c-521d-4dbb-8c1a-c75d120fc2fb"
+Information,10/2/2021 1:39:28 PM,edgeupdate,0,None,Service stopped.
+Information,10/2/2021 1:39:26 PM,Microsoft-Windows-WMI,5617,None,Windows Management Instrumentation Service subsystems initialized successfully
+Information,10/2/2021 1:39:14 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=71ce6518-3581-46da-948d-083c57061836"
+Information,10/2/2021 1:39:04 PM,Microsoft-Windows-WMI,5615,None,Windows Management Instrumentation Service started sucessfully
+Information,10/2/2021 1:38:57 PM,Microsoft-Windows-User Profiles Service,1531,None,"The User Profile Service has started successfully.  
+
+"
+Information,10/2/2021 1:38:59 PM,Microsoft-Windows-Security-SPP,1004,None,"The Software Protection service has successfully installed the license.
+License Title=Generic Security Processor Certificate (Public)
+License Id=80bedb87-dba9-455b-98c8-a61f025d6a5b"

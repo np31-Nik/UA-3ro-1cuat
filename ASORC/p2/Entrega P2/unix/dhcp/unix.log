@@ -1,0 +1,249 @@
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: /usr/local/etc/dhcpd.conf line 111: subnet 192.168.137.2 netmask 255.255.255.0: bad subnet number/mask combination.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: subnet 192.168.137.2 netmask 255.255.255.0 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]:                                          ^
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1100]: exiting.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: All rights reserved.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: /usr/local/etc/dhcpd.conf line 111: subnet 192.168.137.2 netmask 255.255.255.0: bad subnet number/mask combination.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: subnet 192.168.137.2 netmask 255.255.255.0 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]:                                          ^
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: 
+daemon.log:Nov 11 22:06:31 freebsd dhcpd[1101]: exiting.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: 	option broadcast-adress 192.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]:                 ^
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: /usr/local/etc/dhcpd.conf line 116: semicolon expected.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: 	default-lease.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]:                       ^
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: 
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: 
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1113]: exiting.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: All rights reserved.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: 	option broadcast-adress 192.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]:                 ^
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: /usr/local/etc/dhcpd.conf line 116: semicolon expected.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: 	default-lease.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]:                       ^
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: 
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: 
+daemon.log:Nov 11 22:06:56 freebsd dhcpd[1114]: exiting.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: 	option broadcast-adress 192.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]:                 ^
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: 
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: 
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1125]: exiting.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: All rights reserved.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: 	option broadcast-adress 192.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]:                 ^
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: Configuration file errors encountered -- exiting
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: 
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: If you think you have received this message due to a bug rather
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: than a configuration issue please read the section on submitting
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: bugs on either our web page at www.isc.org or in the README file
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: before submitting a bug.  These pages explain the proper
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: process and the information we find helpful for debugging.
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: 
+daemon.log:Nov 11 22:07:12 freebsd dhcpd[1126]: exiting.
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: All rights reserved.
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: Config file: /usr/local/etc/dhcpd.conf
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: Database file: /var/db/dhcpd/dhcpd.leases
+daemon.log:Nov 11 22:07:34 freebsd dhcpd[1165]: PID file: /var/run/dhcpd/dhcpd.pid
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: All rights reserved.
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: Config file: /usr/local/etc/dhcpd.conf
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: Database file: /var/db/dhcpd/dhcpd.leases
+daemon.log:Nov 11 22:19:18 freebsd dhcpd[1244]: PID file: /var/run/dhcpd/dhcpd.pid
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: All rights reserved.
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: Config file: /usr/local/etc/dhcpd.conf
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: Database file: /var/db/dhcpd/dhcpd.leases
+daemon.log:Nov 11 23:24:08 freebsd dhcpd[855]: PID file: /var/run/dhcpd/dhcpd.pid
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: All rights reserved.
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: Config file: /usr/local/etc/dhcpd.conf
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: Database file: /var/db/dhcpd/dhcpd.leases
+daemon.log:Nov 11 23:56:58 freebsd dhcpd[1554]: PID file: /var/run/dhcpd/dhcpd.pid
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: Internet Systems Consortium DHCP Server 4.4.2-P1
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: Copyright 2004-2021 Internet Systems Consortium.
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: All rights reserved.
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: For info, please visit https://www.isc.org/software/dhcp/
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: Config file: /usr/local/etc/dhcpd.conf
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: Database file: /var/db/dhcpd/dhcpd.leases
+daemon.log:Nov 12 00:38:11 freebsd dhcpd[877]: PID file: /var/run/dhcpd/dhcpd.pid
+debug.log:Nov 11 22:19:18 freebsd dhcpd[1244]: reuse_lease: lease age 88 (secs) under 25% threshold, reply with unaltered, existing lease for 192.168.137.3
+debug.log:Nov 11 22:19:20 freebsd dhcpd[1244]: reuse_lease: lease age 90 (secs) under 25% threshold, reply with unaltered, existing lease for 192.168.137.3
+debug.log:Nov 11 22:19:28 freebsd dhcpd[1244]: reuse_lease: lease age 98 (secs) under 25% threshold, reply with unaltered, existing lease for 192.168.137.3
+debug.log:Nov 11 23:24:12 freebsd dhcpd[855]: reuse_lease: lease age 0 (secs) under 25% threshold, reply with unaltered, existing lease for 192.168.137.3
+debug.log:Nov 11 23:57:08 freebsd dhcpd[1554]: reuse_lease: lease age 4 (secs) under 25% threshold, reply with unaltered, existing lease for 192.168.137.3
+messages:Nov 11 22:01:04 freebsd pkg[1042]: isc-dhcp44-server-4.4.2P1_1 installed
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: /usr/local/etc/dhcpd.conf line 111: subnet 192.168.137.2 netmask 255.255.255.0: bad subnet number/mask combination.
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: subnet 192.168.137.2 netmask 255.255.255.0 
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]:                                          ^
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: 
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: process and the information we find helpful for debugging.
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: 
+messages:Nov 11 22:06:31 freebsd dhcpd[1100]: exiting.
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: /usr/local/etc/dhcpd.conf line 111: subnet 192.168.137.2 netmask 255.255.255.0: bad subnet number/mask combination.
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: subnet 192.168.137.2 netmask 255.255.255.0 
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]:                                          ^
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: 
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: process and the information we find helpful for debugging.
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: 
+messages:Nov 11 22:06:31 freebsd dhcpd[1101]: exiting.
+messages:Nov 11 22:06:31 freebsd nik[1105]: /usr/local/etc/rc.d/isc-dhcpd: ERROR:  Configuration file sanity check failed
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: 	option broadcast-adress 192.
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]:                 ^
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: /usr/local/etc/dhcpd.conf line 116: semicolon expected.
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: 	default-lease.
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]:                       ^
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: 
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: process and the information we find helpful for debugging.
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: 
+messages:Nov 11 22:06:56 freebsd dhcpd[1113]: exiting.
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: 	option broadcast-adress 192.
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]:                 ^
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: /usr/local/etc/dhcpd.conf line 116: semicolon expected.
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: 	default-lease.
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]:                       ^
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: 
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: process and the information we find helpful for debugging.
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: 
+messages:Nov 11 22:06:56 freebsd dhcpd[1114]: exiting.
+messages:Nov 11 22:06:56 freebsd nik[1118]: /usr/local/etc/rc.d/isc-dhcpd: ERROR:  Configuration file sanity check failed
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: 	option broadcast-adress 192.
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]:                 ^
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: 
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: process and the information we find helpful for debugging.
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: 
+messages:Nov 11 22:07:12 freebsd dhcpd[1125]: exiting.
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: /usr/local/etc/dhcpd.conf line 115: unknown option dhcp.broadcast-adress
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: 	option broadcast-adress 192.
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]:                 ^
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: Configuration file errors encountered -- exiting
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: 
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: If you think you have received this message due to a bug rather
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: than a configuration issue please read the section on submitting
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: bugs on either our web page at www.isc.org or in the README file
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: before submitting a bug.  These pages explain the proper
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: process and the information we find helpful for debugging.
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: 
+messages:Nov 11 22:07:12 freebsd dhcpd[1126]: exiting.
+messages:Nov 11 22:07:12 freebsd nik[1130]: /usr/local/etc/rc.d/isc-dhcpd: ERROR:  Configuration file sanity check failed
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]: 
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]: No subnet declaration for em0 (10.0.2.23).
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]: ** Ignoring requests on em0.  If this is not what
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]:    you want, please write a subnet declaration
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]:    in your dhcpd.conf file for the network segment
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]:    to which interface em0 is attached. **
+messages:Nov 11 22:07:34 freebsd dhcpd[1165]: 
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]: 
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]: No subnet declaration for em0 (10.0.2.23).
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]: ** Ignoring requests on em0.  If this is not what
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]:    you want, please write a subnet declaration
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]:    in your dhcpd.conf file for the network segment
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]:    to which interface em0 is attached. **
+messages:Nov 11 22:19:18 freebsd dhcpd[1244]: 
+messages:Nov 11 23:24:08 freebsd dhcpd[855]: 
+messages:Nov 11 23:24:08 freebsd dhcpd[855]: No subnet declaration for em0 (10.0.2.23).
+messages:Nov 11 23:24:08 freebsd dhcpd[855]: ** Ignoring requests on em0.  If this is not what
+messages:Nov 11 23:24:08 freebsd dhcpd[855]:    you want, please write a subnet declaration
+messages:Nov 11 23:24:08 freebsd dhcpd[855]:    in your dhcpd.conf file for the network segment
+messages:Nov 11 23:24:08 freebsd dhcpd[855]:    to which interface em0 is attached. **
+messages:Nov 11 23:24:08 freebsd dhcpd[855]: 
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]: 
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]: No subnet declaration for em0 (10.0.2.23).
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]: ** Ignoring requests on em0.  If this is not what
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]:    you want, please write a subnet declaration
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]:    in your dhcpd.conf file for the network segment
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]:    to which interface em0 is attached. **
+messages:Nov 11 23:56:58 freebsd dhcpd[1554]: 
+messages:Nov 12 00:38:11 freebsd dhcpd[877]: 
+messages:Nov 12 00:38:11 freebsd dhcpd[877]: No subnet declaration for em0 (10.0.2.23).
+messages:Nov 12 00:38:11 freebsd dhcpd[877]: ** Ignoring requests on em0.  If this is not what
+messages:Nov 12 00:38:11 freebsd dhcpd[877]:    you want, please write a subnet declaration
+messages:Nov 12 00:38:11 freebsd dhcpd[877]:    in your dhcpd.conf file for the network segment
+messages:Nov 12 00:38:11 freebsd dhcpd[877]:    to which interface em0 is attached. **
+messages:Nov 12 00:38:11 freebsd dhcpd[877]: 
+userlog:2021-11-11 22:01:01 [nik:groupadd] dhcpd(136)
+userlog:2021-11-11 22:01:01 [nik:useradd] dhcpd(136):dhcpd(136):ISC DHCP daemon:/nonexistent:/usr/sbin/nologin

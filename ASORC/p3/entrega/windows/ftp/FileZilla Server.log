@@ -1,0 +1,30 @@
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> SYST
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 215 UNIX emulated by FileZilla
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> AUTH TLS
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 502 Explicit TLS authentication not allowed
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> AUTH SSL
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 502 Explicit TLS authentication not allowed
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> AUTH TLS-C
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 504 Auth type not supported
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> AUTH TLS-P
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 504 Auth type not supported
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> USER anonymous
+(000063) 12/12/2021 5:53:57 AM - (not logged in) (192.168.137.223)> 331 Password required for anonymous
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> SYST
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 215 UNIX emulated by FileZilla
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> AUTH TLS
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 502 Explicit TLS authentication not allowed
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> AUTH SSL
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 502 Explicit TLS authentication not allowed
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> AUTH TLS-C
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 504 Auth type not supported
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> AUTH TLS-P
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 504 Auth type not supported
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> USER anonymous
+(000064) 12/12/2021 5:54:02 AM - (not logged in) (192.168.137.223)> 331 Password required for anonymous
+(000063) 12/12/2021 5:54:03 AM - (not logged in) (192.168.137.223)> PASS 
+(000063) 12/12/2021 5:54:03 AM - (not logged in) (192.168.137.223)> 530 Login or password incorrect!
+(000063) 12/12/2021 5:54:03 AM - (not logged in) (192.168.137.223)> disconnected.
+(000064) 12/12/2021 5:54:08 AM - (not logged in) (192.168.137.223)> PASS 
+(000064) 12/12/2021 5:54:08 AM - (not logged in) (192.168.137.223)> 530 Login or password incorrect!
+(000064) 12/12/2021 5:54:08 AM - (not logged in) (192.168.137.223)> disconnected.

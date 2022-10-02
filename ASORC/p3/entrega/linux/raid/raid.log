@@ -1,0 +1,408 @@
+anaconda/syslog:17:31:39,946 INFO kernel:raid6: sse2x1   gen() 17698 MB/s
+anaconda/syslog:17:31:39,963 INFO kernel:raid6: sse2x1   xor() 10026 MB/s
+anaconda/syslog:17:31:39,980 INFO kernel:raid6: sse2x2   gen() 20096 MB/s
+anaconda/syslog:17:31:39,997 INFO kernel:raid6: sse2x2   xor() 12002 MB/s
+anaconda/syslog:17:31:40,014 INFO kernel:raid6: sse2x4   gen() 21111 MB/s
+anaconda/syslog:17:31:40,031 INFO kernel:raid6: sse2x4   xor()  8805 MB/s
+anaconda/syslog:17:31:40,048 INFO kernel:raid6: avx2x1   gen() 32493 MB/s
+anaconda/syslog:17:31:40,065 INFO kernel:raid6: avx2x1   xor() 17207 MB/s
+anaconda/syslog:17:31:40,082 INFO kernel:raid6: avx2x2   gen() 38759 MB/s
+anaconda/syslog:17:31:40,099 INFO kernel:raid6: avx2x2   xor() 21438 MB/s
+anaconda/syslog:17:31:40,116 INFO kernel:raid6: avx2x4   gen() 38901 MB/s
+anaconda/syslog:17:31:40,133 INFO kernel:raid6: avx2x4   xor()  9823 MB/s
+anaconda/syslog:17:31:40,133 INFO kernel:raid6: using algorithm avx2x4 gen() 38901 MB/s
+anaconda/syslog:17:31:40,133 INFO kernel:raid6: .... xor() 9823 MB/s, rmw enabled
+anaconda/syslog:17:31:40,133 INFO kernel:raid6: using avx2x2 recovery algorithm
+anaconda/syslog:17:33:13,479 WARNING org.fedoraproject.Anaconda.Modules.Storage:DEBUG:blivet:registered device format class DMRaidMember as dmraidmember
+anaconda/syslog:17:33:17,341 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Storage handles commands ['autopart', 'bootloader', 'btrfs', 'clearpart', 'fcoe', 'ignoredisk', 'iscsi', 'iscsiname', 'logvol', 'mount', 'nvdimm', 'part', 'partition', 'raid', 'reqpart', 'snapshot', 'volgroup', 'zerombr', 'zfcp', 'zipl'] sections [] addons [].
+anaconda/packaging.log:19:52:08,356 INF packaging: Installed: libblockdev-mdraid-2.24-5.el8.x86_64 1621392106 741663e819b1ef4ff14c3f97e123bdd1246832550e9f3d2fe2c9efbc14e9dfb9
+anaconda/packaging.log:20:01:09,889 INF packaging: Verifying: libblockdev-mdraid-2.24-5.el8.x86_64 1621392106 741663e819b1ef4ff14c3f97e123bdd1246832550e9f3d2fe2c9efbc14e9dfb9
+anaconda/packaging.log:20:01:10,087 DBG dnf: Installed: libblockdev-mdraid-2.24-5.el8.x86_64
+anaconda/storage.log:DEBUG:blivet:registered device format class DMRaidMember as dmraidmember
+anaconda/lvm.log:17:33:23.642835 lvs[1978] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:33:23.642837 lvs[1978] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:33:23.642840 lvs[1978] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:33:23.642842 lvs[1978] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:33:23.642844 lvs[1978] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:33:23.642846 lvs[1978] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:33:23.642848 lvs[1978] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:33:23.642850 lvs[1978] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:33:23.642852 lvs[1978] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:33:23.642854 lvs[1978] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:33:23.642856 lvs[1978] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:33:23.642858 lvs[1978] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:33:23.642860 lvs[1978] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:33:23.642862 lvs[1978] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:33:23.642864 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:33:23.642866 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:33:23.642868 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:33:23.642870 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:33:23.642872 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:33:23.642875 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:33:23.642877 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:33:23.642879 lvs[1978] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:33:23.642982 lvs[1978] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:27.628145 pvcreate[2300] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:27.628147 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:27.628148 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:27.628150 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:27.628151 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:27.628152 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:27.628154 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:27.628155 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:27.628156 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:27.628158 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:27.628159 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:27.628161 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:27.628162 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:27.628163 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:27.628165 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:27.628166 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:27.628168 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:27.628169 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:27.628172 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:27.628173 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:27.628175 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:27.628176 pvcreate[2300] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:27.628243 pvcreate[2300] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:27.980568 vgcreate[2317] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:27.980570 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:27.980573 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:27.980575 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:27.980576 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:27.980578 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:27.980579 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:27.980580 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:27.980582 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:27.980583 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:27.980585 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:27.980586 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:27.980587 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:27.980589 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:27.980590 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:27.980592 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:27.980593 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:27.980594 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:27.980596 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:27.980597 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:27.980599 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:27.980600 vgcreate[2317] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:27.980663 vgcreate[2317] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:28.89208 vgs[2324] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:28.89210 vgs[2324] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:28.89212 vgs[2324] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:28.89213 vgs[2324] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:28.89214 vgs[2324] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:28.89216 vgs[2324] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:28.89217 vgs[2324] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:28.89218 vgs[2324] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:28.89220 vgs[2324] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:28.89221 vgs[2324] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:28.89223 vgs[2324] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:28.89224 vgs[2324] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:28.89226 vgs[2324] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:28.89227 vgs[2324] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:28.89228 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:28.89230 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:28.89231 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:28.89233 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:28.89234 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:28.89236 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:28.89237 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:28.89239 vgs[2324] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:28.89298 vgs[2324] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:28.135350 lvcreate[2325] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:28.135352 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:28.135353 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:28.135355 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:28.135356 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:28.135357 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:28.135359 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:28.135360 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:28.135361 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:28.135363 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:28.135364 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:28.135365 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:28.135367 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:28.135368 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:28.135370 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:28.135371 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:28.135372 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:28.135374 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:28.135375 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:28.135377 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:28.135378 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:28.135379 lvcreate[2325] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:28.135437 lvcreate[2325] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:28.140145 lvcreate[2325] device_mapper/libdm-config.c:1014  activation/raid_region_size not found in config: defaulting to 2048
+anaconda/lvm.log:17:44:28.271513 vgs[2339] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:28.271515 vgs[2339] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:28.271518 vgs[2339] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:28.271520 vgs[2339] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:28.271521 vgs[2339] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:28.271523 vgs[2339] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:28.271524 vgs[2339] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:28.271526 vgs[2339] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:28.271527 vgs[2339] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:28.271548 vgs[2339] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:28.271552 vgs[2339] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:28.271553 vgs[2339] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:28.271555 vgs[2339] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:28.271556 vgs[2339] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:28.271558 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:28.271559 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:28.271561 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:28.271562 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:28.271564 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:28.271566 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:28.271567 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:28.271569 vgs[2339] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:28.271637 vgs[2339] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:28.321785 lvcreate[2340] device_mapper/libdm-config.c:987  dmeventd/raid_library not found in config: defaulting to libdevmapper-event-lvm2raid.so
+anaconda/lvm.log:17:44:28.321787 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid0
+anaconda/lvm.log:17:44:28.321788 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid0_meta
+anaconda/lvm.log:17:44:28.321789 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid1
+anaconda/lvm.log:17:44:28.321791 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid10
+anaconda/lvm.log:17:44:28.321792 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid10_near
+anaconda/lvm.log:17:44:28.321793 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid4
+anaconda/lvm.log:17:44:28.321795 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5
+anaconda/lvm.log:17:44:28.321796 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5_n
+anaconda/lvm.log:17:44:28.321798 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5_la
+anaconda/lvm.log:17:44:28.321799 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5_ls
+anaconda/lvm.log:17:44:28.321800 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5_ra
+anaconda/lvm.log:17:44:28.321802 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid5_rs
+anaconda/lvm.log:17:44:28.321803 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6
+anaconda/lvm.log:17:44:28.321805 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_n_6
+anaconda/lvm.log:17:44:28.321806 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_nc
+anaconda/lvm.log:17:44:28.321807 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_nr
+anaconda/lvm.log:17:44:28.321809 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_zr
+anaconda/lvm.log:17:44:28.321810 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_ls_6
+anaconda/lvm.log:17:44:28.321812 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_rs_6
+anaconda/lvm.log:17:44:28.321813 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_la_6
+anaconda/lvm.log:17:44:28.321815 lvcreate[2340] raid/raid.c:642  Initialised segtype: raid6_ra_6
+anaconda/lvm.log:17:44:28.321879 lvcreate[2340] device_mapper/libdm-config.c:1086  devices/fw_raid_component_detection not found in config: defaulting to 0
+anaconda/lvm.log:17:44:28.326646 lvcreate[2340] device_mapper/libdm-config.c:1014  activation/raid_region_size not found in config: defaulting to 2048
+anaconda/journal.log:Sep 22 17:31:39 localhost kernel: raid6: sse2x1   gen() 17698 MB/s
+anaconda/journal.log:Sep 22 17:31:39 localhost kernel: raid6: sse2x1   xor() 10026 MB/s
+anaconda/journal.log:Sep 22 17:31:39 localhost kernel: raid6: sse2x2   gen() 20096 MB/s
+anaconda/journal.log:Sep 22 17:31:39 localhost kernel: raid6: sse2x2   xor() 12002 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: sse2x4   gen() 21111 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: sse2x4   xor()  8805 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x1   gen() 32493 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x1   xor() 17207 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x2   gen() 38759 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x2   xor() 21438 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x4   gen() 38901 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: avx2x4   xor()  9823 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: using algorithm avx2x4 gen() 38901 MB/s
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: .... xor() 9823 MB/s, rmw enabled
+anaconda/journal.log:Sep 22 17:31:40 localhost kernel: raid6: using avx2x2 recovery algorithm
+anaconda/journal.log:Sep 22 17:33:13 localhost org.fedoraproject.Anaconda.Modules.Storage[1741]: DEBUG:blivet:registered device format class DMRaidMember as dmraidmember
+anaconda/journal.log:Sep 22 17:33:17 localhost org.fedoraproject.Anaconda.Boss[1741]: INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Storage handles commands ['autopart', 'bootloader', 'btrfs', 'clearpart', 'fcoe', 'ignoredisk', 'iscsi', 'iscsiname', 'logvol', 'mount', 'nvdimm', 'part', 'partition', 'raid', 'reqpart', 'snapshot', 'volgroup', 'zerombr', 'zfcp', 'zipl'] sections [] addons [].
+anaconda/journal.log:Sep 22 17:52:08 localhost anaconda[1716]: packaging: Installed: libblockdev-mdraid-2.24-5.el8.x86_64 1621392106 741663e819b1ef4ff14c3f97e123bdd1246832550e9f3d2fe2c9efbc14e9dfb9
+anaconda/journal.log:Sep 22 17:55:48 localhost dracut[6381]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 17:55:49 localhost dracut[6381]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root         5312 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root         9308 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid0.ko.xz
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root        24204 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid1.ko.xz
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root        30096 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid10.ko.xz
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root        77024 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid456.ko.xz
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6
+anaconda/journal.log:Sep 22 17:56:28 localhost dracut[6381]: -rw-r--r--   1 root     root        72880 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+anaconda/journal.log:Sep 22 17:56:29 localhost dracut[6381]: -r-xr-xr-x   1 root     root        11848 May 19 04:30 usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 17:56:29 localhost dracut[6381]: lrwxrwxrwx   1 root     root           44 May 19 04:30 usr/lib64/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 17:56:32 localhost dracut[16312]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 17:56:45 localhost dracut[16312]: *** Including module: mdraid ***
+anaconda/journal.log:Sep 22 17:56:45 localhost dracut[16312]: Skipping udev rule: 64-md-raid.rules
+anaconda/journal.log:Sep 22 17:57:46 localhost dracut[16312]: mdraid
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root          155 Oct  8  2018 usr/lib/dracut/hooks/cleanup/99-mdraid-needshutdown.sh
+anaconda/journal.log:Sep 22 17:57:53 localhost dracut[16312]: -rwxr-xr-x   1 root     root          800 Oct  8  2018 usr/lib/dracut/hooks/pre-mount/10-mdraid-waitclean.sh
+anaconda/journal.log:Sep 22 17:57:59 localhost dracut[16312]: -rw-r--r--   1 root     root         5312 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+anaconda/journal.log:Sep 22 17:57:59 localhost dracut[16312]: -rw-r--r--   1 root     root         4328 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/raid6test.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        19236 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/dm-raid.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root         9308 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid0.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        24204 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid1.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        30096 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid10.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        77024 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid456.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/scsi/aacraid
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        57984 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/scsi/aacraid/aacraid.ko.xz
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/scsi/megaraid
+anaconda/journal.log:Sep 22 17:58:00 localhost dracut[16312]: -rw-r--r--   1 root     root        69184 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/scsi/megaraid/megaraid_sas.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root         3936 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/scsi/raid_class.ko.xz
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6
+anaconda/journal.log:Sep 22 17:58:01 localhost dracut[16312]: -rw-r--r--   1 root     root        72880 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rw-r--r--   1 root     root         2460 May 19 04:30 usr/lib/udev/rules.d/63-md-raid-arrays.rules
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -rw-r--r--   1 root     root         1526 May 19 04:30 usr/lib/udev/rules.d/64-md-raid-assembly.rules
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: -r-xr-xr-x   1 root     root        11848 May 19 04:30 usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 17:58:02 localhost dracut[16312]: lrwxrwxrwx   1 root     root           44 May 19 04:30 usr/lib64/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: -rwxr-xr-x   1 root     root          598 Oct  8  2018 usr/sbin/mdraid-cleanup
+anaconda/journal.log:Sep 22 17:58:03 localhost dracut[16312]: -rwxr-xr-x   1 root     root         1993 Oct  8  2018 usr/sbin/mdraid_start
+anaconda/journal.log:Sep 22 17:58:25 localhost dracut[30794]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 17:58:26 localhost dracut[30794]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 17:59:01 localhost dracut[30794]: -rw-r--r--   1 root     root         5312 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: -rw-r--r--   1 root     root         9308 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid0.ko.xz
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: -rw-r--r--   1 root     root        24204 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid1.ko.xz
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: -rw-r--r--   1 root     root        30096 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid10.ko.xz
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: -rw-r--r--   1 root     root        77024 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid456.ko.xz
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6
+anaconda/journal.log:Sep 22 17:59:02 localhost dracut[30794]: -rw-r--r--   1 root     root        72880 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+anaconda/journal.log:Sep 22 17:59:03 localhost dracut[30794]: -r-xr-xr-x   1 root     root        11848 May 19 04:30 usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 17:59:03 localhost dracut[30794]: lrwxrwxrwx   1 root     root           44 May 19 04:30 usr/lib64/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 18:00:20 localhost dracut[41453]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 18:00:20 localhost dracut[41453]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root         5312 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root         9308 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid0.ko.xz
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root        24204 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid1.ko.xz
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root        30096 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid10.ko.xz
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root        77024 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid456.ko.xz
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6
+anaconda/journal.log:Sep 22 18:00:54 localhost dracut[41453]: -rw-r--r--   1 root     root        72880 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+anaconda/journal.log:Sep 22 18:00:55 localhost dracut[41453]: -r-xr-xr-x   1 root     root        11848 May 19 04:30 usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 18:00:55 localhost dracut[41453]: lrwxrwxrwx   1 root     root           44 May 19 04:30 usr/lib64/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: libblockdev-mdraid-2.24-5.el8.x86_64 1621392106 741663e819b1ef4ff14c3f97e123bdd1246832550e9f3d2fe2c9efbc14e9dfb9
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: libblockdev-mdraid-2.24-5.el8.x86_64
+anaconda/journal.log:Sep 22 18:02:10 localhost dracut[52074]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 18:02:11 localhost dracut[52074]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root         5312 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/crypto/async_tx/async_raid6_recov.ko.xz
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root         9308 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid0.ko.xz
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root        24204 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid1.ko.xz
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root        30096 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid10.ko.xz
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root        77024 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/drivers/md/raid456.ko.xz
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: drwxr-xr-x   2 root     root            0 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6
+anaconda/journal.log:Sep 22 18:02:45 localhost dracut[52074]: -rw-r--r--   1 root     root        72880 May 19 04:30 usr/lib/modules/4.18.0-305.3.1.el8_4.x86_64/kernel/lib/raid6/raid6_pq.ko.xz
+anaconda/journal.log:Sep 22 18:02:46 localhost dracut[52074]: -r-xr-xr-x   1 root     root        11848 May 19 04:30 usr/lib64/device-mapper/libdevmapper-event-lvm2raid.so
+anaconda/journal.log:Sep 22 18:02:46 localhost dracut[52074]: lrwxrwxrwx   1 root     root           44 May 19 04:30 usr/lib64/libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1639231107.445:665): pid=40404 uid=0 auid=1000 ses=4 msg='op=update sw="libblockdev-mdraid-2.24-7.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=mail.nik addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+cron-20211113:Nov 13 15:08:01 localhost crond[959]: (*system*) RELOAD (/etc/cron.d/raid-check)
+cron-20211128:Nov 14 01:00:01 localhost CROND[15074]: (root) CMD (/usr/sbin/raid-check)
+cron-20211211:Dec 11 14:37:01 mail crond[40618]: (*system*) RELOAD (/etc/cron.d/raid-check)
+dnf.librepo.log:2021-12-11T14:20:01+0100 INFO Downloading: http://mirror.es.stackscale.com/rocky/8.5/AppStream/x86_64/os/Packages/l/libblockdev-mdraid-2.24-7.el8.x86_64.rpm
+dnf.log:2021-12-11T14:19:34+0100 DEBUG ---> Paquete libblockdev-mdraid.x86_64 2.24-5.el8 seleccionado para actualizar
+dnf.log:2021-12-11T14:19:34+0100 DEBUG ---> Paquete libblockdev-mdraid.x86_64 2.24-7.el8 seleccionado como actualización
+dnf.log: [1m[32mlibblockdev-mdraid                          (B[m x86_64  2.24-7.el8                               appstream   75 k
+dnf.log:2021-12-11T14:58:35+0100 DEBUG Actualizado: libblockdev-mdraid-2.24-7.el8.x86_64
+dnf.log:2021-12-11T14:58:36+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/libblockdev-mdraid-2.24-7.el8.x86_64.rpm eliminado
+dnf.rpm.log:2021-12-11T14:36:06+0100 SUBDEBUG Upgrade: libblockdev-mdraid-2.24-7.el8.x86_64
+dnf.rpm.log:2021-12-11T14:47:41+0100 SUBDEBUG Upgraded: libblockdev-mdraid-2.24-5.el8.x86_64
+history.txt:  786  parted --script /dev/sde "set 1 raid on"
+history.txt:  787  parted --script /dev/sdd "set 1 raid on"
+history.txt:  788  parted --script /dev/sdb "set 1 raid on"
+history.txt:  789  parted --script /dev/sdc "set 1 raid on"
+history.txt:  793  mdadm --create /dev/md0 --level=5 --raid-devices=4 /dev/sdb1 /dev/sdc1 /dev/sde1 /dev/sdd1
+history.txt:  795  nano /etc/sysconfig/raid-check
+history.txt:  814  parted --script /dev/sde "set 1 raid on"
+messages:Dec 11 14:49:48 mail dracut[65985]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:49:51 mail dracut[65985]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:53:42 mail dracut[77313]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:53:44 mail dracut[77313]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:55:03 mail dracut[88682]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:55:04 mail dracut[88682]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:56:40 mail dracut[99919]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:56:41 mail dracut[99919]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:57:29 mail dracut[110782]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec 11 14:57:30 mail dracut[110782]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x1   gen() 15162 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x1   xor()  9615 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x2   gen() 19012 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x2   xor() 11518 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x4   gen() 20559 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: sse2x4   xor()  7899 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x1   gen() 28479 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x1   xor() 16793 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x2   gen() 27648 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x2   xor() 20041 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x4   gen() 31479 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: avx2x4   xor()  8695 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: using algorithm avx2x4 gen() 31479 MB/s
+messages:Dec  9 20:12:49 mail kernel: raid6: .... xor() 8695 MB/s, rmw enabled
+messages:Dec  9 20:12:49 mail kernel: raid6: using avx2x2 recovery algorithm
+messages:Dec  9 20:12:49 mail kernel: md/raid:md0: device sdc1 operational as raid disk 1
+messages:Dec  9 20:12:49 mail kernel: md/raid:md0: device sde1 operational as raid disk 2
+messages:Dec  9 20:12:49 mail kernel: md/raid:md0: device sdb1 operational as raid disk 0
+messages:Dec  9 20:12:49 mail kernel: md/raid:md0: device sdd1 operational as raid disk 3
+messages:Dec  9 20:12:49 mail kernel: md/raid:md0: raid level 5 active with 4 out of 4 devices, algorithm 2
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x1   gen() 16822 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x1   xor()  9677 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x2   gen() 20143 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x2   xor() 12521 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x4   gen() 23387 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: sse2x4   xor() 10295 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x1   gen() 37226 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x1   xor() 19701 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x2   gen() 40807 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x2   xor() 24042 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x4   gen() 43611 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: avx2x4   xor()  9480 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: using algorithm avx2x4 gen() 43611 MB/s
+messages:Dec 11 18:40:17 mail kernel: raid6: .... xor() 9480 MB/s, rmw enabled
+messages:Dec 11 18:40:17 mail kernel: raid6: using avx2x2 recovery algorithm
+messages:Dec 11 18:40:17 mail kernel: md/raid:md0: device sdc1 operational as raid disk 1
+messages:Dec 11 18:40:17 mail kernel: md/raid:md0: device sdb1 operational as raid disk 0
+messages:Dec 11 18:40:17 mail kernel: md/raid:md0: device sde1 operational as raid disk 2
+messages:Dec 11 18:40:17 mail kernel: md/raid:md0: device sdd1 operational as raid disk 3
+messages:Dec 11 18:40:17 mail kernel: md/raid:md0: raid level 5 active with 4 out of 4 devices, algorithm 2
+messages-20211113:Nov 13 15:11:40 localhost dracut[12196]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211113:Nov 13 15:11:40 localhost dracut[12196]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211113:Nov 13 15:12:42 localhost dracut[22076]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211113:Nov 13 15:12:43 localhost dracut[22076]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211113:Nov 13 15:13:31 localhost dracut[31917]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211113:Nov 13 15:13:32 localhost dracut[31917]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x1   gen() 15915 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x1   xor()  9189 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x2   gen() 18202 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x2   xor() 10382 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x4   gen() 20422 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: sse2x4   xor() 10561 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x1   gen() 36366 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x1   xor() 18472 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x2   gen() 41131 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x2   xor() 23830 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x4   gen() 43217 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: avx2x4   xor() 12429 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: using algorithm avx2x4 gen() 43217 MB/s
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: .... xor() 12429 MB/s, rmw enabled
+messages-20211211:Dec  9 17:42:43 mail kernel: raid6: using avx2x2 recovery algorithm
+messages-20211211:Dec  9 17:42:44 mail kernel: md/raid:md0: device sde1 operational as raid disk 2
+messages-20211211:Dec  9 17:42:44 mail kernel: md/raid:md0: device sdc1 operational as raid disk 1
+messages-20211211:Dec  9 17:42:44 mail kernel: md/raid:md0: device sdb1 operational as raid disk 0
+messages-20211211:Dec  9 17:42:44 mail kernel: md/raid:md0: raid level 5 active with 3 out of 4 devices, algorithm 2
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x1   gen() 17166 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x1   xor()  9229 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x2   gen() 16538 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x2   xor() 11664 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x4   gen() 20494 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: sse2x4   xor()  7345 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x1   gen() 21459 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x1   xor()  5780 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x2   gen() 14629 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x2   xor() 21692 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x4   gen() 26340 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: avx2x4   xor()  9848 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: using algorithm avx2x4 gen() 26340 MB/s
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: .... xor() 9848 MB/s, rmw enabled
+messages-20211211:Dec  9 18:20:53 mail kernel: raid6: using avx2x2 recovery algorithm
+messages-20211211:Dec  9 18:20:54 mail kernel: md/raid:md0: device sdc1 operational as raid disk 1
+messages-20211211:Dec  9 18:20:54 mail kernel: md/raid:md0: device sdd1 operational as raid disk 3
+messages-20211211:Dec  9 18:20:54 mail kernel: md/raid:md0: device sdb1 operational as raid disk 0
+messages-20211211:Dec  9 18:20:54 mail kernel: md/raid:md0: raid level 5 active with 3 out of 4 devices, algorithm 2
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x1   gen() 14446 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x1   xor() 10065 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x2   gen() 20872 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x2   xor() 11348 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x4   gen() 19560 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: sse2x4   xor()  8915 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x1   gen() 29345 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x1   xor() 17578 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x2   gen() 38556 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x2   xor() 22038 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x4   gen() 26384 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: avx2x4   xor()  9675 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: using algorithm avx2x2 gen() 38556 MB/s
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: .... xor() 22038 MB/s, rmw enabled
+messages-20211211:Dec  9 18:25:45 mail kernel: raid6: using avx2x2 recovery algorithm
+messages-20211211:Dec  9 18:25:46 mail kernel: md/raid:md0: device sdd1 operational as raid disk 3
+messages-20211211:Dec  9 18:25:46 mail kernel: md/raid:md0: device sdc1 operational as raid disk 1
+messages-20211211:Dec  9 18:25:46 mail kernel: md/raid:md0: device sdb1 operational as raid disk 0
+messages-20211211:Dec  9 18:25:46 mail kernel: md/raid:md0: raid level 5 active with 3 out of 4 devices, algorithm 2
+messages-20211211:Dec 11 14:48:28 mail dracut[55052]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+messages-20211211:Dec 11 14:48:30 mail dracut[55052]: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!

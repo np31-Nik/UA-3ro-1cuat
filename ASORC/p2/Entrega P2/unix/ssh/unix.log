@@ -1,0 +1,733 @@
+auth.log:Nov 11 19:52:30 freebsd sshd[990]: Server listening on :: port 22.
+auth.log:Nov 11 19:52:30 freebsd sshd[990]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 19:57:24 freebsd sshd[861]: Server listening on :: port 22.
+auth.log:Nov 11 19:57:24 freebsd sshd[861]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 20:23:19 freebsd sshd[1038]: Accepted keyboard-interactive/pam for nik from 192.168.137.10 port 34745 ssh2
+auth.log:Nov 11 20:23:19 freebsd sshd[1041]: Received disconnect from 192.168.137.10 port 34745:11: disconnected by user
+auth.log:Nov 11 20:23:19 freebsd sshd[1041]: Disconnected from user nik 192.168.137.10 port 34745
+auth.log:Nov 11 20:23:50 freebsd sshd[1045]: Invalid user n3 from 192.168.137.10 port 10902
+auth.log:Nov 11 20:23:50 freebsd sshd[1045]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.10 port 10902 ssh2 [preauth]
+auth.log:Nov 11 20:24:49 freebsd sshd[1045]: error: PAM: Authentication error for illegal user n3 from 192.168.137.10
+auth.log:Nov 11 20:24:49 freebsd sshd[1045]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.10 port 10902 ssh2
+auth.log:Nov 11 20:24:49 freebsd sshd[1045]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.10 port 10902 ssh2 [preauth]
+auth.log:Nov 11 20:24:50 freebsd sshd[1045]: error: PAM: Authentication error for illegal user n3 from 192.168.137.10
+auth.log:Nov 11 20:24:50 freebsd sshd[1045]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.10 port 10902 ssh2
+auth.log:Nov 11 20:24:50 freebsd sshd[1045]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.10 port 10902 ssh2 [preauth]
+auth.log:Nov 11 20:24:53 freebsd sshd[1045]: error: PAM: Authentication error for illegal user n3 from 192.168.137.10
+auth.log:Nov 11 20:24:53 freebsd sshd[1045]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.10 port 10902 ssh2
+auth.log:Nov 11 20:24:53 freebsd sshd[1045]: Connection closed by invalid user n3 192.168.137.10 port 10902 [preauth]
+auth.log:Nov 11 20:27:14 freebsd sshd[1052]: Accepted publickey for nik from 192.168.137.10 port 33132 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 20:27:51 freebsd sshd[1054]: Received disconnect from 192.168.137.10 port 33132:11: disconnected by user
+auth.log:Nov 11 20:27:51 freebsd sshd[1054]: Disconnected from user nik 192.168.137.10 port 33132
+auth.log:Nov 11 20:28:15 freebsd sshd[1073]: Accepted publickey for nik from 192.168.137.10 port 60524 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 20:30:02 freebsd sshd[1075]: Received disconnect from 192.168.137.10 port 60524:11: disconnected by user
+auth.log:Nov 11 20:30:02 freebsd sshd[1075]: Disconnected from user nik 192.168.137.10 port 60524
+auth.log:Nov 11 20:30:09 freebsd sshd[1081]: Accepted publickey for nik from 192.168.137.10 port 58585 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 20:33:24 freebsd sshd[1083]: Received disconnect from 192.168.137.10 port 58585:11: disconnected by user
+auth.log:Nov 11 20:33:24 freebsd sshd[1083]: Disconnected from user nik 192.168.137.10 port 58585
+auth.log:Nov 11 20:35:10 freebsd sshd[1105]: Accepted publickey for nik from 192.168.137.10 port 57691 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 20:35:10 freebsd sshd[1107]: Received disconnect from 192.168.137.10 port 57691:11: disconnected by user
+auth.log:Nov 11 20:35:10 freebsd sshd[1107]: Disconnected from user nik 192.168.137.10 port 57691
+auth.log:Nov 11 20:35:37 freebsd sshd[1109]: Accepted publickey for nik from 192.168.137.10 port 53879 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 20:35:37 freebsd sshd[1111]: Received disconnect from 192.168.137.10 port 53879:11: disconnected by user
+auth.log:Nov 11 20:35:37 freebsd sshd[1111]: Disconnected from user nik 192.168.137.10 port 53879
+auth.log:Nov 11 20:41:48 freebsd sshd[852]: Server listening on :: port 22.
+auth.log:Nov 11 20:41:48 freebsd sshd[852]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 21:40:22 freebsd sshd[877]: Server listening on :: port 22.
+auth.log:Nov 11 21:40:22 freebsd sshd[877]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 21:55:45 freebsd sshd[877]: Received signal 15; terminating.
+auth.log:Nov 11 21:56:24 freebsd sshd[881]: Server listening on :: port 22.
+auth.log:Nov 11 21:56:24 freebsd sshd[881]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 23:24:12 freebsd sshd[936]: Server listening on :: port 22.
+auth.log:Nov 11 23:24:12 freebsd sshd[936]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: Connection from 192.168.137.1 port 53287 on 192.168.137.221 port 22
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: Accepted key RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY found at /home/nik/.ssh/authorized_keys:1
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: Postponed publickey for nik from 192.168.137.1 port 53287 ssh2 [preauth]
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: Accepted key RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY found at /home/nik/.ssh/authorized_keys:1
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: Accepted publickey for nik from 192.168.137.1 port 53287 ssh2: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+auth.log:Nov 11 23:54:00 freebsd sshd[1489]: User child is on pid 1491
+auth.log:Nov 11 23:54:00 freebsd sshd[1491]: Starting session: shell on pts/1 for nik from 192.168.137.1 port 53287 id 0
+auth.log:Nov 11 23:54:03 freebsd sshd[1491]: Received disconnect from 192.168.137.1 port 53287:11: disconnected by user
+auth.log:Nov 11 23:54:03 freebsd sshd[1491]: Disconnected from user nik 192.168.137.1 port 53287
+auth.log:Nov 11 23:54:14 freebsd sshd[1497]: Connection from 192.168.137.1 port 53289 on 192.168.137.221 port 22
+auth.log:Nov 11 23:54:14 freebsd sshd[1497]: Invalid user n3 from 192.168.137.1 port 53289
+auth.log:Nov 11 23:54:14 freebsd sshd[1497]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.1 port 53289 ssh2 [preauth]
+auth.log:Nov 11 23:54:16 freebsd sshd[1497]: error: PAM: Authentication error for illegal user n3 from 192.168.137.1
+auth.log:Nov 11 23:54:16 freebsd sshd[1497]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.1 port 53289 ssh2
+auth.log:Nov 11 23:54:16 freebsd sshd[1497]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.1 port 53289 ssh2 [preauth]
+auth.log:Nov 11 23:54:33 freebsd sshd[1497]: Connection closed by invalid user n3 192.168.137.1 port 53289 [preauth]
+auth.log:Nov 11 23:57:20 freebsd sshd[1555]: Connection from 192.168.137.3 port 34505 on 192.168.137.221 port 22
+auth.log:Nov 11 23:57:23 freebsd sshd[1555]: Postponed keyboard-interactive for root from 192.168.137.3 port 34505 ssh2 [preauth]
+auth.log:Nov 11 23:57:27 freebsd sshd[1555]: Connection closed by authenticating user root 192.168.137.3 port 34505 [preauth]
+auth.log:Nov 11 23:57:38 freebsd sshd[1558]: Connection from 192.168.137.3 port 19973 on 192.168.137.221 port 22
+auth.log:Nov 11 23:57:39 freebsd sshd[1558]: Invalid user n3 from 192.168.137.3 port 19973
+auth.log:Nov 11 23:57:39 freebsd sshd[1558]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.3 port 19973 ssh2 [preauth]
+auth.log:Nov 11 23:57:44 freebsd sshd[1558]: error: PAM: Authentication error for illegal user n3 from 192.168.137.3
+auth.log:Nov 11 23:57:44 freebsd sshd[1558]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.3 port 19973 ssh2
+auth.log:Nov 11 23:57:44 freebsd sshd[1558]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.3 port 19973 ssh2 [preauth]
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: error: PAM: Authentication error for illegal user n3 from 192.168.137.3
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.3 port 19973 ssh2
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: Postponed keyboard-interactive for invalid user n3 from 192.168.137.3 port 19973 ssh2 [preauth]
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: error: PAM: Authentication error for illegal user n3 from 192.168.137.3
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: Failed keyboard-interactive/pam for invalid user n3 from 192.168.137.3 port 19973 ssh2
+auth.log:Nov 11 23:57:46 freebsd sshd[1558]: Connection closed by invalid user n3 192.168.137.3 port 19973 [preauth]
+auth.log:Nov 11 23:59:00 freebsd sshd[1563]: Connection from 192.168.137.3 port 16967 on 192.168.137.221 port 22
+auth.log:Nov 11 23:59:00 freebsd sshd[1563]: Failed publickey for nik from 192.168.137.3 port 16967 ssh2: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+auth.log:Nov 11 23:59:00 freebsd sshd[1563]: Postponed keyboard-interactive for nik from 192.168.137.3 port 16967 ssh2 [preauth]
+auth.log:Nov 11 23:59:01 freebsd sshd[1563]: Postponed keyboard-interactive/pam for nik from 192.168.137.3 port 16967 ssh2 [preauth]
+auth.log:Nov 11 23:59:01 freebsd sshd[1563]: Accepted keyboard-interactive/pam for nik from 192.168.137.3 port 16967 ssh2
+auth.log:Nov 11 23:59:01 freebsd sshd[1563]: User child is on pid 1566
+auth.log:Nov 11 23:59:01 freebsd sshd[1566]: Starting session: command for nik from 192.168.137.3 port 16967 id 0
+auth.log:Nov 11 23:59:01 freebsd sshd[1566]: Received disconnect from 192.168.137.3 port 16967:11: disconnected by user
+auth.log:Nov 11 23:59:01 freebsd sshd[1566]: Disconnected from user nik 192.168.137.3 port 16967
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: Connection from 192.168.137.3 port 51621 on 192.168.137.221 port 22
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: Postponed publickey for nik from 192.168.137.3 port 51621 ssh2 [preauth]
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: Accepted publickey for nik from 192.168.137.3 port 51621 ssh2: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+auth.log:Nov 11 23:59:15 freebsd sshd[1570]: User child is on pid 1572
+auth.log:Nov 11 23:59:15 freebsd sshd[1572]: Starting session: shell on pts/1 for nik from 192.168.137.3 port 51621 id 0
+auth.log:Nov 11 23:59:17 freebsd sshd[1572]: Received disconnect from 192.168.137.3 port 51621:11: disconnected by user
+auth.log:Nov 11 23:59:17 freebsd sshd[1572]: Disconnected from user nik 192.168.137.3 port 51621
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: Connection from 192.168.137.3 port 47764 on 192.168.137.221 port 22
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: Postponed publickey for nik from 192.168.137.3 port 47764 ssh2 [preauth]
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: Accepted publickey for nik from 192.168.137.3 port 47764 ssh2: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+auth.log:Nov 11 23:59:36 freebsd sshd[1576]: User child is on pid 1578
+auth.log:Nov 11 23:59:37 freebsd sshd[1578]: Starting session: subsystem 'sftp' for nik from 192.168.137.3 port 47764 id 0
+auth.log:Nov 11 23:59:39 freebsd sshd[1578]: Close session: user nik from 192.168.137.3 port 47764 id 0
+auth.log:Nov 11 23:59:39 freebsd sshd[1578]: Received disconnect from 192.168.137.3 port 47764:11: disconnected by user
+auth.log:Nov 11 23:59:39 freebsd sshd[1578]: Disconnected from user nik 192.168.137.3 port 47764
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: Connection from 192.168.137.3 port 59395 on 192.168.137.221 port 22
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: Postponed publickey for nik from 192.168.137.3 port 59395 ssh2 [preauth]
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: Accepted publickey for nik from 192.168.137.3 port 59395 ssh2: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+auth.log:Nov 12 00:00:19 freebsd sshd[1603]: User child is on pid 1605
+auth.log:Nov 12 00:00:19 freebsd sshd[1605]: Starting session: command for nik from 192.168.137.3 port 59395 id 0
+auth.log:Nov 12 00:00:19 freebsd sshd[1605]: Received disconnect from 192.168.137.3 port 59395:11: disconnected by user
+auth.log:Nov 12 00:00:19 freebsd sshd[1605]: Disconnected from user nik 192.168.137.3 port 59395
+auth.log:Nov 12 00:38:15 freebsd sshd[958]: Server listening on :: port 22.
+auth.log:Nov 12 00:38:15 freebsd sshd[958]: Server listening on 0.0.0.0 port 22.
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: Connection from 192.168.137.3 port 13495 on 192.168.137.221 port 22
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: Postponed publickey for nik from 192.168.137.3 port 13495 ssh2 [preauth]
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: Accepted key RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk found at /home/nik/.ssh/authorized_keys:2
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: Accepted publickey for nik from 192.168.137.3 port 13495 ssh2: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+auth.log:Nov 12 02:31:42 freebsd sshd[1943]: User child is on pid 1945
+auth.log:Nov 12 02:31:42 freebsd sshd[1945]: Starting session: shell on pts/3 for nik from 192.168.137.3 port 13495 id 0
+auth.log:Nov 12 02:31:44 freebsd sshd[1945]: Received disconnect from 192.168.137.3 port 13495:11: disconnected by user
+auth.log:Nov 12 02:31:44 freebsd sshd[1945]: Disconnected from user nik 192.168.137.3 port 13495
+debug.log:Nov 11 23:24:12 freebsd sshd[936]: debug1: Bind to port 22 on ::.
+debug.log:Nov 11 23:24:12 freebsd sshd[936]: debug1: Server TCP RWIN socket size: 65536
+debug.log:Nov 11 23:24:12 freebsd sshd[936]: debug1: Bind to port 22 on 0.0.0.0.
+debug.log:Nov 11 23:24:12 freebsd sshd[936]: debug1: Server TCP RWIN socket size: 65536
+debug.log:Nov 11 23:54:00 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:54:00 freebsd sshd[936]: debug1: Forked child 1489.
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: res_init()
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: PAM: initializing for "nik"
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: PAM: setting PAM_RHOST to "192.168.137.1"
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: /home/nik/.ssh/authorized_keys:1: matching key found: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: /home/nik/.ssh/authorized_keys:1: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: attempt 2 failures 0 [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: /home/nik/.ssh/authorized_keys:1: matching key found: RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: /home/nik/.ssh/authorized_keys:1: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: auth_activate_options: setting new authentication options
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: do_pam_account: called
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: auth_activate_options: setting new authentication options [preauth]
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: rekey after 134217728 blocks
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_init_dispatch
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_input_channel_open: ctype session rchan 0 win 1048576 max 16384
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: input_session_request
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: channel 0: new [server-session]
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_new: session 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_open: channel 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_input_channel_req: channel 0 request pty-req reply 1
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_input_channel_req: session 0 req pty-req
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: Allocating pty.
+debug.log:Nov 11 23:54:00 freebsd sshd[1489]: debug1: session_new: session 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_pty_req: session 0 alloc /dev/pts/1
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: server_input_channel_req: channel 0 request shell reply 1
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:54:00 freebsd sshd[1491]: debug1: session_input_channel_req: session 0 req shell
+debug.log:Nov 11 23:54:00 freebsd sshd[1492]: debug1: Setting controlling tty using TIOCSCTTY.
+debug.log:Nov 11 23:54:03 freebsd sshd[1491]: debug1: Received SIGCHLD.
+debug.log:Nov 11 23:54:03 freebsd sshd[1491]: debug1: session_by_pid: pid 1492
+debug.log:Nov 11 23:54:03 freebsd sshd[1491]: debug1: session_exit_message: session 0 channel 0 pid 1492
+debug.log:Nov 11 23:54:03 freebsd sshd[1491]: debug1: session_exit_message: release channel 0
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: session_by_tty: session 0 tty /dev/pts/1
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: session_pty_cleanup2: session 0 release /dev/pts/1
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: do_cleanup
+debug.log:Nov 11 23:54:03 freebsd sshd[1491]: debug1: do_cleanup
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: PAM: cleanup
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: PAM: closing session
+debug.log:Nov 11 23:54:03 freebsd sshd[1489]: debug1: PAM: deleting credentials
+debug.log:Nov 11 23:54:14 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:54:14 freebsd sshd[936]: debug1: Forked child 1497.
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: res_init()
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: userauth-request for user n3 service ssh-connection method none [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: PAM: initializing for "n3"
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: PAM: setting PAM_RHOST to "192.168.137.1"
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: userauth-request for user n3 service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: userauth-request for user n3 service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: attempt 2 failures 1 [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: auth2_challenge: user=n3 devs= [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:54:14 freebsd sshd[1497]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: userauth-request for user n3 service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: attempt 3 failures 2 [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: auth2_challenge: user=n3 devs= [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:54:16 freebsd sshd[1497]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:54:33 freebsd sshd[1497]: debug1: do_cleanup [preauth]
+debug.log:Nov 11 23:54:33 freebsd sshd[1497]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:54:33 freebsd sshd[1497]: debug1: do_cleanup
+debug.log:Nov 11 23:54:33 freebsd sshd[1497]: debug1: PAM: cleanup
+debug.log:Nov 11 23:54:33 freebsd sshd[1497]: debug1: Killing privsep child 1498
+debug.log:Nov 11 23:57:20 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:57:20 freebsd sshd[936]: debug1: Forked child 1555.
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: res_init()
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:57:20 freebsd sshd[1555]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: userauth-request for user root service ssh-connection method none [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: PAM: initializing for "root"
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: userauth-request for user root service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: auth2_challenge: user=root devs= [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:57:23 freebsd sshd[1555]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:57:27 freebsd sshd[1555]: debug1: do_cleanup [preauth]
+debug.log:Nov 11 23:57:27 freebsd sshd[1555]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:57:27 freebsd sshd[1555]: debug1: do_cleanup
+debug.log:Nov 11 23:57:27 freebsd sshd[1555]: debug1: PAM: cleanup
+debug.log:Nov 11 23:57:27 freebsd sshd[1555]: debug1: Killing privsep child 1556
+debug.log:Nov 11 23:57:38 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:57:38 freebsd sshd[936]: debug1: Forked child 1558.
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: res_init()
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:57:38 freebsd sshd[1558]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: userauth-request for user n3 service ssh-connection method none [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: PAM: initializing for "n3"
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: userauth-request for user n3 service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:gYu+nKxW2NZSTkdHOmaISVLNhkiSGYl4+0ok5R6VCuY [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: userauth-request for user n3 service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: attempt 2 failures 1 [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: auth2_challenge: user=n3 devs= [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:57:39 freebsd sshd[1558]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: userauth-request for user n3 service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: attempt 3 failures 2 [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: auth2_challenge: user=n3 devs= [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:57:44 freebsd sshd[1558]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: userauth-request for user n3 service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: attempt 4 failures 3 [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: auth2_challenge: user=n3 devs= [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: do_cleanup [preauth]
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: do_cleanup
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: PAM: cleanup
+debug.log:Nov 11 23:57:46 freebsd sshd[1558]: debug1: Killing privsep child 1559
+debug.log:Nov 11 23:59:00 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:00 freebsd sshd[936]: debug1: Forked child 1563.
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: res_init()
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: PAM: initializing for "nik"
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: userauth-request for user nik service ssh-connection method keyboard-interactive [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: attempt 2 failures 1 [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: keyboard-interactive devs  [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: auth2_challenge: user=nik devs= [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: kbdint_alloc: devices 'pam' [preauth]
+debug.log:Nov 11 23:59:00 freebsd sshd[1563]: debug1: auth2_challenge_start: trying authentication method 'pam' [preauth]
+debug.log:Nov 11 23:59:01 freebsd sshd[1565]: debug1: do_pam_account: called
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: PAM: num PAM env strings 1
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: do_pam_account: called
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: rekey after 134217728 blocks
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: server_init_dispatch
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: server_input_channel_open: ctype session rchan 0 win 2097152 max 32768
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: input_session_request
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: channel 0: new [server-session]
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_new: session 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_open: channel 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: server_input_channel_req: channel 0 request exec reply 1
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_input_channel_req: session 0 req exec
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: Received SIGCHLD.
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_by_pid: pid 1567
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_exit_message: session 0 channel 0 pid 1567
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: session_exit_message: release channel 0
+debug.log:Nov 11 23:59:01 freebsd sshd[1566]: debug1: do_cleanup
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: do_cleanup
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: PAM: cleanup
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: PAM: closing session
+debug.log:Nov 11 23:59:01 freebsd sshd[1563]: debug1: PAM: deleting credentials
+debug.log:Nov 11 23:59:15 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:15 freebsd sshd[936]: debug1: Forked child 1570.
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: res_init()
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: PAM: initializing for "nik"
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: attempt 2 failures 0 [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: auth_activate_options: setting new authentication options
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: do_pam_account: called
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: auth_activate_options: setting new authentication options [preauth]
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: rekey after 134217728 blocks
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_init_dispatch
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_input_channel_open: ctype session rchan 0 win 1048576 max 16384
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: input_session_request
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: channel 0: new [server-session]
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_new: session 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_open: channel 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_input_channel_req: channel 0 request pty-req reply 1
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_input_channel_req: session 0 req pty-req
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: Allocating pty.
+debug.log:Nov 11 23:59:15 freebsd sshd[1570]: debug1: session_new: session 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_pty_req: session 0 alloc /dev/pts/1
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: server_input_channel_req: channel 0 request shell reply 1
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:59:15 freebsd sshd[1572]: debug1: session_input_channel_req: session 0 req shell
+debug.log:Nov 11 23:59:15 freebsd sshd[1573]: debug1: Setting controlling tty using TIOCSCTTY.
+debug.log:Nov 11 23:59:17 freebsd sshd[1572]: debug1: Received SIGCHLD.
+debug.log:Nov 11 23:59:17 freebsd sshd[1572]: debug1: session_by_pid: pid 1573
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: session_by_tty: session 0 tty /dev/pts/1
+debug.log:Nov 11 23:59:17 freebsd sshd[1572]: debug1: session_exit_message: session 0 channel 0 pid 1573
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: session_pty_cleanup2: session 0 release /dev/pts/1
+debug.log:Nov 11 23:59:17 freebsd sshd[1572]: debug1: session_exit_message: release channel 0
+debug.log:Nov 11 23:59:17 freebsd sshd[1572]: debug1: do_cleanup
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: do_cleanup
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: PAM: cleanup
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: PAM: closing session
+debug.log:Nov 11 23:59:17 freebsd sshd[1570]: debug1: PAM: deleting credentials
+debug.log:Nov 11 23:59:36 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:36 freebsd sshd[936]: debug1: Forked child 1576.
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: res_init()
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: KEX done [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: PAM: initializing for "nik"
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: attempt 2 failures 0 [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: auth_activate_options: setting new authentication options
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: do_pam_account: called
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: auth_activate_options: setting new authentication options [preauth]
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 11 23:59:36 freebsd sshd[1576]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: PAM: establishing credentials
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: rekey after 134217728 blocks
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: server_init_dispatch
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: server_input_channel_open: ctype session rchan 0 win 2097152 max 32768
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: input_session_request
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: channel 0: new [server-session]
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: session_new: session 0
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: session_open: channel 0
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 11 23:59:36 freebsd sshd[1578]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 11 23:59:37 freebsd sshd[1578]: debug1: server_input_channel_req: channel 0 request subsystem reply 1
+debug.log:Nov 11 23:59:37 freebsd sshd[1578]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:59:37 freebsd sshd[1578]: debug1: session_input_channel_req: session 0 req subsystem
+debug.log:Nov 11 23:59:37 freebsd sshd[1578]: debug1: subsystem: exec() /usr/libexec/sftp-server
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: Received SIGCHLD.
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: session_by_pid: pid 1579
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: session_exit_message: session 0 channel 0 pid 1579
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: session_exit_message: release channel 0
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: session_close_by_channel: channel 0 child 0
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: channel 0: free: server-session, nchannels 1
+debug.log:Nov 11 23:59:39 freebsd sshd[1578]: debug1: do_cleanup
+debug.log:Nov 11 23:59:39 freebsd sshd[1576]: debug1: do_cleanup
+debug.log:Nov 11 23:59:39 freebsd sshd[1576]: debug1: PAM: cleanup
+debug.log:Nov 11 23:59:39 freebsd sshd[1576]: debug1: PAM: closing session
+debug.log:Nov 11 23:59:39 freebsd sshd[1576]: debug1: PAM: deleting credentials
+debug.log:Nov 12 00:00:19 freebsd sshd[936]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 12 00:00:19 freebsd sshd[936]: debug1: Forked child 1603.
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: res_init()
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: KEX done [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: initializing for "nik"
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: attempt 2 failures 0 [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: auth_activate_options: setting new authentication options
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: do_pam_account: called
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: auth_activate_options: setting new authentication options [preauth]
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: establishing credentials
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: PAM: establishing credentials
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: rekey after 134217728 blocks
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: server_init_dispatch
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: server_input_channel_open: ctype session rchan 0 win 2097152 max 32768
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: input_session_request
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: channel 0: new [server-session]
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_new: session 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_open: channel 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: server_input_channel_req: channel 0 request exec reply 1
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_input_channel_req: session 0 req exec
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: Received SIGCHLD.
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_by_pid: pid 1606
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_exit_message: session 0 channel 0 pid 1606
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: session_exit_message: release channel 0
+debug.log:Nov 12 00:00:19 freebsd sshd[1605]: debug1: do_cleanup
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: do_cleanup
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: cleanup
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: closing session
+debug.log:Nov 12 00:00:19 freebsd sshd[1603]: debug1: PAM: deleting credentials
+debug.log:Nov 12 00:38:15 freebsd sshd[958]: debug1: Bind to port 22 on ::.
+debug.log:Nov 12 00:38:15 freebsd sshd[958]: debug1: Server TCP RWIN socket size: 65536
+debug.log:Nov 12 00:38:15 freebsd sshd[958]: debug1: Bind to port 22 on 0.0.0.0.
+debug.log:Nov 12 00:38:15 freebsd sshd[958]: debug1: Server TCP RWIN socket size: 65536
+debug.log:Nov 12 02:31:41 freebsd sshd[958]: debug1: fd 6 clearing O_NONBLOCK
+debug.log:Nov 12 02:31:41 freebsd sshd[958]: debug1: Forked child 1943.
+debug.log:Nov 12 02:31:41 freebsd sshd[1943]: debug1: rexec start in 6 out 6 newsock 6 pipe 8 sock 9
+debug.log:Nov 12 02:31:41 freebsd sshd[1943]: debug1: inetd sockets after dupping: 5, 5
+debug.log:Nov 12 02:31:41 freebsd sshd[1943]: debug1: res_init()
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: Client protocol version 2.0; client software version OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: match: OpenSSH_7.9 FreeBSD-20200214 pat OpenSSH* compat 0x04000000
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: Local version string SSH-2.0-OpenSSH_7.9 FreeBSD-20200214
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: permanently_set_uid: 22/22 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: list_hostkey_types: rsa-sha2-512,rsa-sha2-256,ssh-rsa,ecdsa-sha2-nistp256,ssh-ed25519 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: SSH2_MSG_KEXINIT sent [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: SSH2_MSG_KEXINIT received [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: kex: algorithm: curve25519-sha256 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: kex: host key algorithm: ecdsa-sha2-nistp256 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: expecting SSH2_MSG_KEX_ECDH_INIT [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: SSH2_MSG_NEWKEYS sent [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: expecting SSH2_MSG_NEWKEYS [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: SSH2_MSG_NEWKEYS received [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: rekey after 134217728 blocks [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: KEX done [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: userauth-request for user nik service ssh-connection method none [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: attempt 0 failures 0 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: PAM: initializing for "nik"
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: PAM: setting PAM_RHOST to "192.168.137.3"
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: attempt 1 failures 0 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: userauth_pubkey: test pkalg rsa-sha2-512 pkblob RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: userauth-request for user nik service ssh-connection method publickey [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: attempt 2 failures 0 [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: trying public key file /home/nik/.ssh/authorized_keys
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: fd 4 clearing O_NONBLOCK
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: /home/nik/.ssh/authorized_keys:2: matching key found: RSA SHA256:5cuSwQ81FIf5/tisH6KgCyax0ED7oy9GI0cU+spkyDk
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: /home/nik/.ssh/authorized_keys:2: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: auth_activate_options: setting new authentication options
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: do_pam_account: called
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: monitor_child_preauth: nik has been authenticated by privileged process
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: auth_activate_options: setting new authentication options [preauth]
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: monitor_read_log: child log fd closed
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: PAM: establishing credentials
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: PAM: establishing credentials
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: rekey after 134217728 blocks
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: ssh_packet_set_postauth: called
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: active: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: Entering interactive session for SSH2.
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_init_dispatch
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_input_channel_open: ctype session rchan 0 win 1048576 max 16384
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: input_session_request
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: channel 0: new [server-session]
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_new: session 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_open: channel 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_open: session 0: link with channel 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_input_channel_open: confirm session
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_input_channel_req: channel 0 request pty-req reply 1
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_input_channel_req: session 0 req pty-req
+debug.log:Nov 12 02:31:42 freebsd sshd[1943]: debug1: session_new: session 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: Allocating pty.
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_pty_req: session 0 alloc /dev/pts/3
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: server_input_channel_req: channel 0 request shell reply 1
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_by_channel: session 0 channel 0
+debug.log:Nov 12 02:31:42 freebsd sshd[1945]: debug1: session_input_channel_req: session 0 req shell
+debug.log:Nov 12 02:31:42 freebsd sshd[1946]: debug1: Setting controlling tty using TIOCSCTTY.
+debug.log:Nov 12 02:31:44 freebsd sshd[1945]: debug1: Received SIGCHLD.
+debug.log:Nov 12 02:31:44 freebsd sshd[1945]: debug1: session_by_pid: pid 1946
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: session_by_tty: session 0 tty /dev/pts/3
+debug.log:Nov 12 02:31:44 freebsd sshd[1945]: debug1: session_exit_message: session 0 channel 0 pid 1946
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: session_pty_cleanup2: session 0 release /dev/pts/3
+debug.log:Nov 12 02:31:44 freebsd sshd[1945]: debug1: session_exit_message: release channel 0
+debug.log:Nov 12 02:31:44 freebsd sshd[1945]: debug1: do_cleanup
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: do_cleanup
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: PAM: cleanup
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: PAM: closing session
+debug.log:Nov 12 02:31:44 freebsd sshd[1943]: debug1: PAM: deleting credentials
+messages:Nov 11 20:24:49 freebsd sshd[1045]: error: PAM: Authentication error for illegal user n3 from 192.168.137.10
+messages:Nov 11 21:53:02 freebsd pkg[2196]: libssh2-1.9.0_3,3 installed
+messages:Nov 11 23:54:16 freebsd sshd[1497]: error: PAM: Authentication error for illegal user n3 from 192.168.137.1
+messages:Nov 11 23:57:44 freebsd sshd[1558]: error: PAM: Authentication error for illegal user n3 from 192.168.137.3
+setuid.today:   538 -r-sr-xr-x  1 root  wheel        58784 Apr  9 08:21:07 2021 /usr/libexec/ssh-keysign

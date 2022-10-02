@@ -1,0 +1,44 @@
+[20211111-23:24:10] [INFO ] starting xrdp-sesman with pid 905
+[20211111-23:24:12] [WARN ] receiving SIGHUP 1
+[20211111-23:24:12] [INFO ] configuration reloaded, log subsystem restarted
+[20211111-23:46:26] [INFO ] Socket 8: AF_INET6 connection received from ::1 port 42574
+[20211111-23:46:26] [INFO ] Terminal Server Users group is disabled, allowing authentication
+[20211111-23:46:26] [INFO ] ++ created session (access granted): username nik, ip ::ffff:192.168.137.1:53251 - socket: 13
+[20211111-23:46:26] [INFO ] starting Xorg session...
+[20211111-23:46:26] [INFO ] Starting session: session_pid 1417, display :10.0, width 1024, height 768, bpp 24, client ip ::ffff:192.168.137.1:53251 - socket: 13, user name nik
+[20211111-23:46:26] [INFO ] [session start] (display 10): calling auth_start_session from pid 1417
+[20211111-23:46:26] [ERROR] sesman_data_in: scp_process_msg failed
+[20211111-23:46:26] [INFO ] PAM: Last login: Thu Nov 11 23:26:04 on unix:0.0
+[20211111-23:46:26] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211111-23:46:26] [INFO ] Starting X server on display 10: Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp  
+[20211111-23:46:26] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211111-23:46:26] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211111-23:46:26] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211111-23:46:26] [INFO ] Session started successfully for user nik on display 10
+[20211111-23:46:26] [INFO ] Starting the xrdp channel server for display 10
+[20211111-23:46:26] [INFO ] Starting the default window manager on display 10: /usr/local/etc/xrdp/startwm.sh
+[20211111-23:46:26] [INFO ] Session in progress on display 10, waiting until the window manager (pid 1419) exits to end the session
+[20211111-23:51:20] [INFO ] Socket 8: AF_INET6 connection received from ::1 port 22603
+[20211111-23:51:20] [INFO ] ++ reconnected session: username nik, display :10.0, session_pid 1417, ip ::ffff:192.168.137.1:53269 - socket: 13
+[20211111-23:51:20] [ERROR] sesman_data_in: scp_process_msg failed
+[20211111-23:51:20] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211111-23:51:20] [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+[20211112-00:02:11] [INFO ] Socket 8: AF_INET6 connection received from ::1 port 63455
+[20211112-00:02:11] [INFO ] ++ reconnected session: username nik, display :10.0, session_pid 1417, ip ::ffff:192.168.137.3:13004 - socket: 13
+[20211112-00:02:11] [ERROR] sesman_data_in: scp_process_msg failed
+[20211112-00:02:11] [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+[20211112-00:02:11] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211112-00:37:20] [INFO ] shutting down sesman 1
+[20211112-00:37:20] [INFO ] shutting down sesman 1
+[20211112-00:37:20] [INFO ] shutting down sesman 1
+[20211112-00:37:20] [WARN ] Window manager (pid 1419, display 10) exited with non-zero exit code 255 and signal 15. This could indicate a window manager config problem
+[20211112-00:37:20] [INFO ] shutting down sesman 1
+[20211112-00:37:20] [INFO ] Calling auth_stop_session and auth_end from pid 1418
+[20211112-00:37:20] [INFO ] Terminating X server (pid 1420) on display 10
+[20211112-00:37:20] [INFO ] Terminating the xrdp channel server (pid 1422) on display 10
+[20211112-00:37:20] [INFO ] X server on display 10 (pid 1420) returned exit code 0 and signal number 0
+[20211112-00:37:20] [INFO ] xrdp channel server for display 10 (pid 1422) exit code 0 and signal number 0
+[20211112-00:37:20] [INFO ] cleanup_sockets:
+[20211112-00:38:14] [INFO ] starting xrdp-sesman with pid 927
+[20211112-00:38:15] [WARN ] receiving SIGHUP 1
+[20211112-00:38:15] [INFO ] configuration reloaded, log subsystem restarted

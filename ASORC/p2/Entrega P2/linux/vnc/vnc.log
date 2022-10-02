@@ -1,0 +1,121 @@
+anaconda/packaging.log:19:45:53,284 INF packaging: Installed: tigervnc-license-1.11.0-6.el8.noarch 1621565762 1ad6f4e6095a6f7278fb8cc793b6324b315a6d54114f68b081f084861a90ae46
+anaconda/packaging.log:19:49:52,173 INF packaging: Installed: tigervnc-server-minimal-1.11.0-6.el8.x86_64 1621565746 0e2f4010f50680b4c4a5e246f6bd23f65d6c5b7f2995b25324e2581e494e196e
+anaconda/packaging.log:19:51:58,830 INF packaging: Installed: gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/packaging.log:19:51:59,384 INF packaging: Configuring (running scriptlet for): gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/packaging.log:19:52:01,581 INF packaging: Installed: gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/packaging.log:19:52:01,837 INF packaging: Configuring (running scriptlet for): gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/packaging.log:19:52:09,462 INF packaging: Installed: libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/packaging.log:19:52:09,846 INF packaging: Configuring (running scriptlet for): libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/packaging.log:20:01:09,863 INF packaging: Verifying: gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/packaging.log:20:01:09,869 INF packaging: Verifying: gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/packaging.log:20:01:09,911 INF packaging: Verifying: libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/packaging.log:20:01:09,952 INF packaging: Verifying: tigervnc-license-1.11.0-6.el8.noarch 1621565762 1ad6f4e6095a6f7278fb8cc793b6324b315a6d54114f68b081f084861a90ae46
+anaconda/packaging.log:20:01:09,953 INF packaging: Verifying: tigervnc-server-minimal-1.11.0-6.el8.x86_64 1621565746 0e2f4010f50680b4c4a5e246f6bd23f65d6c5b7f2995b25324e2581e494e196e
+anaconda/packaging.log:20:01:10,054 DBG dnf: Installed: gtk-vnc2-0.9.0-2.el8.x86_64
+anaconda/packaging.log:20:01:10,058 DBG dnf: Installed: gvnc-0.9.0-2.el8.x86_64
+anaconda/packaging.log:20:01:10,125 DBG dnf: Installed: libvncserver-0.9.11-17.el8.x86_64
+anaconda/packaging.log:20:01:10,192 DBG dnf: Installed: tigervnc-license-1.11.0-6.el8.noarch
+anaconda/packaging.log:20:01:10,192 DBG dnf: Installed: tigervnc-server-minimal-1.11.0-6.el8.x86_64
+anaconda/journal.log:Sep 22 17:45:53 localhost anaconda[1716]: packaging: Installed: tigervnc-license-1.11.0-6.el8.noarch 1621565762 1ad6f4e6095a6f7278fb8cc793b6324b315a6d54114f68b081f084861a90ae46
+anaconda/journal.log:Sep 22 17:49:52 localhost anaconda[1716]: packaging: Installed: tigervnc-server-minimal-1.11.0-6.el8.x86_64 1621565746 0e2f4010f50680b4c4a5e246f6bd23f65d6c5b7f2995b25324e2581e494e196e
+anaconda/journal.log:Sep 22 17:51:58 localhost anaconda[1716]: packaging: Installed: gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/journal.log:Sep 22 17:51:59 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/journal.log:Sep 22 17:52:01 localhost anaconda[1716]: packaging: Installed: gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/journal.log:Sep 22 17:52:01 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/journal.log:Sep 22 17:52:09 localhost anaconda[1716]: packaging: Installed: libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/journal.log:Sep 22 17:52:09 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: gtk-vnc2-0.9.0-2.el8.x86_64 1618193206 2bfff0a24ce4eb6d52ec696e96c58aaf68bf49b081c47993bc451ce8446c24c9
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: gvnc-0.9.0-2.el8.x86_64 1618193206 15fed146b4d63617c6855bffd308d6dd19c47968c01e9fe4d7252715703b341a
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: libvncserver-0.9.11-17.el8.x86_64 1622793718 38ec5ff34fff0a426bd377186afed28a8370441f300af098d5959601147d09e5
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: tigervnc-license-1.11.0-6.el8.noarch 1621565762 1ad6f4e6095a6f7278fb8cc793b6324b315a6d54114f68b081f084861a90ae46
+anaconda/journal.log:Sep 22 18:01:09 localhost anaconda[1716]: packaging: Verifying: tigervnc-server-minimal-1.11.0-6.el8.x86_64 1621565746 0e2f4010f50680b4c4a5e246f6bd23f65d6c5b7f2995b25324e2581e494e196e
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: gtk-vnc2-0.9.0-2.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: gvnc-0.9.0-2.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: libvncserver-0.9.11-17.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: tigervnc-license-1.11.0-6.el8.noarch
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: tigervnc-server-minimal-1.11.0-6.el8.x86_64
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636810789.250:424): pid=3080 uid=0 auid=1000 ses=3 msg='op=install sw="tigervnc-selinux-1.11.0-6.el8.noarch" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636810789.250:425): pid=3080 uid=0 auid=1000 ses=3 msg='op=install sw="tigervnc-server-1.11.0-6.el8.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+dnf.librepo.log:2021-11-13T14:38:37+0100 INFO Downloading: http://mirrors.radwebhosting.com/rockylinux/8.4/AppStream/x86_64/os/Packages/tigervnc-selinux-1.11.0-6.el8.noarch.rpm
+dnf.librepo.log:2021-11-13T14:38:37+0100 INFO Downloading: http://mirrors.radwebhosting.com/rockylinux/8.4/AppStream/x86_64/os/Packages/tigervnc-server-1.11.0-6.el8.x86_64.rpm
+dnf.log:2021-11-13T14:36:01+0100 DDEBUG Command: yum install tigervnc-server 
+dnf.log:2021-11-13T14:36:01+0100 DDEBUG Extra commands: ['install', 'tigervnc-server']
+dnf.log:2021-11-13T14:36:33+0100 DEBUG ---> Paquete tigervnc-selinux.noarch 1.11.0-6.el8 seleccionado para instalar
+dnf.log:2021-11-13T14:36:33+0100 DEBUG ---> Paquete tigervnc-server.x86_64 1.11.0-6.el8 seleccionado para instalar
+dnf.log: [1m[32mtigervnc-server         (B[m x86_64         1.11.0-6.el8          appstream         269 k
+dnf.log: [1m[32mtigervnc-selinux        (B[m noarch         1.11.0-6.el8          appstream          46 k
+dnf.log:2021-11-13T14:39:50+0100 DEBUG Instalado: tigervnc-selinux-1.11.0-6.el8.noarch
+dnf.log:2021-11-13T14:39:50+0100 DEBUG Instalado: tigervnc-server-1.11.0-6.el8.x86_64
+dnf.log:2021-11-13T14:39:50+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/tigervnc-server-1.11.0-6.el8.x86_64.rpm eliminado
+dnf.log:2021-11-13T14:39:50+0100 DDEBUG /var/cache/dnf/appstream-62ae9a0bbea44fbe/packages/tigervnc-selinux-1.11.0-6.el8.noarch.rpm eliminado
+dnf.log:2021-11-13T14:52:05+0100 DDEBUG Command: yum install tightvnc 
+dnf.log:2021-11-13T14:52:05+0100 DDEBUG Extra commands: ['install', 'tightvnc']
+dnf.log:2021-11-13T14:52:08+0100 INFO No hay coincidencias para el argumento: [1mtightvnc(B[m
+dnf.log:dnf.exceptions.PackagesNotAvailableError: No se pudo encontrar ningún resultado: tightvnc
+dnf.log:2021-11-13T14:52:08+0100 CRITICAL Error: No se pudo encontrar ningún resultado: tightvnc
+dnf.rpm.log:2021-11-13T14:39:08+0100 SUBDEBUG Installed: tigervnc-selinux-1.11.0-6.el8.noarch
+dnf.rpm.log:2021-11-13T14:39:45+0100 SUBDEBUG Installed: tigervnc-server-1.11.0-6.el8.x86_64
+historylinux.txt:  117  yum install tigervnc-server
+historylinux.txt:  122  systemctl status vncserver
+historylinux.txt:  123  systemctl status vnc
+historylinux.txt:  124  vncserver -kill :1
+historylinux.txt:  126  yum install tightvnc
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48024]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48229]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+messages:Nov 13 15:24:20 localhost systemd[1679]: gnome-terminal-server.service: Found left-over process 2423 (Xvnc) in control group while starting unit. Ignoring.
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] starting Xvnc session...
+messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+messages:Nov 13 15:30:15 localhost xrdp-sesman[2520]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: See https://www.tigervnc.org for information on TigerVNC.
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      VNC extension running!
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      Listening for VNC connections on local interface(s), port 5910
+messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      created VNC server for screen 0
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp[48021]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48024]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+rdp.log:messages:Nov 13 15:17:32 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: [INFO ] starting Xvnc session...
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48229]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp[48177]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: See https://www.tigervnc.org for information on TigerVNC.
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      VNC extension running!
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      Listening for VNC connections on local interface(s), port 5910
+rdp.log:messages:Nov 13 15:18:22 localhost xrdp-sesman[48013]: vncext:      created VNC server for screen 0
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: [INFO ] starting Xvnc session...
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp[2497]: [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[2520]: [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: Xvnc TigerVNC 1.11.0 - built May 21 2021 02:55:38
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: See https://www.tigervnc.org for information on TigerVNC.
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      VNC extension running!
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      Listening for VNC connections on local interface(s), port 5910
+rdp.log:messages:Nov 13 15:30:15 localhost xrdp-sesman[959]: vncext:      created VNC server for screen 0
+rdp.log:xrdp-sesman.log:[20211113-15:30:15] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+xrdp.log:[20211113-15:17:32] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+xrdp.log:[20211113-15:18:22] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+xrdp.log:[20211113-15:30:15] [INFO ] loaded module 'libvnc.so' ok, interface size 4072, version 4
+xrdp-sesman.log:[20211113-15:17:32] [INFO ] starting Xvnc session...
+xrdp-sesman.log:[20211113-15:17:32] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+xrdp-sesman.log:[20211113-15:18:22] [INFO ] starting Xvnc session...
+xrdp-sesman.log:[20211113-15:18:22] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] starting Xvnc session...
+xrdp-sesman.log:[20211113-15:30:15] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  

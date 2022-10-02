@@ -1,0 +1,4 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 7:10:41 AM,Microsoft-Windows-ServicesForNFS-Server,1105,None,"Server for NFS started volume C: (ResolvedPath \Device\HarddiskVolume2\, VolumeId {1cd70729-4556-11ec-8937-0800274f91e4})."
+Information,11/14/2021 7:10:41 AM,Microsoft-Windows-ServicesForNFS-Server,1116,None,"Server for NFS discovered volume C: (ResolvedPath \Device\HarddiskVolume2\, VolumeId {1cd70729-4556-11ec-8937-0800274f91e4}) and added it to the known volume table."
+Information,11/14/2021 7:10:41 AM,Microsoft-Windows-ServicesForNFS-Server,1079,None,"NFS virtual server successfully created volume \DosDevices\C:\ (ResolvedPath \Device\HarddiskVolume2\, VolumeId {1cd70729-4556-11ec-8937-0800274f91e4})."

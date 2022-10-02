@@ -1,0 +1,48 @@
+[2021/11/13 17:07:37.365535,  0] ../../source3/nmbd/nmbd.c:960(main)
+  nmbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:07:37.414864,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/11/13 17:08:00.485057,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 192.168.122.1
+  
+  *****
+[2021/11/13 17:08:00.485205,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 192.168.137.222
+  
+  *****
+[2021/11/13 17:08:00.485259,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 10.0.2.4
+  
+  *****
+[2021/11/13 17:15:27.163577,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/11/13 17:15:27.197883,  0] ../../source3/nmbd/nmbd.c:960(main)
+  nmbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:15:27.199536,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/11/13 17:15:50.344819,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 192.168.122.1
+  
+  *****
+[2021/11/13 17:15:50.344989,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 192.168.137.222
+  
+  *****
+[2021/11/13 17:15:50.345072,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server LOCALHOST is now a local master browser for workgroup WORKGROUP on subnet 10.0.2.4
+  
+  *****

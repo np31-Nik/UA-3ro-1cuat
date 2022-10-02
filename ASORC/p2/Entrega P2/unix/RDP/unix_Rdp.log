@@ -1,0 +1,598 @@
+daemon.log:Nov 11 23:10:16 freebsd xrdp[2050]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:10:16 freebsd xrdp[2050]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:10:16 freebsd xrdp[2050]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:10:18 freebsd xrdp[2051]: [INFO ] starting xrdp with pid 2051
+daemon.log:Nov 11 23:10:18 freebsd xrdp[2051]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:10:18 freebsd xrdp[2051]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:10:18 freebsd xrdp[2051]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:13:47 freebsd xrdp[2051]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 12364
+daemon.log:Nov 11 23:13:47 freebsd xrdp[2070]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:13:47 freebsd xrdp[2070]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:13:50 freebsd xrdp[2070]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 12364: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:13:51 freebsd xrdp[2070]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2051]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 21387
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2073]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2073]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2073]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2073]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:15:23 freebsd xrdp[2073]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 21387: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:15:24 freebsd xrdp[2073]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:16:04 freebsd xrdp[2051]: [INFO ] Received termination signal, stopping the server accept new connections thread
+daemon.log:Nov 11 23:16:22 freebsd xrdp[2140]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:16:22 freebsd xrdp[2140]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:16:22 freebsd xrdp[2140]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:16:24 freebsd xrdp[2141]: [INFO ] starting xrdp with pid 2141
+daemon.log:Nov 11 23:16:24 freebsd xrdp[2141]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:16:24 freebsd xrdp[2141]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:16:24 freebsd xrdp[2141]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2141]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 35833
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:16:31 freebsd xrdp[2142]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 35833: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:16:32 freebsd xrdp[2142]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2141]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 26862
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2163]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2163]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2163]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2163]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:22:59 freebsd xrdp[2163]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 26862: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:23:00 freebsd xrdp[2163]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:23:01 freebsd xrdp[2163]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:23:01 freebsd xrdp[2163]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:23:01 freebsd xrdp[2163]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:24:08 freebsd xrdp[865]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:24:08 freebsd xrdp[865]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:24:08 freebsd xrdp[865]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:24:10 freebsd xrdp-sesman[905]: [INFO ] starting xrdp-sesman with pid 905
+daemon.log:Nov 11 23:24:10 freebsd xrdp[866]: [INFO ] starting xrdp with pid 866
+daemon.log:Nov 11 23:24:11 freebsd xrdp[866]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:24:11 freebsd xrdp[866]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:24:11 freebsd xrdp[866]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:24:12 freebsd xrdp-sesman[905]: [WARN ] receiving SIGHUP 1
+daemon.log:Nov 11 23:24:12 freebsd xrdp-sesman[905]: [INFO ] configuration reloaded, log subsystem restarted
+daemon.log:Nov 11 23:25:22 freebsd xrdp[866]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 24715
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:25:22 freebsd xrdp[969]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 24715: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:25:23 freebsd xrdp[969]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:27:24 freebsd xrdp[866]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 50925
+daemon.log:Nov 11 23:27:24 freebsd xrdp[1055]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:27:24 freebsd xrdp[1055]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:27:24 freebsd xrdp[1055]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:27:24 freebsd xrdp[1055]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:27:24 freebsd xrdp[1055]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 50925: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:27:25 freebsd xrdp[1055]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:34:43 freebsd xrdp[866]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 27816
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:34:43 freebsd xrdp[1285]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 27816: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:34:44 freebsd xrdp[1285]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:43:15 freebsd xrdp[866]: [INFO ] Received termination signal, stopping the server accept new connections thread
+daemon.log:Nov 11 23:43:15 freebsd xrdp[1329]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:43:15 freebsd xrdp[1329]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:43:15 freebsd xrdp[1329]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:43:17 freebsd xrdp[1330]: [INFO ] starting xrdp with pid 1330
+daemon.log:Nov 11 23:43:17 freebsd xrdp[1330]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:43:17 freebsd xrdp[1330]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:43:17 freebsd xrdp[1330]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1330]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 42037
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1331]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1331]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1331]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1331]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:43:21 freebsd xrdp[1331]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 42037: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:43:22 freebsd xrdp[1331]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:43:23 freebsd xrdp[1331]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:43:23 freebsd xrdp[1331]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:43:49 freebsd xrdp[1330]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 25026
+daemon.log:Nov 11 23:43:49 freebsd xrdp[1332]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:43:49 freebsd xrdp[1332]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:43:51 freebsd xrdp[1332]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 25026: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:43:52 freebsd xrdp[1332]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1330]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 61928
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1351]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1351]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1351]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1351]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+daemon.log:Nov 11 23:44:24 freebsd xrdp[1351]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 61928: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+daemon.log:Nov 11 23:44:25 freebsd xrdp[1351]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+daemon.log:Nov 11 23:45:39 freebsd xrdp[1330]: [INFO ] Received termination signal, stopping the server accept new connections thread
+daemon.log:Nov 11 23:45:39 freebsd xrdp[1413]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:45:39 freebsd xrdp[1413]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:45:39 freebsd xrdp[1413]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:45:41 freebsd xrdp[1414]: [INFO ] starting xrdp with pid 1414
+daemon.log:Nov 11 23:45:41 freebsd xrdp[1414]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 11 23:45:41 freebsd xrdp[1414]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 11 23:45:41 freebsd xrdp[1414]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 11 23:46:18 freebsd xrdp[1414]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.1 port 53251
+daemon.log:Nov 11 23:46:18 freebsd xrdp[1416]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:46:18 freebsd xrdp[1416]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:46:18 freebsd xrdp[1416]: [INFO ] Connected client computer name: nikita-virtualb
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [INFO ] TLS connection established from ::ffff:192.168.137.1 port 53251: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+daemon.log:Nov 11 23:46:19 freebsd xrdp[1416]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [INFO ] Socket 8: AF_INET6 connection received from ::1 port 42574
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] sesman connect ok
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] sending login info to session manager, please wait...
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [INFO ] Terminal Server Users group is disabled, allowing authentication
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [INFO ] ++ created session (access granted): username nik, ip ::ffff:192.168.137.1:53251 - socket: 13
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [INFO ] starting Xorg session...
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [INFO ] Starting session: session_pid 1417, display :10.0, width 1024, height 768, bpp 24, client ip ::ffff:192.168.137.1:53251 - socket: 13, user name nik
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1417]: [INFO ] [session start] (display 10): calling auth_start_session from pid 1417
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] login successful for display 10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1417]: [INFO ] PAM: Last login: Thu Nov 11 23:26:04 on unix:0.0
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] started connecting
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] lib_mod_connect: connecting via UNIX socket
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1420]: [INFO ] Starting X server on display 10: Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp  
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] lib_mod_log_peer: xrdp_pid=1416 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53251
+daemon.log:Nov 11 23:46:26 freebsd xrdp[1416]: [INFO ] connected ok
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1419]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1418]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1419]: [INFO ] Found X server running at /tmp/.X11-unix/X10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1418]: [INFO ] Session started successfully for user nik on display 10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1422]: [INFO ] Starting the xrdp channel server for display 10
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1419]: [INFO ] Starting the default window manager on display 10: /usr/local/etc/xrdp/startwm.sh
+daemon.log:Nov 11 23:46:26 freebsd xrdp-sesman[1418]: [INFO ] Session in progress on display 10, waiting until the window manager (pid 1419) exits to end the session
+daemon.log:Nov 11 23:46:26 freebsd xrdp-chansrv[1422]: [INFO ] Socket 12: AF_UNIX connection received
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+daemon.log:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1414]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.1 port 53269
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] Connected client computer name: nikita-virtualb
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] TLS connection established from ::ffff:192.168.137.1 port 53269: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+daemon.log:Nov 11 23:50:36 freebsd xrdp[1487]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+daemon.log:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [INFO ] Socket 8: AF_INET6 connection received from ::1 port 22603
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] sesman connect ok
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] sending login info to session manager, please wait...
+daemon.log:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [INFO ] ++ reconnected session: username nik, display :10.0, session_pid 1417, ip ::ffff:192.168.137.1:53269 - socket: 13
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+daemon.log:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+daemon.log:Nov 11 23:51:20 freebsd xrdp-sesman[1488]: [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] login successful for display 10
+daemon.log:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] started connecting
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] lib_mod_connect: connecting via UNIX socket
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] lib_mod_log_peer: xrdp_pid=1487 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53269
+daemon.log:Nov 11 23:51:20 freebsd xrdp[1487]: [INFO ] connected ok
+daemon.log:Nov 11 23:51:20 freebsd xrdp-chansrv[1422]: [INFO ] Socket 14: AF_UNIX connection received
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+daemon.log:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+daemon.log:Nov 12 00:02:04 freebsd xrdp[1414]: [INFO ] Socket 13: AF_INET6 connection received from ::ffff:192.168.137.3 port 13004
+daemon.log:Nov 12 00:02:04 freebsd xrdp[1672]: [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+daemon.log:Nov 12 00:02:04 freebsd xrdp[1672]: [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] Connected client computer name: np31
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] TLS connection established from ::ffff:192.168.137.3 port 13004: TLSv1.3 with cipher TLS_AES_256_GCM_SHA384
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [INFO ] Loading keymap file /usr/local/etc/xrdp/km-00000409.ini
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+daemon.log:Nov 12 00:02:05 freebsd xrdp[1672]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] connecting to sesman ip 127.0.0.1 port 3350
+daemon.log:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [INFO ] Socket 8: AF_INET6 connection received from ::1 port 63455
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] xrdp_wm_log_msg: sesman connect ok
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] sesman connect ok
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] sending login info to session manager, please wait...
+daemon.log:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [INFO ] ++ reconnected session: username nik, display :10.0, session_pid 1417, ip ::ffff:192.168.137.3:13004 - socket: 13
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] xrdp_wm_log_msg: login successful for display 10
+daemon.log:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+daemon.log:Nov 12 00:02:11 freebsd xrdp-sesman[1673]: [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] login successful for display 10
+daemon.log:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] loaded module 'libxup.so' ok, interface size 10296, version 4
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] started connecting
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] lib_mod_connect: connecting via UNIX socket
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] lib_mod_log_peer: xrdp_pid=1672 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.3 client_port=13004
+daemon.log:Nov 12 00:02:11 freebsd xrdp[1672]: [INFO ] connected ok
+daemon.log:Nov 12 00:02:11 freebsd xrdp-chansrv[1422]: [INFO ] Socket 14: AF_UNIX connection received
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+daemon.log:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+daemon.log:Nov 12 00:38:11 freebsd xrdp[887]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 12 00:38:11 freebsd xrdp[887]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 12 00:38:11 freebsd xrdp[887]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 12 00:38:13 freebsd xrdp[888]: [INFO ] starting xrdp with pid 888
+daemon.log:Nov 12 00:38:13 freebsd xrdp[888]: [INFO ] address [0.0.0.0] port [3389] mode 1
+daemon.log:Nov 12 00:38:14 freebsd xrdp[888]: [INFO ] listening to port 3389 on 0.0.0.0
+daemon.log:Nov 12 00:38:14 freebsd xrdp[888]: [INFO ] xrdp_listen_pp done
+daemon.log:Nov 12 00:38:14 freebsd xrdp-sesman[927]: [INFO ] starting xrdp-sesman with pid 927
+daemon.log:Nov 12 00:38:15 freebsd xrdp-sesman[927]: [WARN ] receiving SIGHUP 1
+daemon.log:Nov 12 00:38:15 freebsd xrdp-sesman[927]: [INFO ] configuration reloaded, log subsystem restarted
+historyunix.txt:    75	23:09	pkg install xrdp
+historyunix.txt:    81	23:10	service xrdp start
+historyunix.txt:    82	23:16	service xrdp stop
+historyunix.txt:    90	23:27	service xrdp status
+historyunix.txt:    91	23:33	pkg install freerdp
+historyunix.txt:    95	23:43	service xrdp restart
+historyunix.txt:    96	23:45	nano /usr/local/etc/xrdp/startwm.sh
+historyunix.txt:    98	23:45	service xrdp restart
+messages:Nov 11 23:09:42 freebsd pkg[1829]: xorgxrdp-0.2.17 installed
+messages:Nov 11 23:09:42 freebsd pkg[1829]: pulseaudio-module-xrdp-0.5_1 installed
+messages:Nov 11 23:09:44 freebsd pkg[1829]: xrdp-0.9.17,1 installed
+messages:Nov 11 23:13:50 freebsd xrdp[2070]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:13:50 freebsd xrdp[2070]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:13:51 freebsd xrdp[2070]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:13:51 freebsd xrdp[2070]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:13:51 freebsd xrdp[2070]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:13:51 freebsd xrdp[2070]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:15:23 freebsd xrdp[2073]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:15:23 freebsd xrdp[2073]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:15:24 freebsd xrdp[2073]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:15:24 freebsd xrdp[2073]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:15:24 freebsd xrdp[2073]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:15:24 freebsd xrdp[2073]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:16:09 freebsd nik[2092]: /usr/local/etc/rc.d/xrdp: WARNING: failed to start xrdp
+messages:Nov 11 23:16:15 freebsd nik[2111]: /usr/local/etc/rc.d/xrdp: WARNING: failed to start xrdp
+messages:Nov 11 23:16:31 freebsd xrdp[2142]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:16:31 freebsd xrdp[2142]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:16:32 freebsd xrdp[2142]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:16:32 freebsd xrdp[2142]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:16:32 freebsd xrdp[2142]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:16:32 freebsd xrdp[2142]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:22:59 freebsd xrdp[2163]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:22:59 freebsd xrdp[2163]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:23:00 freebsd xrdp[2163]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:23:01 freebsd xrdp[2163]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:23:01 freebsd xrdp[2163]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:23:01 freebsd xrdp[2163]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:24:12 freebsd xrdp-sesman[905]: [WARN ] receiving SIGHUP 1
+messages:Nov 11 23:25:22 freebsd xrdp[969]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:25:22 freebsd xrdp[969]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:25:23 freebsd xrdp[969]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:25:23 freebsd xrdp[969]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:25:23 freebsd xrdp[969]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:25:23 freebsd xrdp[969]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:27:24 freebsd xrdp[1055]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:27:24 freebsd xrdp[1055]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:27:25 freebsd xrdp[1055]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:27:25 freebsd xrdp[1055]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:27:25 freebsd xrdp[1055]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:27:25 freebsd xrdp[1055]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:34:34 freebsd pkg[1077]: freerdp-2.4.1 installed
+messages:Nov 11 23:34:43 freebsd xrdp[1285]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:34:43 freebsd xrdp[1285]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:34:44 freebsd xrdp[1285]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:34:44 freebsd xrdp[1285]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:34:44 freebsd xrdp[1285]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:34:44 freebsd xrdp[1285]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:43:21 freebsd xrdp[1331]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:43:21 freebsd xrdp[1331]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:43:22 freebsd xrdp[1331]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:43:22 freebsd xrdp[1331]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:43:23 freebsd xrdp[1331]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:43:23 freebsd xrdp[1331]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:43:51 freebsd xrdp[1332]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:43:51 freebsd xrdp[1332]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:43:52 freebsd xrdp[1332]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:43:52 freebsd xrdp[1332]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:43:52 freebsd xrdp[1332]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:43:52 freebsd xrdp[1332]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:44:24 freebsd xrdp[1351]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc006 is unknown (ignored)
+messages:Nov 11 23:44:24 freebsd xrdp[1351]: [WARN ] Received [MS-RDPBCGR] TS_UD_HEADER type 0xc00a is unknown (ignored)
+messages:Nov 11 23:44:25 freebsd xrdp[1351]: [WARN ] Dynamic Virtual Channel named 'drdynvc' not found, channel not initialized
+messages:Nov 11 23:44:25 freebsd xrdp[1351]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:44:25 freebsd xrdp[1351]: [ERROR] xrdp_iso_send: trans_write_copy_s failed
+messages:Nov 11 23:44:25 freebsd xrdp[1351]: [ERROR] Sending [ITU T.125] DisconnectProviderUltimatum failed
+messages:Nov 11 23:46:19 freebsd xrdp[1416]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 11 23:46:19 freebsd xrdp[1416]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:46:19 freebsd xrdp[1416]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 11 23:46:19 freebsd xrdp[1416]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 11 23:46:26 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 11 23:49:36 freebsd xrdp[1416]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 11 23:50:36 freebsd xrdp[1487]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 11 23:50:36 freebsd xrdp[1487]: [WARN ] local keymap file for 0x0000040a found and doesn't match built in keymap, using local keymap file
+messages:Nov 11 23:50:36 freebsd xrdp[1487]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 11 23:50:36 freebsd xrdp[1487]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 11 23:51:20 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 11 23:51:43 freebsd xrdp[1487]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 12 00:02:05 freebsd xrdp[1672]: [WARN ] Received [MS-RDPBCGR] TS_CONFIRM_ACTIVE_PDU - TS_CAPS_SET capabilitySetType = 27 is unknown - Ignored
+messages:Nov 12 00:02:05 freebsd xrdp[1672]: [WARN ] local keymap file for 0x00000409 found and doesn't match built in keymap, using local keymap file
+messages:Nov 12 00:02:05 freebsd xrdp[1672]: [ERROR] Dynamic Virtual Channel version 1 is not supported
+messages:Nov 12 00:02:05 freebsd xrdp[1672]: [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+messages:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [ERROR] sesman_data_in: scp_process_msg failed
+messages:Nov 12 00:02:11 freebsd xrdp-sesman[905]: [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] Received [ITU-T T.125] DomainMCSPDU choice index 12 is unknown. Expected the DomainMCSPDU to contain the type SendDataRequest with index 25
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] SSL_shutdown: Failure in SSL library (protocol error?)
+messages:Nov 12 00:02:16 freebsd xrdp[1672]: [ERROR] SSL: error:14094123:SSL routines:ssl3_read_bytes:application data after close notify
+messages:Nov 12 00:38:15 freebsd xrdp-sesman[927]: [WARN ] receiving SIGHUP 1
+xrdp-sesman.log:[20211111-23:24:10] [INFO ] starting xrdp-sesman with pid 905
+xrdp-sesman.log:[20211111-23:46:26] [INFO ] Starting X server on display 10: Xorg :10 -auth .Xauthority -config xrdp/xorg.conf -noreset -nolisten tcp  
+xrdp-sesman.log:[20211111-23:46:26] [INFO ] Starting the xrdp channel server for display 10
+xrdp-sesman.log:[20211111-23:46:26] [INFO ] Starting the default window manager on display 10: /usr/local/etc/xrdp/startwm.sh
+xrdp-sesman.log:[20211111-23:51:20] [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+xrdp-sesman.log:[20211112-00:02:11] [INFO ] Starting session reconnection script on display 10: /usr/local/etc/xrdp/reconnectwm.sh
+xrdp-sesman.log:[20211112-00:37:20] [INFO ] Terminating the xrdp channel server (pid 1422) on display 10
+xrdp-sesman.log:[20211112-00:37:20] [INFO ] xrdp channel server for display 10 (pid 1422) exit code 0 and signal number 0
+xrdp-sesman.log:[20211112-00:38:14] [INFO ] starting xrdp-sesman with pid 927
+xrdp.log:[20211111-23:10:16] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:10:18] [INFO ] starting xrdp with pid 2051
+xrdp.log:[20211111-23:10:18] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:13:47] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:13:47] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:13:50] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:13:50] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:13:51] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:13:51] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:13:51] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:13:51] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:15:23] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:15:23] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:15:24] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:15:24] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:15:24] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:15:24] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:15:24] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:15:24] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:16:22] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:16:24] [INFO ] starting xrdp with pid 2141
+xrdp.log:[20211111-23:16:24] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:16:31] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:16:31] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:16:31] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:16:31] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:16:32] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:16:32] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:16:32] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:16:32] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:22:59] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:22:59] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:23:00] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:23:00] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:23:00] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:23:00] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:23:00] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:23:01] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:24:08] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:24:10] [INFO ] starting xrdp with pid 866
+xrdp.log:[20211111-23:24:11] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:25:22] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:25:22] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:25:22] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:25:22] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:25:23] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:25:23] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:25:23] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:25:23] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:27:24] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:27:24] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:27:25] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:27:25] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:27:25] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:27:25] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:27:25] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:27:25] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:34:43] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:34:43] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:34:43] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:34:43] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:34:44] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:34:44] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:34:44] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:34:44] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:43:15] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:43:17] [INFO ] starting xrdp with pid 1330
+xrdp.log:[20211111-23:43:17] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:43:21] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:43:21] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:43:22] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:43:22] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:43:22] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:43:22] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:43:22] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:43:23] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:43:49] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:43:49] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:43:51] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:43:51] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:43:52] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:43:52] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:43:52] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:43:52] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:44:24] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:44:24] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:44:25] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:44:25] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:44:25] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:44:25] [INFO ] xrdp_process_offscreen_bmpcache: support level 1 cache size 7864320 MB cache entries 2000
+xrdp.log:[20211111-23:44:25] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:44:25] [ERROR] xrdp_iso_send: trans_write_copy_s failed
+xrdp.log:[20211111-23:45:39] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:45:41] [INFO ] starting xrdp with pid 1414
+xrdp.log:[20211111-23:45:41] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211111-23:46:18] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:46:18] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:46:19] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:46:19] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:46:19] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:46:19] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:46:19] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211111-23:46:26] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211111-23:46:26] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211111-23:46:26] [INFO ] lib_mod_log_peer: xrdp_pid=1416 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53251
+xrdp.log:[20211111-23:49:36] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+xrdp.log:[20211111-23:49:36] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+xrdp.log:[20211111-23:49:36] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+xrdp.log:[20211111-23:49:36] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+xrdp.log:[20211111-23:50:36] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211111-23:50:36] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211111-23:50:36] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x0000040A]
+xrdp.log:[20211111-23:50:36] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [es] options []
+xrdp.log:[20211111-23:50:36] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211111-23:50:36] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-0000040a.ini
+xrdp.log:[20211111-23:50:36] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211111-23:51:20] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211111-23:51:20] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211111-23:51:20] [INFO ] lib_mod_log_peer: xrdp_pid=1487 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.1 client_port=53269
+xrdp.log:[20211111-23:51:43] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+xrdp.log:[20211111-23:51:43] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+xrdp.log:[20211111-23:51:43] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+xrdp.log:[20211111-23:51:43] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+xrdp.log:[20211112-00:02:04] [INFO ] Using default X.509 certificate: /usr/local/etc/xrdp/cert.pem
+xrdp.log:[20211112-00:02:04] [INFO ] Using default X.509 key file: /usr/local/etc/xrdp/key.pem
+xrdp.log:[20211112-00:02:05] [INFO ] xrdp_load_keyboard_layout: Keyboard information sent by the RDP client, keyboard_type:[0x04], keyboard_subtype:[0x00], keylayout:[0x00000409]
+xrdp.log:[20211112-00:02:05] [INFO ] xrdp_load_keyboard_layout: model [] variant [] layout [us] options []
+xrdp.log:[20211112-00:02:05] [INFO ] xrdp_caps_process_pointer: client supports new(color) cursor
+xrdp.log:[20211112-00:02:05] [INFO ] Loading keymap file /usr/local/etc/xrdp/km-00000409.ini
+xrdp.log:[20211112-00:02:05] [ERROR] xrdp_rdp_recv: xrdp_channel_process failed
+xrdp.log:[20211112-00:02:11] [INFO ] xrdp_wm_log_msg: sesman connect ok
+xrdp.log:[20211112-00:02:11] [INFO ] xrdp_wm_log_msg: login successful for display 10
+xrdp.log:[20211112-00:02:11] [INFO ] lib_mod_log_peer: xrdp_pid=1672 connected to X11rdp_pid=0 X11rdp_uid=8 X11rdp_gid=0 client_ip=::ffff:192.168.137.3 client_port=13004
+xrdp.log:[20211112-00:02:16] [ERROR] xrdp_sec_recv: xrdp_mcs_recv failed
+xrdp.log:[20211112-00:02:16] [ERROR] xrdp_rdp_recv: xrdp_sec_recv failed
+xrdp.log:[20211112-00:02:16] [ERROR] libxrdp_process_data: xrdp_rdp_recv failed
+xrdp.log:[20211112-00:02:16] [ERROR] xrdp_process_data_in: xrdp_process_loop failed
+xrdp.log:[20211112-00:38:11] [INFO ] xrdp_listen_pp done
+xrdp.log:[20211112-00:38:13] [INFO ] starting xrdp with pid 888
+xrdp.log:[20211112-00:38:14] [INFO ] xrdp_listen_pp done

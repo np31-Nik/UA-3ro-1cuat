@@ -1,0 +1,34 @@
+[2021/11/12 01:34:47.077003,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.8 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/12 01:34:47.626004,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/11/12 01:34:47.634944,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 01:43:59.712122,  0] ../../source3/smbd/service.c:788(make_connection_snum)
+  make_connection_snum: canonicalize_connect_path failed for service private, path /usr/home/nik/Desktop/SAMBA
+[2021/11/12 01:47:17.667035,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 01:50:31.104544,  0] ../../source3/smbd/server.c:1782(main)
+  smbd version 4.12.15 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/12 01:50:31.541130,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/11/12 01:50:31.552318,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 02:03:01.583647,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 02:15:31.643547,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 02:28:01.674642,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 02:40:31.764541,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 02:53:01.783581,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 03:05:31.853547,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 03:18:01.901941,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!
+[2021/11/12 03:30:31.923477,  0] ../../source3/printing/print_standard.c:71(std_pcap_cache_reload)
+  Unable to open printcap file cups for read!

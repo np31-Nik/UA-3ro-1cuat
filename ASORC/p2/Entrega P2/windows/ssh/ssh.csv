@@ -1,0 +1,190 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 6:22:16 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 6:22:16 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 6:20:49 AM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/14/2021 5:56:53 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 5:56:53 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 5:55:32 AM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/14/2021 5:45:58 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 5:45:58 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 5:44:35 AM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/14/2021 5:27:36 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 5:27:36 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 5:26:08 AM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/14/2021 5:13:43 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 5:13:43 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 5:12:14 AM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/14/2021 1:53:52 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 1:53:52 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Starting session: subsystem 'sftp' for administrator from 192.168.137.1 port 54078 id 0
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: User child is on pid 2480
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Accepted publickey for administrator from 192.168.137.1 port 54078 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Postponed publickey for administrator from 192.168.137.1 port 54078 ssh2 [preauth]
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:27:09 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54078 on 192.168.137.223 port 22
+Information,11/13/2021 6:24:48 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 54030
+Information,11/13/2021 6:24:48 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 54030:11: disconnected by user
+Information,11/13/2021 6:24:48 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54030 id 0
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 54030 id 0
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: User child is on pid 1960
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Accepted publickey for administrator from 192.168.137.1 port 54030 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Postponed publickey for administrator from 192.168.137.1 port 54030 ssh2 [preauth]
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:20:29 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54030 on 192.168.137.223 port 22
+Information,11/13/2021 6:20:24 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 54029
+Information,11/13/2021 6:20:24 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 54029:11: disconnected by user
+Information,11/13/2021 6:20:24 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54029 id 0
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 54029 id 0
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: User child is on pid 3432
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Accepted publickey for administrator from 192.168.137.1 port 54029 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Postponed publickey for administrator from 192.168.137.1 port 54029 ssh2 [preauth]
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Accepted key RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4 found at C:\\Users\\Administrator\\.ssh/authorized_keys:1
+Information,11/13/2021 6:20:22 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54029 on 192.168.137.223 port 22
+Information,11/13/2021 6:20:20 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:20:20 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:19:40 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 54026
+Information,11/13/2021 6:19:40 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 54026:11: disconnected by user
+Information,11/13/2021 6:19:40 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54026 id 0
+Information,11/13/2021 6:19:38 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 54026 id 0
+Information,11/13/2021 6:19:38 PM,OpenSSH,4,None,sshd: User child is on pid 1504
+Information,11/13/2021 6:19:38 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 54026 ssh2
+Information,11/13/2021 6:19:36 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54026 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:19:36 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54026 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:19:36 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54026 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:19:36 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54026 on 192.168.137.223 port 22
+Information,11/13/2021 6:19:33 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:19:33 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:18:18 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 54016
+Information,11/13/2021 6:18:18 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 54016:11: disconnected by user
+Information,11/13/2021 6:18:18 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54016 id 0
+Information,11/13/2021 6:18:17 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 54016 id 0
+Information,11/13/2021 6:18:17 PM,OpenSSH,4,None,sshd: User child is on pid 2948
+Information,11/13/2021 6:18:17 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 54016 ssh2
+Information,11/13/2021 6:18:14 PM,OpenSSH,4,None,sshd: Failed password for administrator from 192.168.137.1 port 54016 ssh2
+Information,11/13/2021 6:18:12 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54016 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:18:12 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54016 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:18:12 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54016 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:18:12 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54016 on 192.168.137.223 port 22
+Information,11/13/2021 6:18:07 PM,OpenSSH,4,None,sshd: Disconnecting authenticating user administrator 192.168.137.1 port 54015: Too many authentication failures [preauth]
+Information,11/13/2021 6:18:07 PM,OpenSSH,4,None,sshd: Failed password for administrator from 192.168.137.1 port 54015 ssh2
+Information,11/13/2021 6:18:05 PM,OpenSSH,4,None,sshd: Failed password for administrator from 192.168.137.1 port 54015 ssh2
+Information,11/13/2021 6:18:03 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54015 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:18:03 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54015 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:18:03 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54015 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:18:03 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54015 on 192.168.137.223 port 22
+Information,11/13/2021 6:17:56 PM,OpenSSH,4,None,sshd: Read error from remote host 192.168.137.1 port 54014: Unknown error
+Information,11/13/2021 6:17:56 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54014 id 0
+Information,11/13/2021 6:17:56 PM,OpenSSH,4,None,sshd: Starting session: command for administrator from 192.168.137.1 port 54014 id 0
+Information,11/13/2021 6:17:56 PM,OpenSSH,4,None,sshd: User child is on pid 704
+Information,11/13/2021 6:17:56 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 54014 ssh2
+Information,11/13/2021 6:17:54 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54014 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:17:54 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54014 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:17:54 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54014 ssh2: RSA SHA256:Ukq+1ip/EPQ0iS3Azyjey36CGqhKmXHjQ+7AoRzttz4
+Information,11/13/2021 6:17:54 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54014 on 192.168.137.223 port 22
+Information,11/13/2021 6:15:46 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 54007
+Information,11/13/2021 6:15:46 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 54007:11: disconnected by user
+Information,11/13/2021 6:15:46 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54007 id 0
+Information,11/13/2021 6:15:45 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 54007 id 0
+Information,11/13/2021 6:15:45 PM,OpenSSH,4,None,sshd: User child is on pid 2288
+Information,11/13/2021 6:15:45 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 54007 ssh2
+Information,11/13/2021 6:15:42 PM,OpenSSH,4,None,sshd: Failed password for administrator from 192.168.137.1 port 54007 ssh2
+Information,11/13/2021 6:15:40 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54007 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:15:40 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54007 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:15:39 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54007 on 192.168.137.223 port 22
+Information,11/13/2021 6:15:34 PM,OpenSSH,4,None,sshd: Read error from remote host 192.168.137.1 port 54005: Unknown error
+Information,11/13/2021 6:15:34 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 54005 id 0
+Information,11/13/2021 6:15:34 PM,OpenSSH,4,None,sshd: Starting session: command for administrator from 192.168.137.1 port 54005 id 0
+Information,11/13/2021 6:15:34 PM,OpenSSH,4,None,sshd: User child is on pid 2748
+Information,11/13/2021 6:15:34 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 54005 ssh2
+Information,11/13/2021 6:15:32 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54005 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:15:32 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54005 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:15:31 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54005 on 192.168.137.223 port 22
+Information,11/13/2021 6:15:30 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:15:30 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:15:20 PM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.137.1 port 54004 [preauth]
+Information,11/13/2021 6:15:20 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54004 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:15:20 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 54004 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:15:20 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 54004 on 192.168.137.223 port 22
+Information,11/13/2021 6:14:14 PM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.137.1 port 53999 [preauth]
+Information,11/13/2021 6:14:14 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53999 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:14:14 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53999 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:14:14 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53999 on 192.168.137.223 port 22
+Information,11/13/2021 6:13:15 PM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator 192.168.137.1 port 53957 [preauth]
+Information,11/13/2021 6:13:15 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53957 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:13:15 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53957 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:13:15 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53957 on 192.168.137.223 port 22
+Information,11/13/2021 6:13:12 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:13:12 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:12:18 PM,OpenSSH,4,None,sshd: Read error from remote host 192.168.137.1 port 53950: Unknown error
+Information,11/13/2021 6:12:18 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 53950 id 0
+Information,11/13/2021 6:12:14 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 53950 id 0
+Information,11/13/2021 6:12:14 PM,OpenSSH,4,None,sshd: User child is on pid 3688
+Information,11/13/2021 6:12:14 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 53950 ssh2
+Information,11/13/2021 6:12:11 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53950 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:12:11 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53950 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:12:11 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53950 on 192.168.137.223 port 22
+Information,11/13/2021 6:12:09 PM,OpenSSH,4,None,sshd: Disconnected from 192.168.137.1 port 53949
+Information,11/13/2021 6:12:09 PM,OpenSSH,4,None,sshd: Received disconnect from 192.168.137.1 port 53949:11: disconnected by user
+Information,11/13/2021 6:12:09 PM,OpenSSH,4,None,sshd: Close session: user administrator from 192.168.137.1 port 53949 id 0
+Information,11/13/2021 6:12:05 PM,OpenSSH,4,None,sshd: Starting session: shell on windows-pty for administrator from 192.168.137.1 port 53949 id 0
+Information,11/13/2021 6:12:05 PM,OpenSSH,4,None,sshd: User child is on pid 3468
+Information,11/13/2021 6:12:05 PM,OpenSSH,4,None,sshd: Accepted password for administrator from 192.168.137.1 port 53949 ssh2
+Information,11/13/2021 6:12:02 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53949 ssh2: RSA SHA256:/IhC2lfLcz7mXTcwz9qSIWOR7+DwqT2S160j9URFvaA
+Information,11/13/2021 6:12:02 PM,OpenSSH,4,None,sshd: Failed publickey for administrator from 192.168.137.1 port 53949 ssh2: RSA SHA256:29pSkhNrfgLWfpKr6g65TepeEhWriSTMyRIcy++J2Ms
+Information,11/13/2021 6:12:00 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53949 on 192.168.137.223 port 22
+Information,11/13/2021 6:10:38 PM,OpenSSH,4,None,sshd: Connection reset by 192.168.137.1 port 53930 [preauth]
+Information,11/13/2021 6:10:38 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53930 on 192.168.137.223 port 22
+Information,11/13/2021 6:09:58 PM,OpenSSH,4,None,sshd: Connection reset by 192.168.137.1 port 53926 [preauth]
+Information,11/13/2021 6:09:57 PM,OpenSSH,4,None,sshd: Connection from 192.168.137.1 port 53926 on 192.168.137.223 port 22
+Information,11/13/2021 6:08:04 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:08:04 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:06:37 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 6:05:58 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:05:58 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:04:25 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:04:25 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:03:15 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:03:15 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 6:00:16 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 6:00:16 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:54:39 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:54:39 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:48:13 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:48:13 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:47:42 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:47:42 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:39:11 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:39:11 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:37:43 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 5:34:15 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:34:15 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:32:53 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 5:20:39 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:20:39 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:19:19 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 5:12:13 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:12:13 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 5:10:41 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 5:09:34 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 5:09:34 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/14/2021 1:52:31 AM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/14/2021 1:52:31 AM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 4:27:37 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 4:27:37 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 4:15:57 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 4:15:57 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 3:26:39 PM,OpenSSH,4,None,sshd: Server listening on 0.0.0.0 port 22.
+Information,11/13/2021 3:26:39 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 3:24:59 PM,OpenSSH,4,None,sshd: Received signal 8; terminating.
+Information,11/13/2021 3:20:27 PM,OpenSSH,4,None,sshd: Disconnected from fe80::34cf:d684:683b:5b7b%6 port 50737
+Information,11/13/2021 3:20:27 PM,OpenSSH,4,None,sshd: Received disconnect from fe80::34cf:d684:683b:5b7b%6 port 50737:11: disconnected by user
+Information,11/13/2021 3:19:34 PM,OpenSSH,4,None,sshd: Accepted password for administrator from fe80::34cf:d684:683b:5b7b%6 port 50737 ssh2
+Information,11/13/2021 3:12:38 PM,OpenSSH,4,None,sshd: Connection reset by authenticating user administrator ::1 port 50732 [preauth]
+Information,11/13/2021 3:12:38 PM,OpenSSH,4,None,sshd: Failed password for administrator from ::1 port 50732 ssh2
+Information,11/13/2021 3:12:36 PM,OpenSSH,4,None,sshd: Failed password for administrator from ::1 port 50732 ssh2
+Information,11/13/2021 3:12:33 PM,OpenSSH,4,None,sshd: Failed password for administrator from ::1 port 50732 ssh2
+Information,11/13/2021 3:11:28 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.
+Information,11/13/2021 2:57:30 PM,OpenSSH,4,None,sshd: Server listening on :: port 22.

@@ -1,0 +1,89 @@
+[20211113-15:17:01] [INFO ] starting xrdp-sesman with pid 48013
+[20211113-15:17:32] [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58544
+[20211113-15:17:32] [INFO ] Terminal Server Users group is disabled, allowing authentication
+[20211113-15:17:32] [INFO ] ++ created session (access granted): username np31, ip 192.168.137.9:33064 - socket: 12
+[20211113-15:17:32] [INFO ] starting Xvnc session...
+[20211113-15:17:32] [INFO ] Starting session: session_pid 48022, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:33064 - socket: 12, user name np31
+[20211113-15:17:32] [ERROR] sesman_data_in: scp_process_msg failed
+[20211113-15:17:32] [INFO ] [session start] (display 10): calling auth_start_session from pid 48022
+[20211113-15:17:32] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211113-15:17:32] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+[20211113-15:17:33] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:17:33] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:17:33] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:17:33] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+[20211113-15:17:33] [INFO ] Session started successfully for user np31 on display 10
+[20211113-15:17:34] [INFO ] Session in progress on display 10, waiting until the window manager (pid 48023) exits to end the session
+[20211113-15:17:33] [INFO ] Starting the xrdp channel server for display 10
+[20211113-15:17:38] [WARN ] Window manager (pid 48023, display 10) exited quickly (4 secs). This could indicate a window manager config problem
+[20211113-15:17:38] [INFO ] Calling auth_stop_session and auth_end from pid 48022
+[20211113-15:17:38] [INFO ] Terminating X server (pid 48024) on display 10
+[20211113-15:17:38] [INFO ] Terminating the xrdp channel server (pid 48039) on display 10
+[20211113-15:17:38] [INFO ] X server on display 10 (pid 48024) returned exit code 0 and signal number 0
+[20211113-15:17:38] [INFO ] xrdp channel server for display 10 (pid 48039) exit code 0 and signal number 0
+[20211113-15:17:38] [INFO ] cleanup_sockets:
+[20211113-15:17:38] [INFO ] ++ terminated session:  username np31, display :10.0, session_pid 48022, ip 192.168.137.9:33064 - socket: 12
+[20211113-15:18:22] [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58552
+[20211113-15:18:22] [INFO ] Terminal Server Users group is disabled, allowing authentication
+[20211113-15:18:22] [INFO ] ++ created session (access granted): username np31, ip 192.168.137.9:31648 - socket: 12
+[20211113-15:18:22] [INFO ] starting Xvnc session...
+[20211113-15:18:22] [INFO ] Starting session: session_pid 48227, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:31648 - socket: 12, user name np31
+[20211113-15:18:22] [INFO ] [session start] (display 10): calling auth_start_session from pid 48227
+[20211113-15:18:22] [ERROR] sesman_data_in: scp_process_msg failed
+[20211113-15:18:22] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211113-15:18:22] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/np31/.vnc/sesman_passwd-np31@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+[20211113-15:18:23] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:18:23] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:18:23] [INFO ] Session started successfully for user np31 on display 10
+[20211113-15:18:23] [INFO ] Starting the xrdp channel server for display 10
+[20211113-15:18:23] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:18:23] [INFO ] Session in progress on display 10, waiting until the window manager (pid 48228) exits to end the session
+[20211113-15:18:23] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+[20211113-15:18:23] [WARN ] Window manager (pid 48228, display 10) exited quickly (0 secs). This could indicate a window manager config problem
+[20211113-15:18:23] [INFO ] Calling auth_stop_session and auth_end from pid 48227
+[20211113-15:18:23] [INFO ] Terminating X server (pid 48229) on display 10
+[20211113-15:18:23] [INFO ] Terminating the xrdp channel server (pid 48252) on display 10
+[20211113-15:18:23] [INFO ] X server on display 10 (pid 48229) returned exit code 0 and signal number 0
+[20211113-15:18:23] [INFO ] xrdp channel server for display 10 (pid 48252) exit code 0 and signal number 0
+[20211113-15:18:23] [INFO ] cleanup_sockets:
+[20211113-15:18:23] [INFO ] ++ terminated session:  username np31, display :10.0, session_pid 48227, ip 192.168.137.9:31648 - socket: 12
+[20211113-15:21:05] [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58558
+[20211113-15:21:07] [ERROR] pam_authenticate failed: Authentication failure
+[20211113-15:21:07] [INFO ] Username or password error for user: n3
+[20211113-15:21:07] [ERROR] sesman_data_in: scp_process_msg failed
+[20211113-15:21:07] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211113-15:24:49] [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 58564
+[20211113-15:24:51] [ERROR] pam_authenticate failed: Authentication failure
+[20211113-15:24:51] [INFO ] Username or password error for user: n2
+[20211113-15:24:51] [ERROR] sesman_data_in: scp_process_msg failed
+[20211113-15:24:51] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211113-15:25:18] [INFO ] shutting down sesman 1
+[20211113-15:27:38] [INFO ] starting xrdp-sesman with pid 959
+[20211113-15:30:15] [INFO ] Socket 10: AF_INET connection received from 127.0.0.1 port 48888
+[20211113-15:30:15] [INFO ] Terminal Server Users group is disabled, allowing authentication
+[20211113-15:30:15] [INFO ] ++ created session (access granted): username nik-rdp, ip 192.168.137.9:39111 - socket: 12
+[20211113-15:30:15] [INFO ] starting Xvnc session...
+[20211113-15:30:15] [INFO ] Starting session: session_pid 2498, display :10.0, width 1024, height 768, bpp 24, client ip 192.168.137.9:39111 - socket: 12, user name nik-rdp
+[20211113-15:30:15] [INFO ] [session start] (display 10): calling auth_start_session from pid 2498
+[20211113-15:30:15] [ERROR] sesman_data_in: scp_process_msg failed
+[20211113-15:30:15] [ERROR] sesman_main_loop: trans_check_wait_objs failed, removing trans
+[20211113-15:30:15] [INFO ] Starting X server on display 10: Xvnc :10 -auth .Xauthority -geometry 1024x768 -depth 24 -rfbauth /home/nik-rdp/.vnc/sesman_passwd-nik-rdp@localhost.localdomain:10 -bs -nolisten tcp -localhost -dpi 96  
+[20211113-15:30:15] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:30:15] [INFO ] Session started successfully for user nik-rdp on display 10
+[20211113-15:30:15] [INFO ] Session in progress on display 10, waiting until the window manager (pid 2519) exits to end the session
+[20211113-15:30:15] [INFO ] Starting the xrdp channel server for display 10
+[20211113-15:30:15] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:30:15] [INFO ] Found X server running at /tmp/.X11-unix/X10
+[20211113-15:30:16] [INFO ] Starting the default window manager on display 10: /usr/libexec/xrdp/startwm-bash.sh
+[20211113-15:47:02] [INFO ] shutting down sesman 1
+[20211113-15:47:03] [WARN ] receiving SIGHUP 1
+[20211113-15:47:03] [WARN ] Window manager (pid 2519, display 10) exited with non-zero exit code 255 and signal 1. This could indicate a window manager config problem
+[20211113-15:47:03] [INFO ] shutting down sesman 1
+[20211113-15:47:03] [INFO ] Calling auth_stop_session and auth_end from pid 2498
+[20211113-15:47:03] [INFO ] shutting down sesman 1
+[20211113-15:47:03] [INFO ] Terminating X server (pid 2520) on display 10
+[20211113-15:47:03] [INFO ] Terminating the xrdp channel server (pid 2562) on display 10
+[20211113-15:47:03] [INFO ] X server on display 10 (pid 2520) returned exit code 0 and signal number 0
+[20211113-15:47:03] [INFO ] xrdp channel server for display 10 (pid 2562) exit code 255 and signal number 1
+[20211113-15:47:03] [INFO ] cleanup_sockets:
+[20211113-15:47:54] [INFO ] starting xrdp-sesman with pid 992

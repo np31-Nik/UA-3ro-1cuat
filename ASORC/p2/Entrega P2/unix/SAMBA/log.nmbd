@@ -1,0 +1,36 @@
+[2021/11/12 01:34:46.923513,  0] ../../source3/nmbd/nmbd.c:960(main)
+  nmbd version 4.13.8 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/12 01:34:46.927154,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/11/12 01:35:10.966271,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server USER is now a local master browser for workgroup WORKGROUP on subnet 192.168.137.221
+  
+  *****
+[2021/11/12 01:35:10.966717,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server USER is now a local master browser for workgroup WORKGROUP on subnet 10.0.2.23
+  
+  *****
+[2021/11/12 01:50:30.958403,  0] ../../source3/nmbd/nmbd.c:59(terminate)
+  Got SIGTERM: going down...
+[2021/11/12 01:50:31.027667,  0] ../../source3/nmbd/nmbd.c:960(main)
+  nmbd version 4.12.15 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/12 01:50:31.030437,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'nmbd' finished starting up and ready to serve connections
+[2021/11/12 01:51:03.091875,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server USER is now a local master browser for workgroup WORKGROUP on subnet 192.168.137.221
+  
+  *****
+[2021/11/12 01:51:03.092064,  0] ../../source3/nmbd/nmbd_become_lmb.c:397(become_local_master_stage2)
+  *****
+  
+  Samba name server USER is now a local master browser for workgroup WORKGROUP on subnet 10.0.2.23
+  
+  *****

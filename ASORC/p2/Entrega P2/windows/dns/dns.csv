@@ -1,0 +1,147 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,11/14/2021 6:29:08 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 4 of zone windnik to file windnik.dns.
+Information,11/14/2021 6:29:08 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 6:28:47 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 6:28:01 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone windnik to file windnik.dns.
+Information,11/14/2021 6:22:09 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 6:22:09 AM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/14/2021 6:22:09 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone winik.com from file winik.com.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 6:22:09 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 6:22:09 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone nik from file nik.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 6:22:08 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 137.168.192.in-addr.arpa from file 137.168.192.in-addr.arpa.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Warning,11/14/2021 6:22:07 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 6:22:04 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/14/2021 6:20:54 AM,Microsoft-Windows-DNS-Server-Service,3,None,The DNS server has shut down.
+Information,11/14/2021 6:16:06 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone winik.com to file winik.com.dns.
+Information,11/14/2021 6:16:06 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 3 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 6:15:01 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone winik.com to file winik.com.dns.
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone nik from file nik.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:56:46 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 137.168.192.in-addr.arpa from file 137.168.192.in-addr.arpa.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Warning,11/14/2021 5:56:44 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 5:56:41 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/14/2021 5:55:38 AM,Microsoft-Windows-DNS-Server-Service,3,None,The DNS server has shut down.
+Information,11/14/2021 5:55:38 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 4 of zone nik to file nik.dns.
+Information,11/14/2021 5:55:38 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:54:56 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:53:59 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 3 of zone nik to file nik.dns.
+Information,11/14/2021 5:53:14 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone nik to file nik.dns.
+Information,11/14/2021 5:45:52 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 5:45:51 AM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/14/2021 5:45:51 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:45:51 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone com from file com.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:45:51 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 137.168.192.in-addr.arpa from file 137.168.192.in-addr.arpa.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Warning,11/14/2021 5:45:49 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 5:45:46 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/14/2021 5:44:41 AM,Microsoft-Windows-DNS-Server-Service,3,None,The DNS server has shut down.
+Information,11/14/2021 5:44:40 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone com to file com.dns.
+Information,11/14/2021 5:44:40 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:42:59 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:42:59 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone com to file com.dns.
+Information,11/14/2021 5:27:29 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 5:27:28 AM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/14/2021 5:27:28 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone zone from file zone.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:27:28 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:27:28 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 137.168.192.in-addr.arpa from file 137.168.192.in-addr.arpa.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Warning,11/14/2021 5:27:26 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 5:27:24 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/14/2021 5:26:13 AM,Microsoft-Windows-DNS-Server-Service,3,None,The DNS server has shut down.
+Information,11/14/2021 5:22:45 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone zone to file zone.dns.
+Information,11/14/2021 5:22:45 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:20:54 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:20:54 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone zone to file zone.dns.
+Information,11/14/2021 5:19:54 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:19:54 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone zone to file zone.dns.
+Information,11/14/2021 5:13:36 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 5:13:36 AM,Microsoft-Windows-DNS-Server-Service,4,None,"The DNS server has finished the background loading and signing of zones. All zones are now available for DNS updates and zone transfers, as allowed by their individual zone configuration."
+Information,11/14/2021 5:13:36 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone TrustAnchors from file TrustAnchors.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:13:36 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone nikwin2.com from file nikwin2.com.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Information,11/14/2021 5:13:35 AM,Microsoft-Windows-DNS-Server-Service,769,None,The DNS server has loaded the zone 137.168.192.in-addr.arpa from file 137.168.192.in-addr.arpa.dns on server WIN-V43N4HLGRLN. [virtualization instance: .].
+Warning,11/14/2021 5:13:33 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 5:13:31 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.
+Information,11/14/2021 5:12:19 AM,Microsoft-Windows-DNS-Server-Service,3,None,The DNS server has shut down.
+Information,11/14/2021 5:11:27 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone nikwin2.com to file nikwin2.com.dns.
+Information,11/14/2021 5:11:27 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 2 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:09:18 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:08:23 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone nikwin2.com to file nikwin2.com.dns.
+Information,11/14/2021 5:06:30 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone 137.168.192.in-addr.arpa to file 137.168.192.in-addr.arpa.dns.
+Information,11/14/2021 5:06:30 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone nikwin.com to file nikwin.com.dns.
+Information,11/14/2021 5:03:05 AM,Microsoft-Windows-DNS-Server-Service,3150,None,The DNS server wrote version 1 of zone TrustAnchors to file TrustAnchors.dns.
+Information,11/14/2021 5:01:17 AM,Microsoft-Windows-DNS-Server-Service,2,None,The DNS server has started.
+Information,11/14/2021 5:01:17 AM,Microsoft-Windows-DNS-Server-Service,708,None,"The DNS server did not detect any zones of either primary or secondary type during initialization. It will not be authoritative for any zones, and it will run as a caching-only server until a zone is loaded manually or by Active Directory replication. For more information, see the online Help."
+Warning,11/14/2021 5:01:17 AM,Microsoft-Windows-DNS-Server-Service,414,None,"The DNS server computer currently does not have a DNS domain name.  Its DNS name is a single-label host name with no domain (for example:  ""host"" rather than ""host.microsoft.com""). 
+ 
+You might have forgotten to configure a primary DNS domain for the server computer. 
+ 
+Because the DNS server has only a single-label name, all zones created will have default records (SOA and NS) created using only this single-label name for the server's host name.  This can lead to incorrect and failed referrals when clients and other DNS servers use these records to locate this server by name. 
+ 
+To correct this problem: 
+  1) Click Start, and then click Control Panel.
+  2) Open System and Maintenance , and then open System. 
+  3) Click Change Settings, and then click Change.  4) Click either Domain or Workgroup, and then type the name of the domain or  workgroup you want the computer to join; the domain or workgroup name will be used as your DNS domain name. 
+  5) When prompted, restart the computer.
+ 
+After the computer restarts, the DNS server will attempt to fix up default records, substituting the new DNS name of this server for the old single-label name.  However, you should review the zone's SOA and NS records to ensure that they now use the correct domain name of this server."
+Information,11/14/2021 5:01:17 AM,Microsoft-Windows-DNS-Server-Service,7693,None,The XfrScopeOptionValue has been set to 65433.  This option ID will be used to communicate the scope information during zone transfers via an OPT RR.

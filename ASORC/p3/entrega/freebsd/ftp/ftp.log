@@ -1,0 +1,64 @@
+auth.log:Nov 11 23:59:37 freebsd sshd[1578]: Starting session: subsystem 'sftp' for nik from 192.168.137.3 port 47764 id 0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_DIR -> ftpDirectory
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_HOST -> ftpHost
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PASS -> ftpPass
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PATH -> _ftpPath
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_PORT -> ftpPort
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_STATE -> ftpState
+bsdinstall_log:DEBUG: variable.subr: New variable VAR_FTP_USER -> ftpUser
+bsdinstall_log:DEBUG: f_getvar: var=[ftpState] value=[auto] r=0
+bsdinstall_log:DEBUG: f_getvar: var=[ftpUser] value=[ftp] r=0
+debug.log:Nov 11 23:59:37 freebsd sshd[1578]: debug1: subsystem: exec() /usr/libexec/sftp-server
+userlog:2021-11-12 06:13:33 [nik:groupadd] ftp1(1002)
+userlog:2021-11-12 06:13:33 [nik:useradd] ftp1(1002):ftp1(1002):ftp1:/home/ftp1:/bin/sh
+userlog:2021-11-12 06:13:33 [nik:useradd] ftp1(1002) home /home/ftp1 made
+userlog:2021-11-12 06:13:47 [nik:groupadd] ftp2(1003)
+userlog:2021-11-12 06:13:47 [nik:useradd] ftp2(1003):ftp2(1003):ftp2:/home/ftp2:/bin/sh
+userlog:2021-11-12 06:13:47 [nik:useradd] ftp2(1003) home /home/ftp2 made
+Binary file utx.lastlogin matches
+Binary file utx.log matches

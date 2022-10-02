@@ -1,0 +1,26 @@
+[2021/11/13 17:06:19.793735,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:06:20.807351,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/11/13 17:07:04.746773,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:07:04.767067,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/11/13 17:07:37.371191,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:07:37.388918,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections
+[2021/11/13 17:09:49.743225,  0] ../../source3/smbd/service.c:169(chdir_current_service)
+  chdir_current_service: vfs_ChDir(/home/np31/Escritorio/Samba) failed: Permiso denegado. Current token: uid=65534, gid=65534, 1 groups: 65534
+[2021/11/13 17:10:57.007191,  0] ../../source3/smbd/service.c:169(chdir_current_service)
+  chdir_current_service: vfs_ChDir(/home/np31/Escritorio/Samba) failed: Permiso denegado. Current token: uid=65534, gid=65534, 1 groups: 65534
+[2021/11/13 17:11:52.394218,  0] ../../source3/smbd/service.c:169(chdir_current_service)
+  chdir_current_service: vfs_ChDir(/home/np31/Escritorio/Samba) failed: Permiso denegado. Current token: uid=65534, gid=65534, 1 groups: 65534
+[2021/11/13 17:15:27.195843,  0] ../../source3/smbd/server.c:1784(main)
+  smbd version 4.13.3 started.
+  Copyright Andrew Tridgell and the Samba Team 1992-2020
+[2021/11/13 17:15:27.215507,  0] ../../lib/util/become_daemon.c:136(daemon_ready)
+  daemon_ready: daemon 'smbd' finished starting up and ready to serve connections

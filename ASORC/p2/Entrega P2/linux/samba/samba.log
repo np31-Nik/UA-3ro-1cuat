@@ -1,0 +1,76 @@
+anaconda/packaging.log:19:49:02,021 INF packaging: Configuring (running scriptlet for): samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/packaging.log:19:49:02,088 INF packaging: Installed: samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/packaging.log:19:49:02,101 INF packaging: Configuring (running scriptlet for): samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/packaging.log:19:49:02,169 INF packaging: Installed: samba-common-libs-4.13.3-3.el8.x86_64 1621442008 40fef1fb321e688721cc43ae8efc24afa4f08afef619ce6f667abd0add2717cd
+anaconda/packaging.log:19:49:02,208 INF packaging: Installed: samba-client-libs-4.13.3-3.el8.x86_64 1621442008 fe76dce0386885a2431883528f1d9f50fca4c893f4c613d9f144b2f4f3d93154
+anaconda/packaging.log:20:01:07,857 INF packaging: Verifying: samba-client-libs-4.13.3-3.el8.x86_64 1621442008 fe76dce0386885a2431883528f1d9f50fca4c893f4c613d9f144b2f4f3d93154
+anaconda/packaging.log:20:01:07,857 INF packaging: Verifying: samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/packaging.log:20:01:07,857 INF packaging: Verifying: samba-common-libs-4.13.3-3.el8.x86_64 1621442008 40fef1fb321e688721cc43ae8efc24afa4f08afef619ce6f667abd0add2717cd
+anaconda/packaging.log:20:01:10,184 DBG dnf: Installed: samba-client-libs-4.13.3-3.el8.x86_64
+anaconda/packaging.log:20:01:10,184 DBG dnf: Installed: samba-common-4.13.3-3.el8.noarch
+anaconda/packaging.log:20:01:10,185 DBG dnf: Installed: samba-common-libs-4.13.3-3.el8.x86_64
+anaconda/journal.log:Sep 22 17:49:02 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/journal.log:Sep 22 17:49:02 localhost anaconda[1716]: packaging: Installed: samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/journal.log:Sep 22 17:49:02 localhost anaconda[1716]: packaging: Configuring (running scriptlet for): samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/journal.log:Sep 22 17:49:02 localhost anaconda[1716]: packaging: Installed: samba-common-libs-4.13.3-3.el8.x86_64 1621442008 40fef1fb321e688721cc43ae8efc24afa4f08afef619ce6f667abd0add2717cd
+anaconda/journal.log:Sep 22 17:49:02 localhost anaconda[1716]: packaging: Installed: samba-client-libs-4.13.3-3.el8.x86_64 1621442008 fe76dce0386885a2431883528f1d9f50fca4c893f4c613d9f144b2f4f3d93154
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: samba-client-libs-4.13.3-3.el8.x86_64 1621442008 fe76dce0386885a2431883528f1d9f50fca4c893f4c613d9f144b2f4f3d93154
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: samba-common-4.13.3-3.el8.noarch 1621442001 3ee6d5946eced744d97a17cdafb21cb3c914a7730f659d64cbb955657074ca56
+anaconda/journal.log:Sep 22 18:01:07 localhost anaconda[1716]: packaging: Verifying: samba-common-libs-4.13.3-3.el8.x86_64 1621442008 40fef1fb321e688721cc43ae8efc24afa4f08afef619ce6f667abd0add2717cd
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: samba-client-libs-4.13.3-3.el8.x86_64
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: samba-common-4.13.3-3.el8.noarch
+anaconda/journal.log:Sep 22 18:01:10 localhost anaconda[2491]: dnf: Installed: samba-common-libs-4.13.3-3.el8.x86_64
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.480:268): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="samba-common-0:4.13.3-5.el8_4.noarch" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.480:270): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="samba-client-libs-0:4.13.3-5.el8_4.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636812865.480:271): pid=3320 uid=0 auid=1000 ses=3 msg='op=update sw="samba-common-libs-0:4.13.3-5.el8_4.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="yum" exe=2F7573722F6C6962657865632F706C6174666F726D2D707974686F6E332E36202864656C6574656429 hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636819224.750:260): pid=4860 uid=0 auid=1000 ses=3 msg='op=install sw="samba-libs-0:4.13.3-5.el8_4.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636819224.750:261): pid=4860 uid=0 auid=1000 ses=3 msg='op=install sw="samba-common-tools-0:4.13.3-5.el8_4.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+audit/audit.log:type=SOFTWARE_UPDATE msg=audit(1636819224.750:262): pid=4860 uid=0 auid=1000 ses=3 msg='op=install sw="samba-0:4.13.3-5.el8_4.x86_64" sw_type=rpm key_enforce=0 gpg_res=1 root_dir="/" comm="dnf" exe="/usr/libexec/platform-python3.6" hostname=localhost.localdomain addr=? terminal=pts/0 res=success'UID="root" AUID="np31"
+dnf.librepo.log:2021-11-13T14:59:39+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/samba-client-libs-4.13.3-5.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T14:59:39+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/samba-common-4.13.3-5.el8_4.noarch.rpm
+dnf.librepo.log:2021-11-13T14:59:40+0100 INFO Downloading: http://mirrors.ptisp.pt/rocky-linux/8.4/BaseOS/x86_64/os/Packages/samba-common-libs-4.13.3-5.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T17:00:10+0100 INFO Downloading: https://mirrors.melbourne.co.uk/rocky/8.4/BaseOS/x86_64/os/Packages/samba-4.13.3-5.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T17:00:10+0100 INFO Downloading: https://mirrors.melbourne.co.uk/rocky/8.4/BaseOS/x86_64/os/Packages/samba-common-tools-4.13.3-5.el8_4.x86_64.rpm
+dnf.librepo.log:2021-11-13T17:00:10+0100 INFO Downloading: https://mirrors.melbourne.co.uk/rocky/8.4/BaseOS/x86_64/os/Packages/samba-libs-4.13.3-5.el8_4.x86_64.rpm
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-client-libs.x86_64 4.13.3-3.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-client-libs.x86_64 4.13.3-5.el8_4 seleccionado como actualización
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-common.noarch 4.13.3-3.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-common.noarch 4.13.3-5.el8_4 seleccionado como actualización
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-common-libs.x86_64 4.13.3-3.el8 seleccionado para actualizar
+dnf.log:2021-11-13T14:58:10+0100 DEBUG ---> Paquete samba-common-libs.x86_64 4.13.3-5.el8_4 seleccionado como actualización
+dnf.log: [1m[32msamba-client-libs   (B[m x86_64 4.13.3-5.el8_4                            baseos    5.4 M
+dnf.log: [1m[32msamba-common        (B[m noarch 4.13.3-5.el8_4                            baseos    217 k
+dnf.log: [1m[32msamba-common-libs   (B[m x86_64 4.13.3-5.el8_4                            baseos    171 k
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: samba-client-libs-4.13.3-5.el8_4.x86_64
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: samba-common-4.13.3-5.el8_4.noarch
+dnf.log:2021-11-13T15:14:28+0100 DEBUG Actualizado: samba-common-libs-4.13.3-5.el8_4.x86_64
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-common-libs-4.13.3-5.el8_4.x86_64.rpm eliminado
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-common-4.13.3-5.el8_4.noarch.rpm eliminado
+dnf.log:2021-11-13T15:14:28+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-client-libs-4.13.3-5.el8_4.x86_64.rpm eliminado
+dnf.log:2021-11-13T17:00:05+0100 DDEBUG Command: dnf -y install samba 
+dnf.log:2021-11-13T17:00:05+0100 DDEBUG Extra commands: ['-y', 'install', 'samba']
+dnf.log:2021-11-13T17:00:07+0100 DEBUG ---> Paquete samba.x86_64 4.13.3-5.el8_4 seleccionado para instalar
+dnf.log:2021-11-13T17:00:07+0100 DEBUG ---> Paquete samba-common-tools.x86_64 4.13.3-5.el8_4 seleccionado para instalar
+dnf.log:2021-11-13T17:00:07+0100 DEBUG ---> Paquete samba-libs.x86_64 4.13.3-5.el8_4 seleccionado para instalar
+dnf.log: [1m[32msamba                     (B[m x86_64         4.13.3-5.el8_4         baseos         845 k
+dnf.log: [1m[32msamba-common-tools        (B[m x86_64         4.13.3-5.el8_4         baseos         497 k
+dnf.log: [1m[32msamba-libs                (B[m x86_64         4.13.3-5.el8_4         baseos         167 k
+dnf.log:2021-11-13T17:00:26+0100 DEBUG Instalado: samba-4.13.3-5.el8_4.x86_64
+dnf.log:2021-11-13T17:00:26+0100 DEBUG Instalado: samba-common-tools-4.13.3-5.el8_4.x86_64
+dnf.log:2021-11-13T17:00:26+0100 DEBUG Instalado: samba-libs-4.13.3-5.el8_4.x86_64
+dnf.log:2021-11-13T17:00:26+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-4.13.3-5.el8_4.x86_64.rpm eliminado
+dnf.log:2021-11-13T17:00:26+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-common-tools-4.13.3-5.el8_4.x86_64.rpm eliminado
+dnf.log:2021-11-13T17:00:26+0100 DDEBUG /var/cache/dnf/baseos-3e608afeebc9a90b/packages/samba-libs-4.13.3-5.el8_4.x86_64.rpm eliminado
+dnf.rpm.log:2021-11-13T15:01:59+0100 SUBDEBUG Upgrade: samba-common-4.13.3-5.el8_4.noarch
+dnf.rpm.log:2021-11-13T15:02:03+0100 SUBDEBUG Upgrade: samba-client-libs-4.13.3-5.el8_4.x86_64
+dnf.rpm.log:2021-11-13T15:02:06+0100 SUBDEBUG Upgrade: samba-common-libs-4.13.3-5.el8_4.x86_64
+dnf.rpm.log:2021-11-13T15:08:32+0100 SUBDEBUG Upgraded: samba-client-libs-4.13.3-3.el8.x86_64
+dnf.rpm.log:2021-11-13T15:08:36+0100 SUBDEBUG Upgraded: samba-common-libs-4.13.3-3.el8.x86_64
+dnf.rpm.log:2021-11-13T15:10:24+0100 SUBDEBUG Upgraded: samba-common-4.13.3-3.el8.noarch
+dnf.rpm.log:2021-11-13T17:00:14+0100 SUBDEBUG Installed: samba-libs-4.13.3-5.el8_4.x86_64
+dnf.rpm.log:2021-11-13T17:00:18+0100 SUBDEBUG Installed: samba-common-tools-4.13.3-5.el8_4.x86_64
+dnf.rpm.log:2021-11-13T17:00:19+0100 SUBDEBUG Installed: samba-4.13.3-5.el8_4.x86_64
+historylinux.txt:  250  dnf -y install samba
+historylinux.txt:  255  nano /etc/samba/smb.conf
+historylinux.txt:  257  nano /etc/samba/smb.conf
+historylinux.txt:  264  nano /etc/samba/smb.conf

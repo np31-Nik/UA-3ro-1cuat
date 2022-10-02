@@ -1,0 +1,185 @@
+2021/12/11 14:02:03| Created PID file (/var/run/squid.pid)
+2021/12/11 14:02:03 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:02:03 kid1| Starting Squid Cache version 4.15 for x86_64-redhat-linux-gnu...
+2021/12/11 14:02:03 kid1| Service Name: squid
+2021/12/11 14:02:03 kid1| Process ID 38168
+2021/12/11 14:02:03 kid1| Process Roles: worker
+2021/12/11 14:02:03 kid1| With 16384 file descriptors available
+2021/12/11 14:02:03 kid1| Initializing IP Cache...
+2021/12/11 14:02:03 kid1| DNS Socket created at [::], FD 5
+2021/12/11 14:02:03 kid1| DNS Socket created at 0.0.0.0, FD 10
+2021/12/11 14:02:03 kid1| Adding domain nik from /etc/resolv.conf
+2021/12/11 14:02:03 kid1| Adding nameserver 192.168.0.1 from /etc/resolv.conf
+2021/12/11 14:02:03 kid1| Adding nameserver 192.168.137.222 from /etc/resolv.conf
+2021/12/11 14:02:03 kid1| Adding nameserver 8.8.8.8 from /etc/resolv.conf
+2021/12/11 14:02:03 kid1| Adding nameserver 8.8.4.4 from /etc/resolv.conf
+2021/12/11 14:02:03 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+2021/12/11 14:02:03 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+2021/12/11 14:02:03 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2021/12/11 14:02:03 kid1| Store logging disabled
+2021/12/11 14:02:03 kid1| Swap maxSize 0 + 262144 KB, estimated 20164 objects
+2021/12/11 14:02:03 kid1| Target number of buckets: 1008
+2021/12/11 14:02:03 kid1| Using 8192 Store buckets
+2021/12/11 14:02:03 kid1| Max Mem  size: 262144 KB
+2021/12/11 14:02:03 kid1| Max Swap size: 0 KB
+2021/12/11 14:02:03 kid1| Using Least Load store dir selection
+2021/12/11 14:02:03 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:02:03 kid1| Finished loading MIME types and icons.
+2021/12/11 14:02:03 kid1| HTCP Disabled.
+2021/12/11 14:02:03 kid1| Squid plugin modules loaded: 0
+2021/12/11 14:02:03 kid1| Adaptation support is off.
+2021/12/11 14:02:03 kid1| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 13 flags=9
+2021/12/11 14:02:04 kid1| storeLateRelease: released 0 objects
+2021/12/11 14:02:50 kid1| Preparing for shutdown after 33 requests
+2021/12/11 14:02:50 kid1| Waiting 30 seconds for active connections to finish
+2021/12/11 14:02:50 kid1| Closing HTTP(S) port [::]:3128
+2021/12/11 14:03:21 kid1| Shutdown: NTLM authentication.
+2021/12/11 14:03:21 kid1| Shutdown: Negotiate authentication.
+2021/12/11 14:03:21 kid1| Shutdown: Digest authentication.
+2021/12/11 14:03:21 kid1| Shutdown: Basic authentication.
+2021/12/11 14:03:22 kid1| Shutting down...
+2021/12/11 14:03:22 kid1| storeDirWriteCleanLogs: Starting...
+2021/12/11 14:03:22 kid1|   Finished.  Wrote 0 entries.
+2021/12/11 14:03:22 kid1|   Took 0.00 seconds (  0.00 entries/sec).
+CPU Usage: 0.087 seconds = 0.041 user + 0.046 sys
+Maximum Resident Size: 106784 KB
+Page faults with physical i/o: 0
+2021/12/11 14:03:22 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+2021/12/11 14:03:22 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+2021/12/11 14:03:22 kid1| Open FD UNSTARTED    11 IPC UNIX STREAM Parent
+2021/12/11 14:03:22 kid1| Squid Cache (Version 4.15): Exiting normally.
+2021/12/11 14:03:22| Removing PID file (/var/run/squid.pid)
+2021/12/11 14:03:22| Created PID file (/var/run/squid.pid)
+2021/12/11 14:03:22 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:03:22 kid1| Starting Squid Cache version 4.15 for x86_64-redhat-linux-gnu...
+2021/12/11 14:03:22 kid1| Service Name: squid
+2021/12/11 14:03:22 kid1| Process ID 38618
+2021/12/11 14:03:22 kid1| Process Roles: worker
+2021/12/11 14:03:22 kid1| With 16384 file descriptors available
+2021/12/11 14:03:22 kid1| Initializing IP Cache...
+2021/12/11 14:03:22 kid1| DNS Socket created at [::], FD 7
+2021/12/11 14:03:22 kid1| DNS Socket created at 0.0.0.0, FD 10
+2021/12/11 14:03:22 kid1| Adding domain nik from /etc/resolv.conf
+2021/12/11 14:03:22 kid1| Adding nameserver 192.168.0.1 from /etc/resolv.conf
+2021/12/11 14:03:22 kid1| Adding nameserver 192.168.137.222 from /etc/resolv.conf
+2021/12/11 14:03:22 kid1| Adding nameserver 8.8.8.8 from /etc/resolv.conf
+2021/12/11 14:03:22 kid1| Adding nameserver 8.8.4.4 from /etc/resolv.conf
+2021/12/11 14:03:22 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+2021/12/11 14:03:22 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+2021/12/11 14:03:22 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2021/12/11 14:03:22 kid1| Store logging disabled
+2021/12/11 14:03:22 kid1| Swap maxSize 0 + 262144 KB, estimated 20164 objects
+2021/12/11 14:03:22 kid1| Target number of buckets: 1008
+2021/12/11 14:03:22 kid1| Using 8192 Store buckets
+2021/12/11 14:03:22 kid1| Max Mem  size: 262144 KB
+2021/12/11 14:03:22 kid1| Max Swap size: 0 KB
+2021/12/11 14:03:22 kid1| Using Least Load store dir selection
+2021/12/11 14:03:22 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:03:22 kid1| Finished loading MIME types and icons.
+2021/12/11 14:03:22 kid1| HTCP Disabled.
+2021/12/11 14:03:22 kid1| Squid plugin modules loaded: 0
+2021/12/11 14:03:22 kid1| Adaptation support is off.
+2021/12/11 14:03:22 kid1| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 13 flags=9
+2021/12/11 14:03:23 kid1| storeLateRelease: released 0 objects
+2021/12/11 14:10:57 kid1| Preparing for shutdown after 40 requests
+2021/12/11 14:10:57 kid1| Waiting 30 seconds for active connections to finish
+2021/12/11 14:10:57 kid1| Closing HTTP(S) port [::]:3128
+2021/12/11 14:11:28 kid1| Shutdown: NTLM authentication.
+2021/12/11 14:11:28 kid1| Shutdown: Negotiate authentication.
+2021/12/11 14:11:28 kid1| Shutdown: Digest authentication.
+2021/12/11 14:11:28 kid1| Shutdown: Basic authentication.
+2021/12/11 14:11:29 kid1| Shutting down...
+2021/12/11 14:11:29 kid1| storeDirWriteCleanLogs: Starting...
+2021/12/11 14:11:29 kid1|   Finished.  Wrote 0 entries.
+2021/12/11 14:11:29 kid1|   Took 0.00 seconds (  0.00 entries/sec).
+CPU Usage: 0.097 seconds = 0.054 user + 0.042 sys
+Maximum Resident Size: 105664 KB
+Page faults with physical i/o: 0
+2021/12/11 14:11:29 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+2021/12/11 14:11:29 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+2021/12/11 14:11:29 kid1| Open FD UNSTARTED    11 IPC UNIX STREAM Parent
+2021/12/11 14:11:29 kid1| Squid Cache (Version 4.15): Exiting normally.
+2021/12/11 14:11:29| Removing PID file (/var/run/squid.pid)
+2021/12/11 14:12:14| Created PID file (/var/run/squid.pid)
+2021/12/11 14:12:14 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:12:14 kid1| Starting Squid Cache version 4.15 for x86_64-redhat-linux-gnu...
+2021/12/11 14:12:14 kid1| Service Name: squid
+2021/12/11 14:12:14 kid1| Process ID 39483
+2021/12/11 14:12:14 kid1| Process Roles: worker
+2021/12/11 14:12:14 kid1| With 16384 file descriptors available
+2021/12/11 14:12:14 kid1| Initializing IP Cache...
+2021/12/11 14:12:14 kid1| DNS Socket created at [::], FD 7
+2021/12/11 14:12:14 kid1| DNS Socket created at 0.0.0.0, FD 10
+2021/12/11 14:12:14 kid1| Adding domain nik from /etc/resolv.conf
+2021/12/11 14:12:14 kid1| Adding nameserver 192.168.0.1 from /etc/resolv.conf
+2021/12/11 14:12:14 kid1| Adding nameserver 192.168.137.222 from /etc/resolv.conf
+2021/12/11 14:12:14 kid1| Adding nameserver 8.8.8.8 from /etc/resolv.conf
+2021/12/11 14:12:14 kid1| Adding nameserver 8.8.4.4 from /etc/resolv.conf
+2021/12/11 14:12:14 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+2021/12/11 14:12:14 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+2021/12/11 14:12:14 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2021/12/11 14:12:14 kid1| Store logging disabled
+2021/12/11 14:12:14 kid1| Swap maxSize 0 + 262144 KB, estimated 20164 objects
+2021/12/11 14:12:14 kid1| Target number of buckets: 1008
+2021/12/11 14:12:14 kid1| Using 8192 Store buckets
+2021/12/11 14:12:14 kid1| Max Mem  size: 262144 KB
+2021/12/11 14:12:14 kid1| Max Swap size: 0 KB
+2021/12/11 14:12:14 kid1| Using Least Load store dir selection
+2021/12/11 14:12:14 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 14:12:14 kid1| Finished loading MIME types and icons.
+2021/12/11 14:12:14 kid1| HTCP Disabled.
+2021/12/11 14:12:14 kid1| Squid plugin modules loaded: 0
+2021/12/11 14:12:14 kid1| Adaptation support is off.
+2021/12/11 14:12:14 kid1| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 13 flags=9
+2021/12/11 14:12:15 kid1| storeLateRelease: released 0 objects
+2021/12/11 15:25:11 kid1| Preparing for shutdown after 204 requests
+2021/12/11 15:25:11 kid1| Waiting 30 seconds for active connections to finish
+2021/12/11 15:25:11 kid1| Closing HTTP(S) port [::]:3128
+2021/12/11 15:25:45 kid1| Shutdown: NTLM authentication.
+2021/12/11 15:25:45 kid1| Shutdown: Negotiate authentication.
+2021/12/11 15:25:45 kid1| Shutdown: Digest authentication.
+2021/12/11 15:25:45 kid1| Shutdown: Basic authentication.
+2021/12/11 15:25:45 kid1| Shutting down...
+2021/12/11 15:25:46 kid1| storeDirWriteCleanLogs: Starting...
+2021/12/11 15:25:46 kid1|   Finished.  Wrote 0 entries.
+2021/12/11 15:25:46 kid1|   Took 0.00 seconds (  0.00 entries/sec).
+CPU Usage: 0.624 seconds = 0.290 user + 0.333 sys
+Maximum Resident Size: 105136 KB
+Page faults with physical i/o: 73
+2021/12/11 15:25:46 kid1| Logfile: closing log daemon:/var/log/squid/access.log
+2021/12/11 15:25:46 kid1| Logfile Daemon: closing log daemon:/var/log/squid/access.log
+2021/12/11 15:25:46 kid1| Open FD UNSTARTED    11 IPC UNIX STREAM Parent
+2021/12/11 15:25:46 kid1| Squid Cache (Version 4.15): Exiting normally.
+2021/12/11 15:25:48| Removing PID file (/var/run/squid.pid)
+2021/12/11 15:33:09| Created PID file (/var/run/squid.pid)
+2021/12/11 15:33:09 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 15:33:09 kid1| Starting Squid Cache version 4.15 for x86_64-redhat-linux-gnu...
+2021/12/11 15:33:09 kid1| Service Name: squid
+2021/12/11 15:33:09 kid1| Process ID 4140
+2021/12/11 15:33:09 kid1| Process Roles: worker
+2021/12/11 15:33:09 kid1| With 16384 file descriptors available
+2021/12/11 15:33:09 kid1| Initializing IP Cache...
+2021/12/11 15:33:09 kid1| DNS Socket created at [::], FD 5
+2021/12/11 15:33:09 kid1| DNS Socket created at 0.0.0.0, FD 10
+2021/12/11 15:33:09 kid1| Adding domain nik from /etc/resolv.conf
+2021/12/11 15:33:09 kid1| Adding nameserver 192.168.137.222 from /etc/resolv.conf
+2021/12/11 15:33:09 kid1| Adding nameserver 8.8.8.8 from /etc/resolv.conf
+2021/12/11 15:33:09 kid1| Adding nameserver 8.8.4.4 from /etc/resolv.conf
+2021/12/11 15:33:09 kid1| Adding nameserver 192.168.0.1 from /etc/resolv.conf
+2021/12/11 15:33:09 kid1| Logfile: opening log daemon:/var/log/squid/access.log
+2021/12/11 15:33:09 kid1| Logfile Daemon: opening log /var/log/squid/access.log
+2021/12/11 15:33:09 kid1| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2021/12/11 15:33:09 kid1| Store logging disabled
+2021/12/11 15:33:09 kid1| Swap maxSize 0 + 262144 KB, estimated 20164 objects
+2021/12/11 15:33:09 kid1| Target number of buckets: 1008
+2021/12/11 15:33:09 kid1| Using 8192 Store buckets
+2021/12/11 15:33:09 kid1| Max Mem  size: 262144 KB
+2021/12/11 15:33:09 kid1| Max Swap size: 0 KB
+2021/12/11 15:33:09 kid1| Using Least Load store dir selection
+2021/12/11 15:33:09 kid1| Set Current Directory to /var/spool/squid
+2021/12/11 15:33:09 kid1| Finished loading MIME types and icons.
+2021/12/11 15:33:09 kid1| HTCP Disabled.
+2021/12/11 15:33:09 kid1| Squid plugin modules loaded: 0
+2021/12/11 15:33:09 kid1| Adaptation support is off.
+2021/12/11 15:33:09 kid1| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 13 flags=9
+2021/12/11 15:33:10 kid1| storeLateRelease: released 0 objects

@@ -1,0 +1,26 @@
+daemon.log:Nov 12 00:57:12 freebsd samba[1207]: [2021/11/12 00:57:12.469385,  0] ../../source4/smbd/server.c:646(binary_smbd_main)
+daemon.log:Nov 12 00:57:12 freebsd samba[1207]:   samba version 4.13.8 started.
+daemon.log:Nov 12 00:57:12 freebsd samba[1207]:   Copyright Andrew Tridgell and the Samba Team 1992-2020
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]: [2021/11/12 00:57:12.548537,  0] ../../source4/smbd/server.c:875(binary_smbd_main)
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]:   At this time the 'samba' binary should only be used for either:
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]:   'server role = active directory domain controller' or to access the ntvfs file server with 'server services = +smb' or the rpc proxy with 'dcerpc endpoint servers = remote'
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]:   You should start smbd/nmbd/winbindd instead for domain member and standalone file server tasks
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]: [2021/11/12 00:57:12.548666,  0] ../../lib/util/become_daemon.c:122(exit_daemon)
+daemon.log:Nov 12 00:57:12 freebsd samba[1208]:   exit_daemon: daemon failed to start: Samba detected misconfigured 'server role' and exited. Check logs for details, error code 22
+historyunix.txt:   115	1:50	service samba_server restart
+messages:Nov 11 21:54:09 freebsd pkg[2196]: samba412-4.12.15_2 installed
+messages:Nov 12 00:54:18 freebsd pkg[1135]: samba412-4.12.15_2 deinstalled
+messages:Nov 12 00:54:29 freebsd pkg[1135]: samba413-4.13.8_1 installed
+messages:Nov 12 00:57:12 freebsd samba[1207]: [2021/11/12 00:57:12.469385,  0] ../../source4/smbd/server.c:646(binary_smbd_main)
+messages:Nov 12 00:57:12 freebsd samba[1207]:   samba version 4.13.8 started.
+messages:Nov 12 00:57:12 freebsd samba[1207]:   Copyright Andrew Tridgell and the Samba Team 1992-2020
+messages:Nov 12 00:57:12 freebsd samba[1208]: [2021/11/12 00:57:12.548537,  0] ../../source4/smbd/server.c:875(binary_smbd_main)
+messages:Nov 12 00:57:12 freebsd samba[1208]:   At this time the 'samba' binary should only be used for either:
+messages:Nov 12 00:57:12 freebsd samba[1208]:   'server role = active directory domain controller' or to access the ntvfs file server with 'server services = +smb' or the rpc proxy with 'dcerpc endpoint servers = remote'
+messages:Nov 12 00:57:12 freebsd samba[1208]:   You should start smbd/nmbd/winbindd instead for domain member and standalone file server tasks
+messages:Nov 12 00:57:12 freebsd samba[1208]: [2021/11/12 00:57:12.548666,  0] ../../lib/util/become_daemon.c:122(exit_daemon)
+messages:Nov 12 00:57:12 freebsd samba[1208]:   exit_daemon: daemon failed to start: Samba detected misconfigured 'server role' and exited. Check logs for details, error code 22
+messages:Nov 12 01:36:06 freebsd pkg[1464]: samba413-4.13.8_1 deinstalled
+messages:Nov 12 01:36:17 freebsd pkg[1464]: samba412-4.12.15_2 installed
+samba4/log.samba:  samba version 4.13.8 started.
+samba4/log.samba:  At this time the 'samba' binary should only be used for either:

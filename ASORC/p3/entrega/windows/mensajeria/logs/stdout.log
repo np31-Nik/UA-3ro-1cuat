@@ -1,0 +1,7 @@
+Openfire 4.6.5 [Dec 12, 2021 4:45:10 AM]
+Admin console listening at:
+  http://192.168.137.223:9090
+  https://192.168.137.223:9091
+Successfully loaded plugin 'admin'.
+Successfully loaded plugin 'search'.
+Finished processing all plugins.
